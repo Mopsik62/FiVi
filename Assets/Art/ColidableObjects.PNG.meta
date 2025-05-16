@@ -69,7 +69,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -156,13 +156,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FirstBenchCol
+      name: BenchCol1
       rect:
         serializedVersion: 2
         x: 259
         y: 194
         width: 57
-        height: 106
+        height: 108
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,13 +178,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColidableObjects_2
+      name: BenchCol2
       rect:
         serializedVersion: 2
         x: 334
         y: 194
         width: 52
-        height: 142
+        height: 108
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,13 +200,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColidableObjects_3
+      name: BenchCol3
       rect:
         serializedVersion: 2
         x: 419
         y: 194
         width: 42
-        height: 142
+        height: 108
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,13 +222,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColidableObjects_4
+      name: BenchCol4
       rect:
         serializedVersion: 2
         x: 494
         y: 194
         width: 62
-        height: 142
+        height: 108
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,15 +310,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FirstBench
+      name: Benches_Heads
       rect:
         serializedVersion: 2
         x: 259
-        y: 300
-        width: 57
-        height: 36
+        y: 302
+        width: 297
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -345,15 +345,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      BenchCol1: 1223625882820687291
+      BenchCol2: 4717480454567491410
+      BenchCol3: 1667395831782654825
+      BenchCol4: 8201028760440219107
+      Benches_Heads: 1203218001
       ColidableObjects_0: 1074023601797686485
-      ColidableObjects_2: 4717480454567491410
-      ColidableObjects_3: 1667395831782654825
-      ColidableObjects_4: 8201028760440219107
       ColidableObjects_5: -2877963869956445299
       ColidableObjects_6: -8459878218398596039
       ColidableObjects_7: -5023102919210866412
-      FirstBench: 1203218001
-      FirstBenchCol: 1223625882820687291
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
