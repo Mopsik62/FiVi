@@ -1,0 +1,67 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4056684167",
+    "Type": "User",
+    "GUID": "{82F8FBF0-2126-4E56-BF22-0720BE606341}",
+    "Language": "SFX",
+    "Hash": "{D252724D-B7FF-1B7B-B615-861112F3BF63}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
+    "ShortName": "Master",
+    "Path": "Master.bnk",
+    "Media": [
+     {
+      "Id": "362310413",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Untitled.wav",
+      "CachePath": "2A/{2A14DD0B-44BD-EF73-4C96-B6192711254C}.wem"
+     },
+     {
+      "Id": "457332857",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Ambience, Residential, Living Room, Distant Traffic 07 SND2765.wav",
+      "CachePath": "CE/{CE065479-7998-710F-A244-181F56540217}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3025976485",
+      "Name": "Dictor_Voice",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Dictor_Voice",
+      "GUID": "{A69C06B1-4FDE-410E-ABAD-D95EE1747C46}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.1202493",
+      "DurationMax": "5.1202493",
+      "MediaRefs": [
+       {
+        "Id": "362310413"
+       }
+      ]
+     },
+     {
+      "Id": "3352079221",
+      "Name": "Roomton_station_inside",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Roomton_station_inside",
+      "GUID": "{BF6D7B99-970B-425D-BB14-6CB390D115A4}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "457332857"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{390AD24A-155F-9653-01F1-2956C331C397}"
+ }
+}

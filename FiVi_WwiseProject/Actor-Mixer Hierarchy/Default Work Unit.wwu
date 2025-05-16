@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{139883B8-1009-42C4-B350-53F89724CD9A}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{139883B8-1009-42C4-B350-53F89724CD9A}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Ambience" ID="{D8040FC9-6497-4937-BC1C-8D6F085B9F54}" ShortID="780271723">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C8BE9C35-43BC-48C1-A194-CDD679406A52}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Roomton_station_inside" ID="{EAE3F33C-3289-4B72-9905-4AEB4B1A1E46}" ShortID="442183394">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E18374B5-4336-44D2-B0D3-21343DA50FA2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C8BE9C35-43BC-48C1-A194-CDD679406A52}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Ambience, Residential, Living Room, Distant Traffic 07 SND2765" ID="{301B7CB0-9460-4636-9921-623C8B245369}" ShortID="563996757">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E18374B5-4336-44D2-B0D3-21343DA50FA2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C8BE9C35-43BC-48C1-A194-CDD679406A52}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambience, Residential, Living Room, Distant Traffic 07 SND2765" ID="{429AD905-C573-4E34-95FF-433453D637C8}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1642.735"/>
+												<Property Name="LoopBegin" Type="Real64" Value="8.3710345197844"/>
+												<Property Name="LoopEnd" Type="Real64" Value="22.1303195776886"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="6.25422119294237"/>
+												<Property Name="TrimEnd" Type="Real64" Value="24.6320080548656"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Ambience, Residential, Living Room, Distant Traffic 07 SND2765.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="457332857"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambience, Residential, Living Room, Distant Traffic 07 SND2765" ID="{429AD905-C573-4E34-95FF-433453D637C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Dicrot_Voice" ID="{1A1F8E85-5EC7-48DD-A402-24CDBC7D62FD}" ShortID="981969020">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E18374B5-4336-44D2-B0D3-21343DA50FA2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C8BE9C35-43BC-48C1-A194-CDD679406A52}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Untitled" ID="{471F8C58-600D-4B00-9F53-4662E3E85789}" ShortID="138202700">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E18374B5-4336-44D2-B0D3-21343DA50FA2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C8BE9C35-43BC-48C1-A194-CDD679406A52}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Untitled" ID="{71067320-63FE-43C7-B18E-B7B20897A867}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Untitled.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="362310413"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Untitled" ID="{71067320-63FE-43C7-B18E-B7B20897A867}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

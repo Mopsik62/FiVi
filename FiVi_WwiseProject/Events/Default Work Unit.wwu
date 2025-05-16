@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{966CEBEC-AF0D-4E86-A836-5338FEDFB99A}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{966CEBEC-AF0D-4E86-A836-5338FEDFB99A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Ambience" ID="{6AF6116E-09B7-4DBB-8E6B-9E3FAA764BB0}" ShortID="193774149">
+					<ChildrenList>
+						<Event Name="Roomton_station_inside" ID="{BF6D7B99-970B-425D-BB14-6CB390D115A4}">
+							<ChildrenList>
+								<Action Name="" ID="{AFC9EE8B-D3E6-46A9-B712-44447C936E27}" ShortID="1051874463">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Roomton_station_inside" ID="{EAE3F33C-3289-4B72-9905-4AEB4B1A1E46}" WorkUnitID="{139883B8-1009-42C4-B350-53F89724CD9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Dictor_Voice" ID="{A69C06B1-4FDE-410E-ABAD-D95EE1747C46}">
+							<ChildrenList>
+								<Action Name="" ID="{7658C560-7CA7-40D7-889F-61050F73C220}" ShortID="807417820">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dicrot_Voice" ID="{1A1F8E85-5EC7-48DD-A402-24CDBC7D62FD}" WorkUnitID="{139883B8-1009-42C4-B350-53F89724CD9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

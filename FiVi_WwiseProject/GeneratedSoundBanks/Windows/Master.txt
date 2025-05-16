@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3025976485	Dictor_Voice			\Default Work Unit\Ambience\Dictor_Voice	
+	3352079221	Roomton_station_inside			\Default Work Unit\Ambience\Roomton_station_inside	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	362310413	Untitled	D:\FiVi\FiVi_WwiseProject\.cache\2A\{2A14DD0B-44BD-EF73-4C96-B6192711254C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Dicrot_Voice\Untitled		70054
+	457332857	Ambience, Residential, Living Room, Distant Traffic 07 SND2765	D:\FiVi\FiVi_WwiseProject\.cache\CE\{CE065479-7998-710F-A244-181F56540217}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Roomton_station_inside\Ambience, Residential, Living Room, Distant Traffic 07 SND2765		268627
+
