@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2291679880	Roomtone			\Default Work Unit\Roomtone	
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	80068740	Footsteps, Human, Layer, Wooden Creak, Jog, Run, Distant SND126648 1	D:\FiVi\FiVi_WwiseProject\.cache\D2\{D2E5122C-1DE0-B4A4-F3EA-0F2F31C3FED2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps, Human, Layer, Wooden Creak, Jog, Run, Distant SND126648 1		44656
+	483544645	Ambience, Residential, Living Room, Walla, Distant Traffic SND3546	D:\FiVi\FiVi_WwiseProject\.cache\97\{977BEEB7-69B2-80D0-F46E-1D16B3E4DBC6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Roomtone\Ambience, Residential, Living Room, Walla, Distant Traffic SND3546		6421500
+	969703722	Footsteps, Human, Layer, Wooden Creak, Jog, Run, Distant SND126648 1_01	D:\FiVi\FiVi_WwiseProject\.cache\CB\{CB0CC379-1540-9960-4489-E8D536FB9FE7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps, Human, Layer, Wooden Creak, Jog, Run, Distant SND126648 1_01		41250
+

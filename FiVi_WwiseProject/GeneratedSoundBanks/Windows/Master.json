@@ -1,0 +1,80 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4056684167",
+    "Type": "User",
+    "GUID": "{C594E5AD-2D3A-463D-864A-C9A3154F7734}",
+    "Language": "SFX",
+    "Hash": "{49988395-9B0E-D6EE-CB0C-B435E316E74F}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
+    "ShortName": "Master",
+    "Path": "Master.bnk",
+    "Media": [
+     {
+      "Id": "80068740",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Layer, Wooden Creak, Jog, Run, Distant SND126648 1.wav",
+      "CachePath": "D2/{D2E5122C-1DE0-B4A4-F3EA-0F2F31C3FED2}.wem"
+     },
+     {
+      "Id": "483544645",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Ambience, Residential, Living Room, Walla, Distant Traffic SND3546.wav",
+      "CachePath": "97/{977BEEB7-69B2-80D0-F46E-1D16B3E4DBC6}.wem"
+     },
+     {
+      "Id": "969703722",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Layer, Wooden Creak, Jog, Run, Distant SND126648 1.wav",
+      "CachePath": "CB/{CB0CC379-1540-9960-4489-E8D536FB9FE7}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps",
+      "GUID": "{52E359E5-6710-4DAA-94B4-F98AB157DB91}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.42802456",
+      "DurationMax": "0.46417525",
+      "MediaRefs": [
+       {
+        "Id": "80068740"
+       },
+       {
+        "Id": "969703722"
+       }
+      ]
+     },
+     {
+      "Id": "2291679880",
+      "Name": "Roomtone",
+      "ObjectPath": "\\Events\\Default Work Unit\\Roomtone",
+      "GUID": "{40B69662-219D-4CAC-A464-6620D96D7A1A}",
+      "DurationType": "OneShot",
+      "DurationMin": "33.444813",
+      "DurationMax": "33.444813",
+      "MediaRefs": [
+       {
+        "Id": "483544645"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{DD2E7509-0E29-A8BB-EB58-C52AFC7D3DD5}"
+ }
+}

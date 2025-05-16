@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3121A8B9-10B0-4D8D-9D47-91ABFF6D5615}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{3121A8B9-10B0-4D8D-9D47-91ABFF6D5615}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Roomtone" ID="{40B69662-219D-4CAC-A464-6620D96D7A1A}">
+					<ChildrenList>
+						<Action Name="" ID="{77A7CDCE-5A36-4970-A26C-A80E6EF5A6F5}" ShortID="176236135">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roomtone" ID="{6332F8B5-6BD0-46B2-B83A-B9A7122B9A78}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footsteps" ID="{52E359E5-6710-4DAA-94B4-F98AB157DB91}">
+					<ChildrenList>
+						<Action Name="" ID="{2CD1B8C7-7201-4C80-9E1A-008CC8F220F7}" ShortID="906048809">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{79F4C68A-4340-4697-AC65-B3E017CF8069}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

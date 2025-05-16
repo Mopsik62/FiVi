@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Roomtone" ID="{6332F8B5-6BD0-46B2-B83A-B9A7122B9A78}" ShortID="1067855069">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Ambience, Residential, Living Room, Walla, Distant Traffic SND3546" ID="{8758CD98-1FF6-44ED-918A-61A993689788}" ShortID="839677331">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambience, Residential, Living Room, Walla, Distant Traffic SND3546" ID="{6B18499D-B41E-41A3-A36E-2CB7AFCAC872}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\Ambience, Residential, Living Room, Walla, Distant Traffic SND3546.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="483544645"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambience, Residential, Living Room, Walla, Distant Traffic SND3546" ID="{6B18499D-B41E-41A3-A36E-2CB7AFCAC872}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Footsteps" ID="{79F4C68A-4340-4697-AC65-B3E017CF8069}" ShortID="276163392">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Footsteps, Human, Layer, Wooden Creak, Jog, Run, Distant SND126648 1" ID="{C6C91E9F-F9CE-4834-950E-A06E54CC1199}" ShortID="318636826">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps, Human, Layer, Wooden Creak, Jog, Run, Distant SND126648 1" ID="{4E0143C1-997E-4D61-AA72-059152B211C4}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.464175267910109"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps, Human, Layer, Wooden Creak, Jog, Run, Distant SND126648 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="80068740"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps, Human, Layer, Wooden Creak, Jog, Run, Distant SND126648 1" ID="{4E0143C1-997E-4D61-AA72-059152B211C4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footsteps, Human, Layer, Wooden Creak, Jog, Run, Distant SND126648 1_01" ID="{68D4F374-5A4B-4800-AE32-4DBD14804295}" ShortID="997524978">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps, Human, Layer, Wooden Creak, Jog, Run, Distant SND126648 1" ID="{076DDE0D-4669-4A81-B13B-BE574449B441}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.465621286418446"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.465621286418446"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps, Human, Layer, Wooden Creak, Jog, Run, Distant SND126648 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="969703722"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps, Human, Layer, Wooden Creak, Jog, Run, Distant SND126648 1" ID="{076DDE0D-4669-4A81-B13B-BE574449B441}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
