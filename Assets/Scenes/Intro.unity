@@ -396,8 +396,13 @@ MonoBehaviour:
   virtualCam: {fileID: 1435378795}
   zoomSpeed: 1.5
   targetSize: 2
-  delayBeforeLoad: 2
+  delayBeforeZoom: 1
+  delayBeforeNewScene: 1
   nextScene: Hub
+  light1: {fileID: 1146630399}
+  light2: {fileID: 1069409512}
+  flickerAmountPercent: 0.3
+  flickerSpeed: 10
 --- !u!1 &1069409510
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,7 +452,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 1
   m_Color: {r: 0.7647059, g: 0.8980392, b: 0.4, a: 1}
-  m_Intensity: 10
+  m_Intensity: 20
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
