@@ -20,11 +20,11 @@ public class Player : MonoBehaviour
 
         if (moveInput != Vector2.zero)
         {
-            transform.localScale = new Vector3(5, 5, 5);
+            transform.localScale = new Vector3(2, 2, 2);
             if (moveInput.x != 0)
             {
                 if (moveInput.x == 1)
-                { transform.localScale = new Vector3(-5, 5, 5); }
+                { transform.localScale = new Vector3(-2, 2, 2); }
                 animator.Play("Left");
             }
             else if (moveInput.y == 1)
