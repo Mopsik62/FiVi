@@ -48,6 +48,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="FightMusic" ID="{5A1EE92C-76C2-46B9-A5F5-D211CF9C9C84}">
+					<ChildrenList>
+						<Action Name="" ID="{4D942A7E-0879-44D3-A818-3A8DE49CCBDD}" ShortID="166123964">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FightMusic" ID="{0DAEC31F-B855-48C6-AFB2-CDCB81C4B08B}" WorkUnitID="{7A29750B-257B-4F42-8B6B-3C94D4ADF995}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="HubMusic" ID="{D4E4D276-ABD1-4845-ABCE-46BBD1A6770C}">
+					<ChildrenList>
+						<Action Name="" ID="{0C46D54C-EECB-4086-AE5B-6F3E2635CDC1}" ShortID="235833431">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HubMusic" ID="{9A63BD98-C61E-471F-BE54-BAE57C42E7AD}" WorkUnitID="{7A29750B-257B-4F42-8B6B-3C94D4ADF995}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -12,6 +12,7 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -23,6 +24,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="Ambience, Residential, Living Room, Walla, Distant Traffic SND3546" ID="{8758CD98-1FF6-44ED-918A-61A993689788}" ShortID="839677331">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
@@ -33,6 +37,14 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Ambience, Residential, Living Room, Walla, Distant Traffic SND3546" ID="{6B18499D-B41E-41A3-A36E-2CB7AFCAC872}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="1480.63"/>
+										<Property Name="LoopBegin" Type="Real64" Value="4.43386016591167"/>
+										<Property Name="LoopEnd" Type="Real64" Value="10.5707921738729"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="3.31805429634449"/>
+										<Property Name="TrimEnd" Type="Real64" Value="11.4516915445838"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Ambience\Ambience, Residential, Living Room, Walla, Distant Traffic SND3546.wav</AudioFile>
 									<MediaIDList>
