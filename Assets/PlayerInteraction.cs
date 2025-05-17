@@ -2,15 +2,35 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
+    private GameObject currentInteractable = null;
+
     void Update()
     {
-        
+        if (currentInteractable != null && Input.GetKeyDown(KeyCode.E))
+        {
+            GameManager.instance.StartDialogue(currentInteractable);          
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Interractable"))
+        {
+            currentInteractable = other.gameObject;
+            Debug.Log("Вошёл в зону: " + currentInteractable.name);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Interractable"))
+        {
+            if (other.gameObject == currentInteractable)
+            {
+                Debug.Log("Покинул зону: " + currentInteractable.name);
+                currentInteractable = null;
+            }
+        }
     }
 }
