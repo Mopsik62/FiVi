@@ -2,15 +2,29 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public static GameManager instance;
+    [SerializeField]
+    private GameObject DialogueWindow;
+    protected void Awake()
     {
-        
+        instance = this;
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public void StartInteract(GameObject currentInteractable)
     {
-        
+        Debug.Log("Взаимодействие с : " + currentInteractable.name);
+        Interactable interactable = currentInteractable.GetComponent<Interactable>();
+        switch (interactable.type)
+        {
+            case InteractableType.Dialogue:
+                DialogueWindow.SetActive(true);
+                break;
+            case InteractableType.Teleport:
+                interactable.Teleport();
+
+                break;
+        }
     }
+
 }

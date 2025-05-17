@@ -2,7 +2,7 @@ using UnityEngine;
 using Cinemachine;
 using UnityEngine.Rendering.Universal;
 using AK.Wwise;
-
+using System.Collections;
 
 public class IntroZoom : MonoBehaviour
 {
@@ -13,6 +13,7 @@ public class IntroZoom : MonoBehaviour
     public float delayBeforeNewScene = 1f;
     public string nextScene;
 
+    public Light2D globalLight;
     public Light2D light1, light2;
     public float flickerDuration = 0.5f;    
     public int maxFlickers = 3;            
@@ -54,6 +55,7 @@ public class IntroZoom : MonoBehaviour
             else
             {
                 zooming = false;
+                StartCoroutine(FadeLight(globalLight, delayBeforeNewScene));
                 Invoke(nameof(LoadNextScene), delayBeforeNewScene);
             }
         }
@@ -84,5 +86,20 @@ public class IntroZoom : MonoBehaviour
     void LoadNextScene()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(nextScene);
+    }
+
+    private IEnumerator FadeLight(Light2D light, float duration)
+    {
+        float startIntensity = light.intensity;
+        float time = 0f;
+
+        while (time < duration)
+        {
+            light.intensity = Mathf.Lerp(startIntensity, 0f, time / duration);
+            time += Time.deltaTime;
+            yield return null;
+        }
+
+        light.intensity = 0f;
     }
 }
