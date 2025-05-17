@@ -94,11 +94,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b9a82131b0108d4d9d4791abff6d5615
     GuidInternal: 
-    m_lastTime: -8584541909327651924
+    m_lastTime: -8584541312169933521
     List:
-    - name: Footsteps
+    - name: Footsteps_Concrete
       guid: e559e3521067aa4d94b4f98ab157db91
-      id: 2385628198
+      id: 82718740
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -106,16 +106,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: b9a82131b0108d4d9d4791abff6d5615
-      - ElementName: Footsteps
+      - ElementName: Footsteps_Concrete
         ObjectType: 3
         guid: e559e3521067aa4d94b4f98ab157db91
-      Path: Events\Default Work Unit\Footsteps
+      Path: Events\Default Work Unit\Footsteps_Concrete
       maxAttenuation: 0
-      maxDuration: 0.46417525
-      minDuration: 0.42802456
-    - name: Roomtone
-      guid: 6296b6409d21ac4ca4646620d96d7a1a
-      id: 2291679880
+      maxDuration: 0.5122557
+      minDuration: 0.32408938
+    - name: Footsteps_Gravel
+      guid: 6f5d3e7cc9e4cb49b0676c2750a0de47
+      id: 1676031848
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -123,13 +123,64 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: b9a82131b0108d4d9d4791abff6d5615
-      - ElementName: Roomtone
+      - ElementName: Footsteps_Gravel
+        ObjectType: 3
+        guid: 6f5d3e7cc9e4cb49b0676c2750a0de47
+      Path: Events\Default Work Unit\Footsteps_Gravel
+      maxAttenuation: 0
+      maxDuration: 0.45758075
+      minDuration: 0.29997948
+    - name: Music_Fight
+      guid: cabe1a36eb758247b5abfd9810a9cc2f
+      id: 962867917
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Music_Fight
+        ObjectType: 3
+        guid: cabe1a36eb758247b5abfd9810a9cc2f
+      Path: Events\Default Work Unit\Music_Fight
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Roomtone_InStation
+      guid: 6296b6409d21ac4ca4646620d96d7a1a
+      id: 3722638038
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Roomtone_InStation
         ObjectType: 3
         guid: 6296b6409d21ac4ca4646620d96d7a1a
-      Path: Events\Default Work Unit\Roomtone
+      Path: Events\Default Work Unit\Roomtone_InStation
       maxAttenuation: 0
       maxDuration: 33.444813
       minDuration: 33.444813
+    - name: TitleMusic
+      guid: 50dc945ea2f1c54eba91bf3d1c2e564f
+      id: 2191159630
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: TitleMusic
+        ObjectType: 3
+        guid: 50dc945ea2f1c54eba91bf3d1c2e564f
+      Path: Events\Default Work Unit\TitleMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -187,7 +238,7 @@ MonoBehaviour:
     m_lastTime: -8584541924722469712
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000a0000000b0000001500000016000000
+  ExpandedWaapiItemIds: 05000000060000000a0000000b0000000d0000000e0000001500000016000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

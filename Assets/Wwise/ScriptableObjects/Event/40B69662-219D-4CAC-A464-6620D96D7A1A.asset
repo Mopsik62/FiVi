@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c4ec862ded6f064aa2588eb6ec2aede, type: 3}
   m_Name: 40B69662-219D-4CAC-A464-6620D96D7A1A
   m_EditorClassIdentifier: 
-  objectName: Roomtone
-  id: 2291679880
+  objectName: Roomtone_InStation
+  id: 3722638038
   guid: 40B69662-219D-4CAC-A464-6620D96D7A1A
   IsInUserDefinedSoundBank: 1
   IsAutoBankLoaded: 0

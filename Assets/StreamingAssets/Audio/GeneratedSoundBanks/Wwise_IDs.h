@@ -13,8 +13,11 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID FOOTSTEPS = 2385628198U;
-        static const AkUniqueID ROOMTONE = 2291679880U;
+        static const AkUniqueID FOOTSTEPS_CONCRETE = 82718740U;
+        static const AkUniqueID FOOTSTEPS_GRAVEL = 1676031848U;
+        static const AkUniqueID MUSIC_FIGHT = 962867917U;
+        static const AkUniqueID ROOMTONE_INSTATION = 3722638038U;
+        static const AkUniqueID TITLEMUSIC = 2191159630U;
     } // namespace EVENTS
 
     namespace BANKS

@@ -10,18 +10,50 @@
     "Type": "User",
     "GUID": "{C594E5AD-2D3A-463D-864A-C9A3154F7734}",
     "Language": "SFX",
-    "Hash": "{49988395-9B0E-D6EE-CB0C-B435E316E74F}",
+    "Hash": "{925DFB16-74EC-CC4F-8855-AAACB2CB18E7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
     "Media": [
      {
-      "Id": "80068740",
+      "Id": "30051119",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Footsteps, Human, Layer, Wooden Creak, Jog, Run, Distant SND126648 1.wav",
-      "CachePath": "D2/{D2E5122C-1DE0-B4A4-F3EA-0F2F31C3FED2}.wem"
+      "ShortName": "Characters\\Footstep_Concrete_1.wav",
+      "CachePath": "09/{09FE1A7C-F0AB-8F58-AD9E-3E128F339086}.wem"
+     },
+     {
+      "Id": "78355276",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Footstep_Gravel_1.wav",
+      "CachePath": "1E/{1E7A060A-E527-5E3D-6FBD-1D78CF62DA8A}.wem"
+     },
+     {
+      "Id": "274832657",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Footstep_Concrete_1.wav",
+      "CachePath": "76/{767B6A46-17EF-6226-D8B5-3BC42EEAF344}.wem"
+     },
+     {
+      "Id": "278737010",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Footstep_Concrete_1.wav",
+      "CachePath": "C0/{C0A22B9B-4775-2E14-9610-CBECD47FC256}.wem"
+     },
+     {
+      "Id": "375570390",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Footstep_Gravel_1.wav",
+      "CachePath": "4C/{4CF4D2F7-62FE-580C-0E87-570ED11816BC}.wem"
      },
      {
       "Id": "483544645",
@@ -32,36 +64,124 @@
       "CachePath": "97/{977BEEB7-69B2-80D0-F46E-1D16B3E4DBC6}.wem"
      },
      {
-      "Id": "969703722",
+      "Id": "497116076",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Footsteps, Human, Layer, Wooden Creak, Jog, Run, Distant SND126648 1.wav",
-      "CachePath": "CB/{CB0CC379-1540-9960-4489-E8D536FB9FE7}.wem"
+      "ShortName": "Characters\\Footstep_Gravel_1.wav",
+      "CachePath": "4B/{4BD350B7-B7D8-3F4B-1C57-43229FF79593}.wem"
+     },
+     {
+      "Id": "716343877",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Footstep_Gravel_1.wav",
+      "CachePath": "6E/{6E650734-9DB5-7F5B-D8C6-330BECC8F0D5}.wem"
+     },
+     {
+      "Id": "767041445",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Footstep_Gravel_1.wav",
+      "CachePath": "A4/{A429AB9E-4A44-22A9-6DAE-E12573A22DCC}.wem"
+     },
+     {
+      "Id": "981645837",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Footstep_Concrete_1.wav",
+      "CachePath": "15/{15420889-0FF2-1B6C-499D-4D53ED4DC4CB}.wem"
+     },
+     {
+      "Id": "989201415",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Footstep_Concrete_1.wav",
+      "CachePath": "F9/{F9B3838A-516D-A886-A473-FE38A0304CDE}.wem"
+     },
+     {
+      "Id": "1019966463",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Footstep_Concrete_1.wav",
+      "CachePath": "03/{0333E866-34DD-9F86-13A8-DABF20257A31}.wem"
      }
     ],
     "Events": [
      {
-      "Id": "2385628198",
-      "Name": "Footsteps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps",
+      "Id": "82718740",
+      "Name": "Footsteps_Concrete",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps_Concrete",
       "GUID": "{52E359E5-6710-4DAA-94B4-F98AB157DB91}",
       "DurationType": "OneShot",
-      "DurationMin": "0.42802456",
-      "DurationMax": "0.46417525",
+      "DurationMin": "0.32408938",
+      "DurationMax": "0.5122557",
       "MediaRefs": [
        {
-        "Id": "80068740"
+        "Id": "30051119"
        },
        {
-        "Id": "969703722"
+        "Id": "274832657"
+       },
+       {
+        "Id": "278737010"
+       },
+       {
+        "Id": "981645837"
+       },
+       {
+        "Id": "989201415"
+       },
+       {
+        "Id": "1019966463"
        }
       ]
      },
      {
-      "Id": "2291679880",
-      "Name": "Roomtone",
-      "ObjectPath": "\\Events\\Default Work Unit\\Roomtone",
+      "Id": "1676031848",
+      "Name": "Footsteps_Gravel",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps_Gravel",
+      "GUID": "{7C3E5D6F-E4C9-49CB-B067-6C2750A0DE47}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.29997948",
+      "DurationMax": "0.45758075",
+      "MediaRefs": [
+       {
+        "Id": "78355276"
+       },
+       {
+        "Id": "375570390"
+       },
+       {
+        "Id": "497116076"
+       },
+       {
+        "Id": "716343877"
+       },
+       {
+        "Id": "767041445"
+       }
+      ]
+     },
+     {
+      "Id": "962867917",
+      "Name": "Music_Fight",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music_Fight",
+      "GUID": "{361ABECA-75EB-4782-B5AB-FD9810A9CC2F}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3722638038",
+      "Name": "Roomtone_InStation",
+      "ObjectPath": "\\Events\\Default Work Unit\\Roomtone_InStation",
       "GUID": "{40B69662-219D-4CAC-A464-6620D96D7A1A}",
       "DurationType": "OneShot",
       "DurationMin": "33.444813",
@@ -71,10 +191,19 @@
         "Id": "483544645"
        }
       ]
+     },
+     {
+      "Id": "2191159630",
+      "Name": "TitleMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\TitleMusic",
+      "GUID": "{5E94DC50-F1A2-4EC5-BA91-BF3D1C2E564F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ]
    }
   ],
-  "FileHash": "{4DED20DE-B934-617A-5335-0345DF06A66B}"
+  "FileHash": "{D49375C6-CB19-CE60-F925-F7B078864A53}"
  }
 }

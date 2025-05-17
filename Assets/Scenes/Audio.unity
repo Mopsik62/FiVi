@@ -128,8 +128,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 442119281}
-  - component: {fileID: 442119280}
-  - component: {fileID: 442119279}
+  - component: {fileID: 442119285}
+  - component: {fileID: 442119284}
+  - component: {fileID: 442119283}
+  - component: {fileID: 442119282}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -137,38 +139,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &442119279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 442119278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9e59621101ff6349a16c9451e5f8ce0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AmbienceEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: a9238a1b3c097a44d9b16094744029f9, type: 2}
---- !u!114 &442119280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 442119278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ef9efc2d10f20543a3b238ed71b2102, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  footstepEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: a79206ea9517a1242bed8bfa3d49208d, type: 2}
 --- !u!4 &442119281
 Transform:
   m_ObjectHideFlags: 0
@@ -184,6 +154,70 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &442119282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442119278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c371cef29a778d42bf33b3cfd1164d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TitleMusiclEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c727e2a7fe1d0274ea0271b05558613b, type: 2}
+--- !u!114 &442119283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442119278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0644d731f0393a48bcb6074b17403f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RoomToneInStationlEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a9238a1b3c097a44d9b16094744029f9, type: 2}
+--- !u!114 &442119284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442119278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3979f889f6080a4096c0aaa38b05126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepGravelEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6afc30bb4d3d5fc40af0ff55ecfcb116, type: 2}
+--- !u!114 &442119285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442119278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72e62588073963b42a1388b7514f95f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepConcreteEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a79206ea9517a1242bed8bfa3d49208d, type: 2}
 --- !u!1 &1250508680
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,6 +398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1952600713}
   - component: {fileID: 1952600712}
+  - component: {fileID: 1952600714}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -411,6 +446,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1952600714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952600711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e865cbe226883c408a28095569fe3cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6ee71e54fff6c8c4dae2febf11263a99, type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
