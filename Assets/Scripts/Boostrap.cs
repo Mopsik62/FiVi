@@ -1,6 +1,8 @@
 using UnityEngine;
 using Cinemachine;
 using System.Collections;
+using UnityEngine.SceneManagement;
+
 
 public class Boostrap : MonoBehaviour
 {
@@ -8,17 +10,32 @@ public class Boostrap : MonoBehaviour
     public CinemachineVirtualCamera virtualCam;
     public GameObject boundaryObject;
 
-    void Start()
+    void Awake()
     {
-        StartCoroutine(SetupConfinerDelayed());
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+    void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        Debug.Log("BOOSTRAP scene loaded: " + scene.name);
+        StartCoroutine(SetupConfinerDelayed());
+    }
     IEnumerator SetupConfinerDelayed()
     {
         yield return null;
 
         if (virtualCam == null)
             virtualCam = FindObjectOfType<CinemachineVirtualCamera>();
+
+        if (boundaryObject == null)
+        {
+            boundaryObject = GameObject.Find("Camera Boundaries");
+            Debug.Log("Finding");
+        }
 
         if (virtualCam != null && boundaryObject != null)
         {

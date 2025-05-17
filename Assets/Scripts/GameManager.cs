@@ -8,12 +8,23 @@ public class GameManager : MonoBehaviour
     protected void Awake()
     {
         instance = this;
+
     }
 
-    public void StartDialogue(GameObject currentInteractable)
+    public void StartInteract(GameObject currentInteractable)
     {
         Debug.Log("Взаимодействие с : " + currentInteractable.name);
-        DialogueWindow.SetActive(true);
+        Interactable interactable = currentInteractable.GetComponent<Interactable>();
+        switch (interactable.type)
+        {
+            case InteractableType.Dialogue:
+                DialogueWindow.SetActive(true);
+                break;
+            case InteractableType.Teleport:
+                interactable.Teleport();
+
+                break;
+        }
     }
 
 }

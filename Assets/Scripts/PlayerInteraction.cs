@@ -9,7 +9,7 @@ public class PlayerInteraction : MonoBehaviour
     {
         if (currentInteractable != null && Input.GetKeyDown(KeyCode.E))
         {
-            GameManager.instance.StartDialogue(currentInteractable);          
+            GameManager.instance.StartInteract(currentInteractable);          
         }
     }
 
