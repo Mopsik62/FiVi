@@ -17,7 +17,7 @@
 							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+							<ObjectRef Name="AmbMusic" ID="{E70615F8-522D-4E5A-8667-605AC2D28FFA}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
 						</Reference>
 						<Reference Name="PlaylistRoot">
 							<Custom>
@@ -2212,7 +2212,7 @@
 					<PropertyList>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-7</Value>
+								<Value>-5</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Tempo" Type="Real64" Value="95"/>
@@ -2222,7 +2222,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+							<ObjectRef Name="AmbMusic" ID="{E70615F8-522D-4E5A-8667-605AC2D28FFA}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
 						</Reference>
 						<Reference Name="PlaylistRoot">
 							<Custom>
