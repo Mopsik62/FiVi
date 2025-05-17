@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C594E5AD-2D3A-463D-864A-C9A3154F7734}",
     "Language": "SFX",
-    "Hash": "{7FBBDDA4-3A40-DECC-D6D2-FADFDF375063}",
+    "Hash": "{B59729C8-DAA1-FED2-7B36-62FF1900532D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -30,6 +30,38 @@
       "Location": "Memory",
       "ShortName": "Characters\\Footstep_Gravel_1.wav",
       "CachePath": "1E/{1E7A060A-E527-5E3D-6FBD-1D78CF62DA8A}.wem"
+     },
+     {
+      "Id": "157273063",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\Melody_1.wav",
+      "CachePath": "DA/{DA5A8380-93C1-7715-68CC-12E1467DFEB7}.wem"
+     },
+     {
+      "Id": "162320672",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\Melody_2_1.wav",
+      "CachePath": "BC/{BCF671F4-C403-FC3A-B736-44F5D399EADF}.wem"
+     },
+     {
+      "Id": "201931862",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\Bass_2_1.wav",
+      "CachePath": "EB/{EB2BA934-89FB-B5B1-08D1-F56953C4C6FE}.wem"
+     },
+     {
+      "Id": "241102469",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\Arp_1.wav",
+      "CachePath": "48/{48AD52B5-2C9D-6C6C-3EB1-623CA383C2FF}.wem"
      },
      {
       "Id": "274832657",
@@ -69,7 +101,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ambience\\Ambience, Residential, Living Room, Walla, Distant Traffic SND3546.wav",
-      "CachePath": "97/{977BEEB7-69B2-80D0-F46E-1D16B3E4DBC6}.wem"
+      "CachePath": "7D/{7D98C61D-1C3E-03EF-38C3-52AD907780A6}.wem"
      },
      {
       "Id": "497116076",
@@ -80,6 +112,54 @@
       "CachePath": "4B/{4BD350B7-B7D8-3F4B-1C57-43229FF79593}.wem"
      },
      {
+      "Id": "657637022",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\Drum_2.wav",
+      "CachePath": "79/{799956DD-0F1A-9ACD-0511-DD6983A4F390}.wem"
+     },
+     {
+      "Id": "675744829",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\Melody_2_2.wav",
+      "CachePath": "DA/{DA6C8E1D-1C15-BF0A-D7C1-D0955BA1AE1B}.wem"
+     },
+     {
+      "Id": "677717130",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\Bass_intro.wav",
+      "CachePath": "DC/{DC09FBA9-55D5-F69A-A230-7641843ACF20}.wem"
+     },
+     {
+      "Id": "688051386",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\Piccalo.wav",
+      "CachePath": "33/{3355BDBB-829E-BCFD-8A28-8CF9AFD449E6}.wem"
+     },
+     {
+      "Id": "701907354",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\Drum_1.wav",
+      "CachePath": "C8/{C8F03C65-271C-C5DC-998D-387A9C15BBD4}.wem"
+     },
+     {
+      "Id": "715619170",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\Piccalo_2.wav",
+      "CachePath": "E5/{E59B7BB5-4DFF-1FA9-C2AE-F6D697481C01}.wem"
+     },
+     {
       "Id": "716343877",
       "Language": "SFX",
       "Streaming": "false",
@@ -88,12 +168,52 @@
       "CachePath": "6E/{6E650734-9DB5-7F5B-D8C6-330BECC8F0D5}.wem"
      },
      {
+      "Id": "722385771",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\Pad_1.wav",
+      "CachePath": "9C/{9CCC91CD-A2C7-F75F-CD20-5432E2824079}.wem"
+     },
+     {
       "Id": "767041445",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Footstep_Gravel_1.wav",
       "CachePath": "A4/{A429AB9E-4A44-22A9-6DAE-E12573A22DCC}.wem"
+     },
+     {
+      "Id": "825770557",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\Pad_intro.wav",
+      "CachePath": "C7/{C73A8CEB-728F-0E50-9E76-BA934D317591}.wem"
+     },
+     {
+      "Id": "844705080",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\Melody_Post.wav",
+      "CachePath": "62/{62A44556-1EF5-9E49-5DB7-4A077E5F0DBD}.wem"
+     },
+     {
+      "Id": "873090363",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\Post_Synth.wav",
+      "CachePath": "FC/{FC716173-D545-B503-9956-B3CF455895CA}.wem"
+     },
+     {
+      "Id": "950680603",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\Melody_2.wav",
+      "CachePath": "7D/{7D1652AD-A983-A91A-0830-2908A8D51D26}.wem"
      },
      {
       "Id": "981645837",
@@ -118,9 +238,74 @@
       "Location": "Memory",
       "ShortName": "Characters\\Footstep_Concrete_1.wav",
       "CachePath": "03/{0333E866-34DD-9F86-13A8-DABF20257A31}.wem"
+     },
+     {
+      "Id": "1066979003",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\Bass_1.wav",
+      "CachePath": "55/{55241AFC-3AB6-B847-A15C-B536FADCAC85}.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "3890691062",
+      "Name": "FightMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\FightMusic",
+      "GUID": "{5A1EE92C-76C2-46B9-A5F5-D211CF9C9C84}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "157273063"
+       },
+       {
+        "Id": "162320672"
+       },
+       {
+        "Id": "201931862"
+       },
+       {
+        "Id": "241102469"
+       },
+       {
+        "Id": "657637022"
+       },
+       {
+        "Id": "675744829"
+       },
+       {
+        "Id": "677717130"
+       },
+       {
+        "Id": "688051386"
+       },
+       {
+        "Id": "701907354"
+       },
+       {
+        "Id": "715619170"
+       },
+       {
+        "Id": "722385771"
+       },
+       {
+        "Id": "825770557"
+       },
+       {
+        "Id": "844705080"
+       },
+       {
+        "Id": "873090363"
+       },
+       {
+        "Id": "950680603"
+       },
+       {
+        "Id": "1066979003"
+       }
+      ]
+     },
      {
       "Id": "82718740",
       "Name": "Footsteps_Concrete",
@@ -191,9 +376,7 @@
       "Name": "Roomtone_InStation",
       "ObjectPath": "\\Events\\Default Work Unit\\Roomtone_InStation",
       "GUID": "{40B69662-219D-4CAC-A464-6620D96D7A1A}",
-      "DurationType": "OneShot",
-      "DurationMin": "33.444813",
-      "DurationMax": "33.444813",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "483544645"
@@ -217,6 +400,6 @@
     ]
    }
   ],
-  "FileHash": "{F3666DEA-7154-C217-88FA-11F2306E4856}"
+  "FileHash": "{791ED5B1-50B2-B774-C2F1-9808F0365D19}"
  }
 }

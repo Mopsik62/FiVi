@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b9a82131b0108d4d9d4791abff6d5615
     GuidInternal: 
-    m_lastTime: -8584541299532209916
+    m_lastTime: -8584541224846314638
     List:
+    - name: FightMusic
+      guid: 2ce91e5ac276b946a5f5d211cf9c9c84
+      id: 3890691062
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: FightMusic
+        ObjectType: 3
+        guid: 2ce91e5ac276b946a5f5d211cf9c9c84
+      Path: Events\Default Work Unit\FightMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Footsteps_Concrete
       guid: e559e3521067aa4d94b4f98ab157db91
       id: 82718740
@@ -162,8 +179,8 @@ MonoBehaviour:
         guid: 6296b6409d21ac4ca4646620d96d7a1a
       Path: Events\Default Work Unit\Roomtone_InStation
       maxAttenuation: 0
-      maxDuration: 33.444813
-      minDuration: 33.444813
+      maxDuration: 0
+      minDuration: 0
     - name: TitleMusic
       guid: 50dc945ea2f1c54eba91bf3d1c2e564f
       id: 2191159630
@@ -238,7 +255,7 @@ MonoBehaviour:
     m_lastTime: -8584541299529406778
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000a0000000b0000000d0000000e0000001500000016000000
+  ExpandedWaapiItemIds: 05000000060000000a0000000b0000000d0000000e0000000f000000100000001500000016000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID FIGHTMUSIC = 3890691062U;
         static const AkUniqueID FOOTSTEPS_CONCRETE = 82718740U;
         static const AkUniqueID FOOTSTEPS_GRAVEL = 1676031848U;
         static const AkUniqueID MUSIC_FIGHT = 962867917U;
