@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C594E5AD-2D3A-463D-864A-C9A3154F7734}",
     "Language": "SFX",
-    "Hash": "{925DFB16-74EC-CC4F-8855-AAACB2CB18E7}",
+    "Hash": "{7FBBDDA4-3A40-DECC-D6D2-FADFDF375063}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -46,6 +46,14 @@
       "Location": "Memory",
       "ShortName": "Characters\\Footstep_Concrete_1.wav",
       "CachePath": "C0/{C0A22B9B-4775-2E14-9610-CBECD47FC256}.wem"
+     },
+     {
+      "Id": "327515928",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\TitleMusic.wav",
+      "CachePath": "04/{0461B112-1DAA-883B-6F92-1AC4182E77CE}.wem"
      },
      {
       "Id": "375570390",
@@ -198,12 +206,17 @@
       "ObjectPath": "\\Events\\Default Work Unit\\TitleMusic",
       "GUID": "{5E94DC50-F1A2-4EC5-BA91-BF3D1C2E564F}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "14.567481",
+      "DurationMax": "14.567481",
+      "MediaRefs": [
+       {
+        "Id": "327515928"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{BEA3E3F2-6F49-08A6-9AF0-C6E070164E94}"
+  "FileHash": "{3C4007B4-AE62-D098-315A-5402BB683443}"
  }
 }
