@@ -1,0 +1,21 @@
+Event	ID	Name			Wwise Object Path	Notes
+	82718740	Footsteps_Concrete			\Default Work Unit\Footsteps_Concrete	
+	962867917	Music_Fight			\Default Work Unit\Music_Fight	
+	1676031848	Footsteps_Gravel			\Default Work Unit\Footsteps_Gravel	
+	2191159630	TitleMusic			\Default Work Unit\TitleMusic	
+	3722638038	Roomtone_InStation			\Default Work Unit\Roomtone_InStation	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	30051119	Footstep_Concrete_02	D:\FiVi\FiVi_WwiseProject\.cache\09\{09FE1A7C-F0AB-8F58-AD9E-3E128F339086}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caracter_Footstep\Concrete\Footstep_Concrete_02		57296
+	78355276	Footstep_Gravel_01	D:\FiVi\FiVi_WwiseProject\.cache\1E\{1E7A060A-E527-5E3D-6FBD-1D78CF62DA8A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caracter_Footstep\Gravel\Footstep_Gravel_01		53044
+	274832657	Footstep_Concrete_1	D:\FiVi\FiVi_WwiseProject\.cache\76\{767B6A46-17EF-6226-D8B5-3BC42EEAF344}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caracter_Footstep\Concrete\Footstep_Concrete_1		87384
+	278737010	Footstep_Concrete_05	D:\FiVi\FiVi_WwiseProject\.cache\C0\{C0A22B9B-4775-2E14-9610-CBECD47FC256}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caracter_Footstep\Concrete\Footstep_Concrete_05		90352
+	375570390	Footstep_Gravel_02	D:\FiVi\FiVi_WwiseProject\.cache\4C\{4CF4D2F7-62FE-580C-0E87-570ED11816BC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caracter_Footstep\Gravel\Footstep_Gravel_02		80720
+	483544645	Ambience, Residential, Living Room, Walla, Distant Traffic SND3546	D:\FiVi\FiVi_WwiseProject\.cache\97\{977BEEB7-69B2-80D0-F46E-1D16B3E4DBC6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Roomtone_Indoor_Station\Ambience, Residential, Living Room, Walla, Distant Traffic SND3546		6421500
+	497116076	Footstep_Gravel_03	D:\FiVi\FiVi_WwiseProject\.cache\4B\{4BD350B7-B7D8-3F4B-1C57-43229FF79593}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caracter_Footstep\Gravel\Footstep_Gravel_03		66920
+	716343877	Footstep_Gravel_1	D:\FiVi\FiVi_WwiseProject\.cache\6E\{6E650734-9DB5-7F5B-D8C6-330BECC8F0D5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caracter_Footstep\Gravel\Footstep_Gravel_1		76648
+	767041445	Footstep_Gravel_04	D:\FiVi\FiVi_WwiseProject\.cache\A4\{A429AB9E-4A44-22A9-6DAE-E12573A22DCC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caracter_Footstep\Gravel\Footstep_Gravel_04		75736
+	981645837	Footstep_Concrete_04	D:\FiVi\FiVi_WwiseProject\.cache\15\{15420889-0FF2-1B6C-499D-4D53ED4DC4CB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caracter_Footstep\Concrete\Footstep_Concrete_04		79476
+	989201415	Footstep_Concrete_03	D:\FiVi\FiVi_WwiseProject\.cache\F9\{F9B3838A-516D-A886-A473-FE38A0304CDE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caracter_Footstep\Concrete\Footstep_Concrete_03		75576
+	1019966463	Footstep_Concrete_01	D:\FiVi\FiVi_WwiseProject\.cache\03\{0333E866-34DD-9F86-13A8-DABF20257A31}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caracter_Footstep\Concrete\Footstep_Concrete_01		57484
+
