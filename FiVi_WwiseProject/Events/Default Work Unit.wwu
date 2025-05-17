@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3121A8B9-10B0-4D8D-9D47-91ABFF6D5615}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{3121A8B9-10B0-4D8D-9D47-91ABFF6D5615}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Roomtone_InStation" ID="{40B69662-219D-4CAC-A464-6620D96D7A1A}">
+					<ChildrenList>
+						<Action Name="" ID="{77A7CDCE-5A36-4970-A26C-A80E6EF5A6F5}" ShortID="176236135">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roomtone_Indoor_Station" ID="{6332F8B5-6BD0-46B2-B83A-B9A7122B9A78}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footsteps_Concrete" ID="{52E359E5-6710-4DAA-94B4-F98AB157DB91}">
+					<ChildrenList>
+						<Action Name="" ID="{2CD1B8C7-7201-4C80-9E1A-008CC8F220F7}" ShortID="906048809">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Concrete" ID="{79F4C68A-4340-4697-AC65-B3E017CF8069}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footsteps_Gravel" ID="{7C3E5D6F-E4C9-49CB-B067-6C2750A0DE47}">
+					<ChildrenList>
+						<Action Name="" ID="{094674AE-2620-4C0F-AF13-7DFD80E0F55F}" ShortID="161978781">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gravel" ID="{48DD75EE-75DD-48D0-94C5-5CD14A30A454}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Fight" ID="{361ABECA-75EB-4782-B5AB-FD9810A9CC2F}"/>
+				<Event Name="TitleMusic" ID="{5E94DC50-F1A2-4EC5-BA91-BF3D1C2E564F}">
+					<ChildrenList>
+						<Action Name="" ID="{4E986DDD-1E6A-4105-8D12-0B296F4333B3}" ShortID="74461624">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TitleMusic" ID="{ED20D58C-F8F2-4B1E-B9C9-CB24CFDCC6A6}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
