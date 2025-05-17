@@ -6,7 +6,7 @@ public class Footsteps_Concrete : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        footstepConcreteEvent.Post(gameObject);
     }
 
     // Update is called once per frame

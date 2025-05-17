@@ -1,6 +1,7 @@
 using UnityEngine;
 using Cinemachine;
 using UnityEngine.Rendering.Universal;
+using AK.Wwise;
 
 
 public class IntroZoom : MonoBehaviour
@@ -23,11 +24,17 @@ public class IntroZoom : MonoBehaviour
 
     private bool zooming = false;
 
+    [SerializeField]
+    private TitleMusic _titleMusic;
+
+
     void Start()
     {
         baseIntensity1 = light1.intensity;
         baseIntensity2 = light2.intensity;
         Invoke(nameof(StartZoom), delayBeforeZoom);
+        _titleMusic.TitleMusiclEvent.Post(gameObject);
+
     }
 
     void StartZoom()
