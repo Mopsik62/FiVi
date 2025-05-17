@@ -454,7 +454,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7117110007024914641, guid: dae97cd3f0542264fa31346a7f60b6cb, type: 3}
+  m_Sprite: {fileID: 5796508233773323742, guid: e6ad3a01d009e5a4eb83d327dd2421b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -500,6 +500,7 @@ MonoBehaviour:
   delayBeforeZoom: 1
   delayBeforeNewScene: 1
   nextScene: Hub
+  globalLight: {fileID: 2137487486}
   light1: {fileID: 1146630399}
   light2: {fileID: 1069409512}
   flickerDuration: 0.5
@@ -964,7 +965,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.2
+  m_Intensity: 0.25
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
