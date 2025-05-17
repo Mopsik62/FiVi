@@ -59,6 +59,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="HubMusic" ID="{D4E4D276-ABD1-4845-ABCE-46BBD1A6770C}">
+					<ChildrenList>
+						<Action Name="" ID="{0C46D54C-EECB-4086-AE5B-6F3E2635CDC1}" ShortID="235833431">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HubMusic" ID="{9A63BD98-C61E-471F-BE54-BAE57C42E7AD}" WorkUnitID="{7A29750B-257B-4F42-8B6B-3C94D4ADF995}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

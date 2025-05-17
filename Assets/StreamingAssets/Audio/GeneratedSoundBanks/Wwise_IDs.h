@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID FIGHTMUSIC = 3890691062U;
         static const AkUniqueID FOOTSTEPS_CONCRETE = 82718740U;
         static const AkUniqueID FOOTSTEPS_GRAVEL = 1676031848U;
+        static const AkUniqueID HUBMUSIC = 3446858831U;
         static const AkUniqueID MUSIC_FIGHT = 962867917U;
         static const AkUniqueID ROOMTONE_INSTATION = 3722638038U;
         static const AkUniqueID TITLEMUSIC = 2191159630U;

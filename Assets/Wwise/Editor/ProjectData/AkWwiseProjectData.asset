@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b9a82131b0108d4d9d4791abff6d5615
     GuidInternal: 
-    m_lastTime: -8584541224846314638
+    m_lastTime: -8584541213375873580
     List:
     - name: FightMusic
       guid: 2ce91e5ac276b946a5f5d211cf9c9c84
@@ -147,6 +147,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.45758075
       minDuration: 0.29997948
+    - name: HubMusic
+      guid: 76d2e4d4d1ab4548abce46bbd1a6770c
+      id: 3446858831
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: HubMusic
+        ObjectType: 3
+        guid: 76d2e4d4d1ab4548abce46bbd1a6770c
+      Path: Events\Default Work Unit\HubMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Music_Fight
       guid: cabe1a36eb758247b5abfd9810a9cc2f
       id: 962867917
@@ -255,7 +272,7 @@ MonoBehaviour:
     m_lastTime: -8584541299529406778
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000a0000000b0000000d0000000e0000000f000000100000001500000016000000
+  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000d0000000e0000000f000000100000001500000016000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
