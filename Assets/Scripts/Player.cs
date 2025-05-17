@@ -38,12 +38,12 @@ public class Player : MonoBehaviour
         if (moveInput != Vector2.zero)
         {
             _footsteps_timer += Time.fixedDeltaTime;
-           // Debug.Log(_footsteps_timer);
+           Debug.Log(_footsteps_timer);
             if (_footsteps_timer >= _footsteps_cooldown)
             {
                 _footsteps.footstepConcreteEvent.Post(gameObject);
                 _footsteps_timer = 0;
-                //Debug.Log("dsad");
+                Debug.Log("dsad");
             }
         }
     }
