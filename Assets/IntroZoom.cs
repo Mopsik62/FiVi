@@ -25,7 +25,7 @@ public class IntroZoom : MonoBehaviour
     private bool zooming = false;
 
     [SerializeField]
-    private Footsteps_Concrete _titleMusic;
+    private TitleMusic _titleMusic;
 
 
     void Start()
@@ -33,7 +33,7 @@ public class IntroZoom : MonoBehaviour
         baseIntensity1 = light1.intensity;
         baseIntensity2 = light2.intensity;
         Invoke(nameof(StartZoom), delayBeforeZoom);
-        _titleMusic.footstepConcreteEvent.Post(gameObject);
+        _titleMusic.TitleMusiclEvent.Post(gameObject);
 
     }
 
