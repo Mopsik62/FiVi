@@ -10,6 +10,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	78355276	Footstep_Gravel_01	D:\FiVi\FiVi_WwiseProject\.cache\1E\{1E7A060A-E527-5E3D-6FBD-1D78CF62DA8A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caracter_Footstep\Gravel\Footstep_Gravel_01		53044
 	274832657	Footstep_Concrete_1	D:\FiVi\FiVi_WwiseProject\.cache\76\{767B6A46-17EF-6226-D8B5-3BC42EEAF344}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caracter_Footstep\Concrete\Footstep_Concrete_1		87384
 	278737010	Footstep_Concrete_05	D:\FiVi\FiVi_WwiseProject\.cache\C0\{C0A22B9B-4775-2E14-9610-CBECD47FC256}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caracter_Footstep\Concrete\Footstep_Concrete_05		90352
+	327515928	TitleMusic	D:\FiVi\FiVi_WwiseProject\.cache\04\{0461B112-1DAA-883B-6F92-1AC4182E77CE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\TitleMusic\TitleMusic		2569800
 	375570390	Footstep_Gravel_02	D:\FiVi\FiVi_WwiseProject\.cache\4C\{4CF4D2F7-62FE-580C-0E87-570ED11816BC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caracter_Footstep\Gravel\Footstep_Gravel_02		80720
 	483544645	Ambience, Residential, Living Room, Walla, Distant Traffic SND3546	D:\FiVi\FiVi_WwiseProject\.cache\97\{977BEEB7-69B2-80D0-F46E-1D16B3E4DBC6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Roomtone_Indoor_Station\Ambience, Residential, Living Room, Walla, Distant Traffic SND3546		6421500
 	497116076	Footstep_Gravel_03	D:\FiVi\FiVi_WwiseProject\.cache\4B\{4BD350B7-B7D8-3F4B-1C57-43229FF79593}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caracter_Footstep\Gravel\Footstep_Gravel_03		66920
