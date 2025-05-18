@@ -8,6 +8,11 @@ public class Interactable : MonoBehaviour
     public string NextScene;
     public void Teleport()
     {
-      UnityEngine.SceneManagement.SceneManager.LoadScene(NextScene);
+        if (GameManager.instance.currentProgress < 2)
+        { Debug.Log("У вас нет билета!"); }
+        else
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(NextScene);
+        }
     }
 }
