@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{26E15DD5-56E2-4D86-9D99-59DABC06B12A}" SchemaVersion="123">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{26E15DD5-56E2-4D86-9D99-59DABC06B12A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{26E15DD5-56E2-4D86-9D99-59DABC06B12A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{3F6547A0-676D-4F37-8C34-140A55AABA61}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="FightMusic" ID="{0DAEC31F-B855-48C6-AFB2-CDCB81C4B08B}" WorkUnitID="{7A29750B-257B-4F42-8B6B-3C94D4ADF995}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Door" ID="{4255588D-D71A-4415-8CE4-BF24B68B0192}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PC_Grunt" ID="{CAA7017E-1E28-4CA3-97A7-6D80C7551538}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Concrete" ID="{79F4C68A-4340-4697-AC65-B3E017CF8069}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="HubMusic" ID="{9A63BD98-C61E-471F-BE54-BAE57C42E7AD}" WorkUnitID="{7A29750B-257B-4F42-8B6B-3C94D4ADF995}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Roomtone_Indoor_Station" ID="{6332F8B5-6BD0-46B2-B83A-B9A7122B9A78}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="HubMusic" ID="{9A63BD98-C61E-471F-BE54-BAE57C42E7AD}" WorkUnitID="{7A29750B-257B-4F42-8B6B-3C94D4ADF995}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

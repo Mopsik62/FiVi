@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{E8C73C05-9AC5-A17E-EA11-491BBCB2A45E}",
+    "Hash": "{71BB1711-F41E-A061-9CC3-9A6A88A0C7DF}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -36,6 +36,67 @@
     },
     "Busses": [
      {
+      "Id": "131954248",
+      "Name": "025_DeathNPC",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\HDR\\025_DeathNPC",
+      "GUID": "{B7098A7A-F44D-4EE5-BD26-2C85123BCE1F}",
+      "Color": "2"
+     },
+     {
+      "Id": "931844945",
+      "Name": "HDR",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\HDR",
+      "GUID": "{B24DED3C-836C-45B2-AFBA-B2CDE0427C1C}"
+     },
+     {
+      "Id": "1265358838",
+      "Name": "040_LocomotionNPC",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\HDR\\040_LocomotionNPC",
+      "GUID": "{66448E75-D3A2-45CC-B25D-5030DEDCD1C2}",
+      "Color": "16"
+     },
+     {
+      "Id": "1466525618",
+      "Name": "015_Death",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\HDR\\015_Death",
+      "GUID": "{A3EC2C9C-232E-47EB-A001-C75CB62E53ED}",
+      "Color": "23"
+     },
+     {
+      "Id": "1560912036",
+      "Name": "020_Weapon",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\HDR\\020_Weapon",
+      "GUID": "{316FDBE6-1850-4067-BFC3-DCAA559BC779}",
+      "Color": "21"
+     },
+     {
+      "Id": "1612405135",
+      "Name": "030_DamageNPC",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\HDR\\030_DamageNPC",
+      "GUID": "{4B62F411-6AB7-4861-9473-1BB41BB91385}",
+      "Color": "17"
+     },
+     {
+      "Id": "2187031070",
+      "Name": "035_LocomotionPC",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\HDR\\035_LocomotionPC",
+      "GUID": "{26F1302F-8A47-4F58-BBD2-3D93F6D919AE}",
+      "Color": "14"
+     },
+     {
+      "Id": "3352106140",
+      "Name": "010_Damage",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\HDR\\010_Damage",
+      "GUID": "{FFFFAD58-025F-431B-99FF-9FDB2D4D7A45}",
+      "Color": "10"
+     },
+     {
+      "Id": "3402181612",
+      "Name": "AmbMusic",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\HDR\\AmbMusic",
+      "GUID": "{E70615F8-522D-4E5A-8667-605AC2D28FFA}"
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
@@ -44,6 +105,6 @@
     ]
    }
   ],
-  "FileHash": "{EB9AD60A-735D-F90D-68CC-431640D89029}"
+  "FileHash": "{CF9E218B-5239-0970-C089-D149EC1BDEB0}"
  }
 }
