@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Interractable
   - Dialog
+  - Fighter
   layers:
   - Default
   - TransparentFX
