@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Player : MonoBehaviour
+public class Player : Fighter
 {
     public static Player instance;
     public float moveSpeed = 5f;
@@ -21,8 +21,10 @@ public class Player : MonoBehaviour
     public bool canMove = true;
 
 
-    void Awake()
+    protected override void Awake()
     {
+        base.Awake();
+
         if (instance == null)
         {
             instance = this;
@@ -33,7 +35,6 @@ public class Player : MonoBehaviour
         }
 
         SceneManager.sceneLoaded += OnSceneLoaded;
-        
     }
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
@@ -135,5 +136,19 @@ public class Player : MonoBehaviour
         isAttacking = false;
     }
 
+    protected void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log(collision.collider.name);
+        if (collision.collider.CompareTag("Fighter"))
+        {
+            Damage dmg = new()
+            {
+                origin = transform.position,
+                damage = 1,
+                pushForce = 1
+            };
+            collision.collider.SendMessage("ReciveDamage", dmg);
+        }
+    }
 
 }

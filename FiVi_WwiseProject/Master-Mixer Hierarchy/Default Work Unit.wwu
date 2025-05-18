@@ -764,7 +764,7 @@
 																	<PointList>
 																		<Point>
 																			<XPos>0</XPos>
-																			<YPos>-0</YPos>
+																			<YPos>0</YPos>
 																			<Flags>5</Flags>
 																			<SegmentShape>Exp2</SegmentShape>
 																		</Point>
@@ -859,7 +859,7 @@
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-9</Value>
 											</ValueList>
 										</Property>
 										<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>

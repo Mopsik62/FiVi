@@ -429,7 +429,7 @@
 																<PropertyList>
 																	<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
 																	<Property Name="ERPattern" Type="int32" Value="15"/>
-																	<Property Name="ReverbLevel" Type="Real32" Value="-22"/>
+																	<Property Name="ReverbLevel" Type="Real32" Value="-17"/>
 																</PropertyList>
 															</Effect>
 														</Custom>
@@ -445,7 +445,7 @@
 							<PropertyList>
 								<Property Name="MakeUpGain" Type="Real64">
 									<ValueList>
-										<Value>-1</Value>
+										<Value>3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
