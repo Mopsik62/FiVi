@@ -1,14 +1,16 @@
 using UnityEngine;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     [SerializeField]
+    private TextMeshProUGUI _playerQuestProgression;
+    [SerializeField]
     private GameObject DialogueWindow;
     protected void Awake()
     {
         instance = this;
-
     }
 
     public void StartInteract(GameObject currentInteractable)
