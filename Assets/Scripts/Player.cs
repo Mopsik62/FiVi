@@ -1,8 +1,9 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-
+    public static Player instance;
     public float moveSpeed = 5f;
     private Animator animator;
     private Rigidbody2D rb;
@@ -12,6 +13,28 @@ public class Player : MonoBehaviour
     [SerializeField]
     private float _footsteps_cooldown = 0.9f; //время аниматора для 1 шага
     private float _footsteps_timer;
+    private bool isAttacking = false;
+
+
+    void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        
+    }
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        GameObject playerSpawn = GameObject.Find("Player Spawn");
+        transform.position = playerSpawn.transform.position;
+    }
 
     void Start()
     {
@@ -24,7 +47,16 @@ public class Player : MonoBehaviour
     {
         moveInput.x = Input.GetAxisRaw("Horizontal");
         moveInput.y = Input.GetAxisRaw("Vertical");
-        AnimateMovement();
+
+        if (!isAttacking)
+        {
+            AnimateMovement();
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            Attack();
+        }
     }
 
     void FixedUpdate()
@@ -38,7 +70,7 @@ public class Player : MonoBehaviour
         if (moveInput != Vector2.zero)
         {
             _footsteps_timer += Time.fixedDeltaTime;
-           // Debug.Log(_footsteps_timer);
+           //Debug.Log(_footsteps_timer);
             if (_footsteps_timer >= _footsteps_cooldown)
             {
                 _footsteps.footstepConcreteEvent.Post(gameObject);
@@ -73,7 +105,21 @@ public class Player : MonoBehaviour
             animator.Play("Idle");
         }
     }
+    public void Attack()
+    {
+        if (!isAttacking)
+        {
+            isAttacking = true;
+            animator.Play("Attack");
 
+            Invoke(nameof(EndAttack), 0.2f);
+        }
+    }
+
+    private void EndAttack()
+    {
+        isAttacking = false;
+    }
 
 
 }
