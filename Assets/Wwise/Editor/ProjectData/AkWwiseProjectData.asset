@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6a6ce2c5f227ad4db4c3f6d47169f9fb
     GuidInternal: 
-    m_lastTime: -8584540472754763602
+    m_lastTime: -8584540425159942637
     List:
     - name: 010_Damage
       guid: 58adffff5f021b4399ff9fdb2d4d7a45
@@ -271,7 +271,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b9a82131b0108d4d9d4791abff6d5615
     GuidInternal: 
-    m_lastTime: -8584540472761057471
+    m_lastTime: -8584540425167045651
     List:
     - name: Bottle_Fly
       guid: fc3454ab62e36f4c8b0a14e52dd0db73
@@ -290,7 +290,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: fc3454ab62e36f4c8b0a14e52dd0db73
       Path: Events\Default Work Unit\Weapons\Bottle_Fly
-      maxAttenuation: 0
+      maxAttenuation: 11
       maxDuration: 0.45606422
       minDuration: 0.25413966
     - name: BottleBlow
@@ -310,9 +310,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: 5d8e4c67b1b1564c9a369c85245a06d6
       Path: Events\Default Work Unit\Weapons\BottleBlow
-      maxAttenuation: 0
+      maxAttenuation: 11
       maxDuration: 1.2065737
       minDuration: 1.1792347
+    - name: Door
+      guid: 0d60b399bc5e6544b778874a5b4ee2c6
+      id: 1877847629
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Door
+        ObjectType: 3
+        guid: 0d60b399bc5e6544b778874a5b4ee2c6
+      Path: Events\Default Work Unit\Door
+      maxAttenuation: 0
+      maxDuration: 3.7412019
+      minDuration: 3.7412019
     - name: FightMusic
       guid: 2ce91e5ac276b946a5f5d211cf9c9c84
       id: 3890691062
@@ -344,7 +361,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: e559e3521067aa4d94b4f98ab157db91
       Path: Events\Default Work Unit\Footsteps_Concrete
-      maxAttenuation: 0
+      maxAttenuation: 11
       maxDuration: 0.5122557
       minDuration: 0.32408938
     - name: Footsteps_Gravel
@@ -361,7 +378,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 6f5d3e7cc9e4cb49b0676c2750a0de47
       Path: Events\Default Work Unit\Footsteps_Gravel
-      maxAttenuation: 0
+      maxAttenuation: 11
       maxDuration: 0.45758075
       minDuration: 0.29997948
     - name: HubMusic
@@ -412,7 +429,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 52e8ca944ca1ec44a7e2137d60fab114
       Path: Events\Default Work Unit\PC_Death
-      maxAttenuation: 0
+      maxAttenuation: 11
       maxDuration: 0.86745745
       minDuration: 0.28498113
     - name: PC_Grunt
@@ -429,7 +446,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: b30e9167b6117b4a87d23f6422aee3db
       Path: Events\Default Work Unit\PC_Grunt
-      maxAttenuation: 0
+      maxAttenuation: 11
       maxDuration: 0.5955416
       minDuration: 0.35970533
     - name: Roomtone_InStation
@@ -466,7 +483,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: bd428cb4c9012b4d894ca56c14853b25
       Path: Events\Default Work Unit\Weapons\Shuriken
-      maxAttenuation: 0
+      maxAttenuation: 11
       maxDuration: 0.32475585
       minDuration: 0.27132118
     - name: Skeleton_Damage
@@ -483,7 +500,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: b1f67ad55454a7478905de3db5790bec
       Path: Events\Default Work Unit\Skeleton_Damage
-      maxAttenuation: 0
+      maxAttenuation: 11
       maxDuration: 1.10299
       minDuration: 0.57941425
     - name: TitleMusic
@@ -537,7 +554,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: b3809b3a66213d4696a7bdaf53104fa1
       Path: Events\Default Work Unit\Weapons\WoodStick
-      maxAttenuation: 0
+      maxAttenuation: 11
       maxDuration: 0.16462095
       minDuration: 0.13516156
   RtpcWwu:
@@ -597,7 +614,7 @@ MonoBehaviour:
     m_lastTime: -8584541299529406778
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 060000000700000012000000
+  ExpandedWaapiItemIds: 05000000060000000700000012000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
