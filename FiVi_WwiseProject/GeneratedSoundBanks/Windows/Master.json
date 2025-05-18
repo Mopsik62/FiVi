@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C594E5AD-2D3A-463D-864A-C9A3154F7734}",
     "Language": "SFX",
-    "Hash": "{ED1CBDE2-FDF6-9C95-2DDE-C1C1EED2ABD2}",
+    "Hash": "{F83C4E63-8EAE-C30A-AA1E-CC465C0AE42F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -24,12 +24,36 @@
       "CachePath": "09/{09FE1A7C-F0AB-8F58-AD9E-3E128F339086}.wem"
      },
      {
+      "Id": "49287920",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapons\\Shuriken.wav",
+      "CachePath": "CC/{CCFB4952-AF92-0B90-8AFB-DB0A5E9B8ADA}.wem"
+     },
+     {
+      "Id": "63862401",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapons\\WoodStick.wav",
+      "CachePath": "A9/{A9C84CF4-ED39-9AF4-FC6F-C985459AB754}.wem"
+     },
+     {
       "Id": "78355276",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Footstep_Gravel_1.wav",
       "CachePath": "1E/{1E7A060A-E527-5E3D-6FBD-1D78CF62DA8A}.wem"
+     },
+     {
+      "Id": "106752488",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\PC_Death.wav",
+      "CachePath": "EF/{EF345431-3BE3-431C-E950-758B3FECD89F}.wem"
      },
      {
       "Id": "157273063",
@@ -48,12 +72,28 @@
       "CachePath": "8B/{8B5D7AD8-925D-3AE0-C6B8-26BDA8AFF6F5}.wem"
      },
      {
+      "Id": "185383019",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapons\\WoodStick.wav",
+      "CachePath": "33/{3336B4F5-A919-E324-8057-2C5761DCCF63}.wem"
+     },
+     {
       "Id": "201931862",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Music\\Bass_2_1.wav",
       "CachePath": "0D/{0D5E1FD3-12A5-F848-17A7-D77DDCAE1658}.wem"
+     },
+     {
+      "Id": "215558022",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapons\\BottleFly.wav",
+      "CachePath": "16/{16BCDB13-F0AD-DEA5-E702-ED2F3075701E}.wem"
      },
      {
       "Id": "241102469",
@@ -80,6 +120,14 @@
       "CachePath": "C0/{C0A22B9B-4775-2E14-9610-CBECD47FC256}.wem"
      },
      {
+      "Id": "313826726",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapons\\BottleFly.wav",
+      "CachePath": "97/{97AC3A8B-1BC0-480D-8A10-117000166CE0}.wem"
+     },
+     {
       "Id": "327515928",
       "Language": "SFX",
       "Streaming": "false",
@@ -104,6 +152,14 @@
       "CachePath": "4C/{4CF4D2F7-62FE-580C-0E87-570ED11816BC}.wem"
      },
      {
+      "Id": "416472245",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\PC_Grunt.wav",
+      "CachePath": "BD/{BD45D2F5-A00C-21B5-FBCD-BFC550330C86}.wem"
+     },
+     {
       "Id": "441889141",
       "Language": "SFX",
       "Streaming": "false",
@@ -117,7 +173,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ambience\\Ambience, Residential, Living Room, Walla, Distant Traffic SND3546.wav",
-      "CachePath": "7D/{7D98C61D-1C3E-03EF-38C3-52AD907780A6}.wem"
+      "CachePath": "52/{52048F0C-7444-46CE-636B-0AD90A36B198}.wem"
      },
      {
       "Id": "497116076",
@@ -128,12 +184,52 @@
       "CachePath": "4B/{4BD350B7-B7D8-3F4B-1C57-43229FF79593}.wem"
      },
      {
+      "Id": "506401963",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapons\\WoodStick.wav",
+      "CachePath": "D3/{D3170DB7-4A8B-9116-5BD5-44CF98C26540}.wem"
+     },
+     {
+      "Id": "555152150",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapons\\Shuriken.wav",
+      "CachePath": "1E/{1EDCCA56-DFC9-7BED-415E-9F0943041B9A}.wem"
+     },
+     {
+      "Id": "557076928",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapons\\WoodStick.wav",
+      "CachePath": "50/{504EA232-9558-4930-5CEC-8E6AA5FF1D44}.wem"
+     },
+     {
+      "Id": "584105805",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\PC_Grunt.wav",
+      "CachePath": "3E/{3E4C429D-4B24-C18E-D3B8-10E2FB3DB186}.wem"
+     },
+     {
       "Id": "585784865",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Music\\HubMusic_1.wav",
       "CachePath": "6D/{6D5ED0A1-2535-EB76-0286-C99BA90DCF73}.wem"
+     },
+     {
+      "Id": "614956716",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\PC_Grunt.wav",
+      "CachePath": "15/{15479AF9-D3F7-B067-65F6-F2677D8CE68E}.wem"
      },
      {
       "Id": "657637022",
@@ -160,12 +256,28 @@
       "CachePath": "D9/{D9548A21-B4D2-D784-E3E1-BDBEC6CE3ABB}.wem"
      },
      {
+      "Id": "685176563",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapons\\BottleBlast.wav",
+      "CachePath": "4B/{4BB58AFB-C7BF-2D2C-D1C5-58FCFFB4AF06}.wem"
+     },
+     {
       "Id": "688051386",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Music\\Piccalo.wav",
       "CachePath": "8C/{8C9497E3-98CF-3C0B-0D42-768A2FD67093}.wem"
+     },
+     {
+      "Id": "690813014",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\PC_Grunt.wav",
+      "CachePath": "A5/{A507E61B-0EB8-BC32-E72C-8A38482EF2B3}.wem"
      },
      {
       "Id": "701907354",
@@ -200,12 +312,28 @@
       "CachePath": "84/{840DF9BE-DDBC-E8A2-D335-615B5221CAA5}.wem"
      },
      {
+      "Id": "728949532",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Skeleton_damage.wav",
+      "CachePath": "5C/{5CCDCD55-CD50-5BFB-D340-64C82110CC0C}.wem"
+     },
+     {
       "Id": "767041445",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Footstep_Gravel_1.wav",
       "CachePath": "A4/{A429AB9E-4A44-22A9-6DAE-E12573A22DCC}.wem"
+     },
+     {
+      "Id": "811800656",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapons\\BottleFly.wav",
+      "CachePath": "67/{67942603-5B54-3AE9-04AF-E4F8B6133946}.wem"
      },
      {
       "Id": "825770557",
@@ -216,12 +344,36 @@
       "CachePath": "43/{437768AB-CE00-D13F-0D22-D73B9BDC35C3}.wem"
      },
      {
+      "Id": "842515526",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\PC_Death.wav",
+      "CachePath": "06/{06F4A0D0-FD8C-25B6-B9F7-8CA31179A1F7}.wem"
+     },
+     {
       "Id": "844705080",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Music\\Melody_Post.wav",
       "CachePath": "D9/{D9AE4D2D-88E2-3227-CFD3-7FBF79B29E68}.wem"
+     },
+     {
+      "Id": "847162799",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Skeleton_damage.wav",
+      "CachePath": "3E/{3E6C3DB5-10F2-264A-E2A3-076402D57E1C}.wem"
+     },
+     {
+      "Id": "869828579",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapons\\BottleFly.wav",
+      "CachePath": "CC/{CC95C1A1-3C37-32BD-646F-F94EA8E3436B}.wem"
      },
      {
       "Id": "873090363",
@@ -232,12 +384,36 @@
       "CachePath": "8F/{8FE4D04B-DE24-1DA0-3621-118831DB27CC}.wem"
      },
      {
+      "Id": "882086869",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\PC_Grunt.wav",
+      "CachePath": "72/{72BC607A-EDFD-19EA-EE63-83887CBA242B}.wem"
+     },
+     {
+      "Id": "901239721",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\PC_Grunt.wav",
+      "CachePath": "33/{337A0C46-A3FE-FB59-B4E9-EA8481D0E97C}.wem"
+     },
+     {
       "Id": "950680603",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Music\\Melody_2.wav",
       "CachePath": "CD/{CD8E2F44-5DBE-09CF-0DDA-7ABD835F0F01}.wem"
+     },
+     {
+      "Id": "960479174",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Skeleton_damage.wav",
+      "CachePath": "D7/{D7D2C8A1-19C4-767E-376D-891B0F9E7F89}.wem"
      },
      {
       "Id": "981645837",
@@ -256,12 +432,44 @@
       "CachePath": "F9/{F9B3838A-516D-A886-A473-FE38A0304CDE}.wem"
      },
      {
+      "Id": "1018507462",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\PC_Death.wav",
+      "CachePath": "EF/{EF0AF3BE-2C00-56DB-867F-514FA1C2826C}.wem"
+     },
+     {
       "Id": "1019966463",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Footstep_Concrete_1.wav",
       "CachePath": "03/{0333E866-34DD-9F86-13A8-DABF20257A31}.wem"
+     },
+     {
+      "Id": "1025239225",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Skeleton_damage.wav",
+      "CachePath": "0A/{0AA651AA-1725-F944-A80C-7CF29B5B2F79}.wem"
+     },
+     {
+      "Id": "1027917780",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapons\\BottleBlast.wav",
+      "CachePath": "F2/{F2EE3750-70CF-44A7-545D-AD869CC23663}.wem"
+     },
+     {
+      "Id": "1050739881",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Skeleton_damage.wav",
+      "CachePath": "30/{300508FD-CCF6-9A12-3547-18194BBC6675}.wem"
      },
      {
       "Id": "1066979003",
@@ -273,6 +481,46 @@
      }
     ],
     "Events": [
+     {
+      "Id": "791831159",
+      "Name": "Bottle_Fly",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Bottle_Fly",
+      "GUID": "{AB5434FC-E362-4C6F-8B0A-14E52DD0DB73}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25413966",
+      "DurationMax": "0.45606422",
+      "MediaRefs": [
+       {
+        "Id": "215558022"
+       },
+       {
+        "Id": "313826726"
+       },
+       {
+        "Id": "811800656"
+       },
+       {
+        "Id": "869828579"
+       }
+      ]
+     },
+     {
+      "Id": "4102728337",
+      "Name": "BottleBlow",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\BottleBlow",
+      "GUID": "{674C8E5D-B1B1-4C56-9A36-9C85245A06D6}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1792347",
+      "DurationMax": "1.2065737",
+      "MediaRefs": [
+       {
+        "Id": "685176563"
+       },
+       {
+        "Id": "1027917780"
+       }
+      ]
+     },
      {
       "Id": "3890691062",
       "Name": "FightMusic",
@@ -414,6 +662,55 @@
       "DurationMax": "0"
      },
      {
+      "Id": "2669613969",
+      "Name": "PC_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\PC_Death",
+      "GUID": "{94CAE852-A14C-44EC-A7E2-137D60FAB114}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.28498113",
+      "DurationMax": "0.86745745",
+      "MediaRefs": [
+       {
+        "Id": "106752488"
+       },
+       {
+        "Id": "842515526"
+       },
+       {
+        "Id": "1018507462"
+       }
+      ]
+     },
+     {
+      "Id": "1010108969",
+      "Name": "PC_Grunt",
+      "ObjectPath": "\\Events\\Default Work Unit\\PC_Grunt",
+      "GUID": "{67910EB3-11B6-4A7B-87D2-3F6422AEE3DB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.35970533",
+      "DurationMax": "0.5955416",
+      "MediaRefs": [
+       {
+        "Id": "416472245"
+       },
+       {
+        "Id": "584105805"
+       },
+       {
+        "Id": "614956716"
+       },
+       {
+        "Id": "690813014"
+       },
+       {
+        "Id": "882086869"
+       },
+       {
+        "Id": "901239721"
+       }
+      ]
+     },
+     {
       "Id": "3722638038",
       "Name": "Roomtone_InStation",
       "ObjectPath": "\\Events\\Default Work Unit\\Roomtone_InStation",
@@ -422,6 +719,49 @@
       "MediaRefs": [
        {
         "Id": "483544645"
+       }
+      ]
+     },
+     {
+      "Id": "618185232",
+      "Name": "Shuriken",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Shuriken",
+      "GUID": "{B48C42BD-01C9-4D2B-894C-A56C14853B25}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.27132118",
+      "DurationMax": "0.32475585",
+      "MediaRefs": [
+       {
+        "Id": "49287920"
+       },
+       {
+        "Id": "555152150"
+       }
+      ]
+     },
+     {
+      "Id": "4168167072",
+      "Name": "Skeleton_Damage",
+      "ObjectPath": "\\Events\\Default Work Unit\\Skeleton_Damage",
+      "GUID": "{D57AF6B1-5454-47A7-8905-DE3DB5790BEC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.57941425",
+      "DurationMax": "1.10299",
+      "MediaRefs": [
+       {
+        "Id": "728949532"
+       },
+       {
+        "Id": "847162799"
+       },
+       {
+        "Id": "960479174"
+       },
+       {
+        "Id": "1025239225"
+       },
+       {
+        "Id": "1050739881"
        }
       ]
      },
@@ -438,10 +778,33 @@
         "Id": "327515928"
        }
       ]
+     },
+     {
+      "Id": "2776421058",
+      "Name": "WoodStick",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\WoodStick",
+      "GUID": "{3A9B80B3-2166-463D-96A7-BDAF53104FA1}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.13516156",
+      "DurationMax": "0.16462095",
+      "MediaRefs": [
+       {
+        "Id": "63862401"
+       },
+       {
+        "Id": "185383019"
+       },
+       {
+        "Id": "506401963"
+       },
+       {
+        "Id": "557076928"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{349A00BC-AD47-A4A5-CC74-FCD7A980C52F}"
+  "FileHash": "{ED1466D2-619B-2B07-D3B6-B94EA67AB4E9}"
  }
 }

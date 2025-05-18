@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: af9ef6b773861c468badc5ba8e6cbc60
     GuidInternal: 
-    m_lastTime: -8584541299529406778
+    m_lastTime: -8584541924722234445
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,8 +38,185 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6a6ce2c5f227ad4db4c3f6d47169f9fb
     GuidInternal: 
-    m_lastTime: -8584541299531218128
+    m_lastTime: -8584541022770183259
     List:
+    - name: 010_Damage
+      guid: 58adffff5f021b4399ff9fdb2d4d7a45
+      id: 3352106140
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6a6ce2c5f227ad4db4c3f6d47169f9fb
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: HDR
+        ObjectType: 2
+        guid: 3ced4db26c83b245afbab2cde0427c1c
+      - ElementName: 010_Damage
+        ObjectType: 2
+        guid: 58adffff5f021b4399ff9fdb2d4d7a45
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR\010_Damage
+    - name: 015_Death
+      guid: 9c2ceca32e23eb47a001c75cb62e53ed
+      id: 1466525618
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6a6ce2c5f227ad4db4c3f6d47169f9fb
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: HDR
+        ObjectType: 2
+        guid: 3ced4db26c83b245afbab2cde0427c1c
+      - ElementName: 015_Death
+        ObjectType: 2
+        guid: 9c2ceca32e23eb47a001c75cb62e53ed
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR\015_Death
+    - name: 020_Weapon
+      guid: e6db6f3150186740bfc3dcaa559bc779
+      id: 1560912036
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6a6ce2c5f227ad4db4c3f6d47169f9fb
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: HDR
+        ObjectType: 2
+        guid: 3ced4db26c83b245afbab2cde0427c1c
+      - ElementName: 020_Weapon
+        ObjectType: 2
+        guid: e6db6f3150186740bfc3dcaa559bc779
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR\020_Weapon
+    - name: 025_DeathNPC
+      guid: 7a8a09b74df4e54ebd262c85123bce1f
+      id: 131954248
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6a6ce2c5f227ad4db4c3f6d47169f9fb
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: HDR
+        ObjectType: 2
+        guid: 3ced4db26c83b245afbab2cde0427c1c
+      - ElementName: 025_DeathNPC
+        ObjectType: 2
+        guid: 7a8a09b74df4e54ebd262c85123bce1f
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR\025_DeathNPC
+    - name: 030_DamageNPC
+      guid: 11f4624bb76a614894731bb41bb91385
+      id: 1612405135
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6a6ce2c5f227ad4db4c3f6d47169f9fb
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: HDR
+        ObjectType: 2
+        guid: 3ced4db26c83b245afbab2cde0427c1c
+      - ElementName: 030_DamageNPC
+        ObjectType: 2
+        guid: 11f4624bb76a614894731bb41bb91385
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR\030_DamageNPC
+    - name: 035_LocomotionPC
+      guid: 2f30f126478a584fbbd23d93f6d919ae
+      id: 2187031070
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6a6ce2c5f227ad4db4c3f6d47169f9fb
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: HDR
+        ObjectType: 2
+        guid: 3ced4db26c83b245afbab2cde0427c1c
+      - ElementName: 035_LocomotionPC
+        ObjectType: 2
+        guid: 2f30f126478a584fbbd23d93f6d919ae
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR\035_LocomotionPC
+    - name: 040_LocomotionNPC
+      guid: 758e4466a2d3cc45b25d5030dedcd1c2
+      id: 1265358838
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6a6ce2c5f227ad4db4c3f6d47169f9fb
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: HDR
+        ObjectType: 2
+        guid: 3ced4db26c83b245afbab2cde0427c1c
+      - ElementName: 040_LocomotionNPC
+        ObjectType: 2
+        guid: 758e4466a2d3cc45b25d5030dedcd1c2
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR\040_LocomotionNPC
+    - name: AmbMusic
+      guid: f81506e72d525a4e8667605ac2d28ffa
+      id: 3402181612
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6a6ce2c5f227ad4db4c3f6d47169f9fb
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: HDR
+        ObjectType: 2
+        guid: 3ced4db26c83b245afbab2cde0427c1c
+      - ElementName: AmbMusic
+        ObjectType: 2
+        guid: f81506e72d525a4e8667605ac2d28ffa
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR\AmbMusic
+    - name: HDR
+      guid: 3ced4db26c83b245afbab2cde0427c1c
+      id: 931844945
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6a6ce2c5f227ad4db4c3f6d47169f9fb
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: HDR
+        ObjectType: 2
+        guid: 3ced4db26c83b245afbab2cde0427c1c
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -66,7 +243,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 93eb270d32397249aa8936b38f3844ba
     GuidInternal: 
-    m_lastTime: -8584541299529406778
+    m_lastTime: -8584541923100538834
     List:
     - name: Master
       guid: ade594c53a2d3d46864ac9a3154f7734
@@ -94,8 +271,48 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b9a82131b0108d4d9d4791abff6d5615
     GuidInternal: 
-    m_lastTime: -8584541085920848497
+    m_lastTime: -8584540991422538400
     List:
+    - name: Bottle_Fly
+      guid: fc3454ab62e36f4c8b0a14e52dd0db73
+      id: 791831159
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: e72b302339156a49bdd8da40df588e1f
+      - ElementName: Bottle_Fly
+        ObjectType: 3
+        guid: fc3454ab62e36f4c8b0a14e52dd0db73
+      Path: Events\Default Work Unit\Weapons\Bottle_Fly
+      maxAttenuation: 0
+      maxDuration: 0.45606422
+      minDuration: 0.25413966
+    - name: BottleBlow
+      guid: 5d8e4c67b1b1564c9a369c85245a06d6
+      id: 4102728337
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: e72b302339156a49bdd8da40df588e1f
+      - ElementName: BottleBlow
+        ObjectType: 3
+        guid: 5d8e4c67b1b1564c9a369c85245a06d6
+      Path: Events\Default Work Unit\Weapons\BottleBlow
+      maxAttenuation: 0
+      maxDuration: 1.2065737
+      minDuration: 1.1792347
     - name: FightMusic
       guid: 2ce91e5ac276b946a5f5d211cf9c9c84
       id: 3890691062
@@ -181,6 +398,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: PC_Death
+      guid: 52e8ca944ca1ec44a7e2137d60fab114
+      id: 2669613969
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: PC_Death
+        ObjectType: 3
+        guid: 52e8ca944ca1ec44a7e2137d60fab114
+      Path: Events\Default Work Unit\PC_Death
+      maxAttenuation: 0
+      maxDuration: 0.86745745
+      minDuration: 0.28498113
+    - name: PC_Grunt
+      guid: b30e9167b6117b4a87d23f6422aee3db
+      id: 1010108969
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: PC_Grunt
+        ObjectType: 3
+        guid: b30e9167b6117b4a87d23f6422aee3db
+      Path: Events\Default Work Unit\PC_Grunt
+      maxAttenuation: 0
+      maxDuration: 0.5955416
+      minDuration: 0.35970533
     - name: Roomtone_InStation
       guid: 6296b6409d21ac4ca4646620d96d7a1a
       id: 3722638038
@@ -198,6 +449,43 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Shuriken
+      guid: bd428cb4c9012b4d894ca56c14853b25
+      id: 618185232
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: e72b302339156a49bdd8da40df588e1f
+      - ElementName: Shuriken
+        ObjectType: 3
+        guid: bd428cb4c9012b4d894ca56c14853b25
+      Path: Events\Default Work Unit\Weapons\Shuriken
+      maxAttenuation: 0
+      maxDuration: 0.32475585
+      minDuration: 0.27132118
+    - name: Skeleton_Damage
+      guid: b1f67ad55454a7478905de3db5790bec
+      id: 4168167072
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Skeleton_Damage
+        ObjectType: 3
+        guid: b1f67ad55454a7478905de3db5790bec
+      Path: Events\Default Work Unit\Skeleton_Damage
+      maxAttenuation: 0
+      maxDuration: 1.10299
+      minDuration: 0.57941425
     - name: TitleMusic
       guid: 50dc945ea2f1c54eba91bf3d1c2e564f
       id: 2191159630
@@ -215,6 +503,43 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 14.567481
       minDuration: 14.567481
+    - name: Weapons
+      guid: e72b302339156a49bdd8da40df588e1f
+      id: 1467963052
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: e72b302339156a49bdd8da40df588e1f
+      Path: Events\Default Work Unit\Weapons
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: WoodStick
+      guid: b3809b3a66213d4696a7bdaf53104fa1
+      id: 2776421058
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: e72b302339156a49bdd8da40df588e1f
+      - ElementName: WoodStick
+        ObjectType: 3
+        guid: b3809b3a66213d4696a7bdaf53104fa1
+      Path: Events\Default Work Unit\Weapons\WoodStick
+      maxAttenuation: 0
+      maxDuration: 0.16462095
+      minDuration: 0.13516156
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -227,7 +552,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: bf14225ef3a94e46ae032c0d4599e5b1
     GuidInternal: 
-    m_lastTime: -8584541299532189986
+    m_lastTime: -8584541924723288769
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -241,7 +566,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: c71f40cd9818ce468b3d275e0fb00b3e
     GuidInternal: 
-    m_lastTime: -8584541299529406778
+    m_lastTime: -8584541924724203304
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -255,7 +580,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: b477f891798df14b8e70d896c473f622
     GuidInternal: 
-    m_lastTime: -8584541299529406778
+    m_lastTime: -8584541924723162121
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -269,10 +594,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 68392e7891cd1245b325de71ad9c106d
     GuidInternal: 
-    m_lastTime: -8584541299529406778
+    m_lastTime: -8584541924722469712
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000d0000000e0000000f000000100000001500000016000000
+  ExpandedWaapiItemIds: 060000000700000012000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

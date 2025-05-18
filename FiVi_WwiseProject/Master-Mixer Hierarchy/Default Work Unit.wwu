@@ -9,6 +9,109 @@
 							<ObjectRef Name="System" ID="{6A465309-4F01-49EB-8DE5-571DFDECD11E}" WorkUnitID="{B387A2B3-D02D-4FF3-A37F-F594FE7CA9BE}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="HDR" ID="{B24DED3C-836C-45B2-AFBA-B2CDE0427C1C}">
+							<PropertyList>
+								<Property Name="HdrEnable" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="010_Damage" ID="{FFFFAD58-025F-431B-99FF-9FDB2D4D7A45}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Color" Type="int16" Value="10"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="015_Death" ID="{A3EC2C9C-232E-47EB-A001-C75CB62E53ED}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Color" Type="int16" Value="23"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="020_Weapon" ID="{316FDBE6-1850-4067-BFC3-DCAA559BC779}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Color" Type="int16" Value="21"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="025_DeathNPC" ID="{B7098A7A-F44D-4EE5-BD26-2C85123BCE1F}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Color" Type="int16" Value="2"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="030_DamageNPC" ID="{4B62F411-6AB7-4861-9473-1BB41BB91385}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="035_LocomotionPC" ID="{26F1302F-8A47-4F58-BBD2-3D93F6D919AE}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Color" Type="int16" Value="14"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="040_LocomotionNPC" ID="{66448E75-D3A2-45CC-B25D-5030DEDCD1C2}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Color" Type="int16" Value="16"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="AmbMusic" ID="{E70615F8-522D-4E5A-8667-605AC2D28FFA}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
