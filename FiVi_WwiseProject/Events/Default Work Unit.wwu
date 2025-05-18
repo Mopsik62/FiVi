@@ -70,6 +70,87 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PC_Death" ID="{94CAE852-A14C-44EC-A7E2-137D60FAB114}">
+					<ChildrenList>
+						<Action Name="" ID="{DDDC7D6D-7FE2-489D-8A5A-927547F15B06}" ShortID="210523466">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PC_death" ID="{CA57C7C7-0ECC-47B0-96D6-8432F76DD2D7}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PC_Grunt" ID="{67910EB3-11B6-4A7B-87D2-3F6422AEE3DB}">
+					<ChildrenList>
+						<Action Name="" ID="{CE404A2F-385B-40E6-AAF1-A43789747A07}" ShortID="458692149">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PC_Grunt" ID="{CAA7017E-1E28-4CA3-97A7-6D80C7551538}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Skeleton_Damage" ID="{D57AF6B1-5454-47A7-8905-DE3DB5790BEC}">
+					<ChildrenList>
+						<Action Name="" ID="{37BE1ACA-15A3-4102-BE4D-1B0FB410BDA3}" ShortID="675950469">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Skeleton_Damage" ID="{9B25C0A3-EB6A-475A-BEAD-53551F3AB2B7}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Weapons" ID="{23302BE7-1539-496A-BDD8-DA40DF588E1F}" ShortID="729007016">
+					<ChildrenList>
+						<Event Name="WoodStick" ID="{3A9B80B3-2166-463D-96A7-BDAF53104FA1}">
+							<ChildrenList>
+								<Action Name="" ID="{00682B61-927E-4E1C-AD95-DB3FAE45F769}" ShortID="348304135">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stick" ID="{1489BC50-5492-4F3E-BB8A-EC35BFFC431C}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Shuriken" ID="{B48C42BD-01C9-4D2B-894C-A56C14853B25}">
+							<ChildrenList>
+								<Action Name="" ID="{55DB7B62-5194-48BD-833B-75ACC1ACAA29}" ShortID="894694170">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Shuriken" ID="{E7F1B532-8D73-4B34-9A4C-06991E16E350}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Bottle_Fly" ID="{AB5434FC-E362-4C6F-8B0A-14E52DD0DB73}">
+							<ChildrenList>
+								<Action Name="" ID="{C5777CE3-7705-4B85-92AD-18892EAC3878}" ShortID="291328977">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bottle_Fly" ID="{39D094DC-FEFD-4661-BE5D-C93968265AA1}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BottleBlow" ID="{674C8E5D-B1B1-4C56-9A36-9C85245A06D6}">
+							<ChildrenList>
+								<Action Name="" ID="{86727F88-E61B-4228-916E-4B1292ED51DB}" ShortID="506674081">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BottleBlast" ID="{0CCAE048-EC33-4D74-B03B-99849EF1D59F}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

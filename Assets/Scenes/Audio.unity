@@ -344,51 +344,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6589609721969439574, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6820488519569456617}
-    - targetCorrespondingSourceObject: {fileID: 6589609721969439574, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6820488519569456618}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
---- !u!1 &6820488519569456616 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6589609721969439574, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
-  m_PrefabInstance: {fileID: 6820488519569456615}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6820488519569456617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6820488519569456616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7ce27081fc2c3447be89c9454cd78a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FightMusiclEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 6d89355d3a21fb4479bde88b883077b8, type: 2}
---- !u!114 &6820488519569456618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6820488519569456616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ecad09d54385bf42b068cf9740ce6cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HubMusiclEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 9eea02029e22f4b438fab60160403a90, type: 2}
 --- !u!1001 &7745756571248244355
 PrefabInstance:
   m_ObjectHideFlags: 0

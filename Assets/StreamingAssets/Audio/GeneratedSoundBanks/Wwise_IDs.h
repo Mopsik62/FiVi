@@ -13,13 +13,20 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BOTTLE_FLY = 791831159U;
+        static const AkUniqueID BOTTLEBLOW = 4102728337U;
         static const AkUniqueID FIGHTMUSIC = 3890691062U;
         static const AkUniqueID FOOTSTEPS_CONCRETE = 82718740U;
         static const AkUniqueID FOOTSTEPS_GRAVEL = 1676031848U;
         static const AkUniqueID HUBMUSIC = 3446858831U;
         static const AkUniqueID MUSIC_FIGHT = 962867917U;
+        static const AkUniqueID PC_DEATH = 2669613969U;
+        static const AkUniqueID PC_GRUNT = 1010108969U;
         static const AkUniqueID ROOMTONE_INSTATION = 3722638038U;
+        static const AkUniqueID SHURIKEN = 618185232U;
+        static const AkUniqueID SKELETON_DAMAGE = 4168167072U;
         static const AkUniqueID TITLEMUSIC = 2191159630U;
+        static const AkUniqueID WOODSTICK = 2776421058U;
     } // namespace EVENTS
 
     namespace BANKS
@@ -30,6 +37,15 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID _010_DAMAGE = 3352106140U;
+        static const AkUniqueID _015_DEATH = 1466525618U;
+        static const AkUniqueID _020_WEAPON = 1560912036U;
+        static const AkUniqueID _025_DEATHNPC = 131954248U;
+        static const AkUniqueID _030_DAMAGENPC = 1612405135U;
+        static const AkUniqueID _035_LOCOMOTIONPC = 2187031070U;
+        static const AkUniqueID _040_LOCOMOTIONNPC = 1265358838U;
+        static const AkUniqueID AMBMUSIC = 3402181612U;
+        static const AkUniqueID HDR = 931844945U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
 
