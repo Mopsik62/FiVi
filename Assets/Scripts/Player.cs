@@ -112,7 +112,7 @@ public class Player : MonoBehaviour
             isAttacking = true;
             animator.Play("Attack");
 
-            Invoke(nameof(EndAttack), 0.15f);
+            Invoke(nameof(EndAttack), 0.2f);
         }
     }
 
