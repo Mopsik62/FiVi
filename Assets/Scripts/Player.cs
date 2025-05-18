@@ -11,9 +11,14 @@ public class Player : MonoBehaviour
     [SerializeField]
     private Footsteps_Concrete _footsteps;
     [SerializeField]
-    private float _footsteps_cooldown = 0.9f; //время аниматора для 1 шага
+    private Footsteps_Gravel _footsteps_gravel;
+    [SerializeField]
+    private WoodStickHit _woodenStickHit;
+    [SerializeField]
+    private float _footsteps_cooldown; //время аниматора для 1 шага
     private float _footsteps_timer;
     private bool isAttacking = false;
+    public bool canMove = true;
 
 
     void Awake()
@@ -47,7 +52,7 @@ public class Player : MonoBehaviour
     {
         moveInput.x = Input.GetAxisRaw("Horizontal");
         moveInput.y = Input.GetAxisRaw("Vertical");
-
+        if (!canMove) return;
         if (!isAttacking)
         {
             AnimateMovement();
@@ -61,6 +66,7 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (!canMove) return;
         Move();
     }
 
@@ -73,7 +79,15 @@ public class Player : MonoBehaviour
            //Debug.Log(_footsteps_timer);
             if (_footsteps_timer >= _footsteps_cooldown)
             {
-                _footsteps.footstepConcreteEvent.Post(gameObject);
+                switch (GameManager.instance.CurrentLocationName)
+                {
+                    case "Hub":
+                        _footsteps.footstepConcreteEvent.Post(gameObject);
+                        break;
+                    case "Level 1":
+                        _footsteps_gravel.footstepGravelEvent.Post(gameObject);
+                        break;
+                }
                 _footsteps_timer = 0;
                 //Debug.Log("dsad");
             }
@@ -111,8 +125,8 @@ public class Player : MonoBehaviour
         {
             isAttacking = true;
             animator.Play("Attack");
-
-            Invoke(nameof(EndAttack), 0.15f);
+            _woodenStickHit.WoodStickHitEvent.Post(gameObject);
+            Invoke(nameof(EndAttack), 0.2f);
         }
     }
 

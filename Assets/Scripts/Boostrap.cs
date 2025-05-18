@@ -22,9 +22,9 @@ public class Boostrap : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         Debug.Log("BOOSTRAP scene loaded: " + scene.name);
-        StartCoroutine(SetupConfinerDelayed());
+        StartCoroutine(SetupScene());
     }
-    IEnumerator SetupConfinerDelayed()
+    IEnumerator SetupScene()
     {
         yield return null;
 
