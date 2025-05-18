@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     private float _footsteps_cooldown = 0.9f; //время аниматора для 1 шага
     private float _footsteps_timer;
     private bool isAttacking = false;
+    public bool canMove = true;
 
 
     void Awake()
@@ -47,7 +48,7 @@ public class Player : MonoBehaviour
     {
         moveInput.x = Input.GetAxisRaw("Horizontal");
         moveInput.y = Input.GetAxisRaw("Vertical");
-
+        if (!canMove) return;
         if (!isAttacking)
         {
             AnimateMovement();
@@ -61,6 +62,7 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (!canMove) return;
         Move();
     }
 
