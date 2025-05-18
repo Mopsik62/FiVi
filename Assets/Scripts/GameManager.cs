@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
                 break;
             case InteractableType.Teleport:
                 interactable.Teleport();
-
+                NextProgression();
                 break;
         }
     }
