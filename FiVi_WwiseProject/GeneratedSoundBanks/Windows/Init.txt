@@ -1,4 +1,13 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	131954248	025_DeathNPC			\Default Work Unit\Master Audio Bus\HDR\025_DeathNPC	
+	931844945	HDR			\Default Work Unit\Master Audio Bus\HDR	
+	1265358838	040_LocomotionNPC			\Default Work Unit\Master Audio Bus\HDR\040_LocomotionNPC	
+	1466525618	015_Death			\Default Work Unit\Master Audio Bus\HDR\015_Death	
+	1560912036	020_Weapon			\Default Work Unit\Master Audio Bus\HDR\020_Weapon	
+	1612405135	030_DamageNPC			\Default Work Unit\Master Audio Bus\HDR\030_DamageNPC	
+	2187031070	035_LocomotionPC			\Default Work Unit\Master Audio Bus\HDR\035_LocomotionPC	
+	3352106140	010_Damage			\Default Work Unit\Master Audio Bus\HDR\010_Damage	
+	3402181612	AmbMusic			\Default Work Unit\Master Audio Bus\HDR\AmbMusic	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes
