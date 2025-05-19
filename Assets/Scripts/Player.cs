@@ -26,6 +26,7 @@ public class Player : Fighter
     private float _footsteps_cooldown; //время аниматора для 1 шага
     private float _footsteps_timer;
 
+    public bool _canAttack = false;
     private bool isAttacking = false;
     public bool canMove = true;
 
@@ -135,6 +136,8 @@ public class Player : Fighter
     }
     public void Attack()
     {
+        if (!_canAttack)
+            return;
         if (!isAttacking)
         {
             _curWeapon.Attack();

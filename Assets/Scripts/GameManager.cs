@@ -1,6 +1,8 @@
 using UnityEngine;
 using TMPro;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -29,9 +31,29 @@ public class GameManager : MonoBehaviour
 
     protected void Awake()
     {
-        instance = this;
-        SetLocationName("Hub");
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
         NextProgression();
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
+
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        SetLocationName(scene.name);
+        Debug.Log("GAMEMANAGER LOAD SCENE");
     }
 
     public void StartInteract(GameObject currentInteractable)
@@ -100,9 +122,11 @@ public class GameManager : MonoBehaviour
                 ResetSound();
                 _hub_music.HubMusiclEvent.Post(gameObject);
                 _roomTone.RoomToneInStationlEvent.Post(gameObject);
+                Player.instance._canAttack = false;
                 break;
             case "Level 1":
                 ResetSound();
+                Player.instance._canAttack = true;
                 _fight_music.FightMusiclEvent.Post(gameObject);
                 break;
         }

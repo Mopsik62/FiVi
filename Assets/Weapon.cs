@@ -20,7 +20,7 @@ public class Weapon : MonoBehaviour
     }
     protected void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("ÓÄÀÐÈÄË (ענטדדונ)");
+        //Debug.Log("ÓÄÀÐÈÄË (ענטדדונ)");
         if (other.CompareTag("Fighter"))
         {
             Damage dmg = new()

@@ -5,6 +5,8 @@ public class Skeleton : Fighter
 {
     [SerializeField]
     private Skeleton_Damage _damageSound;
+    [SerializeField]
+    private Skeleton_death _skeletonDeath;
     private Animator animator;
     private Transform player;
     private bool Dyuing = false;
@@ -19,6 +21,7 @@ public class Skeleton : Fighter
     {
         base.Death();
         Dyuing = true;
+        _skeletonDeath.SkeletonDeathEvent.Post(gameObject);
         _boxCollider.enabled = false;
         animator.SetTrigger("Death");
         StartCoroutine(DelayedDeath(1f));
