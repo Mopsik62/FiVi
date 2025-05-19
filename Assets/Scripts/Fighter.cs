@@ -5,7 +5,8 @@ public class Fighter : MonoBehaviour
     //HP BASICS
     public float curHp = 1;
     public float maxHp = 1;
-
+    [SerializeField]
+    protected Collider2D _boxCollider;
     //KNOCKBACK BASICS
     protected Vector3 pushDirection;
     public float pushRecoverySpeed = 1f;
@@ -17,8 +18,9 @@ public class Fighter : MonoBehaviour
     protected virtual void Awake()
     {
         lastImmune = Time.time;
+        _boxCollider = GetComponent<Collider2D>();
     }
-    public void ReciveDamage(Damage dmg)
+    public virtual void ReciveDamage(Damage dmg)
     {
         // Debug.Log(dmg);
         // Debug.Log(Time.time + " VERSUS " + lastImmune);
