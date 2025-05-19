@@ -279,8 +279,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 465f24ea6db8bf44fb6fdf628eb324c6, type: 2}
+  m_sharedMaterial: {fileID: -4848641029276054947, guid: 465f24ea6db8bf44fb6fdf628eb324c6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1393,7 +1393,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 465f24ea6db8bf44fb6fdf628eb324c6, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1459,7 +1459,7 @@ MonoBehaviour:
   m_margin: {x: -830.3336, y: -35.937057, z: -837.8345, w: -50.978333}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &591034566
@@ -2032,10 +2032,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lines:
-  - "\u041F\u0440\u0438\u0432\u0435\u0442"
-  - "\u0422\u044B \u043B\u043E\u0445"
-  - "\u0427\u043C\u043E"
-  - "\u041D\u0430 \u0431\u0438\u043B\u0435\u0442"
+  - "\u0422\u044B \u0437\u0430\u043F\u043B\u0443\u0442\u0430\u043B, \u043F\u0443\u0442\u043D\u0438\u043A? "
+  - "\u0422\u0430\u043A \u0438 \u0431\u044B\u0442\u044C, \u044F \u0442\u0435\u0431\u0435
+    \u043F\u043E\u043C\u043E\u0433\u0443. \u0414\u0435\u0440\u0436\u0438 \u0431\u0438\u043B\u0435\u0442,
+    \u043E\u043D \u043F\u043E\u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044F
+    \u0442\u0435\u0431\u0435, \u0447\u0442\u043E\u0431\u044B \u0434\u043E\u0431\u0440\u0430\u0442\u044C\u0441\u044F
+    \u0434\u043E \u0447\u0443\u0434\u043E\u0432\u0438\u0449"
+  - "\u0412 \u0434\u043E\u0431\u0440\u044B\u0439 \u043F\u0443\u0442\u044C, \u043F\u0443\u0442\u043D\u0438\u043A!"
 --- !u!1 &866207587
 GameObject:
   m_ObjectHideFlags: 0
@@ -2562,8 +2565,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u0417\u0430\u0434\u0430\u043D\u0438\u0435:"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 465f24ea6db8bf44fb6fdf628eb324c6, type: 2}
+  m_sharedMaterial: {fileID: -4848641029276054947, guid: 465f24ea6db8bf44fb6fdf628eb324c6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
