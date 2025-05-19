@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C594E5AD-2D3A-463D-864A-C9A3154F7734}",
     "Language": "SFX",
-    "Hash": "{1E2F992A-42B7-C092-2CEC-F96958B7A931}",
+    "Hash": "{A570072C-A978-8692-230F-7E6AD54BA7AB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -128,6 +128,14 @@
       "CachePath": "6F/{6FAD8B1F-CFBD-48E3-F2B5-40A8A98420D8}.wem"
      },
      {
+      "Id": "321062627",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\skeleton-dying.wav",
+      "CachePath": "76/{76323CAD-02B8-9350-0703-B46F7B717A54}.wem"
+     },
+     {
       "Id": "327515928",
       "Language": "SFX",
       "Streaming": "false",
@@ -222,6 +230,14 @@
       "Location": "Memory",
       "ShortName": "Music\\HubMusic_1.wav",
       "CachePath": "6D/{6D5ED0A1-2535-EB76-0286-C99BA90DCF73}.wem"
+     },
+     {
+      "Id": "595724863",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Creatures, Humanoid, Zombie, Male, Death Groan SND22546 3.wav",
+      "CachePath": "FA/{FA51D2A8-DF3D-87A9-434A-69307A4B59E1}.wem"
      },
      {
       "Id": "614956716",
@@ -376,6 +392,14 @@
       "CachePath": "43/{43C982F5-D6D1-28EC-BA09-3E878B060C94}.wem"
      },
      {
+      "Id": "849721655",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Creatures, Humanoid, Zombie, Male, Death Groan SND22546 3.wav",
+      "CachePath": "0E/{0E55A853-62DC-15DF-0398-635FFA8C8064}.wem"
+     },
+     {
       "Id": "869828579",
       "Language": "SFX",
       "Streaming": "false",
@@ -514,7 +538,7 @@
       "Name": "Bottle_Fly",
       "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Bottle_Fly",
       "GUID": "{AB5434FC-E362-4C6F-8B0A-14E52DD0DB73}",
-      "MaxAttenuation": "11",
+      "MaxAttenuation": "10",
       "DurationType": "OneShot",
       "DurationMin": "0.25413966",
       "DurationMax": "0.45606422",
@@ -538,7 +562,7 @@
       "Name": "BottleBlow",
       "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\BottleBlow",
       "GUID": "{674C8E5D-B1B1-4C56-9A36-9C85245A06D6}",
-      "MaxAttenuation": "11",
+      "MaxAttenuation": "10",
       "DurationType": "OneShot",
       "DurationMin": "1.1792347",
       "DurationMax": "1.2065737",
@@ -630,7 +654,7 @@
       "Name": "Footsteps_Concrete",
       "ObjectPath": "\\Events\\Default Work Unit\\Footsteps_Concrete",
       "GUID": "{52E359E5-6710-4DAA-94B4-F98AB157DB91}",
-      "MaxAttenuation": "11",
+      "MaxAttenuation": "10",
       "DurationType": "OneShot",
       "DurationMin": "0.32408938",
       "DurationMax": "0.5122557",
@@ -667,7 +691,7 @@
       "Name": "Footsteps_Gravel",
       "ObjectPath": "\\Events\\Default Work Unit\\Footsteps_Gravel",
       "GUID": "{7C3E5D6F-E4C9-49CB-B067-6C2750A0DE47}",
-      "MaxAttenuation": "11",
+      "MaxAttenuation": "10",
       "DurationType": "OneShot",
       "DurationMin": "0.29997948",
       "DurationMax": "0.45758075",
@@ -722,7 +746,7 @@
       "Name": "PC_Death",
       "ObjectPath": "\\Events\\Default Work Unit\\PC_Death",
       "GUID": "{94CAE852-A14C-44EC-A7E2-137D60FAB114}",
-      "MaxAttenuation": "11",
+      "MaxAttenuation": "10",
       "DurationType": "OneShot",
       "DurationMin": "0.28498113",
       "DurationMax": "0.86745745",
@@ -743,7 +767,7 @@
       "Name": "PC_Grunt",
       "ObjectPath": "\\Events\\Default Work Unit\\PC_Grunt",
       "GUID": "{67910EB3-11B6-4A7B-87D2-3F6422AEE3DB}",
-      "MaxAttenuation": "11",
+      "MaxAttenuation": "10",
       "DurationType": "OneShot",
       "DurationMin": "0.35970533",
       "DurationMax": "0.5955416",
@@ -785,7 +809,7 @@
       "Name": "Shuriken",
       "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Shuriken",
       "GUID": "{B48C42BD-01C9-4D2B-894C-A56C14853B25}",
-      "MaxAttenuation": "11",
+      "MaxAttenuation": "10",
       "DurationType": "OneShot",
       "DurationMin": "0.27132118",
       "DurationMax": "0.32475585",
@@ -803,7 +827,7 @@
       "Name": "Skeleton_Damage",
       "ObjectPath": "\\Events\\Default Work Unit\\Skeleton_Damage",
       "GUID": "{D57AF6B1-5454-47A7-8905-DE3DB5790BEC}",
-      "MaxAttenuation": "11",
+      "MaxAttenuation": "10",
       "DurationType": "OneShot",
       "DurationMin": "0.57941425",
       "DurationMax": "1.10299",
@@ -826,6 +850,27 @@
       ]
      },
      {
+      "Id": "139523582",
+      "Name": "SkeletonDeath",
+      "ObjectPath": "\\Events\\Default Work Unit\\SkeletonDeath",
+      "GUID": "{0D08D03C-346D-4AFD-8AAC-9B0D4210DCCB}",
+      "MaxAttenuation": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.95976657",
+      "DurationMax": "0.9730352",
+      "MediaRefs": [
+       {
+        "Id": "321062627"
+       },
+       {
+        "Id": "595724863"
+       },
+       {
+        "Id": "849721655"
+       }
+      ]
+     },
+     {
       "Id": "2191159630",
       "Name": "TitleMusic",
       "ObjectPath": "\\Events\\Default Work Unit\\TitleMusic",
@@ -844,7 +889,7 @@
       "Name": "WoodStick",
       "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\WoodStick",
       "GUID": "{3A9B80B3-2166-463D-96A7-BDAF53104FA1}",
-      "MaxAttenuation": "11",
+      "MaxAttenuation": "10",
       "DurationType": "OneShot",
       "DurationMin": "0.13516156",
       "DurationMax": "0.16462095",
@@ -866,6 +911,6 @@
     ]
    }
   ],
-  "FileHash": "{755732B2-2EE1-B8C9-524E-2AEC396D61BD}"
+  "FileHash": "{AFB7E7CE-80FD-199E-AF17-AA4BE87278B8}"
  }
 }
