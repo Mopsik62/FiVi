@@ -4,6 +4,8 @@ public class PlayerInteraction : MonoBehaviour
 {
 
     private GameObject currentInteractable = null;
+    [SerializeField]
+    private GameObject _AnimationE;
 
     void Update()
     {
@@ -19,6 +21,7 @@ public class PlayerInteraction : MonoBehaviour
         {
             currentInteractable = other.gameObject;
             Debug.Log("Вошёл в зону: " + currentInteractable.name);
+            _AnimationE.SetActive(true);
         }
     }
 
@@ -30,6 +33,7 @@ public class PlayerInteraction : MonoBehaviour
             {
                 Debug.Log("Покинул зону: " + currentInteractable.name);
                 currentInteractable = null;
+                _AnimationE.SetActive(false);
             }
         }
     }

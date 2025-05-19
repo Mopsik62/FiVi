@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Player : MonoBehaviour
+public class Player : Fighter
 {
     public static Player instance;
     public float moveSpeed = 5f;
@@ -9,20 +9,31 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveInput;
     [SerializeField]
+    private HealthUI _healthUI;
+
+    [SerializeField]
+    private Weapon _curWeapon;
+
+    [SerializeField]
     private Footsteps_Concrete _footsteps;
     [SerializeField]
     private Footsteps_Gravel _footsteps_gravel;
     [SerializeField]
     private WoodStickHit _woodenStickHit;
     [SerializeField]
+    private PC_Damage _damageRecive;
+    [SerializeField]
     private float _footsteps_cooldown; //время аниматора для 1 шага
     private float _footsteps_timer;
+
     private bool isAttacking = false;
     public bool canMove = true;
 
 
-    void Awake()
+    protected override void Awake()
     {
+        base.Awake();
+
         if (instance == null)
         {
             instance = this;
@@ -33,7 +44,6 @@ public class Player : MonoBehaviour
         }
 
         SceneManager.sceneLoaded += OnSceneLoaded;
-        
     }
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
@@ -97,12 +107,16 @@ public class Player : MonoBehaviour
     {
         if (moveInput != Vector2.zero)
         {
-            transform.localScale = new Vector3(2, 2, 2);
             if (moveInput.x != 0)
             {
                 if (moveInput.x == 1)
-                { transform.localScale = new Vector3(-2, 2, 2); }
-                animator.Play("Left");
+                {
+                  animator.Play("Right");
+                }
+                else
+                {
+                  animator.Play("Left");
+                }
             }
             else if (moveInput.y == 1)
             {
@@ -123,10 +137,11 @@ public class Player : MonoBehaviour
     {
         if (!isAttacking)
         {
+            _curWeapon.Attack();
             isAttacking = true;
             animator.Play("Attack");
             _woodenStickHit.WoodStickHitEvent.Post(gameObject);
-            Invoke(nameof(EndAttack), 0.2f);
+            Invoke(nameof(EndAttack), _curWeapon.cooldown);
         }
     }
 
@@ -135,5 +150,26 @@ public class Player : MonoBehaviour
         isAttacking = false;
     }
 
+/*    protected void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log(collision.collider.name);
+        if (collision.collider.CompareTag("Fighter"))
+        {
+            Damage dmg = new()
+            {
+                origin = transform.position,
+                damage = 1,
+                pushForce = 1
+            };
+            collision.collider.SendMessage("ReciveDamage", dmg);
+        }
+    }*/
+
+    public override void ReciveDamage(Damage dmg)
+    {
+        base.ReciveDamage(dmg);
+        _damageRecive.PCDamageEvent.Post(gameObject);
+        _healthUI.UpdateHearts(curHp);
+    }
 
 }
