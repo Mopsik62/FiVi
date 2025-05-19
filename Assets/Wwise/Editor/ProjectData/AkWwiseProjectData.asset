@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: af9ef6b773861c468badc5ba8e6cbc60
     GuidInternal: 
-    m_lastTime: -8584541299529406778
+    m_lastTime: -8584539545012510201
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6a6ce2c5f227ad4db4c3f6d47169f9fb
     GuidInternal: 
-    m_lastTime: -8584540401914858270
+    m_lastTime: -8584539531210694641
     List:
     - name: 010_Damage
       guid: 58adffff5f021b4399ff9fdb2d4d7a45
@@ -243,7 +243,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 93eb270d32397249aa8936b38f3844ba
     GuidInternal: 
-    m_lastTime: -8584541299529406778
+    m_lastTime: -8584539545012984603
     List:
     - name: Master
       guid: ade594c53a2d3d46864ac9a3154f7734
@@ -271,7 +271,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b9a82131b0108d4d9d4791abff6d5615
     GuidInternal: 
-    m_lastTime: -8584540415171481629
+    m_lastTime: -8584539531210855513
     List:
     - name: Bottle_Fly
       guid: fc3454ab62e36f4c8b0a14e52dd0db73
@@ -290,7 +290,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: fc3454ab62e36f4c8b0a14e52dd0db73
       Path: Events\Default Work Unit\Weapons\Bottle_Fly
-      maxAttenuation: 11
+      maxAttenuation: 10
       maxDuration: 0.45606422
       minDuration: 0.25413966
     - name: BottleBlow
@@ -310,7 +310,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 5d8e4c67b1b1564c9a369c85245a06d6
       Path: Events\Default Work Unit\Weapons\BottleBlow
-      maxAttenuation: 11
+      maxAttenuation: 10
       maxDuration: 1.2065737
       minDuration: 1.1792347
     - name: Door
@@ -361,7 +361,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: e559e3521067aa4d94b4f98ab157db91
       Path: Events\Default Work Unit\Footsteps_Concrete
-      maxAttenuation: 11
+      maxAttenuation: 10
       maxDuration: 0.5122557
       minDuration: 0.32408938
     - name: Footsteps_Gravel
@@ -378,7 +378,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 6f5d3e7cc9e4cb49b0676c2750a0de47
       Path: Events\Default Work Unit\Footsteps_Gravel
-      maxAttenuation: 11
+      maxAttenuation: 10
       maxDuration: 0.45758075
       minDuration: 0.29997948
     - name: HubMusic
@@ -429,7 +429,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 52e8ca944ca1ec44a7e2137d60fab114
       Path: Events\Default Work Unit\PC_Death
-      maxAttenuation: 11
+      maxAttenuation: 10
       maxDuration: 0.86745745
       minDuration: 0.28498113
     - name: PC_Grunt
@@ -446,7 +446,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: b30e9167b6117b4a87d23f6422aee3db
       Path: Events\Default Work Unit\PC_Grunt
-      maxAttenuation: 11
+      maxAttenuation: 10
       maxDuration: 0.5955416
       minDuration: 0.35970533
     - name: Roomtone_InStation
@@ -483,7 +483,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: bd428cb4c9012b4d894ca56c14853b25
       Path: Events\Default Work Unit\Weapons\Shuriken
-      maxAttenuation: 11
+      maxAttenuation: 10
       maxDuration: 0.32475585
       minDuration: 0.27132118
     - name: Skeleton_Damage
@@ -500,9 +500,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: b1f67ad55454a7478905de3db5790bec
       Path: Events\Default Work Unit\Skeleton_Damage
-      maxAttenuation: 11
+      maxAttenuation: 10
       maxDuration: 1.10299
       minDuration: 0.57941425
+    - name: SkeletonDeath
+      guid: 3cd0080d6d34fd4a8aac9b0d4210dccb
+      id: 139523582
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: SkeletonDeath
+        ObjectType: 3
+        guid: 3cd0080d6d34fd4a8aac9b0d4210dccb
+      Path: Events\Default Work Unit\SkeletonDeath
+      maxAttenuation: 10
+      maxDuration: 0.9730352
+      minDuration: 0.95976657
     - name: TitleMusic
       guid: 50dc945ea2f1c54eba91bf3d1c2e564f
       id: 2191159630
@@ -554,7 +571,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: b3809b3a66213d4696a7bdaf53104fa1
       Path: Events\Default Work Unit\Weapons\WoodStick
-      maxAttenuation: 11
+      maxAttenuation: 10
       maxDuration: 0.16462095
       minDuration: 0.13516156
   RtpcWwu:
@@ -569,7 +586,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: bf14225ef3a94e46ae032c0d4599e5b1
     GuidInternal: 
-    m_lastTime: -8584541299532189986
+    m_lastTime: -8584539545036683382
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -583,7 +600,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: c71f40cd9818ce468b3d275e0fb00b3e
     GuidInternal: 
-    m_lastTime: -8584541299529406778
+    m_lastTime: -8584539545012800043
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -597,7 +614,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: b477f891798df14b8e70d896c473f622
     GuidInternal: 
-    m_lastTime: -8584541299529406778
+    m_lastTime: -8584539545012708766
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -611,10 +628,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 68392e7891cd1245b325de71ad9c106d
     GuidInternal: 
-    m_lastTime: -8584541299529406778
+    m_lastTime: -8584539545012609637
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0500000006000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

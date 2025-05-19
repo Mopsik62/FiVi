@@ -162,6 +162,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="SkeletonDeath" ID="{0D08D03C-346D-4AFD-8AAC-9B0D4210DCCB}">
+					<ChildrenList>
+						<Action Name="" ID="{BF9CFD32-DFAB-4FD9-8A16-352BCC666071}" ShortID="506200418">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SkeletonDeath" ID="{46052B5E-E4BA-4ED7-A4E4-67A67C106643}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
