@@ -4358,6 +4358,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3108625237264109133, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
+      propertyPath: _damage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3108625237264109133, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
       propertyPath: cooldown
       value: 0.3
       objectReference: {fileID: 0}

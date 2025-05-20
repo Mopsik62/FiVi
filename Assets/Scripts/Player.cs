@@ -170,9 +170,12 @@ public class Player : Fighter
 
     public override void ReciveDamage(Damage dmg)
     {
+        if (CanTakeDamage)
+        {
+            _damageRecive.PCDamageEvent.Post(gameObject);
+            _healthUI.UpdateHearts(curHp);
+        }
         base.ReciveDamage(dmg);
-        _damageRecive.PCDamageEvent.Post(gameObject);
-        _healthUI.UpdateHearts(curHp);
     }
 
 }

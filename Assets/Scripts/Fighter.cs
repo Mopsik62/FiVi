@@ -14,6 +14,7 @@ public class Fighter : MonoBehaviour
     //IMMUNE BASICS
     public float immuneTime = 1f;
     protected float lastImmune;
+    protected bool CanTakeDamage => Time.time - lastImmune > immuneTime;
 
     protected virtual void Awake()
     {
@@ -22,9 +23,7 @@ public class Fighter : MonoBehaviour
     }
     public virtual void ReciveDamage(Damage dmg)
     {
-        // Debug.Log(dmg);
-        // Debug.Log(Time.time + " VERSUS " + lastImmune);
-        if (Time.time - lastImmune > immuneTime)
+        if (CanTakeDamage)
         {
             Debug.Log("HIT " + this.name);
             lastImmune = Time.time;
