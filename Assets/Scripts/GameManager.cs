@@ -7,6 +7,13 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+
+    [SerializeField]
+    private TextMeshProUGUI _currentMoney;
+
+    [SerializeField]
+    public int CurrentMoney { get; private set; }
+
     [SerializeField]
     private TextMeshProUGUI _playerQuestProgression;
     [SerializeField]
@@ -42,7 +49,8 @@ public class GameManager : MonoBehaviour
         NextProgression();
 
         SceneManager.sceneLoaded += OnSceneLoaded;
-
+        CurrentMoney = int.Parse(_currentMoney.text);
+        UpdateMoneyHandler();
     }
 
     private void OnDisable()
@@ -139,6 +147,21 @@ public class GameManager : MonoBehaviour
         _fight_music.FightMusiclEvent.Stop(gameObject);
 
     }
+
+    public void GetMoney(int money)
+    {
+        CurrentMoney += money;
+        UpdateMoneyHandler();
+    }
+    public void LoseMoney(int money)
+    {
+        CurrentMoney -= money;
+        UpdateMoneyHandler();
+    }
+    public void UpdateMoneyHandler()
+    {
+        _currentMoney.text = CurrentMoney.ToString();
+    }    
 
 
 }
