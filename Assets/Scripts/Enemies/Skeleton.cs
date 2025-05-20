@@ -15,23 +15,6 @@ public class Skeleton : Enemy
         _skeletonDeath.SkeletonDeathEvent.Post(gameObject);
     }
 
-    private void Update()
-    {
-        if (Dyuing)
-            return;
-        if (playerPosition != null)
-        {
-            Vector3 scale = transform.localScale;
-
-            if (playerPosition.position.x < transform.position.x)
-                scale.x = Mathf.Abs(scale.x);
-            else
-                scale.x = -Mathf.Abs(scale.x);
-
-            transform.localScale = scale;
-        }
-    }
-
     public override void ReciveDamage(Damage dmg)
     {
         base.ReciveDamage(dmg);

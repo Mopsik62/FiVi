@@ -1288,7 +1288,7 @@ MonoBehaviour:
   m_RefResolutionX: 1920
   m_RefResolutionY: 1080
   m_CropFrame: 0
-  m_GridSnapping: 1
+  m_GridSnapping: 2
   m_FilterMode: 0
   m_UpscaleRT: 0
   m_PixelSnapping: 0
@@ -4535,11 +4535,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9020868477786332065, guid: ef113243ba832c349a731e57aa897eba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.78
+      value: 1.9
       objectReference: {fileID: 0}
     - target: {fileID: 9020868477786332065, guid: ef113243ba832c349a731e57aa897eba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.61
+      value: -0.26
       objectReference: {fileID: 0}
     - target: {fileID: 9020868477786332065, guid: ef113243ba832c349a731e57aa897eba, type: 3}
       propertyPath: m_LocalPosition.z
