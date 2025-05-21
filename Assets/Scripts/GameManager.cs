@@ -56,6 +56,7 @@ public class GameManager : MonoBehaviour
         SceneManager.sceneLoaded += OnSceneLoaded;
         CurrentMoney = int.Parse(_currentMoney.text);
         UpdateMoneyHandler();
+        _foodHolder.preserveAspect = true;
         UpdateFood();
     }
 
@@ -78,6 +79,7 @@ public class GameManager : MonoBehaviour
         {
             case InteractableType.Shop:
                 Debug.Log("Shop");
+                interactable.OpenShop();
                 PlayerMove(false);
 
                 break;
@@ -182,7 +184,7 @@ public class GameManager : MonoBehaviour
     public void BuyFood(Food food)
     {
         Debug.Log(CurrentMoney);
-        if (CurrentMoney > food.Price)
+        if (CurrentMoney >= food.Price)
         {
             LoseMoney(food.Price);
             AddFood(food);

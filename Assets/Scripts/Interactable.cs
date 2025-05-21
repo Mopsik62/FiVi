@@ -27,5 +27,6 @@ public class Interactable : MonoBehaviour
     public void CloseShop()
     {
         Shop.SetActive(false);
+        GameManager.instance.PlayerMove(true);
     }
 }
