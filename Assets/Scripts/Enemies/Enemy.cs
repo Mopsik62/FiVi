@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-[RequireComponent(typeof(BoxCollider2D), typeof(Rigidbody2D))]
+[RequireComponent(typeof(Rigidbody2D))]
 public class Enemy : Fighter
 {
     protected Animator anim;
@@ -29,7 +29,6 @@ public class Enemy : Fighter
     {
         if (Dyuing || playerPosition == null)
             return;
-        Debug.Log("WISP");
             Vector3 scale = transform.localScale;
 
             if (playerPosition.position.x < transform.position.x)

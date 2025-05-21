@@ -244,21 +244,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3ea2e0cc645d974c9a3860f816df5cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curHp: 1
-  maxHp: 1
+  curHp: 10
+  maxHp: 10
   _boxCollider: {fileID: 0}
   pushRecoverySpeed: 1
-  immuneTime: 1
+  immuneTime: 0.2
   moveSpeed: 5
   _healthUI: {fileID: 0}
-  _curWeapon: {fileID: 0}
-  _footsteps: {fileID: 6339093040253717090, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
-  _footsteps_gravel: {fileID: 4079009966082676812, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
-  _woodenStickHit: {fileID: 1841468994739587940, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _curWeapon: {fileID: 3108625237264109133}
+  _footsteps: {fileID: 0}
+  _footsteps_gravel: {fileID: 0}
+  _woodenStickHit: {fileID: 0}
   _damageRecive: {fileID: 743747052189577781, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
-  _footsteps_cooldown: 0
+  _footsteps_cooldown: 0.3
   _canAttack: 0
   canMove: 1
+  dashDistance: 3
+  dashDuration: 0.1
+  dashCooldown: 1
 --- !u!95 &9130218752993030609
 Animator:
   serializedVersion: 7
@@ -432,6 +435,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4385b9e9af4c7644a999bb71bde318b, type: 3}
+--- !u!114 &3108625237264109133 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5966361217014955402, guid: e4385b9e9af4c7644a999bb71bde318b, type: 3}
+  m_PrefabInstance: {fileID: 8784495118865855431}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa1d55ea43e8aea4b911e71c3477b0f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &4629999346792460161 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4155067793160281158, guid: e4385b9e9af4c7644a999bb71bde318b, type: 3}

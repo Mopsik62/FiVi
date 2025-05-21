@@ -1,0 +1,667 @@
+fileFormatVersion: 2
+guid: 0350042b989fbdd4aa0aa8fccbc99a8b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8558064105327168454
+    second: FoodShop_0
+  - first:
+      213: 6023868886877525770
+    second: FoodShop_1
+  - first:
+      213: -4426645318006044770
+    second: FoodShop_2
+  - first:
+      213: -2368850730486513795
+    second: FoodShop_3
+  - first:
+      213: -5028157200148668058
+    second: FoodShop_4
+  - first:
+      213: 4510235843914387770
+    second: FoodShop_5
+  - first:
+      213: -7092058520965522860
+    second: FoodShop_6
+  - first:
+      213: -329494057420752832
+    second: FoodShop_7
+  - first:
+      213: 3555419178380845311
+    second: FoodShop_8
+  - first:
+      213: 6350292690944923688
+    second: FoodShop_9
+  - first:
+      213: 4774973510494204317
+    second: FoodShop_10
+  - first:
+      213: -6620822956860649205
+    second: FoodShop_11
+  - first:
+      213: 2698142273815748363
+    second: FoodShop_12
+  - first:
+      213: 1045146159348823636
+    second: FoodShop_13
+  - first:
+      213: 784394963055363232
+    second: FoodShop_14
+  - first:
+      213: 5621234897978835940
+    second: FoodShop_15
+  - first:
+      213: -433909943500633854
+    second: FoodShop_16
+  - first:
+      213: 6848407858468408983
+    second: FoodShop_17
+  - first:
+      213: -4845157911641455696
+    second: FoodShop_18
+  - first:
+      213: -4922146391972005173
+    second: FoodShop_19
+  - first:
+      213: -3726028317567878590
+    second: FoodShop_20
+  - first:
+      213: 5210957785265915097
+    second: FoodShop_21
+  - first:
+      213: -1605899952368170735
+    second: FoodShop_22
+  - first:
+      213: -7041278637258642734
+    second: FoodShop_23
+  - first:
+      213: -4906718135363210584
+    second: FoodShop_24
+  - first:
+      213: -3307727612730556975
+    second: FoodShop_25
+  - first:
+      213: -918563436518233555
+    second: FoodShop_26
+  - first:
+      213: 1062474802390118059
+    second: FoodShop_27
+  - first:
+      213: 3038481895065321329
+    second: FoodShop_28
+  - first:
+      213: -3646478886035079877
+    second: FoodShop_29
+  - first:
+      213: 1943460376366722996
+    second: FoodShop_30
+  - first:
+      213: -7028907636315744903
+    second: FoodShop_31
+  - first:
+      213: 8472363061242091155
+    second: FoodShop_32
+  - first:
+      213: -5347749728832644061
+    second: FoodShop_33
+  - first:
+      213: 4187847002627592018
+    second: FoodShop_34
+  - first:
+      213: 7147683396394320030
+    second: FoodShop_35
+  - first:
+      213: -8321981031033855799
+    second: FoodShop_36
+  - first:
+      213: 1323084431886255186
+    second: FoodShop_37
+  - first:
+      213: 809873128988462321
+    second: FoodShop_38
+  - first:
+      213: -1080661250188688941
+    second: FoodShop_39
+  - first:
+      213: 8804427171392629511
+    second: FoodShop_40
+  - first:
+      213: -8271241007434541904
+    second: FoodShop_41
+  - first:
+      213: -2155469978881737372
+    second: FoodShop_42
+  - first:
+      213: -2336067349635775161
+    second: FoodShop_43
+  - first:
+      213: -3094303341881691280
+    second: FoodShop_44
+  - first:
+      213: -4712283332991104780
+    second: FoodShop_45
+  - first:
+      213: -687537876762025037
+    second: FoodShop_46
+  - first:
+      213: 2450716892736193906
+    second: FoodShop_47
+  - first:
+      213: 5995711033265466563
+    second: FoodShop_48
+  - first:
+      213: -5732324457774189069
+    second: FoodShop_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FoodShop_Base
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4
+        width: 132
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb0c0316f954c670800000000000000
+      internalID: 8558064105327168454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HanPies
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 96
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07dcd736d4199350800000000000000
+      internalID: 6023868886877525770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salad
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 97
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e978a9169856192c0800000000000000
+      internalID: -4426645318006044770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 45
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3ce0d6b53a20e40800000000000000
+      internalID: 5621234897978835940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sausage
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 53
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209822194317af9f0800000000000000
+      internalID: -433909943500633854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pizza
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 59
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ec001b9ae6a0f50800000000000000
+      internalID: 6848407858468408983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldChicken
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 2
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c1d3984f9f8c5b0800000000000000
+      internalID: -5347749728832644061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turbo
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 11
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ba7a15ddb9f2a70800000000000000
+      internalID: 8804427171392629511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salad_text
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 81
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d65ca22a60d354dbba71f0936a166f
+      internalID: -1310413205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandPies_text
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 82
+        width: 31
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcfbcbe191b3764ca3bd8db6f7390d0
+      internalID: 715912571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_text
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 41
+        width: 32
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b65c24815d5664f84b66cbe58c7a29
+      internalID: 70967176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sausage_text
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 42
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4921c90bd6b2843b8817c3e0e8f224
+      internalID: 1523165422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pizza_text
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 40
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308d756cfe4b5e4409c638034da37f5a
+      internalID: -1775948020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldChicken_text
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 15
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11122bcfd174704abc3534ea402799b
+      internalID: -1387722631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turbo_text
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 26
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8611ade4fba448a49a2630810155d537
+      internalID: -1414652630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 49fcb21abe4529041be9185aee76665c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FoodShop_10: 4774973510494204317
+      FoodShop_11: -6620822956860649205
+      FoodShop_12: 2698142273815748363
+      FoodShop_13: 1045146159348823636
+      FoodShop_14: 784394963055363232
+      FoodShop_18: -4845157911641455696
+      FoodShop_19: -4922146391972005173
+      FoodShop_20: -3726028317567878590
+      FoodShop_21: 5210957785265915097
+      FoodShop_22: -1605899952368170735
+      FoodShop_23: -7041278637258642734
+      FoodShop_24: -4906718135363210584
+      FoodShop_25: -3307727612730556975
+      FoodShop_26: -918563436518233555
+      FoodShop_27: 1062474802390118059
+      FoodShop_28: 3038481895065321329
+      FoodShop_29: -3646478886035079877
+      FoodShop_3: -2368850730486513795
+      FoodShop_30: 1943460376366722996
+      FoodShop_31: -7028907636315744903
+      FoodShop_32: 8472363061242091155
+      FoodShop_34: 4187847002627592018
+      FoodShop_35: 7147683396394320030
+      FoodShop_36: -8321981031033855799
+      FoodShop_37: 1323084431886255186
+      FoodShop_38: 809873128988462321
+      FoodShop_39: -1080661250188688941
+      FoodShop_4: -5028157200148668058
+      FoodShop_41: -8271241007434541904
+      FoodShop_42: -2155469978881737372
+      FoodShop_43: -2336067349635775161
+      FoodShop_44: -3094303341881691280
+      FoodShop_45: -4712283332991104780
+      FoodShop_46: -687537876762025037
+      FoodShop_47: 2450716892736193906
+      FoodShop_48: 5995711033265466563
+      FoodShop_49: -5732324457774189069
+      FoodShop_5: 4510235843914387770
+      FoodShop_6: -7092058520965522860
+      FoodShop_7: -329494057420752832
+      FoodShop_8: 3555419178380845311
+      FoodShop_9: 6350292690944923688
+      FoodShop_Base: 8558064105327168454
+      GoldChicken: -5347749728832644061
+      GoldChicken_text: -1387722631
+      HanPies: 6023868886877525770
+      HandPies_text: 715912571
+      Pizza: 6848407858468408983
+      Pizza_text: -1775948020
+      Salad: -4426645318006044770
+      Salad_text: -1310413205
+      Sausage: -433909943500633854
+      Sausage_text: 1523165422
+      Soda: 5621234897978835940
+      Soda_text: 70967176
+      Turbo: 8804427171392629511
+      Turbo_text: -1414652630
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -30,6 +31,12 @@ public class Player : Fighter
     private bool isAttacking = false;
     public bool canMove = true;
 
+    private Vector2 _lastMoveDirection;
+    private bool isDashing = false;
+    [SerializeField] private float dashDistance = 3f;
+    [SerializeField] private float dashDuration = 0.1f;
+    [SerializeField] private float dashCooldown = 1f;
+    private bool canDash = true;
 
     protected override void Awake()
     {
@@ -63,8 +70,24 @@ public class Player : Fighter
     {
         moveInput.x = Input.GetAxisRaw("Horizontal");
         moveInput.y = Input.GetAxisRaw("Vertical");
-        if (!canMove) return;
-        if (!isAttacking)
+
+        if (moveInput != Vector2.zero)
+        {
+            _lastMoveDirection = moveInput.normalized;
+        }
+        else
+        {
+            _lastMoveDirection = Vector2.zero;
+        }
+
+            if (!canMove) return;
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && (_lastMoveDirection != Vector2.zero))
+        {
+            Dash();
+        }
+
+        if (!isAttacking && !isDashing)
         {
             AnimateMovement();
         }
@@ -179,4 +202,37 @@ public class Player : Fighter
         _healthUI.UpdateHearts(curHp); // каждый раз вызывается неоч
     }
 
+    protected void Dash()
+    {
+        if (isDashing) return;
+        animator.Play("Dash");
+        isDashing = true;
+        canDash = false;
+        StartCoroutine(DashCooldownRoutine());
+        canMove = false;
+
+        Vector2 dashTarget = rb.position + _lastMoveDirection * dashDistance;
+        StartCoroutine(PerformDash(dashTarget));
+    }
+    private IEnumerator PerformDash(Vector2 targetPos)
+    {
+        float elapsed = 0f;
+        Vector2 startPos = rb.position;
+
+        while (elapsed < dashDuration)
+        {
+            rb.MovePosition(Vector2.Lerp(startPos, targetPos, elapsed / dashDuration));
+            elapsed += Time.fixedDeltaTime;
+            yield return new WaitForFixedUpdate();
+        }
+
+        rb.MovePosition(targetPos); 
+        isDashing = false;
+        canMove = true;
+    }
+    private IEnumerator DashCooldownRoutine()
+    {
+        yield return new WaitForSeconds(dashCooldown);
+        canDash = true;
+    }
 }

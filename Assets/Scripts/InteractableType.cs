@@ -2,6 +2,7 @@
 public enum InteractableType
 {
     Dialogue,
-    Teleport
+    Teleport,
+    Shop
 }
 

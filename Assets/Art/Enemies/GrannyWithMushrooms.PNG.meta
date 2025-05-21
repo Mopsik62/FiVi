@@ -1,10 +1,28 @@
 fileFormatVersion: 2
-guid: e98ac77dcb227064ca1a422a06c636e7
+guid: 3d3403f8fd12cfc46849bb4b3fb261fb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7628046161613248413
-    second: MainChar2_0
+      213: -1693059189036848661
+    second: GrannyWithMushrooms_0
+  - first:
+      213: -1777753312908937167
+    second: GrannyWithMushrooms_1
+  - first:
+      213: -4009948427922471290
+    second: GrannyWithMushrooms_2
+  - first:
+      213: 6043643030712928977
+    second: GrannyWithMushrooms_3
+  - first:
+      213: -264612186385741673
+    second: GrannyWithMushrooms_4
+  - first:
+      213: 8182237962233528964
+    second: GrannyWithMushrooms_5
+  - first:
+      213: -1103574711711252573
+    second: GrannyWithMushrooms_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Back
+      name: GranneSpecial1
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 38
-        height: 54
+        x: 0
+        y: 431
+        width: 362
+        height: 379
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,184 +146,140 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d975d31a1934cd960800000000000000
-      internalID: 7628046161613248413
+      spriteID: be96fb543ab0188e0800000000000000
+      internalID: -1693059189036848661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Left
+      name: GranneSpecial2
       rect:
         serializedVersion: 2
-        x: 42
-        y: 1
-        width: 38
-        height: 54
+        x: 414
+        y: 431
+        width: 362
+        height: 379
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f1c3896d8206aeb41890b8fbc0715089
-      internalID: 1518938346
+      spriteID: 138f9c5e7c62457e0800000000000000
+      internalID: -1777753312908937167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle
+      name: GranneSpecial3
       rect:
         serializedVersion: 2
-        x: 82
-        y: 1
-        width: 38
-        height: 54
+        x: 828
+        y: 431
+        width: 380
+        height: 379
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f43c9f87dc37e214c9493ed35a46db2f
-      internalID: 747816647
+      spriteID: 6868b02862dc958c0800000000000000
+      internalID: -4009948427922471290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Front_1
+      name: GranneSpecial4
       rect:
         serializedVersion: 2
-        x: 122
-        y: 1
-        width: 38
-        height: 54
+        x: 1
+        y: 0
+        width: 362
+        height: 379
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: afad2490079624e4bb429922ee494071
-      internalID: 1978160771
+      spriteID: 1dac8ead0555fd350800000000000000
+      internalID: 6043643030712928977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Front_2
+      name: GranneSpecial5
       rect:
         serializedVersion: 2
-        x: 162
-        y: 1
-        width: 38
-        height: 54
+        x: 404
+        y: 0
+        width: 407
+        height: 379
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e3fe60b5006701440a48f6758641b835
-      internalID: 619270046
+      spriteID: 7980d335e98e35cf0800000000000000
+      internalID: -264612186385741673
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Left_1
+      name: GranneSpecial6
       rect:
         serializedVersion: 2
-        x: 201
+        x: 827
         y: 1
-        width: 38
-        height: 54
+        width: 352
+        height: 379
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: bbe3240ef820a7645a41ea75fee8713c
-      internalID: 740891774
+      spriteID: 48245a643162d8170800000000000000
+      internalID: 8182237962233528964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Back_1
+      name: Mushroom
       rect:
         serializedVersion: 2
-        x: 282
-        y: 1
-        width: 38
-        height: 54
+        x: 1179
+        y: 0
+        width: 119
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d61bbf438aea2b148a3b5cf4834de194
-      internalID: -119282183
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Back_2
-      rect:
-        serializedVersion: 2
-        x: 322
-        y: 1
-        width: 38
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20dabbe919c5f0d479a0a40a179664ba
-      internalID: -694089911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 1
-        width: 38
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb35cba45e39afc43a20b1c8bbd1494e
-      internalID: 244456005
+      spriteID: 3afb85d85a05fa0f0800000000000000
+      internalID: -1103574711711252573
       vertices: []
       indices: 
       edges: []
@@ -314,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: be0c16fba87cc9c46b2cb6f47ac5ad0e
+    spriteID: 19d79da30bcbd6c4587a82d3c8c35168
     internalID: 0
     vertices: []
     indices: 
@@ -324,15 +298,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Back: 7628046161613248413
-      Back_1: -119282183
-      Back_2: -694089911
-      Front_1: 1978160771
-      Front_2: 619270046
-      Idle: 747816647
-      Left: 1518938346
-      Left_1: 740891774
-      Right: 244456005
+      GranneSpecial1: -1693059189036848661
+      GranneSpecial2: -1777753312908937167
+      GranneSpecial3: -4009948427922471290
+      GranneSpecial4: 6043643030712928977
+      GranneSpecial5: -264612186385741673
+      GranneSpecial6: 8182237962233528964
+      Mushroom: -1103574711711252573
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
