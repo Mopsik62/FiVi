@@ -26,6 +26,7 @@ namespace AK
         static const AkUniqueID ROOMTONE_INSTATION = 3722638038U;
         static const AkUniqueID SHURIKEN = 618185232U;
         static const AkUniqueID SKELETON_DAMAGE = 4168167072U;
+        static const AkUniqueID SKELETONDEATH = 139523582U;
         static const AkUniqueID TITLEMUSIC = 2191159630U;
         static const AkUniqueID WOODSTICK = 2776421058U;
     } // namespace EVENTS

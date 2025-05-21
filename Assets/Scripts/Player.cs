@@ -26,6 +26,7 @@ public class Player : Fighter
     private float _footsteps_cooldown; //время аниматора для 1 шага
     private float _footsteps_timer;
 
+    public bool _canAttack = false;
     private bool isAttacking = false;
     public bool canMove = true;
 
@@ -135,6 +136,8 @@ public class Player : Fighter
     }
     public void Attack()
     {
+        if (!_canAttack)
+            return;
         if (!isAttacking)
         {
             _curWeapon.Attack();
@@ -167,9 +170,13 @@ public class Player : Fighter
 
     public override void ReciveDamage(Damage dmg)
     {
+        if (CanTakeDamage)
+        {
+            _damageRecive.PCDamageEvent.Post(gameObject);
+            
+        }
         base.ReciveDamage(dmg);
-        _damageRecive.PCDamageEvent.Post(gameObject);
-        _healthUI.UpdateHearts(curHp);
+        _healthUI.UpdateHearts(curHp); // каждый раз вызывается неоч
     }
 
 }
