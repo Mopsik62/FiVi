@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 1767068928893600042}
   - component: {fileID: -980708889812875456}
   - component: {fileID: 4895673172158481717}
+  - component: {fileID: -6871600360741630763}
   m_Layer: 0
-  m_Name: Enemy_skeleton
+  m_Name: Skeleton
   m_TagString: Fighter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,12 +80,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: 4354231566380549168, guid: 4c3123d71cf3a2e4d88dccaca8c0b7a3, type: 3}
+  m_Sprite: {fileID: 4354231566380549168, guid: d59541fa06a860a48b2244703d708496, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.39, y: 0.55}
+  m_Size: {x: 0.24, y: 0.47}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -129,7 +130,13 @@ MonoBehaviour:
   _boxCollider: {fileID: 0}
   pushRecoverySpeed: 1
   immuneTime: 0.1
+  contactDamage: 1
+  playerPosition: {fileID: 0}
+  ScoreGranted: 0
+  pushForceDeal: 1
+  moveSpeed: 2
   _damageSound: {fileID: 4163459245120018504, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _skeletonDeath: {fileID: 4260685181956195371, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
 --- !u!61 &4895673172158481717
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -168,11 +175,38 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.44444445, y: 0.8703704}
-    newSize: {x: 0.39, y: 0.55}
+    oldSize: {x: 0.24, y: 0.47}
+    newSize: {x: 0.24, y: 0.47}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Size: {x: 0.39539862, y: 0.7159955}
   m_EdgeRadius: 0
+--- !u!50 &-6871600360741630763
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9027928042530313327}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 2
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4

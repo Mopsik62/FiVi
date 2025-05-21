@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	82718740	Footsteps_Concrete			\Default Work Unit\Footsteps_Concrete	
+	139523582	SkeletonDeath			\Default Work Unit\SkeletonDeath	
 	618185232	Shuriken			\Default Work Unit\Weapons\Shuriken	
 	791831159	Bottle_Fly			\Default Work Unit\Weapons\Bottle_Fly	
 	962867917	Music_Fight			\Default Work Unit\Music_Fight	
@@ -33,6 +34,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	274832657	Footstep_Concrete_1	D:\FiVi\FiVi_WwiseProject\.cache\76\{767B6A46-17EF-6226-D8B5-3BC42EEAF344}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caracter_Footstep\Concrete\Footstep_Concrete_1		87384
 	278737010	Footstep_Concrete_05	D:\FiVi\FiVi_WwiseProject\.cache\C0\{C0A22B9B-4775-2E14-9610-CBECD47FC256}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caracter_Footstep\Concrete\Footstep_Concrete_05		90352
 	313826726	BottleFly_02	D:\FiVi\FiVi_WwiseProject\.cache\6F\{6FAD8B1F-CFBD-48E3-F2B5-40A8A98420D8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Bottle\Bottle_Fly\BottleFly_02		56460
+	321062627	skeleton-dying	D:\FiVi\FiVi_WwiseProject\.cache\76\{76323CAD-02B8-9350-0703-B46F7B717A54}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SkeletonDeath\skeleton-dying		146436
 	327515928	TitleMusic	D:\FiVi\FiVi_WwiseProject\.cache\04\{0461B112-1DAA-883B-6F92-1AC4182E77CE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\TitleMusic\TitleMusic		2569800
 	356571249	HubMusic_4	D:\FiVi\FiVi_WwiseProject\.cache\E6\{E62FA96C-B993-F316-D7D1-991FD0AD2113}.wem		\Interactive Music Hierarchy\Default Work Unit\HubMusic\HubMusic_4\HubMusic_4		12032436
 	375570390	Footstep_Gravel_02	D:\FiVi\FiVi_WwiseProject\.cache\4C\{4CF4D2F7-62FE-580C-0E87-570ED11816BC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caracter_Footstep\Gravel\Footstep_Gravel_02		80720
@@ -45,6 +47,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	557076928	WoodStick_01	D:\FiVi\FiVi_WwiseProject\.cache\71\{71B3D05C-30E5-8BB8-C9FA-DBAEDC73F0D6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Stick\WoodStick_01		27116
 	584105805	PC_Grunt	D:\FiVi\FiVi_WwiseProject\.cache\1A\{1A5592A4-2C80-9E94-2E4D-AD909F0F7598}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC_Grunt\PC_Grunt		102824
 	585784865	HubMusic_1	D:\FiVi\FiVi_WwiseProject\.cache\6D\{6D5ED0A1-2535-EB76-0286-C99BA90DCF73}.wem		\Interactive Music Hierarchy\Default Work Unit\HubMusic\HubMusic_1\HubMusic_1		8921144
+	595724863	Creatures, Humanoid, Zombie, Male, Death Groan SND22546 3	D:\FiVi\FiVi_WwiseProject\.cache\FA\{FA51D2A8-DF3D-87A9-434A-69307A4B59E1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SkeletonDeath\Sklt_Groath\Creatures, Humanoid, Zombie, Male, Death Groan SND22546 3		186916
 	614956716	PC_Grunt_02	D:\FiVi\FiVi_WwiseProject\.cache\A7\{A7FB6A80-8DB5-78E2-DC2C-BC74B03D89B7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC_Grunt\PC_Grunt_02		99100
 	657637022	Drum_2	D:\FiVi\FiVi_WwiseProject\.cache\AB\{ABD3F717-3BE7-ED77-DD25-1F22F284F5A1}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Simple\Drum_2		22025
 	675744829	Melody_1	D:\FiVi\FiVi_WwiseProject\.cache\F0\{F0B4DEF3-F1DA-F666-AECA-C91C6FEE13CA}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Melody\Melody_1		140446
@@ -64,6 +67,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	842515526	PC_Death_01	D:\FiVi\FiVi_WwiseProject\.cache\31\{31C7258E-A07F-61A0-709F-7DF8A5AB9A24}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC_death\PC_Death_01		153116
 	844705080	Melody_Post	D:\FiVi\FiVi_WwiseProject\.cache\D9\{D9AE4D2D-88E2-3227-CFD3-7FBF79B29E68}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Piccolo\Melody_Post		53362
 	847162799	Skeleton_damage_02	D:\FiVi\FiVi_WwiseProject\.cache\43\{43C982F5-D6D1-28EC-BA09-3E878B060C94}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton_Damage\Skeleton_damage_02		148492
+	849721655	Creatures, Humanoid, Zombie, Male, Death Groan SND22546 3_01	D:\FiVi\FiVi_WwiseProject\.cache\0E\{0E55A853-62DC-15DF-0398-635FFA8C8064}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SkeletonDeath\Sklt_Groath\Creatures, Humanoid, Zombie, Male, Death Groan SND22546 3_01		184372
 	869828579	BottleFly_03	D:\FiVi\FiVi_WwiseProject\.cache\8C\{8CF62130-F249-A959-CC67-D25EEA306F36}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Bottle\Bottle_Fly\BottleFly_03		61040
 	873090363	Melody_Post	D:\FiVi\FiVi_WwiseProject\.cache\8F\{8FE4D04B-DE24-1DA0-3621-118831DB27CC}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Piccolo\Melody_Post		71097
 	882086869	PC_Grunt_01	D:\FiVi\FiVi_WwiseProject\.cache\15\{156B87FB-C0B7-8B24-4584-5066A366F56D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC_Grunt\PC_Grunt_01		63548

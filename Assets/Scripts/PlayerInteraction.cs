@@ -17,7 +17,7 @@ public class PlayerInteraction : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Interractable"))
+        if (other.CompareTag("Interractable") )
         {
             currentInteractable = other.gameObject;
             Debug.Log("Вошёл в зону: " + currentInteractable.name);
