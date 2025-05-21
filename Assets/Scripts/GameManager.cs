@@ -2,7 +2,7 @@ using UnityEngine;
 using TMPro;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -32,6 +32,11 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     public Hub_Music _hub_music;
 
+    [SerializeField]
+    private Food _currentFood;
+    [SerializeField]
+    private Image _foodHolder;
+
     private DialogueStruct _currentDialogData;
     private int _currentDialogSentence;
     public string CurrentLocationName { get; private set; }
@@ -51,6 +56,8 @@ public class GameManager : MonoBehaviour
         SceneManager.sceneLoaded += OnSceneLoaded;
         CurrentMoney = int.Parse(_currentMoney.text);
         UpdateMoneyHandler();
+        _foodHolder.preserveAspect = true;
+        UpdateFood();
     }
 
     private void OnDisable()
@@ -70,6 +77,13 @@ public class GameManager : MonoBehaviour
         Interactable interactable = currentInteractable.GetComponent<Interactable>();
         switch (interactable.type)
         {
+            case InteractableType.Shop:
+                Debug.Log("Shop");
+                interactable.OpenShop();
+                PlayerMove(false);
+
+                break;
+
             case InteractableType.Dialogue:
                 _currentDialogData = currentInteractable.GetComponent<DialogueStruct>();
                 StartDialogue();
@@ -88,14 +102,14 @@ public class GameManager : MonoBehaviour
     public void StartDialogue()
     {
         DialogueWindow.SetActive(true);
-        Player.instance.canMove = false;
+        PlayerMove(false);
         _currentDialogSentence = 0;
         _dialogueText.text = _currentDialogData.lines[_currentDialogSentence];
     }
     public void EndDialogue()
     {
         DialogueWindow.SetActive(false);
-        Player.instance.canMove = true;
+        PlayerMove(true);
         _currentDialogSentence = 0;
         NextProgression();
     }
@@ -163,5 +177,48 @@ public class GameManager : MonoBehaviour
         _currentMoney.text = CurrentMoney.ToString();
     }    
 
+    public void PlayerMove(bool canMove)
+    {
+        Player.instance.canMove = canMove;
+    }
+    public void BuyFood(Food food)
+    {
+        Debug.Log(CurrentMoney);
+        if (CurrentMoney >= food.Price)
+        {
+            LoseMoney(food.Price);
+            AddFood(food);
+        }
+    }
+    public void AddFood(Food food)
+    {
+        _currentFood = food;
+        UpdateFood();
+        Debug.Log("Добавлена еда!");
+    }
+
+    public void ConsumeFood( )
+    {
+        _currentFood.Consume();
+        _currentFood = null;
+        UpdateFood();
+    }
+    public void UpdateFood()
+    {
+        if (_currentFood != null)
+        {
+            Color color = _currentFood.image.color;
+            Debug.Log(color.a);
+            color.a = 1f;
+            _foodHolder.color = color;
+            _foodHolder.sprite = _currentFood.image.sprite;
+        }
+        else
+        {
+            Color color = _foodHolder.color;
+            color.a = 0f;
+            _foodHolder.color = color;
+        }
+    }
 
 }

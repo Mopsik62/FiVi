@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -980708889812875456}
   - component: {fileID: 4895673172158481717}
   - component: {fileID: -6871600360741630763}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton
   m_TagString: Fighter
   m_Icon: {fileID: 0}
@@ -134,6 +134,7 @@ MonoBehaviour:
   playerPosition: {fileID: 0}
   ScoreGranted: 0
   pushForceDeal: 1
+  _specialCooldown: 5
   moveSpeed: 2
   _damageSound: {fileID: 4163459245120018504, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
   _skeletonDeath: {fileID: 4260685181956195371, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
@@ -175,7 +176,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.24, y: 0.47}
+    oldSize: {x: 0.44444445, y: 0.8703704}
     newSize: {x: 0.24, y: 0.47}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -191,7 +192,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9027928042530313327}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
