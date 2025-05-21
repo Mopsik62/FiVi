@@ -6,12 +6,21 @@ using UnityEngine.SceneManagement;
 
 public class Boostrap : MonoBehaviour
 {
+    public static Boostrap instance;
 
     public CinemachineVirtualCamera virtualCam;
     public GameObject boundaryObject;
 
     void Awake()
     {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
     void OnDestroy()

@@ -1,10 +1,19 @@
 using UnityEngine;
 using TMPro;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+
+    [SerializeField]
+    private TextMeshProUGUI _currentMoney;
+
+    [SerializeField]
+    public int CurrentMoney { get; private set; }
+
     [SerializeField]
     private TextMeshProUGUI _playerQuestProgression;
     [SerializeField]
@@ -29,9 +38,30 @@ public class GameManager : MonoBehaviour
 
     protected void Awake()
     {
-        instance = this;
-        SetLocationName("Hub");
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
         NextProgression();
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        CurrentMoney = int.Parse(_currentMoney.text);
+        UpdateMoneyHandler();
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        SetLocationName(scene.name);
+        Debug.Log("GAMEMANAGER LOAD SCENE");
     }
 
     public void StartInteract(GameObject currentInteractable)
@@ -100,9 +130,11 @@ public class GameManager : MonoBehaviour
                 ResetSound();
                 _hub_music.HubMusiclEvent.Post(gameObject);
                 _roomTone.RoomToneInStationlEvent.Post(gameObject);
+                Player.instance._canAttack = false;
                 break;
             case "Level 1":
                 ResetSound();
+                Player.instance._canAttack = true;
                 _fight_music.FightMusiclEvent.Post(gameObject);
                 break;
         }
@@ -115,6 +147,21 @@ public class GameManager : MonoBehaviour
         _fight_music.FightMusiclEvent.Stop(gameObject);
 
     }
+
+    public void GetMoney(int money)
+    {
+        CurrentMoney += money;
+        UpdateMoneyHandler();
+    }
+    public void LoseMoney(int money)
+    {
+        CurrentMoney -= money;
+        UpdateMoneyHandler();
+    }
+    public void UpdateMoneyHandler()
+    {
+        _currentMoney.text = CurrentMoney.ToString();
+    }    
 
 
 }

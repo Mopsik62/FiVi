@@ -6,6 +6,8 @@ public class Weapon : MonoBehaviour
     private Animator animator;
     [SerializeField]
     protected Collider2D _boxCollider;
+    [SerializeField]
+    private float _damage;
     public float cooldown;
 
     void Start()
@@ -26,7 +28,7 @@ public class Weapon : MonoBehaviour
             Damage dmg = new()
             {
                 origin = transform.position,
-                damage = 1,
+                damage = _damage,
                 pushForce = 1
             };
             other.SendMessage("ReciveDamage", dmg);

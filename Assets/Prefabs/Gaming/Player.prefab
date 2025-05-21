@@ -257,6 +257,7 @@ MonoBehaviour:
   _woodenStickHit: {fileID: 1841468994739587940, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
   _damageRecive: {fileID: 743747052189577781, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
   _footsteps_cooldown: 0
+  _canAttack: 0
   canMove: 1
 --- !u!95 &9130218752993030609
 Animator:
@@ -314,8 +315,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.010846466, y: -0.15128486}
-  m_Size: {x: 0.19849205, y: 0.2821649}
+  m_Offset: {x: 0.010846466, y: -0.07801977}
+  m_Size: {x: 0.19849205, y: 0.42869508}
   m_Direction: 0
 --- !u!114 &6106489295815526331
 MonoBehaviour:

@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 6141584001063201643}
   - component: {fileID: 7875803977908227419}
   - component: {fileID: 8660635488483765513}
+  - component: {fileID: 4260685181956195371}
+  - component: {fileID: 490510981642477787}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -252,3 +254,31 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 7ab79849a31fdd1408691eca47579c1f, type: 2}
+--- !u!114 &4260685181956195371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6589609721969439574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c54e22f5e8f54fc42b761213c807bd62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SkeletonDeathEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d942bacd2de169f408aba563230b95f3, type: 2}
+--- !u!114 &490510981642477787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6589609721969439574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc404ef15c3ddf14da29f66dc64e2d8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
