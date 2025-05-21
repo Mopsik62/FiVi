@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: bc216d50e597db04e9e4eeb9b58f8ac4
+guid: acc4e3a41b0e08d4e84ce1e5e3a9041c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2363650278473017713
-    second: WispNew_0
-  - first:
-      213: -5541759666675357038
-    second: WispNew_1
-  - first:
-      213: 6563720745689820771
-    second: WispNew_2
+      213: -4368322862165430076
+    second: Train_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,67 +113,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WispNew_0
+      name: Train1
       rect:
         serializedVersion: 2
-        x: 359
-        y: 386
-        width: 209
-        height: 191
+        x: 53
+        y: 557
+        width: 384
+        height: 209
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17923a5b76f5dc020800000000000000
-      internalID: 2363650278473017713
+      spriteID: 4c0796050899063c0800000000000000
+      internalID: -4368322862165430076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WispNew_1
+      name: Train2
       rect:
         serializedVersion: 2
-        x: 647
-        y: 377
-        width: 191
-        height: 182
+        x: 437
+        y: 557
+        width: 404
+        height: 209
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 29a6a35d1f6b713b0800000000000000
-      internalID: -5541759666675357038
+      spriteID: 2c4999eddfe0a314883ed7082b864d48
+      internalID: -1589809819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WispNew_2
+      name: Train3
       rect:
         serializedVersion: 2
-        x: 935
-        y: 386
-        width: 209
-        height: 191
+        x: 841
+        y: 557
+        width: 383
+        height: 209
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 36e24bbfd35071b50800000000000000
-      internalID: 6563720745689820771
+      spriteID: 84c2ec9806e481646987b27d0a5abf3c
+      internalID: 906013702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Train4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 557
+        width: 1171
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e55a6f5612315f4fa660c79e9923176
+      internalID: -1801532662
       vertices: []
       indices: 
       edges: []
@@ -188,7 +204,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c0cd738e3df52d846935719a835e5f11
     internalID: 0
     vertices: []
     indices: 
@@ -198,9 +214,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WispNew_0: 2363650278473017713
-      WispNew_1: -5541759666675357038
-      WispNew_2: 6563720745689820771
+      Train1: -4368322862165430076
+      Train2: -1589809819
+      Train3: 906013702
+      Train4: -1801532662
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
