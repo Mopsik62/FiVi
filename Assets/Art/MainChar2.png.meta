@@ -138,9 +138,9 @@ TextureImporter:
       name: Left
       rect:
         serializedVersion: 2
-        x: 40
+        x: 42
         y: 1
-        width: 40
+        width: 38
         height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -160,9 +160,9 @@ TextureImporter:
       name: Idle
       rect:
         serializedVersion: 2
-        x: 81
+        x: 82
         y: 1
-        width: 39
+        width: 38
         height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -182,9 +182,9 @@ TextureImporter:
       name: Front_1
       rect:
         serializedVersion: 2
-        x: 121
+        x: 122
         y: 1
-        width: 39
+        width: 38
         height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -204,9 +204,9 @@ TextureImporter:
       name: Front_2
       rect:
         serializedVersion: 2
-        x: 161
+        x: 162
         y: 1
-        width: 39
+        width: 38
         height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -248,9 +248,9 @@ TextureImporter:
       name: Back_1
       rect:
         serializedVersion: 2
-        x: 281
+        x: 282
         y: 1
-        width: 39
+        width: 38
         height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -270,9 +270,9 @@ TextureImporter:
       name: Back_2
       rect:
         serializedVersion: 2
-        x: 321
+        x: 322
         y: 1
-        width: 39
+        width: 38
         height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -292,12 +292,12 @@ TextureImporter:
       name: Right
       rect:
         serializedVersion: 2
-        x: 240
+        x: 241
         y: 1
-        width: 40
+        width: 38
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

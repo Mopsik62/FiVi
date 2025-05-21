@@ -1,28 +1,19 @@
 fileFormatVersion: 2
-guid: 3d3403f8fd12cfc46849bb4b3fb261fb
+guid: 7a40ae2c029fe0f4eb89a039121f11f0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1693059189036848661
-    second: GrannyWithMushrooms_0
+      213: -4695502328755413110
+    second: GrannyWalking_0
   - first:
-      213: -1777753312908937167
-    second: GrannyWithMushrooms_1
+      213: -8086466230344133599
+    second: GrannyWalking_1
   - first:
-      213: -4009948427922471290
-    second: GrannyWithMushrooms_2
+      213: 667972946853504568
+    second: GrannyWalking_2
   - first:
-      213: 6043643030712928977
-    second: GrannyWithMushrooms_3
-  - first:
-      213: -264612186385741673
-    second: GrannyWithMushrooms_4
-  - first:
-      213: 8182237962233528964
-    second: GrannyWithMushrooms_5
-  - first:
-      213: -1103574711711252573
-    second: GrannyWithMushrooms_6
+      213: 1081250593711003324
+    second: GrannyWalking_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -131,121 +122,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GranneSpecial1
+      name: GrannyIdle1
       rect:
         serializedVersion: 2
         x: 0
-        y: 431
-        width: 362
-        height: 379
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: be96fb543ab0188e0800000000000000
-      internalID: -1693059189036848661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GranneSpecial2
-      rect:
-        serializedVersion: 2
-        x: 414
-        y: 431
-        width: 362
-        height: 379
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 138f9c5e7c62457e0800000000000000
-      internalID: -1777753312908937167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GranneSpecial3
-      rect:
-        serializedVersion: 2
-        x: 828
-        y: 431
-        width: 380
-        height: 379
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6868b02862dc958c0800000000000000
-      internalID: -4009948427922471290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GranneSpecial4
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 0
-        width: 362
-        height: 379
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1dac8ead0555fd350800000000000000
-      internalID: 6043643030712928977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GranneSpecial5
-      rect:
-        serializedVersion: 2
-        x: 404
-        y: 0
-        width: 407
-        height: 379
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7980d335e98e35cf0800000000000000
-      internalID: -264612186385741673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GranneSpecial6
-      rect:
-        serializedVersion: 2
-        x: 827
-        y: 1
+        y: 430
         width: 352
         height: 379
       alignment: 0
@@ -256,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48245a643162d8170800000000000000
-      internalID: 8182237962233528964
+      spriteID: a8f9384828936deb0800000000000000
+      internalID: -4695502328755413110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushroom
+      name: GrannyIdle2
       rect:
         serializedVersion: 2
-        x: 1179
-        y: 0
-        width: 119
-        height: 145
+        x: 440
+        y: 431
+        width: 352
+        height: 379
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,8 +159,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3afb85d85a05fa0f0800000000000000
-      internalID: -1103574711711252573
+      spriteID: 1245524bec917cf80800000000000000
+      internalID: -8086466230344133599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MushroomIdle1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 125
+        width: 119
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83626c82bdd154900800000000000000
+      internalID: 667972946853504568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MushroomIdle2
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 125
+        width: 119
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6135fafaf510f00800000000000000
+      internalID: 1081250593711003324
       vertices: []
       indices: 
       edges: []
@@ -288,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 19d79da30bcbd6c4587a82d3c8c35168
+    spriteID: 94c6c99b396cee743ac30e1bfebabfe3
     internalID: 0
     vertices: []
     indices: 
@@ -298,13 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GranneSpecial1: -1693059189036848661
-      GranneSpecial2: -1777753312908937167
-      GranneSpecial3: -4009948427922471290
-      GranneSpecial4: 6043643030712928977
-      GranneSpecial5: -264612186385741673
-      GranneSpecial6: 8182237962233528964
-      Mushroom: -1103574711711252573
+      GrannyIdle1: -4695502328755413110
+      GrannyIdle2: -8086466230344133599
+      MushroomIdle1: 667972946853504568
+      MushroomIdle2: 1081250593711003324
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

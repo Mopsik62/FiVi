@@ -6,6 +6,9 @@ public class Interactable : MonoBehaviour
 
     [Header("For Teleport")]
     public string NextScene;
+
+    [Header("For Shop")]
+    public GameObject Shop;
     public void Teleport()
     {
         if (GameManager.instance.currentProgress < 2)
@@ -14,5 +17,15 @@ public class Interactable : MonoBehaviour
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene(NextScene);
         }
+    }
+
+    public void OpenShop()
+    {
+        Shop.SetActive(true);
+    }
+
+    public void CloseShop()
+    {
+        Shop.SetActive(false);
     }
 }
