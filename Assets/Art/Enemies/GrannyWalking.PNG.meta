@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: e98ac77dcb227064ca1a422a06c636e7
+guid: 7a40ae2c029fe0f4eb89a039121f11f0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7628046161613248413
-    second: MainChar2_0
+      213: -4695502328755413110
+    second: GrannyWalking_0
+  - first:
+      213: -8086466230344133599
+    second: GrannyWalking_1
+  - first:
+      213: 667972946853504568
+    second: GrannyWalking_2
+  - first:
+      213: 1081250593711003324
+    second: GrannyWalking_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Back
+      name: GrannyIdle1
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 38
-        height: 54
+        x: 0
+        y: 430
+        width: 352
+        height: 379
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,184 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d975d31a1934cd960800000000000000
-      internalID: 7628046161613248413
+      spriteID: a8f9384828936deb0800000000000000
+      internalID: -4695502328755413110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Left
+      name: GrannyIdle2
       rect:
         serializedVersion: 2
-        x: 42
-        y: 1
-        width: 38
-        height: 54
+        x: 440
+        y: 431
+        width: 352
+        height: 379
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f1c3896d8206aeb41890b8fbc0715089
-      internalID: 1518938346
+      spriteID: 1245524bec917cf80800000000000000
+      internalID: -8086466230344133599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle
+      name: MushroomIdle1
       rect:
         serializedVersion: 2
-        x: 82
-        y: 1
-        width: 38
-        height: 54
+        x: 152
+        y: 125
+        width: 119
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f43c9f87dc37e214c9493ed35a46db2f
-      internalID: 747816647
+      spriteID: 83626c82bdd154900800000000000000
+      internalID: 667972946853504568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Front_1
+      name: MushroomIdle2
       rect:
         serializedVersion: 2
-        x: 122
-        y: 1
-        width: 38
-        height: 54
+        x: 341
+        y: 125
+        width: 119
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: afad2490079624e4bb429922ee494071
-      internalID: 1978160771
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Front_2
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 1
-        width: 38
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3fe60b5006701440a48f6758641b835
-      internalID: 619270046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Left_1
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 1
-        width: 38
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbe3240ef820a7645a41ea75fee8713c
-      internalID: 740891774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Back_1
-      rect:
-        serializedVersion: 2
-        x: 282
-        y: 1
-        width: 38
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d61bbf438aea2b148a3b5cf4834de194
-      internalID: -119282183
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Back_2
-      rect:
-        serializedVersion: 2
-        x: 322
-        y: 1
-        width: 38
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20dabbe919c5f0d479a0a40a179664ba
-      internalID: -694089911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 1
-        width: 38
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb35cba45e39afc43a20b1c8bbd1494e
-      internalID: 244456005
+      spriteID: cb6135fafaf510f00800000000000000
+      internalID: 1081250593711003324
       vertices: []
       indices: 
       edges: []
@@ -314,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: be0c16fba87cc9c46b2cb6f47ac5ad0e
+    spriteID: 94c6c99b396cee743ac30e1bfebabfe3
     internalID: 0
     vertices: []
     indices: 
@@ -324,15 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Back: 7628046161613248413
-      Back_1: -119282183
-      Back_2: -694089911
-      Front_1: 1978160771
-      Front_2: 619270046
-      Idle: 747816647
-      Left: 1518938346
-      Left_1: 740891774
-      Right: 244456005
+      GrannyIdle1: -4695502328755413110
+      GrannyIdle2: -8086466230344133599
+      MushroomIdle1: 667972946853504568
+      MushroomIdle2: 1081250593711003324
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
