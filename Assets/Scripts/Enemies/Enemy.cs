@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-[RequireComponent(typeof(BoxCollider2D), typeof(Rigidbody2D))]
+[RequireComponent(typeof(Rigidbody2D))]
 public class Enemy : Fighter
 {
     protected Animator anim;
