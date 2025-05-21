@@ -19,6 +19,7 @@ public class Enemy : Fighter
     protected override void Awake()
     {
         base.Awake();
+
         _rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         if (playerPosition == null)
@@ -43,16 +44,16 @@ public class Enemy : Fighter
         if (Dyuing || playerPosition == null)
             return;
 
-        float distance = Vector2.Distance(transform.position, playerPosition.position);
-        if (distance < 0.1f)
-            return;
+               float distance = Vector2.Distance(transform.position, playerPosition.position);
+                if (distance < 0.1f)
+                    return;
 
-        Vector2 direction = ((Vector2)(playerPosition.position - transform.position)).normalized;
-        Vector2 pixelPosition = new Vector2(
-        Mathf.Round((_rb.position.x + direction.x * moveSpeed * Time.fixedDeltaTime) * 54) / 54, //округление по нашему PPU иначе дергается
-        Mathf.Round((_rb.position.y + direction.y * moveSpeed * Time.fixedDeltaTime) * 54) / 54
-        );
-        _rb.MovePosition(pixelPosition);
+                Vector2 direction = ((Vector2)(playerPosition.position - transform.position)).normalized;
+                Vector2 pixelPosition = new Vector2(
+                Mathf.Round((_rb.position.x + direction.x * moveSpeed * Time.fixedDeltaTime) * 54) / 54, //округление по нашему PPU иначе дергается
+                Mathf.Round((_rb.position.y + direction.y * moveSpeed * Time.fixedDeltaTime) * 54) / 54
+                );
+                _rb.MovePosition(pixelPosition);
     }
 
     void OnCollisionEnter2D(Collision2D coll)

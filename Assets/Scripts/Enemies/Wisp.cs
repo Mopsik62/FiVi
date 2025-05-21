@@ -14,7 +14,10 @@ public class Wisp : Enemy
     protected override void FixedUpdate()
     {
         if (_isDashing)
+        {
+            _rb.linearVelocity = Vector2.zero;
             return;
+        }
         base.FixedUpdate();
         float distance = Vector2.Distance(transform.position, playerPosition.position);
         if ((distance < _dashDistance) && (Time.time - _lastSpecial > _specialCooldown))
@@ -30,6 +33,7 @@ public class Wisp : Enemy
     private IEnumerator SpecialAttack()
     {
         _isDashing = true;
+        _rb.linearVelocity = Vector2.zero;
         anim.SetBool("ChargeSpecial",true);
         yield return new WaitForSeconds(2f);
         anim.SetBool("ChargeSpecial", false);

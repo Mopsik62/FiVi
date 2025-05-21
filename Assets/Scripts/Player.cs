@@ -173,9 +173,10 @@ public class Player : Fighter
         if (CanTakeDamage)
         {
             _damageRecive.PCDamageEvent.Post(gameObject);
-            _healthUI.UpdateHearts(curHp);
+            
         }
         base.ReciveDamage(dmg);
+        _healthUI.UpdateHearts(curHp); // каждый раз вызывается неоч
     }
 
 }
