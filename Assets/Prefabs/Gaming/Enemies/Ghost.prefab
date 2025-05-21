@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3839808660058247444}
   - component: {fileID: 3661380383071393369}
   - component: {fileID: 4094281532453968995}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost
   m_TagString: Fighter
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6116800062749072516}
   - component: {fileID: 436741820027663648}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GhostSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
