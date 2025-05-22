@@ -2602,17 +2602,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 638104858}
   m_CullTransparentMesh: 1
---- !u!114 &678011240 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6548406987323087192, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
-  m_PrefabInstance: {fileID: 1606041731097047717}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8dbb83a64a8e8741b3eec0946cd95b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &680745086
 GameObject:
   m_ObjectHideFlags: 0
@@ -5712,6 +5701,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0644d731f0393a48bcb6074b17403f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1669885735 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6141584001063201643, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  m_PrefabInstance: {fileID: 1522575581}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82a714bacc4205c438ce122adf5b6754, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1669885737 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8473045270888513646, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  m_PrefabInstance: {fileID: 1522575581}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d95736a011644f4f9c1783bfc1000bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1711212356
 GameObject:
   m_ObjectHideFlags: 0
@@ -7718,6 +7729,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4185120551351889570, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
+      propertyPath: _eSound
+      value: 
+      objectReference: {fileID: 1669885735}
+    - target: {fileID: 4185120551351889570, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
       propertyPath: _healthUI
       value: 
       objectReference: {fileID: 186133296}
@@ -7734,21 +7749,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4185120551351889570, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
-      propertyPath: dashDuration
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 4185120551351889570, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
-      propertyPath: _curWeaponMele
+      propertyPath: _deathSound
       value: 
-      objectReference: {fileID: 1475992903}
+      objectReference: {fileID: 1669885737}
     - target: {fileID: 4185120551351889570, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
       propertyPath: _woodenStickHit
       value: 
       objectReference: {fileID: 1669885692}
-    - target: {fileID: 4185120551351889570, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
-      propertyPath: _curWeaponRanged
-      value: 
-      objectReference: {fileID: 678011240}
     - target: {fileID: 4185120551351889570, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
       propertyPath: _footsteps_gravel
       value: 

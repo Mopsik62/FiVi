@@ -25,5 +25,13 @@ public class EshkaProjectile : Weapon
         _sprite.Rotate(0f, 0f, rotationSpeed * Time.deltaTime);
         transform.Translate(_direction * speedUnits * Time.deltaTime);
     }
+    protected override void OnTriggerEnter2D(Collider2D other)
+    {
+        base.OnTriggerEnter2D(other);
+        if (other.CompareTag("Fighter"))
+        {
+            Destroy(gameObject);
+        }
+    }
 
 }
