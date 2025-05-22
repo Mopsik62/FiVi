@@ -4526,7 +4526,7 @@
 							<PropertyList>
 								<Property Name="MakeUpGain" Type="Real64">
 									<ValueList>
-										<Value>-13</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
