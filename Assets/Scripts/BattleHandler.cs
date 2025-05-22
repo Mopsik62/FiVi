@@ -17,10 +17,20 @@ public class BattleHandler : MonoBehaviour
     [SerializeField]
     private float _trainSpeed;
 
+
+    [SerializeField]
+    private TrainSignal _trainSignal;
+    
+
     [SerializeField]
     private TextMeshProUGUI _currentScore;
     [SerializeField]
+    private TextMeshProUGUI _currentWave;
+
+    [SerializeField]
     private int _CurrentScoreInt;
+    [SerializeField]
+    private GameObject _line;
 
     [SerializeField]
     private PolygonCollider2D _spawnAreaCollider;
@@ -28,9 +38,10 @@ public class BattleHandler : MonoBehaviour
     public int MaxWaves;
     public int CurWave = 0;
 
+    private LineRenderer lineRenderer;
 
 
-    [SerializeField]
+   [SerializeField]
     private Transform[] _trainSpawnPoints = new Transform[24];
 
     private Transform _spawnPoint;
@@ -50,6 +61,7 @@ public class BattleHandler : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
     }
     private void Start()
     {
@@ -71,14 +83,33 @@ public class BattleHandler : MonoBehaviour
     {
         Debug.Log("spawnTrain");
         int spawnIndex = Random.Range(0, 24);
+        StartCoroutine(SpawnTrainWithLine(spawnIndex));
+
+    }
+
+    private IEnumerator SpawnTrainWithLine(int spawnIndex)
+    {
         Transform spawnPoint = _trainSpawnPoints[spawnIndex];
         _leftSideTrain = spawnIndex < 12;
+        DrawLine(spawnPoint, _leftSideTrain);
+
+        yield return new WaitForSeconds(2f);
+
 
         GameObject train = Instantiate(_train.gameObject, spawnPoint.position, Quaternion.identity);
+        _trainSignal.TrainSignalEvent.Post(train);
+
         Vector2 direction = _leftSideTrain ? Vector2.right : Vector2.left;
 
         train.AddComponent<TrainMover>().Init(direction, _trainSpeed);
 
+    }
+
+    private void DrawLine(Transform spawnPoint, bool _leftLine)
+    {
+        Vector3 newPosition = spawnPoint.position + new Vector3(0, 0.4f, 0);
+        GameObject lineInstance = Instantiate(_line, newPosition, Quaternion.identity);
+        Destroy(lineInstance, 2f);
     }
 
     private void StartCombat()
@@ -92,13 +123,11 @@ public class BattleHandler : MonoBehaviour
         for (int i = 0; i < MaxWaves; i++)
         {
             Debug.Log("Новая волна началась " + (CurWave++));
-
+            ChangeWave();
             StartCoroutine(SpawnWaveEnemies());
 
-            yield return new WaitForSeconds(_waveDuration + 10f); 
+            yield return new WaitForSeconds(_waveDuration + 1f); 
         }
-
-
     }
 
     private IEnumerator SpawnWaveEnemies()
@@ -132,7 +161,6 @@ public class BattleHandler : MonoBehaviour
             safetyCounter++;
             if (safetyCounter > 50)
             {
-                Debug.LogWarning("Не удалось найти точку в области спавна.");
                 break;
             }
         } while (!_spawnAreaCollider.OverlapPoint(point) || Vector2.Distance(point, Player.instance.gameObject.transform.position) < _minDistanceFromPlayer);
@@ -145,6 +173,11 @@ public class BattleHandler : MonoBehaviour
         _CurrentScoreInt = int.Parse(_currentScore.text);
         _CurrentScoreInt += point;
         _currentScore.text = _CurrentScoreInt.ToString();
+    }
+
+    public void ChangeWave()
+    {
+        _currentWave.text = CurWave.ToString();
     }
 
 }

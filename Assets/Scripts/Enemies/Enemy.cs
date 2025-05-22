@@ -89,6 +89,8 @@ public class Enemy : Fighter
 
     }
 
+
+
     protected override void Death()
     {
         Dyuing = true;
