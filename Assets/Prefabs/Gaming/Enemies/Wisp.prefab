@@ -52,7 +52,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -70,7 +70,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.3236028, y: -0.95786446}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -80,7 +80,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.24074075, y: 0.37037036}
+  m_Size: {x: 1.949364, y: 3.140411}
   m_EdgeRadius: 0
 --- !u!50 &4637737983891980053
 Rigidbody2D:
@@ -104,7 +104,7 @@ Rigidbody2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
@@ -125,15 +125,17 @@ MonoBehaviour:
   maxHp: 1
   _boxCollider: {fileID: 0}
   pushRecoverySpeed: 1
-  immuneTime: 1
+  immuneTime: 0.1
   contactDamage: 1
   playerPosition: {fileID: 0}
   ScoreGranted: 0
   pushForceDeal: 0
-  _specialCooldown: 5
-  moveSpeed: 1
+  _specialCooldown: 2
+  moveSpeed: 4
   _scoreForKill: 0
-  _dashDistance: 5
+  _dashDistance: 10
+  _walkSound: {fileID: 3313656151562534967, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _footsteps_cooldown: 5
 --- !u!95 &1993981711276167354
 Animator:
   serializedVersion: 7
@@ -231,7 +233,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 7
   m_Sprite: {fileID: -5541759666675357038, guid: bc216d50e597db04e9e4eeb9b58f8ac4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

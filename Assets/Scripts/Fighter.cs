@@ -40,4 +40,18 @@ public class Fighter : MonoBehaviour
     {
         Debug.Log("DEATH OF THE " + this.name);
     }
+
+    protected void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Train"))
+        {
+            Damage dmg = new()
+            {
+                origin = transform.position,
+                damage = 5,
+                pushForce = 1
+            };
+            this.SendMessage("ReciveDamage", dmg);
+        }
+    }
 }
