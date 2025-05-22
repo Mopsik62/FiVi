@@ -27,6 +27,10 @@ public class Player : Fighter
     [SerializeField]
     private PC_Damage _damageRecive;
     [SerializeField]
+    private Shuriken _eSound;
+    [SerializeField]
+    private PC_Death _deathSound;
+    [SerializeField]
     private float _footsteps_cooldown; //время аниматора для 1 шага
     private float _footsteps_timer;
 
@@ -185,6 +189,7 @@ public class Player : Fighter
         {
             _curWeaponRanged.Attack();
             isAttacking = true;
+            _eSound.ShurikenEvent.Post(gameObject);
             animator.Play("AttackRanged");
             Invoke(nameof(EndAttack), _curWeaponRanged.cooldown);
         }
@@ -252,5 +257,11 @@ public class Player : Fighter
     {
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
+    }
+
+    protected override void Death()
+    {
+        base.Death();
+        _deathSound.PCDeathEvent.Post(gameObject);
     }
 }

@@ -4,12 +4,25 @@ using UnityEngine;
 public class Wisp : Enemy
 {
     [SerializeField]
-    private float _dashDistance = 5f;
+    private float _dashDistance = 10f;
     private bool _isDashing = false;
+
+/*    [SerializeField]
+    private ZombieDamage _damageSound;*/
+
+    [SerializeField]
+    private WaspFly _walkSound;
+
+    [SerializeField]
+    private float _footsteps_cooldown;
+    private float _footsteps_timer;
+
     protected override void Awake()
     {
         base.Awake();
         _lastSpecial = Time.time;
+        _footsteps_timer = _footsteps_cooldown;
+
     }
     protected override void FixedUpdate()
     {
@@ -25,7 +38,14 @@ public class Wisp : Enemy
             Debug.Log("Start Dashing");
             _lastSpecial = Time.time;
             StartCoroutine(SpecialAttack());
-            }
+        }
+
+        _footsteps_timer += Time.fixedDeltaTime;
+        if (_footsteps_timer >= _footsteps_cooldown)
+        {
+            _walkSound.WaspFlyEvent.Post(gameObject);
+            _footsteps_timer = 0;
+        }
 
     }
 
@@ -47,18 +67,21 @@ public class Wisp : Enemy
 
         float dashDuration = 0.75f;
         float dashTimer = 0f;
-        float dashSpeed = 10f;
+        float dashSpeed = 3f;
 
         Vector2 direction = ((Vector2)(playerPosition.position - transform.position)).normalized;
 
 
         while (dashTimer < dashDuration)
         {
-            Vector2 pixelPosition = new Vector2(
-            Mathf.Round((_rb.position.x + direction.x * moveSpeed * dashSpeed * Time.fixedDeltaTime) * 54) / 54, //округление по нашему PPU иначе дергается
-            Mathf.Round((_rb.position.y + direction.y * moveSpeed * dashSpeed * Time.fixedDeltaTime) * 54) / 54
-            );
-            _rb.MovePosition(pixelPosition);
+            if (!Dyuing)
+            {
+                Vector2 pixelPosition = new Vector2(
+                Mathf.Round((_rb.position.x + direction.x * moveSpeed * dashSpeed * Time.fixedDeltaTime) * 54) / 54, //округление по нашему PPU иначе дергается
+                Mathf.Round((_rb.position.y + direction.y * moveSpeed * dashSpeed * Time.fixedDeltaTime) * 54) / 54
+                );
+                _rb.MovePosition(pixelPosition);
+            }
             dashTimer += Time.deltaTime;
             yield return null;
         }
@@ -66,6 +89,13 @@ public class Wisp : Enemy
         _isDashing = false;
         anim.SetBool("Special", false);
 
+    }
+
+    protected override void Death()
+    {
+        _walkSound.WaspFlyEvent.Stop(gameObject);
+        base.Death();
+        
     }
 
 }

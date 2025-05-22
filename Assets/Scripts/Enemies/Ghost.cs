@@ -12,10 +12,25 @@ public class Ghost : Enemy
     [SerializeField]
     private SpriteRenderer _sprite;
 
+    [SerializeField]
+    private float _footsteps_cooldown;
+    private float _footsteps_timer;
+
+    [SerializeField]
+    private GhostDamage _damageSound;
+    [SerializeField]
+    private GhostAttak _atackSound;
+    /*    [SerializeField]
+        private ZombieDeath _deathSound;*/
+    [SerializeField]
+    private GhostWalk _walkSound;
+
+
     protected override void Awake()
     {
         base.Awake();
         _lastSpecial = Time.time;
+        _footsteps_timer = _footsteps_cooldown;
         _specialCooldown = Random.Range(_minSpecialCharge, _maxSpecialCharge);
     }
 
@@ -30,7 +45,37 @@ public class Ghost : Enemy
             _specialCooldown = Random.Range(_minSpecialCharge, _maxSpecialCharge);
         }
 
+        _footsteps_timer += Time.fixedDeltaTime;
+        if (_footsteps_timer >= _footsteps_cooldown)
+        {
+            _walkSound.GhostWalkEvent.Post(gameObject);
+            _footsteps_timer = 0;
+        }
 
+    }
+
+    protected override void OnCollisionEnter2D(Collision2D coll)
+    {
+        base.OnCollisionEnter2D(coll);
+        if (coll.gameObject.name == "Player")
+        {
+            _atackSound.GhostAttakEvent.Post(gameObject);
+        }
+
+    }
+
+    protected override void Death()
+    {
+        _walkSound.GhostWalkEvent.Stop(gameObject);
+        base.Death();
+       // _deathSound.ZombieDeathEvent.Post(gameObject);
+    }
+
+    public override void ReciveDamage(Damage dmg)
+    {
+        base.ReciveDamage(dmg);
+
+        _damageSound.GhostDamageEvent.Post(gameObject);
     }
 
     private IEnumerator Special()

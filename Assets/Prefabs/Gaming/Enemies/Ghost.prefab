@@ -147,7 +147,7 @@ MonoBehaviour:
   maxHp: 1
   _boxCollider: {fileID: 0}
   pushRecoverySpeed: 1
-  immuneTime: 1
+  immuneTime: 0.1
   contactDamage: 1
   playerPosition: {fileID: 0}
   ScoreGranted: 0
@@ -234,7 +234,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 7
   m_Sprite: {fileID: -5899927303015767666, guid: 292e847aa127b2247ad9c31a2cfbda77, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
