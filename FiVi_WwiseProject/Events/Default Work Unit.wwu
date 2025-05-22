@@ -92,17 +92,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Skeleton_Damage" ID="{D57AF6B1-5454-47A7-8905-DE3DB5790BEC}">
-					<ChildrenList>
-						<Action Name="" ID="{37BE1ACA-15A3-4102-BE4D-1B0FB410BDA3}" ShortID="675950469">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Skeleton_Damage" ID="{9B25C0A3-EB6A-475A-BEAD-53551F3AB2B7}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Weapons" ID="{23302BE7-1539-496A-BDD8-DA40DF588E1F}" ShortID="729007016">
 					<ChildrenList>
 						<Event Name="WoodStick" ID="{3A9B80B3-2166-463D-96A7-BDAF53104FA1}">
@@ -162,17 +151,246 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="SkeletonDeath" ID="{0D08D03C-346D-4AFD-8AAC-9B0D4210DCCB}">
+				<Folder Name="Trains" ID="{FA0153D8-B5EC-4296-9762-19BF170FAF07}" ShortID="39167245">
 					<ChildrenList>
-						<Action Name="" ID="{BF9CFD32-DFAB-4FD9-8A16-352BCC666071}" ShortID="506200418">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SkeletonDeath" ID="{46052B5E-E4BA-4ED7-A4E4-67A67C106643}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="BellSignal" ID="{DD889C3D-7F99-413B-B8FF-A035576140A2}">
+							<ChildrenList>
+								<Action Name="" ID="{6B4D8E32-5380-4B1A-B5D6-8ABB239BA0E7}" ShortID="437508592">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BellSignals" ID="{38B96CFD-4ECD-4164-878C-264732DC154C}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
+				<Folder Name="Props" ID="{871E5E15-0677-46BF-B8D5-3F6EEAD488F5}" ShortID="846058445">
+					<ChildrenList>
+						<Event Name="ProsGEt" ID="{6BBF22FE-6E17-4292-8D04-DE046CCD9788}">
+							<ChildrenList>
+								<Action Name="" ID="{2E6983D5-63F6-4BF7-A386-5C2829FC111E}" ShortID="271631678">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PropsGet" ID="{ABC98120-B34A-49A9-87F7-5A5E8E5B3901}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PropsUse" ID="{18AA9C38-8269-4476-BBE3-C0B18D70E57B}">
+							<ChildrenList>
+								<Action Name="" ID="{4A0936E7-E0A4-4600-9715-1FD6DAEC06D5}" ShortID="755306300">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PropsUse" ID="{A9C61543-A87A-49D5-A944-8B9E30E0B5CE}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Enemies" ID="{C0AE1852-F2C9-4691-AD65-E57E87F90612}" ShortID="213123982">
+					<ChildrenList>
+						<Event Name="Skeleton_Damage" ID="{D57AF6B1-5454-47A7-8905-DE3DB5790BEC}">
+							<ChildrenList>
+								<Action Name="" ID="{37BE1ACA-15A3-4102-BE4D-1B0FB410BDA3}" ShortID="675950469">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skeleton_Damage" ID="{9B25C0A3-EB6A-475A-BEAD-53551F3AB2B7}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SkeletonDeath" ID="{0D08D03C-346D-4AFD-8AAC-9B0D4210DCCB}">
+							<ChildrenList>
+								<Action Name="" ID="{BF9CFD32-DFAB-4FD9-8A16-352BCC666071}" ShortID="506200418">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SkeletonDeath" ID="{46052B5E-E4BA-4ED7-A4E4-67A67C106643}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="WaspDamage" ID="{E91A3F5F-770D-491F-B68B-A32B099371FF}">
+							<ChildrenList>
+								<Action Name="" ID="{E12BA843-380E-4A65-93BF-B3EA7CECB56F}" ShortID="658490594">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WaspDamage" ID="{EE9BC390-C926-4014-A1A8-1814923CC72A}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="WaspFly" ID="{EE567666-7702-4918-8C66-1699BB455628}">
+							<ChildrenList>
+								<Action Name="" ID="{A590DDC8-9A34-4185-9574-4BA7E895B9C4}" ShortID="685502260">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WaspFly" ID="{DE9E1412-0A68-4CCE-9305-812FEC8EBFB1}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GhostDamage" ID="{92C9D8E7-5927-4FF8-9A5F-D75C23000E3C}">
+							<ChildrenList>
+								<Action Name="" ID="{CFAE2C98-43DA-4E63-BBE4-CA2EF4543AEF}" ShortID="511168273">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GhostDamage" ID="{58A4AEF7-E88E-4A68-9D6C-0CDF7860772B}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GooseDamage" ID="{14F56670-9EFE-44E4-9EEB-0FD114086E92}">
+							<ChildrenList>
+								<Action Name="" ID="{D0D7065B-B0AF-449D-9096-09E419E2C856}" ShortID="668545016">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GooseDamage" ID="{6CD3D80D-C468-4B15-A958-F0859396271D}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GooseDeath" ID="{F6868CE1-74E3-47BB-85A5-A474D37D3ED8}">
+							<ChildrenList>
+								<Action Name="" ID="{BD42CE65-DD75-4932-AD8C-87688A445094}" ShortID="773259932">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GooseDeath" ID="{CC2B4F31-A79E-4722-B1FE-B22BA63021CF}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Babka" ID="{5B4326CF-CC0D-4717-9D64-3A1B6CEEC96E}" ShortID="924125359">
+							<ChildrenList>
+								<Event Name="BabkaDeath" ID="{C5C059A0-715D-4E8B-BA00-72475C226F27}">
+									<ChildrenList>
+										<Action Name="" ID="{96BE11EB-1A7C-4DD2-805B-E0D75089A868}" ShortID="923030946">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BabkaDeath" ID="{16851DF1-9B5F-400B-B5B0-131CEC4E6EAF}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="BabkaDamage" ID="{9549962E-CC19-4563-86AA-09688B0DA48E}">
+									<ChildrenList>
+										<Action Name="" ID="{88B66631-7B62-46B8-8B66-72A38CA22CEE}" ShortID="900676280">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BabkaDamage" ID="{08FAD10B-DC22-4FFB-9001-800A2C82243E}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="BabkaWalk" ID="{9AA6484E-0768-4549-8E38-10CB6FB25C17}">
+									<ChildrenList>
+										<Action Name="" ID="{12DBDF66-EFF0-4F2C-AABE-0F73595E836C}" ShortID="867810363">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BabkaWalk" ID="{6BC079EF-4A49-4E9E-9D2C-320701DCEBCA}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="MushroomStart" ID="{DDBB70D4-7D14-4E9A-9554-9594A9C06E14}">
+									<ChildrenList>
+										<Action Name="" ID="{A229E9F6-68AF-41A1-B000-A9BA5DC54838}" ShortID="82290276">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MushroomStart" ID="{D5625C87-4A94-42CF-8FDC-2B2FE446682D}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="MushroomBlow" ID="{0FD8F343-5ADC-4925-98A7-D6DD255749D5}">
+									<ChildrenList>
+										<Action Name="" ID="{20F841FD-0762-48C0-998C-3A0374FCC85A}" ShortID="520843505">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MushroomBlow" ID="{2EF175A2-E9EF-472B-ADA9-A32E0E88B042}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Goosewalk" ID="{E8E86342-C434-472B-BE5D-4C17D3AC0219}">
+							<ChildrenList>
+								<Action Name="" ID="{84D99574-798B-42C9-9E54-5C0977066789}" ShortID="603884629">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GooseSound" ID="{812918AD-0969-4F55-AC97-E3B5573B08DC}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GhostWalk" ID="{ECEF0C6E-CBA3-4197-A687-C8C0BCBA754F}">
+							<ChildrenList>
+								<Action Name="" ID="{7577911A-A09B-4E29-B342-F0AF5DF4C307}" ShortID="911165553">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GhostWalk" ID="{327200F0-5F92-4DBA-8552-8C6B519132A5}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Zombie" ID="{895E4D29-8591-4717-9C68-0C50842EDFFA}" ShortID="322411250">
+							<ChildrenList>
+								<Event Name="ZombieWalk" ID="{79DDBDF2-D9FF-4C72-9D15-1596B5203121}">
+									<ChildrenList>
+										<Action Name="" ID="{565DB037-F245-482D-BC50-DC0436DC846B}" ShortID="556968830">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ZombieWalk" ID="{5DF020D1-056B-4B07-9772-38D3329EEAB1}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ZombieDamage" ID="{5C2EE6FC-ED17-4AD8-AAA4-8DAF1B4C1AEC}">
+									<ChildrenList>
+										<Action Name="" ID="{BA18A63A-509A-4F7B-AFC5-2DFF4A3350F1}" ShortID="396194857">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ZombieDamage" ID="{E2D4E632-A0A6-41A0-9394-8EAAE2658056}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ZombieDeath" ID="{1FD64A10-EA90-4DE4-B565-D1A02737E336}">
+									<ChildrenList>
+										<Action Name="" ID="{C3845E93-433E-4C36-957B-4E0FCACE932E}" ShortID="88538765">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ZombieDeath" ID="{0D9AFAC8-058B-4308-A03F-A26D31D93728}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
