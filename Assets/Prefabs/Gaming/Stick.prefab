@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4155067793160281158}
-  - component: {fileID: 5966361217014955402}
   - component: {fileID: 1884928999975726559}
+  - component: {fileID: -7810246987648644973}
   m_Layer: 0
   m_Name: Stick
   m_TagString: Untagged
@@ -33,20 +33,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5966361217014955402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4043046823354531519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa1d55ea43e8aea4b911e71c3477b0f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _boxCollider: {fileID: 1884928999975726559}
-  cooldown: 0
 --- !u!61 &1884928999975726559
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -93,3 +79,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.7254472, y: 0.6623515}
   m_EdgeRadius: 0
+--- !u!114 &-7810246987648644973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4043046823354531519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 590363eea1acbeb4597e2ba3ef4f61cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _boxCollider: {fileID: 1884928999975726559}
+  _damage: 1
+  cooldown: 0.2

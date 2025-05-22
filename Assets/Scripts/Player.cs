@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,7 +13,10 @@ public class Player : Fighter
     private HealthUI _healthUI;
 
     [SerializeField]
-    private Weapon _curWeapon;
+    private Weapon _curWeaponMele;
+    [SerializeField]
+    private Weapon _curWeaponRanged;
+
 
     [SerializeField]
     private Footsteps_Concrete _footsteps;
@@ -26,9 +30,16 @@ public class Player : Fighter
     private float _footsteps_cooldown; //время аниматора для 1 шага
     private float _footsteps_timer;
 
+    public bool _canAttack = false;
     private bool isAttacking = false;
     public bool canMove = true;
 
+    private Vector2 _lastMoveDirection;
+    private bool isDashing = false;
+    [SerializeField] private float dashDistance = 3f;
+    [SerializeField] private float dashDuration = 0.1f;
+    [SerializeField] private float dashCooldown = 1f;
+    private bool canDash = true;
 
     protected override void Awake()
     {
@@ -62,15 +73,35 @@ public class Player : Fighter
     {
         moveInput.x = Input.GetAxisRaw("Horizontal");
         moveInput.y = Input.GetAxisRaw("Vertical");
-        if (!canMove) return;
-        if (!isAttacking)
+
+        if (moveInput != Vector2.zero)
+        {
+            _lastMoveDirection = moveInput.normalized;
+        }
+        else
+        {
+            _lastMoveDirection = Vector2.zero;
+        }
+
+            if (!canMove) return;
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && (_lastMoveDirection != Vector2.zero))
+        {
+            Dash();
+        }
+
+        if (!isAttacking && !isDashing)
         {
             AnimateMovement();
         }
 
         if (Input.GetMouseButtonDown(0))
         {
-            Attack();
+            AttackWithMelee();
+        }
+        if (Input.GetMouseButtonDown(1))
+        {
+            AttackWithRanged();
         }
     }
 
@@ -133,18 +164,31 @@ public class Player : Fighter
             animator.Play("Idle");
         }
     }
-    public void Attack()
+    public void AttackWithMelee()
     {
+        if (!_canAttack)
+            return;
         if (!isAttacking)
         {
-            _curWeapon.Attack();
+            _curWeaponMele.Attack();
             isAttacking = true;
             animator.Play("Attack");
             _woodenStickHit.WoodStickHitEvent.Post(gameObject);
-            Invoke(nameof(EndAttack), _curWeapon.cooldown);
+            Invoke(nameof(EndAttack), _curWeaponMele.cooldown);
         }
     }
-
+    public void AttackWithRanged()
+    {
+        if (!_canAttack)
+            return;
+        if (!isAttacking)
+        {
+            _curWeaponRanged.Attack();
+            isAttacking = true;
+            animator.Play("AttackRanged");
+            Invoke(nameof(EndAttack), _curWeaponRanged.cooldown);
+        }
+    }
     private void EndAttack()
     {
         isAttacking = false;
@@ -167,9 +211,46 @@ public class Player : Fighter
 
     public override void ReciveDamage(Damage dmg)
     {
+        if (CanTakeDamage)
+        {
+            _damageRecive.PCDamageEvent.Post(gameObject);
+            
+        }
         base.ReciveDamage(dmg);
-        _damageRecive.PCDamageEvent.Post(gameObject);
-        _healthUI.UpdateHearts(curHp);
+        _healthUI.UpdateHearts(curHp); // каждый раз вызывается неоч
     }
 
+    protected void Dash()
+    {
+        if (isDashing) return;
+        animator.Play("Dash");
+        isDashing = true;
+        canDash = false;
+        StartCoroutine(DashCooldownRoutine());
+        canMove = false;
+
+        Vector2 dashTarget = rb.position + _lastMoveDirection * dashDistance;
+        StartCoroutine(PerformDash(dashTarget));
+    }
+    private IEnumerator PerformDash(Vector2 targetPos)
+    {
+        float elapsed = 0f;
+        Vector2 startPos = rb.position;
+
+        while (elapsed < dashDuration)
+        {
+            rb.MovePosition(Vector2.Lerp(startPos, targetPos, elapsed / dashDuration));
+            elapsed += Time.fixedDeltaTime;
+            yield return new WaitForFixedUpdate();
+        }
+
+        rb.MovePosition(targetPos); 
+        isDashing = false;
+        canMove = true;
+    }
+    private IEnumerator DashCooldownRoutine()
+    {
+        yield return new WaitForSeconds(dashCooldown);
+        canDash = true;
+    }
 }
