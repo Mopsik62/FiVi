@@ -743,6 +743,22 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: c18c9bb2aab8a264a8e3e44708d1915c, type: 2}
+--- !u!114 &1168575355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168575317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a1684bd2de6ae43b9322429b898c91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GooseAttakEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6c2a77cdacba52e4ab00d33eeab7d3d9, type: 2}
 --- !u!1 &1435378794
 GameObject:
   m_ObjectHideFlags: 0
@@ -883,6 +899,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6589609721969439574, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1168575354}
+    - targetCorrespondingSourceObject: {fileID: 6589609721969439574, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1168575355}
   m_SourcePrefab: {fileID: 100100000, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
 --- !u!1 &1737750481
 GameObject:

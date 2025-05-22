@@ -426,6 +426,17 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="GooseAttack" ID="{FE0B2A6B-2E2A-4234-B6DD-8E80360C5731}">
+							<ChildrenList>
+								<Action Name="" ID="{33675A18-E789-4331-9A8C-6D47A8059FD7}" ShortID="11215607">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GooseAttak" ID="{ED0BA194-C14F-46C1-9802-E4CF1C671D76}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

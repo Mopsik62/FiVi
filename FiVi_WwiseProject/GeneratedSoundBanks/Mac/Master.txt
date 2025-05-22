@@ -21,6 +21,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2191159630	TitleMusic			\Default Work Unit\TitleMusic	
 	2192199958	BabkaDeath			\Default Work Unit\Enemies\Babka\BabkaDeath	
 	2425295945	EyeRoll			\Default Work Unit\Enemies\Eye\EyeRoll	
+	2447298006	GooseAttack			\Default Work Unit\Enemies\GooseAttack	
 	2669613969	PC_Death			\Default Work Unit\PC_Death	
 	2776421058	WoodStick			\Default Work Unit\Weapons\WoodStick	
 	2841215510	PropsUse			\Default Work Unit\Props\PropsUse	
@@ -43,15 +44,16 @@ Effect plug-ins	ID	Name	Type				Notes
 	997864462	RoomVerb (Custom)	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	3692742	Attak_02	D:\FiVi\FiVi_WwiseProject\.cache\F4\{F42094F3-4230-F4E8-F5D4-66FEF8B93159}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Goose\GooseAttak\Attak_02		11959
 	20049260	Goose_04	D:\FiVi\FiVi_WwiseProject\.cache\FD\{FD5F7579-105F-11C8-1DED-49EFDFCEA942}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Goose\GooseDamage\Goose_04		3525
-	30051119	Footstep_Concrete_02	D:\FiVi\FiVi_WwiseProject\.cache\09\{09FE1A7C-F0AB-8F58-AD9E-3E128F339086}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Concrete\Footstep_Concrete_02		57296
+	30051119	Footstep_Concrete_02	D:\FiVi\FiVi_WwiseProject\.cache\55\{55E899DE-931A-2513-99CB-16284BB092D5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Concrete\Footstep_Concrete_02		3838
 	49287920	Shuriken_01	D:\FiVi\FiVi_WwiseProject\.cache\0B\{0B81A9DC-75E6-DE9D-9CB4-4AE72CFF3EEB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Shuriken\Shuriken_01		4794
 	63862401	WoodStick_03	D:\FiVi\FiVi_WwiseProject\.cache\89\{8987E4BE-5724-F5A0-DB1B-F0647A410EDF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Stick\WoodStick_03		3162
-	106752488	PC_Death	D:\FiVi\FiVi_WwiseProject\.cache\A9\{A9269199-0880-1714-5287-F79D39884F7B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\PC_death\PC_Death		122924
+	106752488	PC_Death	D:\FiVi\FiVi_WwiseProject\.cache\BD\{BD66B14F-93B5-ADC2-1776-F35327EA293B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\PC_death\PC_Death		10954
 	138061966	Zombie-003_03	D:\FiVi\FiVi_WwiseProject\.cache\DB\{DB943F97-BE06-F4F4-4ACC-ADED46467AD7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Zombie\ZombieDeath\Zombie-003_03		24996
 	142645391	Zombie-002_02	D:\FiVi\FiVi_WwiseProject\.cache\C1\{C100578F-66F2-CA25-5257-C8E94C7C9317}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Zombie\ZombieDamage\Zombie-002_02		9567
 	150433116	Goose_02	D:\FiVi\FiVi_WwiseProject\.cache\A2\{A254C3F5-D0F3-CDF8-7E55-47DE47CB0F7C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Goose\GooseDeath\Goose_02		14771
-	153854288	Footsteps_gravel-001-004	D:\FiVi\FiVi_WwiseProject\.cache\CC\{CC4B9F05-82C8-6D9D-3087-734C0A62BDEC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-004		35672
+	153854288	Footsteps_gravel-001-004	D:\FiVi\FiVi_WwiseProject\.cache\B1\{B1280DD4-8A44-445B-B235-7A953839AED5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-004		3048
 	157273063	Melody_1	D:\FiVi\FiVi_WwiseProject\.cache\7A\{7AFF53B5-9DE8-4B41-04B1-E18D71050FBE}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Melody\Melody_1		192020
 	162320672	Melody_1	D:\FiVi\FiVi_WwiseProject\.cache\8B\{8B5D7AD8-925D-3AE0-C6B8-26BDA8AFF6F5}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Melody\Melody_1		133413
 	185383019	WoodStick	D:\FiVi\FiVi_WwiseProject\.cache\53\{53D6631A-1496-9B84-18B5-CB66365371F0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Stick\WoodStick		3882
@@ -59,32 +61,33 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	198022058	GooseSound_01	D:\FiVi\FiVi_WwiseProject\.cache\9B\{9B05794E-92B3-4F48-DAE2-9D836A61A67A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Goose\GooseSound\GooseSound_01		51221
 	201931862	Bass_1	D:\FiVi\FiVi_WwiseProject\.cache\0D\{0D5E1FD3-12A5-F848-17A7-D77DDCAE1658}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Melody\Bass_1		108978
 	205008637	Babka_01	D:\FiVi\FiVi_WwiseProject\.cache\32\{32EA5CC4-E531-AB0A-F8F4-44304906ADE3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Babka\BabkaWalk\Babka_01		39210
-	210188613	PropsUse	D:\FiVi\FiVi_WwiseProject\.cache\BE\{BEE553A6-012E-0E61-BECF-B99E7134CBC7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Props\PropsUse\PropsUse		714532
+	210188613	PropsUse	D:\FiVi\FiVi_WwiseProject\.cache\DC\{DCAC3788-3371-8E8C-A207-444734C765E7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Props\PropsUse\PropsUse		18169
 	215558022	BottleFly_01	D:\FiVi\FiVi_WwiseProject\.cache\6E\{6EFD2F79-E4C5-8F39-2B9D-6315EB2519B9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Bottle\Bottle_Fly\BottleFly_01		7340
-	225781329	TrainRail_1	D:\FiVi\FiVi_WwiseProject\.cache\63\{63C0AF87-8021-E94C-66E2-4B411CA25CEC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Trains\TrainsRail\TrainRail_1		1561608
+	225781329	TrainRail_1	D:\FiVi\FiVi_WwiseProject\.cache\94\{948CA6FA-4B5F-FF3A-E5FF-BB3CD1505B29}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Trains\TrainsRail\TrainRail_1		90085
 	241102469	Arp_1	D:\FiVi\FiVi_WwiseProject\.cache\9E\{9E33980A-C9A8-1A98-7194-46E444F18C48}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Piccolo\Arp_1		118831
 	253890253	Zombie-003_02	D:\FiVi\FiVi_WwiseProject\.cache\1F\{1F244BDF-2DBF-CF78-E972-7B80095A9669}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Zombie\ZombieDeath\Zombie-003_02		28639
-	274832657	Footstep_Concrete_1	D:\FiVi\FiVi_WwiseProject\.cache\76\{767B6A46-17EF-6226-D8B5-3BC42EEAF344}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Concrete\Footstep_Concrete_1		87384
-	278737010	Footstep_Concrete_05	D:\FiVi\FiVi_WwiseProject\.cache\C0\{C0A22B9B-4775-2E14-9610-CBECD47FC256}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Concrete\Footstep_Concrete_05		90352
+	274832657	Footstep_Concrete_1	D:\FiVi\FiVi_WwiseProject\.cache\64\{640CDB9C-E34E-E5FC-ADC7-2FB244383865}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Concrete\Footstep_Concrete_1		5673
+	278737010	Footstep_Concrete_05	D:\FiVi\FiVi_WwiseProject\.cache\56\{56D2684E-9A96-BFBF-6389-DB551B8A4364}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Concrete\Footstep_Concrete_05		5938
 	285917938	2	D:\FiVi\FiVi_WwiseProject\.cache\37\{37351A57-D82C-3DD3-7686-3E8B0061E834}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Babka\MushroomStart\Mushroom\2		12616
 	296826035	Zombie-002_04	D:\FiVi\FiVi_WwiseProject\.cache\3C\{3C03DE9A-A2E0-BAE5-091B-42B88AC0FC3C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Zombie\ZombieDamage\Zombie-002_04		6798
 	305034866	Zombie-003_01	D:\FiVi\FiVi_WwiseProject\.cache\6A\{6AE4267B-4883-810C-1A6B-415BDE4D43FD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Zombie\ZombieDeath\Zombie-003_01		19260
 	312086857	EyeDamage_02	D:\FiVi\FiVi_WwiseProject\.cache\09\{0961EF6F-F774-4187-8F71-5A51F9FEA488}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Eye\EyeDamage\EyeDamage_02		15005
 	313826726	BottleFly_02	D:\FiVi\FiVi_WwiseProject\.cache\D7\{D7B0021D-2C6F-D91B-DC56-4B335E34922C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Bottle\Bottle_Fly\BottleFly_02		5616
+	314798459	Attak_01	D:\FiVi\FiVi_WwiseProject\.cache\A7\{A73D1C63-FD0C-12E4-5F43-D5948B132243}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Goose\GooseAttak\Attak_01		8109
 	321062627	skeleton-dying	D:\FiVi\FiVi_WwiseProject\.cache\74\{74318ECC-E702-A586-EB19-7ED84D5B83FF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Skeleton\SkeletonDeath\skeleton-dying		11556
 	323294137	Zombie-003	D:\FiVi\FiVi_WwiseProject\.cache\31\{319E283C-FDA9-F8A5-070F-661EACFDB688}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Zombie\ZombieDeath\Zombie-003		18309
 	324611932	Babka_04	D:\FiVi\FiVi_WwiseProject\.cache\39\{394D556D-5030-B96C-8495-3D79D85895C9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Babka\BabkaWalk\Babka_04		28108
-	327515928	TitleMusic	D:\FiVi\FiVi_WwiseProject\.cache\04\{0461B112-1DAA-883B-6F92-1AC4182E77CE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\TitleMusic\TitleMusic		2569800
+	327515928	TitleMusic	D:\FiVi\FiVi_WwiseProject\.cache\67\{6717B5E9-9A92-3CEB-E837-124E301E5B98}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\TitleMusic\TitleMusic		217448
 	336371709	EyeDamage	D:\FiVi\FiVi_WwiseProject\.cache\E9\{E98FBE5D-9460-AEA7-119F-D45A4F8EE05E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Eye\EyeDamage\EyeDamage		9992
 	349985375	Eye-002_02	D:\FiVi\FiVi_WwiseProject\.cache\BB\{BB17922F-C235-A6F9-93A8-3F2FED3AD1C9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Eye\EyeRoll\Meat\Eye-002_02		127424
 	356571249	HubMusic_4	D:\FiVi\FiVi_WwiseProject\.cache\E6\{E62FA96C-B993-F316-D7D1-991FD0AD2113}.wem		\Interactive Music Hierarchy\Default Work Unit\HubMusic\HubMusic_4\HubMusic_4		12032436
 	356803206	GhostWalk-002	D:\FiVi\FiVi_WwiseProject\.cache\59\{592693B4-8056-5D21-B1D1-EE62DEC7E3B3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Ghost\GhostWalk\GhostWalk-002		228708
 	361439100	Babka_03	D:\FiVi\FiVi_WwiseProject\.cache\71\{71708587-E6BA-AE4E-3828-3C9988102155}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Babka\BabkaWalk\Babka_03		32053
-	398031995	Footsteps_gravel-001-005	D:\FiVi\FiVi_WwiseProject\.cache\25\{25715899-94BE-FFF0-B699-3A5737531A1B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-005		72352
+	398031995	Footsteps_gravel-001-005	D:\FiVi\FiVi_WwiseProject\.cache\15\{156AED04-0AED-0722-715F-9414AC54133B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-005		6270
 	400739410	Babka	D:\FiVi\FiVi_WwiseProject\.cache\43\{4307E33A-62A4-E665-039F-7EEA28F5307A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Babka\BabkaWalk\Babka		41759
-	403407540	Footsteps_gravel-001-002	D:\FiVi\FiVi_WwiseProject\.cache\51\{51364581-CA3D-94E4-64ED-AA9D4343566B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-002		54324
+	403407540	Footsteps_gravel-001-002	D:\FiVi\FiVi_WwiseProject\.cache\21\{21F433B6-236A-BA07-460A-FA786F37E746}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-002		4979
 	404756899	Mushroom_02	D:\FiVi\FiVi_WwiseProject\.cache\69\{6927A2D7-6F29-BFCF-7D01-CADAB344BDA0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Babka\MushroomBlow\Mushroom_02		7454
-	416472245	PC_Grunt_05	D:\FiVi\FiVi_WwiseProject\.cache\2E\{2EC9C3B6-A342-08D9-2BC0-039B7896BE3A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\PC_Grunt\PC_Grunt_05		105148
+	416472245	PC_Grunt_05	D:\FiVi\FiVi_WwiseProject\.cache\7F\{7FD0325F-E7BA-3A26-E47B-0D9E1C58462E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\PC_Grunt\PC_Grunt_05		7277
 	419584302	Zombie-001	D:\FiVi\FiVi_WwiseProject\.cache\26\{26FAE38F-7CE7-1EA0-DAD4-5BAFF6AF6021}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Zombie\ZombieWalk\Zombie-001		56162
 	429783399	Zombie-001_03	D:\FiVi\FiVi_WwiseProject\.cache\0B\{0B7B7961-B4C2-46B9-EB4F-803285A47014}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Zombie\ZombieWalk\Zombie-001_03		87517
 	435517924	Zombie-001_04	D:\FiVi\FiVi_WwiseProject\.cache\EE\{EEE1780E-C96C-2617-6C60-F3D42ABDB8B9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Zombie\ZombieWalk\Zombie-001_04		87516
@@ -92,9 +95,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	441889141	HubMusic_3	D:\FiVi\FiVi_WwiseProject\.cache\08\{08B3C7FD-0143-FD0E-526D-65419F7464B8}.wem		\Interactive Music Hierarchy\Default Work Unit\HubMusic\HubMusic_3\HubMusic_3		12032436
 	452210749	Goose	D:\FiVi\FiVi_WwiseProject\.cache\32\{32D1F603-E4FE-1A48-450A-F45C6792BB30}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Goose\GooseDamage\Goose		4425
 	477580726	Mushroom_01	D:\FiVi\FiVi_WwiseProject\.cache\DD\{DD94954F-ED08-D469-6D17-B192E46D47B6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Babka\MushroomBlow\Mushroom_01		7769
-	483544645	Ambience, Residential, Living Room, Walla, Distant Traffic SND3546	D:\FiVi\FiVi_WwiseProject\.cache\7D\{7D98C61D-1C3E-03EF-38C3-52AD907780A6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Roomtone_Indoor_Station\Ambience, Residential, Living Room, Walla, Distant Traffic SND3546		1561800
-	490175287	Footsteps_gravel-001-007	D:\FiVi\FiVi_WwiseProject\.cache\43\{43F5FE4F-9DA2-113D-4368-E82420916072}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-007		62620
-	495721798	Signals-002	D:\FiVi\FiVi_WwiseProject\.cache\CE\{CEF3E760-4F53-2B48-5133-E673AD200197}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Trains\BellSignals\Signals\Signals-002		1013200
+	483544645	Ambience, Residential, Living Room, Walla, Distant Traffic SND3546	D:\FiVi\FiVi_WwiseProject\.cache\A4\{A48DAD19-C65E-5711-291A-291480B422D2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Roomtone_Indoor_Station\Ambience, Residential, Living Room, Walla, Distant Traffic SND3546		124476
+	490175287	Footsteps_gravel-001-007	D:\FiVi\FiVi_WwiseProject\.cache\C5\{C57084CC-7783-AA34-964A-8CF2BC3A5240}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-007		5064
+	495721798	Signals-002	D:\FiVi\FiVi_WwiseProject\.cache\C6\{C66742E1-6ED1-5A4A-196A-33D69A769663}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Trains\BellSignals\Signals\Signals-002		41869
 	498661875	Eye-001	D:\FiVi\FiVi_WwiseProject\.cache\9E\{9EEAAE77-4AD5-2D11-C94B-39132A6DA60F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Eye\EyeRoll\Roll\Eye-001		55817
 	506401963	WoodStick_02	D:\FiVi\FiVi_WwiseProject\.cache\5F\{5FFE607C-9502-F790-7669-B22E44ABD060}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Stick\WoodStick_02		3679
 	538922310	EyeDamage_03	D:\FiVi\FiVi_WwiseProject\.cache\58\{58D81B91-EB56-5B10-77ED-28F7846A7045}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Eye\EyeDamage\EyeDamage_03		11289
@@ -103,20 +106,20 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	555152150	Shuriken	D:\FiVi\FiVi_WwiseProject\.cache\BE\{BEB8DF3A-6C61-9071-F11B-C326BC6F9984}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Shuriken\Shuriken		6398
 	557076928	WoodStick_01	D:\FiVi\FiVi_WwiseProject\.cache\36\{3653B3C2-3614-7748-E8E8-0769140FB99A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Stick\WoodStick_01		3300
 	557857482	GhostWalk-001	D:\FiVi\FiVi_WwiseProject\.cache\36\{369D5248-2039-AC0D-AE25-07693A8F6366}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Ghost\GhostWalk\GhostWalk-001		152530
-	562417601	Footsteps_gravel-001-008	D:\FiVi\FiVi_WwiseProject\.cache\F2\{F2BE102B-BEC6-95E4-029D-72A2791D76E1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-008		79384
+	562417601	Footsteps_gravel-001-008	D:\FiVi\FiVi_WwiseProject\.cache\29\{2945303A-BFBB-EA50-A772-17A5171A6937}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-008		7098
 	566027597	Eye-002	D:\FiVi\FiVi_WwiseProject\.cache\AC\{AC22AC86-BC63-43B1-EA92-40382826D19E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Eye\EyeRoll\Meat\Eye-002		248602
-	571256128	Footsteps_gravel-001-006	D:\FiVi\FiVi_WwiseProject\.cache\55\{5539FC76-B3B9-54E4-6997-98E1E19307D3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-006		60072
+	571256128	Footsteps_gravel-001-006	D:\FiVi\FiVi_WwiseProject\.cache\9F\{9FC3AAFC-E374-E9B2-5C90-03191DB5E058}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-006		6041
 	580225198	GooseSound	D:\FiVi\FiVi_WwiseProject\.cache\D4\{D4097CAC-8D96-34B8-E547-9D5249B8A5CB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Goose\GooseSound\GooseSound		46495
 	583294126	Mushroom_01	D:\FiVi\FiVi_WwiseProject\.cache\DA\{DA255382-5DE4-363C-778B-15621DAE7824}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Babka\MushroomStart\Mushroom\1\Mushroom_01		29037
-	584105805	PC_Grunt	D:\FiVi\FiVi_WwiseProject\.cache\1A\{1A5592A4-2C80-9E94-2E4D-AD909F0F7598}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\PC_Grunt\PC_Grunt		102824
+	584105805	PC_Grunt	D:\FiVi\FiVi_WwiseProject\.cache\7F\{7F73EA2E-6DE4-84F1-F055-9CD6CEC8AF1B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\PC_Grunt\PC_Grunt		6726
 	585784865	HubMusic_1	D:\FiVi\FiVi_WwiseProject\.cache\6D\{6D5ED0A1-2535-EB76-0286-C99BA90DCF73}.wem		\Interactive Music Hierarchy\Default Work Unit\HubMusic\HubMusic_1\HubMusic_1		8921144
 	594650370	WaspAttack	D:\FiVi\FiVi_WwiseProject\.cache\B6\{B6528519-3774-A7BD-821F-FE9922234404}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Wasp\WaspDamage\WaspAttack		11411
 	595724863	Creatures, Humanoid, Zombie, Male, Death Groan SND22546 3	D:\FiVi\FiVi_WwiseProject\.cache\74\{745DDC55-3A4C-C061-CE23-9D907381FEA4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Skeleton\SkeletonDeath\Sklt_Groath\Creatures, Humanoid, Zombie, Male, Death Groan SND22546 3		17450
 	596391613	WaspFly	D:\FiVi\FiVi_WwiseProject\.cache\C2\{C24B84FA-8FF4-5256-1CC9-B8F64C1715ED}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Wasp\WaspFly\WaspFly		60661
 	603136350	Goose_03	D:\FiVi\FiVi_WwiseProject\.cache\26\{2647862F-3D8B-BC74-3907-192363B8F72A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Goose\GooseDeath\Goose_03		19598
-	611662682	PropsGet	D:\FiVi\FiVi_WwiseProject\.cache\1F\{1F7C5644-C677-8D62-69D9-77BA8EAF9CB6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Props\PropsGet\PropsGet		309308
+	611662682	PropsGet	D:\FiVi\FiVi_WwiseProject\.cache\9E\{9E11023B-0ECA-A015-D1B6-60FFEB771678}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Props\PropsGet\PropsGet		12119
 	612546468	Eye-001_01	D:\FiVi\FiVi_WwiseProject\.cache\E5\{E52C39E8-7FC2-2ED0-A975-5D6301335565}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Eye\EyeRoll\Roll\Eye-001_01		44807
-	614956716	PC_Grunt_02	D:\FiVi\FiVi_WwiseProject\.cache\A7\{A7FB6A80-8DB5-78E2-DC2C-BC74B03D89B7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\PC_Grunt\PC_Grunt_02		99100
+	614956716	PC_Grunt_02	D:\FiVi\FiVi_WwiseProject\.cache\9F\{9FD52CA4-96D7-DE96-2D8B-26A9DB7CABC9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\PC_Grunt\PC_Grunt_02		6287
 	653868605	Babka_02	D:\FiVi\FiVi_WwiseProject\.cache\F2\{F278DC75-2E6E-9BDA-E476-8B17E034F325}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Babka\BabkaDeath\Babka_02		13476
 	657637022	Drum_2	D:\FiVi\FiVi_WwiseProject\.cache\AB\{ABD3F717-3BE7-ED77-DD25-1F22F284F5A1}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Simple\Drum_2		22025
 	660316949	Babka_01	D:\FiVi\FiVi_WwiseProject\.cache\5B\{5B296228-9EE7-E5A2-C493-362FFD0EEDEE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Babka\BabkaDeath\Babka_01		18324
@@ -124,11 +127,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	677717130	Bass_intro	D:\FiVi\FiVi_WwiseProject\.cache\D9\{D9548A21-B4D2-D784-E3E1-BDBEC6CE3ABB}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Intro\Bass_intro		83505
 	685176563	BottleBlast	D:\FiVi\FiVi_WwiseProject\.cache\90\{906B73D5-39BE-B399-70C4-EAC723B0C67D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Bottle\BottleBlast\BottleBlast		12380
 	688051386	Piccalo	D:\FiVi\FiVi_WwiseProject\.cache\8C\{8C9497E3-98CF-3C0B-0D42-768A2FD67093}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Piccolo\Piccalo		260629
-	690813014	PC_Grunt_04	D:\FiVi\FiVi_WwiseProject\.cache\50\{50699600-9B3F-C5EF-19E3-D56CD1A65CA7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\PC_Grunt\PC_Grunt_04		70632
+	690813014	PC_Grunt_04	D:\FiVi\FiVi_WwiseProject\.cache\C1\{C1DB017D-63EA-E03C-13A6-6EB0FDF3F04B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\PC_Grunt\PC_Grunt_04		4993
 	701907354	Drum_1	D:\FiVi\FiVi_WwiseProject\.cache\AB\{ABB4633A-140E-D235-CE80-FB59E30D789D}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Melody\Drum_1		22070
 	704167915	GhostAttak-001	D:\FiVi\FiVi_WwiseProject\.cache\B6\{B6D29DE3-960F-B324-29BD-27FD256AEA9B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Ghost\GhostDamage\GhostAttak-001		21676
 	715619170	Piccalo	D:\FiVi\FiVi_WwiseProject\.cache\2F\{2F00927C-FE7C-46B0-68D2-97DBE087E304}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Piccolo\Piccalo		219818
-	716194929	Footsteps_gravel-001-003	D:\FiVi\FiVi_WwiseProject\.cache\AD\{AD47C225-E841-39E6-459D-16EC412ABE36}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-003		56616
+	716194929	Footsteps_gravel-001-003	D:\FiVi\FiVi_WwiseProject\.cache\AC\{AC447E50-6FD8-41A7-8CBC-F6CFC982A379}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-003		5579
 	722385771	Pad_1	D:\FiVi\FiVi_WwiseProject\.cache\84\{840DF9BE-DDBC-E8A2-D335-615B5221CAA5}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Melody_01\Pad_1		172702
 	728949532	Skeleton_damage	D:\FiVi\FiVi_WwiseProject\.cache\40\{40E7ABB8-55AA-B403-DDE2-153318B988F0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Skeleton\Skeleton_Damage\Skeleton_damage		14090
 	767878478	Goose_02	D:\FiVi\FiVi_WwiseProject\.cache\BC\{BCCA5033-6660-8A38-12B7-B39F5160B53A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Goose\GooseDamage\Goose_02		3325
@@ -138,8 +141,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	818213123	Piccolo_olol	D:\FiVi\FiVi_WwiseProject\.cache\E2\{E2BC2246-683F-4270-BB2C-7EA7A81A1546}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Melody_01\Piccolo_olol		170038
 	825770557	Pad_intro	D:\FiVi\FiVi_WwiseProject\.cache\43\{437768AB-CE00-D13F-0D22-D73B9BDC35C3}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Intro\Pad_intro		121773
 	837750799	Zombie-001_02	D:\FiVi\FiVi_WwiseProject\.cache\DE\{DE2D8FFA-589E-CF24-5051-8FC5B3447136}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Zombie\ZombieWalk\Zombie-001_02		87517
-	841433138	Door	D:\FiVi\FiVi_WwiseProject\.cache\08\{08A23D89-58E0-CC3B-40BA-1D2252ADA223}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Door\Door		660044
-	842515526	PC_Death_01	D:\FiVi\FiVi_WwiseProject\.cache\31\{31C7258E-A07F-61A0-709F-7DF8A5AB9A24}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\PC_death\PC_Death_01		153116
+	841433138	Door	D:\FiVi\FiVi_WwiseProject\.cache\41\{41B6E679-5F48-D08B-F8CE-7407939C0791}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Door\Door		68908
+	842515526	PC_Death_01	D:\FiVi\FiVi_WwiseProject\.cache\9D\{9D5EF1EE-6824-9263-ED04-F8972B2757DA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\PC_death\PC_Death_01		12801
 	844705080	Melody_Post	D:\FiVi\FiVi_WwiseProject\.cache\D9\{D9AE4D2D-88E2-3227-CFD3-7FBF79B29E68}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Piccolo\Melody_Post		53362
 	847162799	Skeleton_damage_02	D:\FiVi\FiVi_WwiseProject\.cache\5F\{5FD43AAD-3085-477F-E7A1-215E56BD3000}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Skeleton\Skeleton_Damage\Skeleton_damage_02		15821
 	849721655	Creatures, Humanoid, Zombie, Male, Death Groan SND22546 3_01	D:\FiVi\FiVi_WwiseProject\.cache\D6\{D6C42AD5-BABB-43C4-D583-9AB25A09AEA7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Skeleton\SkeletonDeath\Sklt_Groath\Creatures, Humanoid, Zombie, Male, Death Groan SND22546 3_01		21576
@@ -148,28 +151,29 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	872836482	Mushroom_03	D:\FiVi\FiVi_WwiseProject\.cache\67\{67C5CC8B-0B04-79C5-F181-F4FF9FC51E5E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Babka\MushroomBlow\Mushroom_03		6096
 	873090363	Melody_Post	D:\FiVi\FiVi_WwiseProject\.cache\8F\{8FE4D04B-DE24-1DA0-3621-118831DB27CC}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Piccolo\Melody_Post		71097
 	876266439	Zombie-002_03	D:\FiVi\FiVi_WwiseProject\.cache\87\{873339E6-49DB-5F49-CA0B-5151897C003B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Zombie\ZombieDamage\Zombie-002_03		7654
-	882086869	PC_Grunt_01	D:\FiVi\FiVi_WwiseProject\.cache\15\{156B87FB-C0B7-8B24-4584-5066A366F56D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\PC_Grunt\PC_Grunt_01		63548
-	885916851	Bells-001	D:\FiVi\FiVi_WwiseProject\.cache\FD\{FD50F50B-E3EE-53DC-E821-1363AF3B8F1F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Trains\BellSignals\Bell\Bells-001		527876
-	901239721	PC_Grunt_03	D:\FiVi\FiVi_WwiseProject\.cache\F3\{F3B64786-9A31-2A36-9EAE-F757A75C7500}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\PC_Grunt\PC_Grunt_03		95240
+	882086869	PC_Grunt_01	D:\FiVi\FiVi_WwiseProject\.cache\88\{886AA7A8-4425-7C16-302F-562F1CD20794}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\PC_Grunt\PC_Grunt_01		4257
+	885916851	Bells-001	D:\FiVi\FiVi_WwiseProject\.cache\22\{22B4D051-5749-2FE5-E033-9C907493D5EB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Trains\BellSignals\Bell\Bells-001		27358
+	901239721	PC_Grunt_03	D:\FiVi\FiVi_WwiseProject\.cache\FC\{FCB6AAC2-7101-70BE-A1CA-B652FF9D1F1F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\PC_Grunt\PC_Grunt_03		6467
 	904325166	Babka	D:\FiVi\FiVi_WwiseProject\.cache\14\{14646893-FEA3-2F30-9FB7-2BF6AD5275FB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Babka\BabkaDeath\Babka		20987
-	938450241	Footsteps_gravel-001-001	D:\FiVi\FiVi_WwiseProject\.cache\D5\{D51B201B-BEE3-858D-F69B-257042C5DA9A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-001		46212
+	938450241	Footsteps_gravel-001-001	D:\FiVi\FiVi_WwiseProject\.cache\A6\{A69879BE-A824-E06E-EE20-6C23B6935031}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-001		4067
+	947844802	Attak	D:\FiVi\FiVi_WwiseProject\.cache\DF\{DFC38504-F888-7FA7-598C-3023D19C334A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Goose\GooseAttak\Attak		11901
 	950680603	Melody_1	D:\FiVi\FiVi_WwiseProject\.cache\CD\{CD8E2F44-5DBE-09CF-0DDA-7ABD835F0F01}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Melody\Melody_1		169797
-	951544862	Footsteps_gravel-001-009	D:\FiVi\FiVi_WwiseProject\.cache\56\{56BAAE19-B0A0-AF2D-914E-610FAE12E5B2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-009		45460
-	953648570	Signals-001	D:\FiVi\FiVi_WwiseProject\.cache\0E\{0E61BCDC-DA77-ECA6-E4C9-394D6666331B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Trains\BellSignals\Signals\Signals-001		921748
+	951544862	Footsteps_gravel-001-009	D:\FiVi\FiVi_WwiseProject\.cache\D1\{D1BE52DC-F49C-9439-BFFB-BD559A1B2B76}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-009		4032
+	953648570	Signals-001	D:\FiVi\FiVi_WwiseProject\.cache\D8\{D84CD16B-DC44-B04B-855F-3E2EA0BB5013}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Trains\BellSignals\Signals\Signals-001		36285
 	960479174	Skeleton_damage_01	D:\FiVi\FiVi_WwiseProject\.cache\A3\{A374C7A5-E445-4C3B-A402-CDDC7B845DD0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Skeleton\Skeleton_Damage\Skeleton_damage_01		19646
 	963691856	GhostAttak-002	D:\FiVi\FiVi_WwiseProject\.cache\D2\{D2FD0DCE-E5AC-035A-AD69-BF4FD314F382}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Ghost\GhostDamage\GhostAttak-002		19995
-	967935498	Footsteps_gravel-001-010	D:\FiVi\FiVi_WwiseProject\.cache\13\{13AF1E05-7946-9BB5-BEF6-5E1C60C2B6FE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-010		37868
+	967935498	Footsteps_gravel-001-010	D:\FiVi\FiVi_WwiseProject\.cache\A0\{A0971873-43DC-4456-9047-440D1E537075}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Gravel\Footsteps_gravel-001-010		3602
 	973537474	Goose_01	D:\FiVi\FiVi_WwiseProject\.cache\F8\{F8FA84DF-260A-EF61-D417-6FD7633AF312}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Goose\GooseDamage\Goose_01		3773
-	978800845	Bell	D:\FiVi\FiVi_WwiseProject\.cache\13\{13B0CB78-8628-4915-5EF5-A00745D02B57}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Door\Bell		441096
-	981645837	Footstep_Concrete_04	D:\FiVi\FiVi_WwiseProject\.cache\15\{15420889-0FF2-1B6C-499D-4D53ED4DC4CB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Concrete\Footstep_Concrete_04		79476
-	989201415	Footstep_Concrete_03	D:\FiVi\FiVi_WwiseProject\.cache\F9\{F9B3838A-516D-A886-A473-FE38A0304CDE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Concrete\Footstep_Concrete_03		75576
+	978800845	Bell	D:\FiVi\FiVi_WwiseProject\.cache\F5\{F520480F-A5E2-945A-406F-F2488EBB82BB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Door\Bell		38635
+	981645837	Footstep_Concrete_04	D:\FiVi\FiVi_WwiseProject\.cache\DD\{DD6F0E4E-A427-6576-527A-FE9AFC53A941}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Concrete\Footstep_Concrete_04		5034
+	989201415	Footstep_Concrete_03	D:\FiVi\FiVi_WwiseProject\.cache\F3\{F3123487-C1F9-7E2E-CCB4-1B4D73DC4481}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Concrete\Footstep_Concrete_03		4966
 	989407372	Babka_02	D:\FiVi\FiVi_WwiseProject\.cache\27\{271C4A8E-4615-7290-1851-75DF7A11FD2D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Babka\BabkaWalk\Babka_02		25746
 	998729749	Zombie-002	D:\FiVi\FiVi_WwiseProject\.cache\CE\{CECF6248-E44A-ECE6-21E7-60EC9907FD1F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Zombie\ZombieDamage\Zombie-002		4840
-	1002773112	TrainRail_3	D:\FiVi\FiVi_WwiseProject\.cache\4F\{4F98AD48-3E3A-1541-FC8E-7A338BF5E251}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Trains\TrainsRail\TrainRail_3		1900852
+	1002773112	TrainRail_3	D:\FiVi\FiVi_WwiseProject\.cache\85\{85873CA0-AACA-2CD0-13CF-C98ADA613F11}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Trains\TrainsRail\TrainRail_3		105842
 	1005952113	Zombie-001_01	D:\FiVi\FiVi_WwiseProject\.cache\2C\{2CE5AB33-F811-7E72-F2E7-859DB9923591}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Zombie\ZombieWalk\Zombie-001_01		84940
-	1006469768	Bells-002	D:\FiVi\FiVi_WwiseProject\.cache\C7\{C7607A28-DFD8-EFAE-9CD6-F3D1C120A6A2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Trains\BellSignals\Bell\Bells-002		552712
-	1018507462	PC_Death_02	D:\FiVi\FiVi_WwiseProject\.cache\B2\{B2874B30-A77C-EF63-EEF5-4EA3585D0652}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\PC_death\PC_Death_02		50368
-	1019966463	Footstep_Concrete_01	D:\FiVi\FiVi_WwiseProject\.cache\03\{0333E866-34DD-9F86-13A8-DABF20257A31}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Concrete\Footstep_Concrete_01		57484
+	1006469768	Bells-002	D:\FiVi\FiVi_WwiseProject\.cache\C8\{C8828983-DE13-E6E8-8D72-EB72C173EEC4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Trains\BellSignals\Bell\Bells-002		28570
+	1018507462	PC_Death_02	D:\FiVi\FiVi_WwiseProject\.cache\8D\{8D91313C-3A1A-5129-B324-6F4C7E6CD58E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\PC_death\PC_Death_02		4799
+	1019966463	Footstep_Concrete_01	D:\FiVi\FiVi_WwiseProject\.cache\63\{637F7768-FBCB-EC1F-0DAF-8CD06B28D110}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Caracter_Footstep\Concrete\Footstep_Concrete_01		3911
 	1025239225	Skeleton_damage_04	D:\FiVi\FiVi_WwiseProject\.cache\B3\{B360170B-7232-AC1A-3D5B-1FAC5D617B25}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Skeleton\Skeleton_Damage\Skeleton_damage_04		22536
 	1027917780	BottleBlast_01	D:\FiVi\FiVi_WwiseProject\.cache\D8\{D806BA0C-BABA-4E1B-02E0-948EE4548F57}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Bottle\BottleBlast\BottleBlast_01		16132
 	1033497963	Piccolo_olol	D:\FiVi\FiVi_WwiseProject\.cache\E8\{E8272193-7AF9-564F-EC83-296AAB0CA425}.wem		\Interactive Music Hierarchy\Default Work Unit\FightMusic\Figth_Melody_01\Piccolo_olol		165024

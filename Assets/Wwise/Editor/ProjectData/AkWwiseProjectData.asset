@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6a6ce2c5f227ad4db4c3f6d47169f9fb
     GuidInternal: 
-    m_lastTime: -8584536909467338076
+    m_lastTime: -8584536749214951488
     List:
     - name: 010_Damage
       guid: 58adffff5f021b4399ff9fdb2d4d7a45
@@ -271,7 +271,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b9a82131b0108d4d9d4791abff6d5615
     GuidInternal: 
-    m_lastTime: -8584536758751512409
+    m_lastTime: -8584536726637879496
     List:
     - name: Babka
       guid: cf26435b0dcc17479d643a1b6ceec96e
@@ -613,6 +613,26 @@ MonoBehaviour:
       maxAttenuation: 10
       maxDuration: 0
       minDuration: 0
+    - name: GooseAttack
+      guid: 6b2a0bfe2a2e3442b6dd8e80360c5731
+      id: 2447298006
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: GooseAttack
+        ObjectType: 3
+        guid: 6b2a0bfe2a2e3442b6dd8e80360c5731
+      Path: Events\Default Work Unit\Enemies\GooseAttack
+      maxAttenuation: 10
+      maxDuration: 0.4555488
+      minDuration: 0.3581816
     - name: GooseDamage
       guid: 7066f514fe9ee4449eeb0fd114086e92
       id: 2878963457
@@ -1198,7 +1218,7 @@ MonoBehaviour:
     m_lastTime: -8584539545012609637
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000700000008000000090000001100000023000000290000005c000000
+  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000f00000010000000110000001200000023000000290000005c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

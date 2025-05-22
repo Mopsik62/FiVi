@@ -27,6 +27,7 @@ namespace AK
         static const AkUniqueID FOOTSTEPS_GRAVEL = 1676031848U;
         static const AkUniqueID GHOSTDAMAGE = 3356078541U;
         static const AkUniqueID GHOSTWALK = 3239612673U;
+        static const AkUniqueID GOOSEATTACK = 2447298006U;
         static const AkUniqueID GOOSEDAMAGE = 2878963457U;
         static const AkUniqueID GOOSEDEATH = 1632574284U;
         static const AkUniqueID GOOSEWALK = 3464526405U;
