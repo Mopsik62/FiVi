@@ -24,7 +24,12 @@
 										<Value>True</Value>
 									</ValueList>
 								</Property>
-								<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+								<Property Name="RecoveryTime" Type="Real64" Value="0.2"/>
 							</PropertyList>
 							<ChildrenList>
 								<Bus Name="010_Damage" ID="{FFFFAD58-025F-431B-99FF-9FDB2D4D7A45}">
@@ -866,7 +871,7 @@
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<ValueList>
-												<Value>-9</Value>
+												<Value>-11</Value>
 											</ValueList>
 										</Property>
 										<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>

@@ -20,6 +20,8 @@ namespace AK
         static const AkUniqueID BOTTLE_FLY = 791831159U;
         static const AkUniqueID BOTTLEBLOW = 4102728337U;
         static const AkUniqueID DOOR = 1877847629U;
+        static const AkUniqueID EYEDAMAGE = 3607233243U;
+        static const AkUniqueID EYEROLL = 2425295945U;
         static const AkUniqueID FIGHTMUSIC = 3890691062U;
         static const AkUniqueID FOOTSTEPS_CONCRETE = 82718740U;
         static const AkUniqueID FOOTSTEPS_GRAVEL = 1676031848U;

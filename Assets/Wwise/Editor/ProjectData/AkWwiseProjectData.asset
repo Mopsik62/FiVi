@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6a6ce2c5f227ad4db4c3f6d47169f9fb
     GuidInternal: 
-    m_lastTime: -8584539491106024560
+    m_lastTime: -8584536909467338076
     List:
     - name: 010_Damage
       guid: 58adffff5f021b4399ff9fdb2d4d7a45
@@ -271,7 +271,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b9a82131b0108d4d9d4791abff6d5615
     GuidInternal: 
-    m_lastTime: -8584536938114914244
+    m_lastTime: -8584536848229059836
     List:
     - name: Babka
       guid: cf26435b0dcc17479d643a1b6ceec96e
@@ -360,8 +360,8 @@ MonoBehaviour:
         guid: 4e48a69a680749458e3810cb6fb25c17
       Path: Events\Default Work Unit\Enemies\Babka\BabkaWalk
       maxAttenuation: 10
-      maxDuration: 3.222664
-      minDuration: 2.0805585
+      maxDuration: 0
+      minDuration: 0
     - name: BellSignal
       guid: 3d9c88dd997f3b41b8ffa035576140a2
       id: 1516434858
@@ -456,6 +456,72 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Eye
+      guid: b76952cb2a50f34fa033076a6d4b5222
+      id: 915611696
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Eye
+        ObjectType: 4
+        guid: b76952cb2a50f34fa033076a6d4b5222
+      Path: Events\Default Work Unit\Enemies\Eye
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: EyeDamage
+      guid: fa56ebdb850aa44d8d7982032a191a52
+      id: 3607233243
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Eye
+        ObjectType: 4
+        guid: b76952cb2a50f34fa033076a6d4b5222
+      - ElementName: EyeDamage
+        ObjectType: 3
+        guid: fa56ebdb850aa44d8d7982032a191a52
+      Path: Events\Default Work Unit\Enemies\Eye\EyeDamage
+      maxAttenuation: 10
+      maxDuration: 0.90043443
+      minDuration: 0.46247697
+    - name: EyeRoll
+      guid: 8f08e30b2ca7824abaa6142ceabc171c
+      id: 2425295945
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Eye
+        ObjectType: 4
+        guid: b76952cb2a50f34fa033076a6d4b5222
+      - ElementName: EyeRoll
+        ObjectType: 3
+        guid: 8f08e30b2ca7824abaa6142ceabc171c
+      Path: Events\Default Work Unit\Enemies\Eye\EyeRoll
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
     - name: FightMusic
       guid: 2ce91e5ac276b946a5f5d211cf9c9c84
       id: 3890691062
@@ -487,7 +553,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: e559e3521067aa4d94b4f98ab157db91
       Path: Events\Default Work Unit\Footsteps_Concrete
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: 0.51760954
       minDuration: 0.320552
     - name: Footsteps_Gravel
@@ -504,7 +570,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 6f5d3e7cc9e4cb49b0676c2750a0de47
       Path: Events\Default Work Unit\Footsteps_Gravel
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: 0.39356312
       minDuration: 0.17253868
     - name: GhostDamage
@@ -701,7 +767,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 52e8ca944ca1ec44a7e2137d60fab114
       Path: Events\Default Work Unit\PC_Death
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: 0.86745745
       minDuration: 0.28498113
     - name: PC_Grunt
@@ -718,7 +784,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: b30e9167b6117b4a87d23f6422aee3db
       Path: Events\Default Work Unit\PC_Grunt
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: 0.5955416
       minDuration: 0.35970533
     - name: Props
@@ -907,8 +973,8 @@ MonoBehaviour:
         guid: 5f3f1ae90d771f49b68ba32b099371ff
       Path: Events\Default Work Unit\Enemies\WaspDamage
       maxAttenuation: 10
-      maxDuration: 3.7087207
-      minDuration: 3.6240134
+      maxDuration: 0.88155234
+      minDuration: 0.8417428
     - name: WaspFly
       guid: 667656ee027718498c661699bb455628
       id: 3786981691
@@ -1112,7 +1178,7 @@ MonoBehaviour:
     m_lastTime: -8584539545012609637
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000700000008000000090000001100000013000000230000005c000000
+  ExpandedWaapiItemIds: 0500000006000000070000000800000009000000110000001300000023000000290000005c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

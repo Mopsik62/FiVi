@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C594E5AD-2D3A-463D-864A-C9A3154F7734}",
     "Language": "SFX",
-    "Hash": "{227B2DC6-E4B2-C6ED-5A9E-6E90869E6B24}",
+    "Hash": "{F6E2CB8A-9C93-1FEB-C4B5-03ECA4264D44}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -112,6 +112,14 @@
       "CachePath": "53/{53D6631A-1496-9B84-18B5-CB66365371F0}.wem"
      },
      {
+      "Id": "195556649",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\EyeDamage.wav",
+      "CachePath": "57/{577F8BC7-4EDF-FE46-AC4D-D865A1551A11}.wem"
+     },
+     {
       "Id": "198022058",
       "Language": "SFX",
       "Streaming": "false",
@@ -208,6 +216,14 @@
       "CachePath": "6A/{6AE4267B-4883-810C-1A6B-415BDE4D43FD}.wem"
      },
      {
+      "Id": "312086857",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\EyeDamage.wav",
+      "CachePath": "09/{0961EF6F-F774-4187-8F71-5A51F9FEA488}.wem"
+     },
+     {
       "Id": "313826726",
       "Language": "SFX",
       "Streaming": "false",
@@ -246,6 +262,22 @@
       "Location": "Memory",
       "ShortName": "Music\\TitleMusic.wav",
       "CachePath": "04/{0461B112-1DAA-883B-6F92-1AC4182E77CE}.wem"
+     },
+     {
+      "Id": "336371709",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\EyeDamage.wav",
+      "CachePath": "E9/{E98FBE5D-9460-AEA7-119F-D45A4F8EE05E}.wem"
+     },
+     {
+      "Id": "349985375",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Eye-002.wav",
+      "CachePath": "BB/{BB17922F-C235-A6F9-93A8-3F2FED3AD1C9}.wem"
      },
      {
       "Id": "356571249",
@@ -392,12 +424,28 @@
       "CachePath": "CE/{CEF3E760-4F53-2B48-5133-E673AD200197}.wem"
      },
      {
+      "Id": "498661875",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Eye-001.wav",
+      "CachePath": "9E/{9EEAAE77-4AD5-2D11-C94B-39132A6DA60F}.wem"
+     },
+     {
       "Id": "506401963",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapons\\WoodStick.wav",
       "CachePath": "5F/{5FFE607C-9502-F790-7669-B22E44ABD060}.wem"
+     },
+     {
+      "Id": "538922310",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\EyeDamage.wav",
+      "CachePath": "58/{58D81B91-EB56-5B10-77ED-28F7846A7045}.wem"
      },
      {
       "Id": "539754862",
@@ -448,6 +496,14 @@
       "CachePath": "F2/{F2BE102B-BEC6-95E4-029D-72A2791D76E1}.wem"
      },
      {
+      "Id": "566027597",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Eye-002.wav",
+      "CachePath": "AC/{AC22AC86-BC63-43B1-EA92-40382826D19E}.wem"
+     },
+     {
       "Id": "571256128",
       "Language": "SFX",
       "Streaming": "false",
@@ -493,7 +549,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\WaspAttack.wav",
-      "CachePath": "8B/{8BBA8229-EA33-FDA7-EE24-821A49059CBB}.wem"
+      "CachePath": "B6/{B6528519-3774-A7BD-821F-FE9922234404}.wem"
      },
      {
       "Id": "595724863",
@@ -526,6 +582,14 @@
       "Location": "Memory",
       "ShortName": "UI\\PropsGet.wav",
       "CachePath": "1F/{1F7C5644-C677-8D62-69D9-77BA8EAF9CB6}.wem"
+     },
+     {
+      "Id": "612546468",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Eye-001.wav",
+      "CachePath": "E5/{E52C39E8-7FC2-2ED0-A975-5D6301335565}.wem"
      },
      {
       "Id": "614956716",
@@ -662,6 +726,14 @@
       "Location": "Memory",
       "ShortName": "Characters\\Goose.wav",
       "CachePath": "B9/{B974F2E9-4F89-9E1C-2E8C-BDFCED0E7726}.wem"
+     },
+     {
+      "Id": "811673436",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Eye-002.wav",
+      "CachePath": "EF/{EFF770D5-1647-2391-E98A-8A689CA0920E}.wem"
      },
      {
       "Id": "811800656",
@@ -1026,9 +1098,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Babka\\BabkaWalk",
       "GUID": "{9AA6484E-0768-4549-8E38-10CB6FB25C17}",
       "MaxAttenuation": "10",
-      "DurationType": "OneShot",
-      "DurationMin": "2.0805585",
-      "DurationMax": "3.222664",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "205008637"
@@ -1130,6 +1200,55 @@
       ]
      },
      {
+      "Id": "3607233243",
+      "Name": "EyeDamage",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Eye\\EyeDamage",
+      "GUID": "{DBEB56FA-0A85-4DA4-8D79-82032A191A52}",
+      "MaxAttenuation": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.46247697",
+      "DurationMax": "0.90043443",
+      "MediaRefs": [
+       {
+        "Id": "195556649"
+       },
+       {
+        "Id": "312086857"
+       },
+       {
+        "Id": "336371709"
+       },
+       {
+        "Id": "538922310"
+       }
+      ]
+     },
+     {
+      "Id": "2425295945",
+      "Name": "EyeRoll",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Eye\\EyeRoll",
+      "GUID": "{0BE3088F-A72C-4A82-BAA6-142CEABC171C}",
+      "MaxAttenuation": "10",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "349985375"
+       },
+       {
+        "Id": "498661875"
+       },
+       {
+        "Id": "566027597"
+       },
+       {
+        "Id": "612546468"
+       },
+       {
+        "Id": "811673436"
+       }
+      ]
+     },
+     {
       "Id": "3890691062",
       "Name": "FightMusic",
       "ObjectPath": "\\Events\\Default Work Unit\\FightMusic",
@@ -1191,6 +1310,7 @@
       "Name": "Footsteps_Concrete",
       "ObjectPath": "\\Events\\Default Work Unit\\Footsteps_Concrete",
       "GUID": "{52E359E5-6710-4DAA-94B4-F98AB157DB91}",
+      "MaxAttenuation": "10",
       "DurationType": "OneShot",
       "DurationMin": "0.320552",
       "DurationMax": "0.51760954",
@@ -1227,6 +1347,7 @@
       "Name": "Footsteps_Gravel",
       "ObjectPath": "\\Events\\Default Work Unit\\Footsteps_Gravel",
       "GUID": "{7C3E5D6F-E4C9-49CB-B067-6C2750A0DE47}",
+      "MaxAttenuation": "10",
       "DurationType": "OneShot",
       "DurationMin": "0.17253868",
       "DurationMax": "0.39356312",
@@ -1440,6 +1561,7 @@
       "Name": "PC_Death",
       "ObjectPath": "\\Events\\Default Work Unit\\PC_Death",
       "GUID": "{94CAE852-A14C-44EC-A7E2-137D60FAB114}",
+      "MaxAttenuation": "10",
       "DurationType": "OneShot",
       "DurationMin": "0.28498113",
       "DurationMax": "0.86745745",
@@ -1460,6 +1582,7 @@
       "Name": "PC_Grunt",
       "ObjectPath": "\\Events\\Default Work Unit\\PC_Grunt",
       "GUID": "{67910EB3-11B6-4A7B-87D2-3F6422AEE3DB}",
+      "MaxAttenuation": "10",
       "DurationType": "OneShot",
       "DurationMin": "0.35970533",
       "DurationMax": "0.5955416",
@@ -1611,8 +1734,8 @@
       "GUID": "{E91A3F5F-770D-491F-B68B-A32B099371FF}",
       "MaxAttenuation": "10",
       "DurationType": "OneShot",
-      "DurationMin": "3.6240134",
-      "DurationMax": "3.7087207",
+      "DurationMin": "0.8417428",
+      "DurationMax": "0.88155234",
       "MediaRefs": [
        {
         "Id": "594650370"
@@ -1735,6 +1858,6 @@
     ]
    }
   ],
-  "FileHash": "{05E68486-01F8-C6D1-AB1C-B96702C6AEDD}"
+  "FileHash": "{C1765678-4C06-E140-D28F-7C52DD5508C1}"
  }
 }

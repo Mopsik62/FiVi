@@ -389,6 +389,32 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Eye" ID="{CB5269B7-502A-4FF3-A033-076A6D4B5222}" ShortID="166667885">
+							<ChildrenList>
+								<Event Name="EyeRoll" ID="{0BE3088F-A72C-4A82-BAA6-142CEABC171C}">
+									<ChildrenList>
+										<Action Name="" ID="{C48B6F40-A904-4E89-8354-859892C122E7}" ShortID="833845615">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="EyeRoll" ID="{2B7D6C7B-78F3-439F-9A11-D2F86A1CDE90}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="EyeDamage" ID="{DBEB56FA-0A85-4DA4-8D79-82032A191A52}">
+									<ChildrenList>
+										<Action Name="" ID="{BF8AB7A6-3EDE-4BAB-871C-AAD0A026D651}" ShortID="639814050">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="EyeDamage" ID="{C65F5414-CA04-41F5-BDEC-3CDF0AB0122C}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
