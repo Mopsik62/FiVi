@@ -8,13 +8,16 @@ public class Enemy : Fighter
     protected bool Dyuing = false;
     public float contactDamage = 1.0f;
     public Transform playerPosition;
-    public float ScoreGranted;
+    public int ScoreGranted;
     public float pushForceDeal = 1.0f;
     [SerializeField]
     protected float _specialCooldown = 5.0f;
     protected float _lastSpecial;
     public float moveSpeed = 1f;
     protected Rigidbody2D _rb;
+
+    [SerializeField]
+    protected int _scoreForKill;
 
     protected override void Awake()
     {
@@ -90,6 +93,8 @@ public class Enemy : Fighter
     {
         Dyuing = true;
         _boxCollider.enabled = false;
+        _rb.linearVelocity = Vector2.zero;
+        BattleHandler.instance.AddPoints(ScoreGranted);
         anim.SetTrigger("Death");
         StartCoroutine(DelayedDeath(1f));
     }

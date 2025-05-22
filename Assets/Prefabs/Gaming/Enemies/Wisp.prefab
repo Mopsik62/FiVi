@@ -129,9 +129,10 @@ MonoBehaviour:
   contactDamage: 1
   playerPosition: {fileID: 0}
   ScoreGranted: 0
-  pushForceDeal: 1
+  pushForceDeal: 0
   _specialCooldown: 5
   moveSpeed: 1
+  _scoreForKill: 0
   _dashDistance: 5
 --- !u!95 &1993981711276167354
 Animator:
@@ -230,7 +231,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 5
   m_Sprite: {fileID: -5541759666675357038, guid: bc216d50e597db04e9e4eeb9b58f8ac4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

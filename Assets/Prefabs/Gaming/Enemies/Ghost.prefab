@@ -151,9 +151,10 @@ MonoBehaviour:
   contactDamage: 1
   playerPosition: {fileID: 0}
   ScoreGranted: 0
-  pushForceDeal: 1
+  pushForceDeal: 0
   _specialCooldown: 5
   moveSpeed: 1
+  _scoreForKill: 0
   _minSpecialCharge: 5
   _maxSpecialCharge: 10
   _specialDuretion: 2

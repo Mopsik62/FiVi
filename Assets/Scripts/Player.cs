@@ -13,7 +13,10 @@ public class Player : Fighter
     private HealthUI _healthUI;
 
     [SerializeField]
-    private Weapon _curWeapon;
+    private Weapon _curWeaponMele;
+    [SerializeField]
+    private Weapon _curWeaponRanged;
+
 
     [SerializeField]
     private Footsteps_Concrete _footsteps;
@@ -94,7 +97,11 @@ public class Player : Fighter
 
         if (Input.GetMouseButtonDown(0))
         {
-            Attack();
+            AttackWithMelee();
+        }
+        if (Input.GetMouseButtonDown(1))
+        {
+            AttackWithRanged();
         }
     }
 
@@ -157,20 +164,31 @@ public class Player : Fighter
             animator.Play("Idle");
         }
     }
-    public void Attack()
+    public void AttackWithMelee()
     {
         if (!_canAttack)
             return;
         if (!isAttacking)
         {
-            _curWeapon.Attack();
+            _curWeaponMele.Attack();
             isAttacking = true;
             animator.Play("Attack");
             _woodenStickHit.WoodStickHitEvent.Post(gameObject);
-            Invoke(nameof(EndAttack), _curWeapon.cooldown);
+            Invoke(nameof(EndAttack), _curWeaponMele.cooldown);
         }
     }
-
+    public void AttackWithRanged()
+    {
+        if (!_canAttack)
+            return;
+        if (!isAttacking)
+        {
+            _curWeaponRanged.Attack();
+            isAttacking = true;
+            animator.Play("AttackRanged");
+            Invoke(nameof(EndAttack), _curWeaponRanged.cooldown);
+        }
+    }
     private void EndAttack()
     {
         isAttacking = false;
