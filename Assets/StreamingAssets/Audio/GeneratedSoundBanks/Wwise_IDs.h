@@ -43,6 +43,7 @@ namespace AK
         static const AkUniqueID SKELETON_DAMAGE = 4168167072U;
         static const AkUniqueID SKELETONDEATH = 139523582U;
         static const AkUniqueID TITLEMUSIC = 2191159630U;
+        static const AkUniqueID TRAINRAIL = 1492731029U;
         static const AkUniqueID WASPDAMAGE = 929814083U;
         static const AkUniqueID WASPFLY = 3786981691U;
         static const AkUniqueID WOODSTICK = 2776421058U;

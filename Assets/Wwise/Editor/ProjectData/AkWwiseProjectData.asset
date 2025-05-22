@@ -271,7 +271,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b9a82131b0108d4d9d4791abff6d5615
     GuidInternal: 
-    m_lastTime: -8584536848229059836
+    m_lastTime: -8584536758751512409
     List:
     - name: Babka
       guid: cf26435b0dcc17479d643a1b6ceec96e
@@ -938,6 +938,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 14.567481
       minDuration: 14.567481
+    - name: TrainRail
+      guid: b22895c5bafbb7418913e72d621ed171
+      id: 1492731029
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Trains
+        ObjectType: 4
+        guid: d85301faecb59642976219bf170faf07
+      - ElementName: TrainRail
+        ObjectType: 3
+        guid: b22895c5bafbb7418913e72d621ed171
+      Path: Events\Default Work Unit\Trains\TrainRail
+      maxAttenuation: 11
+      maxDuration: 0
+      minDuration: 0
     - name: Trains
       guid: d85301faecb59642976219bf170faf07
       id: 82461332
@@ -1178,7 +1198,7 @@ MonoBehaviour:
     m_lastTime: -8584539545012609637
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000800000009000000110000001300000023000000290000005c000000
+  ExpandedWaapiItemIds: 05000000060000000700000008000000090000001100000023000000290000005c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

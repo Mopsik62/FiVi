@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C594E5AD-2D3A-463D-864A-C9A3154F7734}",
     "Language": "SFX",
-    "Hash": "{F6E2CB8A-9C93-1FEB-C4B5-03ECA4264D44}",
+    "Hash": "{8680C3EA-84EB-3144-AAA0-3F13065058C1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -158,6 +158,14 @@
       "Location": "Memory",
       "ShortName": "Weapons\\BottleFly.wav",
       "CachePath": "6E/{6EFD2F79-E4C5-8F39-2B9D-6315EB2519B9}.wem"
+     },
+     {
+      "Id": "225781329",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\TrainRail_1.wav",
+      "CachePath": "63/{63C0AF87-8021-E94C-66E2-4B411CA25CEC}.wem"
      },
      {
       "Id": "241102469",
@@ -744,6 +752,14 @@
       "CachePath": "3C/{3CB0CA43-7A02-CAB5-8FA0-ADE4AD9E5BAE}.wem"
      },
      {
+      "Id": "818213123",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\Piccolo_olol.wav",
+      "CachePath": "E2/{E2BC2246-683F-4270-BB2C-7EA7A81A1546}.wem"
+     },
+     {
       "Id": "825770557",
       "Language": "SFX",
       "Streaming": "false",
@@ -976,6 +992,14 @@
       "CachePath": "CE/{CECF6248-E44A-ECE6-21E7-60EC9907FD1F}.wem"
      },
      {
+      "Id": "1002773112",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\TrainRail_3.wav",
+      "CachePath": "4F/{4F98AD48-3E3A-1541-FC8E-7A338BF5E251}.wem"
+     },
+     {
       "Id": "1005952113",
       "Language": "SFX",
       "Streaming": "false",
@@ -1024,6 +1048,14 @@
       "CachePath": "D8/{D806BA0C-BABA-4E1B-02E0-948EE4548F57}.wem"
      },
      {
+      "Id": "1033497963",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\Piccolo_olol_1.wav",
+      "CachePath": "E8/{E8272193-7AF9-564F-EC83-296AAB0CA425}.wem"
+     },
+     {
       "Id": "1050739881",
       "Language": "SFX",
       "Streaming": "false",
@@ -1050,6 +1082,22 @@
     ],
     "Plugins": {
      "Custom": [
+      {
+       "Id": "309698570",
+       "Name": "Compressor (Custom)",
+       "ObjectPath": "\\Interactive Music Hierarchy\\Default Work Unit\\FightMusic\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
+       "GUID": "{BA66E7E5-A64F-47D7-B6EF-9995B1F528E8}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "644890533",
+       "Name": "Compressor (Custom)",
+       "ObjectPath": "\\Interactive Music Hierarchy\\Default Work Unit\\HubMusic\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
+       "GUID": "{D4004ED4-3480-461A-ABB7-924A6AE738BA}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
       {
        "Id": "997864462",
        "Name": "RoomVerb (Custom)",
@@ -1289,6 +1337,9 @@
         "Id": "722385771"
        },
        {
+        "Id": "818213123"
+       },
+       {
         "Id": "825770557"
        },
        {
@@ -1301,9 +1352,19 @@
         "Id": "950680603"
        },
        {
+        "Id": "1033497963"
+       },
+       {
         "Id": "1066979003"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "309698570"
+        }
+       ]
+      }
      },
      {
       "Id": "82718740",
@@ -1507,7 +1568,14 @@
        {
         "Id": "585784865"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "644890533"
+        }
+       ]
+      }
      },
      {
       "Id": "1639412583",
@@ -1728,6 +1796,22 @@
       ]
      },
      {
+      "Id": "1492731029",
+      "Name": "TrainRail",
+      "ObjectPath": "\\Events\\Default Work Unit\\Trains\\TrainRail",
+      "GUID": "{C59528B2-FBBA-41B7-8913-E72D621ED171}",
+      "MaxAttenuation": "11",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "225781329"
+       },
+       {
+        "Id": "1002773112"
+       }
+      ]
+     },
+     {
       "Id": "929814083",
       "Name": "WaspDamage",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\WaspDamage",
@@ -1858,6 +1942,6 @@
     ]
    }
   ],
-  "FileHash": "{9E316310-EAE4-C122-6300-031D0A515A99}"
+  "FileHash": "{A6C91722-1441-1F40-6FFB-0BC6A3769D5A}"
  }
 }

@@ -164,6 +164,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="TrainRail" ID="{C59528B2-FBBA-41B7-8913-E72D621ED171}">
+							<ChildrenList>
+								<Action Name="" ID="{BF8DEC67-86C0-4087-970C-C831FEC4CEDF}" ShortID="328995085">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TrainsRail" ID="{79C9B3B0-F6FE-43DD-A9C7-6FF6CCE5D8DC}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Props" ID="{871E5E15-0677-46BF-B8D5-3F6EEAD488F5}" ShortID="846058445">
