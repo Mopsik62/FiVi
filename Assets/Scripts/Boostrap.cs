@@ -31,14 +31,23 @@ public class Boostrap : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         Debug.Log("BOOSTRAP scene loaded: " + scene.name);
-        StartCoroutine(SetupScene());
+        StartCoroutine(SetupScene(scene));
     }
-    IEnumerator SetupScene()
+    IEnumerator SetupScene(Scene scene)
     {
         yield return null;
 
         if (virtualCam == null)
             virtualCam = FindObjectOfType<CinemachineVirtualCamera>();
+
+        if (scene.name == "Hub")
+        {
+            virtualCam.m_Lens.OrthographicSize = 3.1f;
+        }
+        else
+        {
+            virtualCam.m_Lens.OrthographicSize = 5f;
+        }
 
         if (boundaryObject == null)
         {

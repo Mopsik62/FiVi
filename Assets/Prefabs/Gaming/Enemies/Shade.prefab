@@ -106,7 +106,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 6019453725058403666, guid: 4b4db2092950cbe4190c4d2a4ca1dffd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 1274356703039357281}
   m_Layer: 8
   m_Name: Shade
-  m_TagString: Untagged
+  m_TagString: Fighter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -248,9 +248,10 @@ MonoBehaviour:
   contactDamage: 1
   playerPosition: {fileID: 0}
   ScoreGranted: 0
-  pushForceDeal: 1
+  pushForceDeal: 0
   _specialCooldown: 10
   moveSpeed: 1
+  _scoreForKill: 0
   _specialDuration: 3
   _spawnedEnemies:
   - {fileID: -980708889812875456, guid: d47b7cc52924b5f46b5b2a17a8f039e9, type: 3}
