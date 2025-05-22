@@ -59,7 +59,7 @@ public class Ghost : Enemy
         base.OnCollisionEnter2D(coll);
         if (coll.gameObject.name == "Player")
         {
-            _atackSound.GhostAttakEvent.Post(gameObject);
+           // _atackSound.GhostAttakEvent.Post(gameObject);
         }
 
     }

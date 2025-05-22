@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class BattleHandler : MonoBehaviour
 {
@@ -38,6 +39,10 @@ public class BattleHandler : MonoBehaviour
     public int MaxWaves;
     public int CurWave = 0;
 
+    [SerializeField]
+    private Light2D globalLight;
+    [SerializeField]
+    private Light2D _playerLight;
 
 
     [SerializeField]
@@ -68,6 +73,7 @@ public class BattleHandler : MonoBehaviour
         StartCoroutine(TrainSpawnLoop());
         CurWave = 0;
         StartCombat();
+        _playerLight = GameObject.FindGameObjectWithTag("Player").GetComponent<Light2D>();
         //Debug.Log(GameManager.instance.CurrentMoney);
     }
     private IEnumerator TrainSpawnLoop()
@@ -122,6 +128,10 @@ public class BattleHandler : MonoBehaviour
         for (int i = 0; i < MaxWaves; i++)
         {
             Debug.Log("Новая волна началась " + (CurWave++));
+            if (CurWave == 4)
+                NighTime();
+            if (CurWave == 8)
+                DayTime();
             ChangeWave();
             StartCoroutine(SpawnWaveEnemies());
 
@@ -182,5 +192,35 @@ public class BattleHandler : MonoBehaviour
     {
         _currentWave.text = CurWave.ToString();
     }
+    
+    protected void NighTime()
+    {
+        _playerLight.enabled = true;
+        StartCoroutine(ChangeIntensity(globalLight, 0f));
+    }
+    protected void DayTime()
+    {
+        StartCoroutine(ChangeIntensity(globalLight, 1f));
+    }
+    private IEnumerator ChangeIntensity(Light2D light, float _targetIntesivity)
+    {
+        float startIntensity = light.intensity;
+        float elapsed = 0f;
+
+        while (elapsed < 1f)
+        {
+            elapsed += Time.deltaTime;
+            light.intensity = Mathf.Lerp(startIntensity, _targetIntesivity, elapsed / 1f);
+            yield return null;
+        }
+
+        light.intensity = _targetIntesivity;
+        if (light.intensity == 1f)
+            _playerLight.enabled = false;
+
+    }
+
+
+
 
 }
