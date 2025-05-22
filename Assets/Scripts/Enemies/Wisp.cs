@@ -4,7 +4,7 @@ using UnityEngine;
 public class Wisp : Enemy
 {
     [SerializeField]
-    private float _dashDistance = 5f;
+    private float _dashDistance = 10f;
     private bool _isDashing = false;
 
 /*    [SerializeField]
@@ -67,7 +67,7 @@ public class Wisp : Enemy
 
         float dashDuration = 0.75f;
         float dashTimer = 0f;
-        float dashSpeed = 10f;
+        float dashSpeed = 3f;
 
         Vector2 direction = ((Vector2)(playerPosition.position - transform.position)).normalized;
 

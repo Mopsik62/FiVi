@@ -2825,7 +2825,7 @@ MonoBehaviour:
   - {fileID: 1149482288}
   - {fileID: 1562602041}
   - {fileID: 849496638}
-  _minDistanceFromPlayer: 5
+  _minDistanceFromPlayer: 15
   _waveDuration: 5
 --- !u!1 &1467375807
 GameObject:

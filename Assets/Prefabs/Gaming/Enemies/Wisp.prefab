@@ -52,7 +52,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -104,7 +104,7 @@ Rigidbody2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
@@ -130,10 +130,10 @@ MonoBehaviour:
   playerPosition: {fileID: 0}
   ScoreGranted: 0
   pushForceDeal: 0
-  _specialCooldown: 5
-  moveSpeed: 1
+  _specialCooldown: 2
+  moveSpeed: 4
   _scoreForKill: 0
-  _dashDistance: 5
+  _dashDistance: 10
   _walkSound: {fileID: 3313656151562534967, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
   _footsteps_cooldown: 5
 --- !u!95 &1993981711276167354

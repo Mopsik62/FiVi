@@ -38,10 +38,9 @@ public class BattleHandler : MonoBehaviour
     public int MaxWaves;
     public int CurWave = 0;
 
-    private LineRenderer lineRenderer;
 
 
-   [SerializeField]
+    [SerializeField]
     private Transform[] _trainSpawnPoints = new Transform[24];
 
     private Transform _spawnPoint;
@@ -163,7 +162,11 @@ public class BattleHandler : MonoBehaviour
             {
                 break;
             }
-        } while (!_spawnAreaCollider.OverlapPoint(point) || Vector2.Distance(point, Player.instance.gameObject.transform.position) < _minDistanceFromPlayer);
+
+        } while (
+            !_spawnAreaCollider.OverlapPoint(point) ||
+            Vector2.Distance(point, Player.instance.transform.position) < _minDistanceFromPlayer
+        );
 
         return point;
     }
