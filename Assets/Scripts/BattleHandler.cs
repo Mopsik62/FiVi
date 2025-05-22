@@ -27,7 +27,8 @@ public class BattleHandler : MonoBehaviour
     private TextMeshProUGUI _currentScore;
     [SerializeField]
     private TextMeshProUGUI _currentWave;
-
+    [SerializeField]
+    private GameObject _chooseCanvas;
     [SerializeField]
     private int _CurrentScoreInt;
     [SerializeField]
@@ -133,7 +134,16 @@ public class BattleHandler : MonoBehaviour
             if (CurWave == 8)
                 DayTime();
             ChangeWave();
+
+            if (CurWave % 2 == 0)
+            {
+                _chooseCanvas.SetActive(true);
+                Time.timeScale = 0f;
+                yield return new WaitUntil(() => _chooseCanvas.activeSelf == false);
+            }
+
             StartCoroutine(SpawnWaveEnemies());
+
 
             yield return new WaitForSeconds(_waveDuration + 1f); 
         }
@@ -218,6 +228,21 @@ public class BattleHandler : MonoBehaviour
         if (light.intensity == 1f)
             _playerLight.enabled = false;
 
+    }
+
+    public void ContinueGame()
+    {
+        _chooseCanvas.SetActive(false);
+        Time.timeScale = 1f;
+    }
+
+    public void GoToHub()
+    {
+        Time.timeScale = 1f;
+
+        GameManager.instance.GetMoney(_CurrentScoreInt);
+
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Hub");
     }
 
 
