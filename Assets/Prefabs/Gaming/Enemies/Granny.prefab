@@ -249,9 +249,10 @@ MonoBehaviour:
   contactDamage: 1
   playerPosition: {fileID: 0}
   ScoreGranted: 0
-  pushForceDeal: 1
+  pushForceDeal: 0
   _specialCooldown: 5
   moveSpeed: 1
+  _scoreForKill: 0
   _specialDuration: 1.25
   _mushroom: {fileID: 2391671015034491584, guid: fc71fdc0b6072e5459206c53c1018723, type: 3}
   _summonSpawnPoint: {fileID: 1551783227398038540}
