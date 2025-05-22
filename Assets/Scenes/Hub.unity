@@ -2602,6 +2602,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 638104858}
   m_CullTransparentMesh: 1
+--- !u!114 &678011240 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6548406987323087192, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
+  m_PrefabInstance: {fileID: 1606041731097047717}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8dbb83a64a8e8741b3eec0946cd95b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &680745086
 GameObject:
   m_ObjectHideFlags: 0
@@ -5202,6 +5213,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431963765}
   m_CullTransparentMesh: 1
+--- !u!114 &1475992903 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7670939110215105364, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
+  m_PrefabInstance: {fileID: 1606041731097047717}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 590363eea1acbeb4597e2ba3ef4f61cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1476577539
 GameObject:
   m_ObjectHideFlags: 0
@@ -7700,6 +7722,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 186133296}
     - target: {fileID: 4185120551351889570, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
+      propertyPath: _curWeapon
+      value: 
+      objectReference: {fileID: 1475992903}
+    - target: {fileID: 4185120551351889570, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
       propertyPath: _footsteps
       value: 
       objectReference: {fileID: 477402264}
@@ -7712,9 +7738,17 @@ PrefabInstance:
       value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 4185120551351889570, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
+      propertyPath: _curWeaponMele
+      value: 
+      objectReference: {fileID: 1475992903}
+    - target: {fileID: 4185120551351889570, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
       propertyPath: _woodenStickHit
       value: 
       objectReference: {fileID: 1669885692}
+    - target: {fileID: 4185120551351889570, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
+      propertyPath: _curWeaponRanged
+      value: 
+      objectReference: {fileID: 678011240}
     - target: {fileID: 4185120551351889570, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
       propertyPath: _footsteps_gravel
       value: 

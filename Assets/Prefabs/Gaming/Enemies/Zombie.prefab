@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 889214718541511306}
   m_Layer: 8
   m_Name: Zombie
-  m_TagString: Untagged
+  m_TagString: Fighter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,9 +129,10 @@ MonoBehaviour:
   contactDamage: 1
   playerPosition: {fileID: 0}
   ScoreGranted: 0
-  pushForceDeal: 1
+  pushForceDeal: 0
   _specialCooldown: 5
   moveSpeed: 1
+  _scoreForKill: 0
 --- !u!95 &889214718541511306
 Animator:
   serializedVersion: 7
@@ -229,7 +230,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 5
   m_Sprite: {fileID: 6019453725058403666, guid: 4b4db2092950cbe4190c4d2a4ca1dffd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

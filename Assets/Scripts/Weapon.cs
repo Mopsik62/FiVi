@@ -3,22 +3,21 @@ using System.Collections;
 
 public class Weapon : MonoBehaviour
 {
-    private Animator animator;
+    protected Animator animator;
     [SerializeField]
     protected Collider2D _boxCollider;
     [SerializeField]
-    private float _damage;
+    protected float _damage;
     public float cooldown;
 
-    void Start()
+    protected virtual void Start()
     {
         _boxCollider = GetComponent<Collider2D>();
         _boxCollider.enabled = false;
         animator = GetComponent<Animator>();
     }
-    public void Attack()
+    public virtual void Attack()
     {
-        StartCoroutine(Attack(cooldown));
     }
     protected void OnTriggerEnter2D(Collider2D other)
     {
@@ -35,10 +34,5 @@ public class Weapon : MonoBehaviour
         }
     }
 
-    private IEnumerator Attack(float delay)
-    {
-        _boxCollider.enabled = true;
-        yield return new WaitForSeconds(delay);
-        _boxCollider.enabled = false;
-    }
+
 }
