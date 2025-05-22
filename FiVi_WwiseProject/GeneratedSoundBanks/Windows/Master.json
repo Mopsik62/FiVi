@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C594E5AD-2D3A-463D-864A-C9A3154F7734}",
     "Language": "SFX",
-    "Hash": "{59976487-A32D-55BA-0C32-CD2CEFB46A06}",
+    "Hash": "{227B2DC6-E4B2-C6ED-5A9E-6E90869E6B24}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -61,7 +61,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Zombie-003.wav",
-      "CachePath": "C4/{C47CA7D5-4225-3E9E-CD8F-1BDE11190F02}.wem"
+      "CachePath": "DB/{DB943F97-BE06-F4F4-4ACC-ADED46467AD7}.wem"
      },
      {
       "Id": "142645391",
@@ -69,7 +69,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Zombie-002.wav",
-      "CachePath": "FA/{FAFA2D50-D6D3-D327-9DB6-4040DEF4D451}.wem"
+      "CachePath": "C1/{C100578F-66F2-CA25-5257-C8E94C7C9317}.wem"
      },
      {
       "Id": "150433116",
@@ -117,7 +117,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\GooseSound.wav",
-      "CachePath": "A7/{A76839C3-E675-540A-3AD9-4F24CFE12598}.wem"
+      "CachePath": "9B/{9B05794E-92B3-4F48-DAE2-9D836A61A67A}.wem"
      },
      {
       "Id": "201931862",
@@ -133,7 +133,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Babka.wav",
-      "CachePath": "A5/{A5791571-0602-CE37-DD1B-D7D5E7482C56}.wem"
+      "CachePath": "32/{32EA5CC4-E531-AB0A-F8F4-44304906ADE3}.wem"
      },
      {
       "Id": "210188613",
@@ -165,7 +165,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Zombie-003.wav",
-      "CachePath": "AD/{AD4B27B8-4CB8-BBA1-27F7-5009D4E4B0A3}.wem"
+      "CachePath": "1F/{1F244BDF-2DBF-CF78-E972-7B80095A9669}.wem"
      },
      {
       "Id": "274832657",
@@ -189,7 +189,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapons\\Mushroom.wav",
-      "CachePath": "E2/{E2BBA839-0925-985C-C910-032B9AD63C7B}.wem"
+      "CachePath": "37/{37351A57-D82C-3DD3-7686-3E8B0061E834}.wem"
      },
      {
       "Id": "296826035",
@@ -197,7 +197,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Zombie-002.wav",
-      "CachePath": "25/{25D1E529-231A-0E92-3C1F-5A8764BB6038}.wem"
+      "CachePath": "3C/{3C03DE9A-A2E0-BAE5-091B-42B88AC0FC3C}.wem"
      },
      {
       "Id": "305034866",
@@ -205,7 +205,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Zombie-003.wav",
-      "CachePath": "D5/{D592DB09-EF56-3AE8-87C8-F6C235730955}.wem"
+      "CachePath": "6A/{6AE4267B-4883-810C-1A6B-415BDE4D43FD}.wem"
      },
      {
       "Id": "313826726",
@@ -229,7 +229,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Zombie-003.wav",
-      "CachePath": "A2/{A2864F1E-6AB0-EFB5-A156-3815641B84BE}.wem"
+      "CachePath": "31/{319E283C-FDA9-F8A5-070F-661EACFDB688}.wem"
      },
      {
       "Id": "324611932",
@@ -237,7 +237,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Babka.wav",
-      "CachePath": "95/{953BF3E9-1812-F3AD-F48D-3B863E1B6957}.wem"
+      "CachePath": "39/{394D556D-5030-B96C-8495-3D79D85895C9}.wem"
      },
      {
       "Id": "327515928",
@@ -261,7 +261,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\GhostWalk-002.wav",
-      "CachePath": "99/{99135182-BDF3-CB9C-EA42-EE3BDFE4C8AE}.wem"
+      "CachePath": "59/{592693B4-8056-5D21-B1D1-EE62DEC7E3B3}.wem"
      },
      {
       "Id": "361439100",
@@ -269,7 +269,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Babka.wav",
-      "CachePath": "21/{21DCA974-582F-19D0-A148-E397AE04DF11}.wem"
+      "CachePath": "71/{71708587-E6BA-AE4E-3828-3C9988102155}.wem"
      },
      {
       "Id": "398031995",
@@ -285,7 +285,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Babka.wav",
-      "CachePath": "84/{840FE0EC-3A18-18D7-03B5-B8481C4F2DE7}.wem"
+      "CachePath": "43/{4307E33A-62A4-E665-039F-7EEA28F5307A}.wem"
      },
      {
       "Id": "403407540",
@@ -301,7 +301,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapons\\Mushroom.wav",
-      "CachePath": "D5/{D57267B7-5A42-C7B7-9524-76274A3AAAEE}.wem"
+      "CachePath": "69/{6927A2D7-6F29-BFCF-7D01-CADAB344BDA0}.wem"
      },
      {
       "Id": "416472245",
@@ -317,7 +317,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Zombie-001.wav",
-      "CachePath": "73/{73305AF3-B808-B687-D336-2626D8882D8D}.wem"
+      "CachePath": "26/{26FAE38F-7CE7-1EA0-DAD4-5BAFF6AF6021}.wem"
      },
      {
       "Id": "429783399",
@@ -325,7 +325,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Zombie-001.wav",
-      "CachePath": "23/{23D72956-0C62-C8D9-1DF0-9F4AF6FA5073}.wem"
+      "CachePath": "0B/{0B7B7961-B4C2-46B9-EB4F-803285A47014}.wem"
      },
      {
       "Id": "435517924",
@@ -333,7 +333,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Zombie-001.wav",
-      "CachePath": "60/{60003167-61F2-5E8A-8D56-1C434FCFD742}.wem"
+      "CachePath": "EE/{EEE1780E-C96C-2617-6C60-F3D42ABDB8B9}.wem"
      },
      {
       "Id": "436649916",
@@ -365,7 +365,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapons\\Mushroom.wav",
-      "CachePath": "EF/{EF468C6D-A1D3-D3E1-6626-BE74850ED4F8}.wem"
+      "CachePath": "DD/{DD94954F-ED08-D469-6D17-B192E46D47B6}.wem"
      },
      {
       "Id": "483544645",
@@ -405,7 +405,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Zombie-002.wav",
-      "CachePath": "DA/{DACBFEF6-37AD-B27C-9703-11852CE89021}.wem"
+      "CachePath": "3D/{3D67CD57-E347-3CDA-EF10-4DC33F52A738}.wem"
      },
      {
       "Id": "543469489",
@@ -437,7 +437,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\GhostWalk-001.wav",
-      "CachePath": "1A/{1A037D30-51AB-C143-137D-88846771CF2E}.wem"
+      "CachePath": "36/{369D5248-2039-AC0D-AE25-07693A8F6366}.wem"
      },
      {
       "Id": "562417601",
@@ -461,7 +461,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\GooseSound.wav",
-      "CachePath": "B1/{B191B95A-2246-0F2C-C640-ADB1A72551B3}.wem"
+      "CachePath": "D4/{D4097CAC-8D96-34B8-E547-9D5249B8A5CB}.wem"
      },
      {
       "Id": "583294126",
@@ -469,7 +469,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapons\\Mushroom.wav",
-      "CachePath": "06/{0651647D-BBDE-D751-189F-0EDFEE278CA8}.wem"
+      "CachePath": "DA/{DA255382-5DE4-363C-778B-15621DAE7824}.wem"
      },
      {
       "Id": "584105805",
@@ -541,7 +541,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Babka.wav",
-      "CachePath": "A8/{A8E973CF-EB32-82E8-F585-37482F732595}.wem"
+      "CachePath": "F2/{F278DC75-2E6E-9BDA-E476-8B17E034F325}.wem"
      },
      {
       "Id": "657637022",
@@ -557,7 +557,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Babka.wav",
-      "CachePath": "FE/{FE490E11-6575-243C-E223-A0B0DCFE8497}.wem"
+      "CachePath": "5B/{5B296228-9EE7-E5A2-C493-362FFD0EEDEE}.wem"
      },
      {
       "Id": "675744829",
@@ -685,7 +685,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Zombie-001.wav",
-      "CachePath": "09/{09C413FF-E2CF-F2B3-33D9-B72847A20CFF}.wem"
+      "CachePath": "DE/{DE2D8FFA-589E-CF24-5051-8FC5B3447136}.wem"
      },
      {
       "Id": "841433138",
@@ -733,7 +733,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\GooseSound.wav",
-      "CachePath": "BC/{BC10E788-E7EE-79BB-F36C-ABB8A5536A95}.wem"
+      "CachePath": "C3/{C31C8201-6769-4912-37C1-9D8ADA8E7E77}.wem"
      },
      {
       "Id": "869828579",
@@ -749,7 +749,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapons\\Mushroom.wav",
-      "CachePath": "3C/{3C6566BD-6332-66F0-A92D-C2B4C8C30242}.wem"
+      "CachePath": "67/{67C5CC8B-0B04-79C5-F181-F4FF9FC51E5E}.wem"
      },
      {
       "Id": "873090363",
@@ -765,7 +765,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Zombie-002.wav",
-      "CachePath": "15/{15A91842-6ADF-4BAB-4C53-FFE9B336A43C}.wem"
+      "CachePath": "87/{873339E6-49DB-5F49-CA0B-5151897C003B}.wem"
      },
      {
       "Id": "882086869",
@@ -797,7 +797,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Babka.wav",
-      "CachePath": "E9/{E9D34F56-B23A-6133-C5AA-3DE54CFB5DC3}.wem"
+      "CachePath": "14/{14646893-FEA3-2F30-9FB7-2BF6AD5275FB}.wem"
      },
      {
       "Id": "938450241",
@@ -893,7 +893,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Babka.wav",
-      "CachePath": "77/{77D4537F-24B0-7B1B-3153-CA9FA1F67293}.wem"
+      "CachePath": "27/{271C4A8E-4615-7290-1851-75DF7A11FD2D}.wem"
      },
      {
       "Id": "998729749",
@@ -901,7 +901,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Zombie-002.wav",
-      "CachePath": "8E/{8ED529F0-6014-5D33-2FBC-929B9DBA20D9}.wem"
+      "CachePath": "CE/{CECF6248-E44A-ECE6-21E7-60EC9907FD1F}.wem"
      },
      {
       "Id": "1005952113",
@@ -909,7 +909,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Zombie-001.wav",
-      "CachePath": "3A/{3A8588F3-798B-B77A-8CCB-DF9510E88F65}.wem"
+      "CachePath": "2C/{2CE5AB33-F811-7E72-F2E7-859DB9923591}.wem"
      },
      {
       "Id": "1006469768",
@@ -1735,6 +1735,6 @@
     ]
    }
   ],
-  "FileHash": "{64DB75DB-EADC-EE78-86B0-5D5BF131F053}"
+  "FileHash": "{05E68486-01F8-C6D1-AB1C-B96702C6AEDD}"
  }
 }
