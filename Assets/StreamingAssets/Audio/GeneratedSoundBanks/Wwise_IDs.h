@@ -37,6 +37,11 @@ namespace AK
         static const AkUniqueID MUSIC_FIGHT = 962867917U;
         static const AkUniqueID PC_DEATH = 2669613969U;
         static const AkUniqueID PC_GRUNT = 1010108969U;
+        static const AkUniqueID PCSWOOSH = 2649774099U;
+        static const AkUniqueID PECHKADAMAGE = 2945105190U;
+        static const AkUniqueID PECHKADEATH = 2581179661U;
+        static const AkUniqueID PECHKAFIREATACK = 757397837U;
+        static const AkUniqueID PECHKAWALK = 575733754U;
         static const AkUniqueID PROPSUSE = 2841215510U;
         static const AkUniqueID PROSGET = 750579203U;
         static const AkUniqueID ROBOTDAMAGE = 336396592U;
@@ -44,9 +49,14 @@ namespace AK
         static const AkUniqueID ROBOTLAZERATTACK = 3405095521U;
         static const AkUniqueID ROBOTWALK = 4274615552U;
         static const AkUniqueID ROOMTONE_INSTATION = 3722638038U;
+        static const AkUniqueID SHADOWCAST = 1661294168U;
+        static const AkUniqueID SHADOWDAMAGE = 2659057026U;
+        static const AkUniqueID SHADOWDEATH = 2565189097U;
+        static const AkUniqueID SHADOWWALK = 1970623062U;
         static const AkUniqueID SHURIKEN = 618185232U;
         static const AkUniqueID SKELETON_DAMAGE = 4168167072U;
         static const AkUniqueID SKELETONDEATH = 139523582U;
+        static const AkUniqueID SKELETONWALK = 3740743011U;
         static const AkUniqueID TITLEMUSIC = 2191159630U;
         static const AkUniqueID TRAINRAIL = 1492731029U;
         static const AkUniqueID WASPDAMAGE = 929814083U;
