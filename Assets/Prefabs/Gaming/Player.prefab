@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 2408762274497369475}
   - component: {fileID: 6106489295815526331}
   - component: {fileID: -5178419749534228618}
+  - component: {fileID: 8994846285154023459}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -251,17 +252,19 @@ MonoBehaviour:
   immuneTime: 0.2
   moveSpeed: 5
   _healthUI: {fileID: 0}
-  _curWeaponMele: {fileID: 0}
-  _curWeaponRanged: {fileID: 0}
+  _curWeaponMele: {fileID: 7670939110215105364}
+  _curWeaponRanged: {fileID: 6548406987323087192}
   _footsteps: {fileID: 0}
   _footsteps_gravel: {fileID: 0}
   _woodenStickHit: {fileID: 0}
   _damageRecive: {fileID: 743747052189577781, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _eSound: {fileID: 0}
+  _deathSound: {fileID: 0}
   _footsteps_cooldown: 0.3
   _canAttack: 0
   canMove: 1
   dashDistance: 3
-  dashDuration: 0.1
+  dashDuration: 0.25
   dashCooldown: 1
 --- !u!95 &9130218752993030609
 Animator:
@@ -347,6 +350,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc404ef15c3ddf14da29f66dc64e2d8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8994846285154023459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7417093118990675560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ComponentVersion: 2
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.476
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.5
+  m_LightVolumeIntensity: 1
+  m_LightVolumeEnabled: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_DeprecatedPointLightCookieSprite: {fileID: 0}
+  m_LightOrder: 1
+  m_AlphaBlendOnOverlap: 0
+  m_OverlapOperation: 0
+  m_NormalMapDistance: 3
+  m_NormalMapQuality: 2
+  m_UseNormalMap: 0
+  m_ShadowsEnabled: 0
+  m_ShadowIntensity: 0.75
+  m_ShadowSoftness: 0.3
+  m_ShadowSoftnessFalloffIntensity: 0.5
+  m_ShadowVolumeIntensityEnabled: 0
+  m_ShadowVolumeIntensity: 0.75
+  m_LocalBounds:
+    m_Center: {x: 0, y: -0.00000011920929, z: 0}
+    m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 7
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &8806176008376703757
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,6 +492,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a5a1c7c101c8004ab8a423faf62651a, type: 3}
+--- !u!114 &6548406987323087192 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5058870096652893837, guid: 6a5a1c7c101c8004ab8a423faf62651a, type: 3}
+  m_PrefabInstance: {fileID: 2077332577190111189}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8dbb83a64a8e8741b3eec0946cd95b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &6814026019796922653 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4775049708424976072, guid: 6a5a1c7c101c8004ab8a423faf62651a, type: 3}
@@ -504,3 +570,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4155067793160281158, guid: e4385b9e9af4c7644a999bb71bde318b, type: 3}
   m_PrefabInstance: {fileID: 8784495118865855431}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7670939110215105364 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -7810246987648644973, guid: e4385b9e9af4c7644a999bb71bde318b, type: 3}
+  m_PrefabInstance: {fileID: 8784495118865855431}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 590363eea1acbeb4597e2ba3ef4f61cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

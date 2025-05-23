@@ -19,7 +19,7 @@ public class Weapon : MonoBehaviour
     public virtual void Attack()
     {
     }
-    protected void OnTriggerEnter2D(Collider2D other)
+    protected virtual void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("ÓÄÀĞÈÄË (òğèããåğ)");
         if (other.CompareTag("Fighter"))

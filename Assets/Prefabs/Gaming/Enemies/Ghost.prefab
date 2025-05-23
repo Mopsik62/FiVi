@@ -147,7 +147,7 @@ MonoBehaviour:
   maxHp: 1
   _boxCollider: {fileID: 0}
   pushRecoverySpeed: 1
-  immuneTime: 1
+  immuneTime: 0.1
   contactDamage: 1
   playerPosition: {fileID: 0}
   ScoreGranted: 0
@@ -159,6 +159,10 @@ MonoBehaviour:
   _maxSpecialCharge: 10
   _specialDuretion: 2
   _sprite: {fileID: 436741820027663648}
+  _footsteps_cooldown: 5
+  _damageSound: {fileID: 8718668540144330585, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _atackSound: {fileID: 0}
+  _walkSound: {fileID: 4420436283794364826, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
 --- !u!1 &5507794359711343875
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,7 +238,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 7
   m_Sprite: {fileID: -5899927303015767666, guid: 292e847aa127b2247ad9c31a2cfbda77, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

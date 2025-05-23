@@ -1,0 +1,236 @@
+fileFormatVersion: 2
+guid: a2226501e37c4d94895ab7951ed75372
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4770711244979882348
+    second: FireCircle_0
+  - first:
+      213: -8287120377516875404
+    second: FireCircle_1
+  - first:
+      213: 3140409385297800429
+    second: FireCircle_2
+  - first:
+      213: -8680198796369074487
+    second: FireCircle_3
+  - first:
+      213: -3934623015259386933
+    second: FireCircle_4
+  - first:
+      213: -721307190140010249
+    second: FireCircle_5
+  - first:
+      213: 5225047174651104898
+    second: FireCircle_6
+  - first:
+      213: 6494885820288674938
+    second: FireCircle_7
+  - first:
+      213: -7299418940207659503
+    second: FireCircle_8
+  - first:
+      213: 8048352356996864394
+    second: FireCircle_9
+  - first:
+      213: -2878200078384331222
+    second: FireCircle_10
+  - first:
+      213: -5094728667618458599
+    second: FireCircle_11
+  - first:
+      213: -4521251377797003505
+    second: FireCircle_12
+  - first:
+      213: 8567267745952789311
+    second: FireCircle_13
+  - first:
+      213: -1053435319529557692
+    second: FireCircle_14
+  - first:
+      213: -5416960319758108633
+    second: FireCircle_15
+  - first:
+      213: -7063003942087457455
+    second: FireCircle_16
+  - first:
+      213: 8890878408005955084
+    second: FireCircle_17
+  - first:
+      213: 7356711529029553633
+    second: FireCircle_18
+  - first:
+      213: -7151102527100051772
+    second: FireCircle_19
+  - first:
+      213: -5795193093789588477
+    second: FireCircle_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 54
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FireCircle_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 531
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69ccfad998f43240800000000000000
+      internalID: 4770711244979882348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3da7a3970eff8ef4e8b5f74932d3b67c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FireCircle_0: 4770711244979882348
+      FireCircle_1: -8287120377516875404
+      FireCircle_10: -2878200078384331222
+      FireCircle_11: -5094728667618458599
+      FireCircle_12: -4521251377797003505
+      FireCircle_13: 8567267745952789311
+      FireCircle_14: -1053435319529557692
+      FireCircle_15: -5416960319758108633
+      FireCircle_16: -7063003942087457455
+      FireCircle_17: 8890878408005955084
+      FireCircle_18: 7356711529029553633
+      FireCircle_19: -7151102527100051772
+      FireCircle_2: 3140409385297800429
+      FireCircle_20: -5795193093789588477
+      FireCircle_3: -8680198796369074487
+      FireCircle_4: -3934623015259386933
+      FireCircle_5: -721307190140010249
+      FireCircle_6: 5225047174651104898
+      FireCircle_7: 6494885820288674938
+      FireCircle_8: -7299418940207659503
+      FireCircle_9: 8048352356996864394
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

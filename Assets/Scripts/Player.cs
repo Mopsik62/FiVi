@@ -27,6 +27,10 @@ public class Player : Fighter
     [SerializeField]
     private PC_Damage _damageRecive;
     [SerializeField]
+    private Shuriken _eSound;
+    [SerializeField]
+    private PC_Death _deathSound;
+    [SerializeField]
     private float _footsteps_cooldown; //время аниматора для 1 шага
     private float _footsteps_timer;
 
@@ -103,6 +107,11 @@ public class Player : Fighter
         {
             AttackWithRanged();
         }
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            GameManager.instance.ConsumeFood();
+        }
+
     }
 
     void FixedUpdate()
@@ -185,6 +194,7 @@ public class Player : Fighter
         {
             _curWeaponRanged.Attack();
             isAttacking = true;
+            _eSound.ShurikenEvent.Post(gameObject);
             animator.Play("AttackRanged");
             Invoke(nameof(EndAttack), _curWeaponRanged.cooldown);
         }
@@ -223,7 +233,15 @@ public class Player : Fighter
     protected void Dash()
     {
         if (isDashing) return;
-        animator.Play("Dash");
+        if(_lastMoveDirection.x > 0)
+        {
+            animator.Play("DashRight");
+
+        }
+        else
+        {
+            animator.Play("Dash");
+        }
         isDashing = true;
         canDash = false;
         StartCoroutine(DashCooldownRoutine());
@@ -253,4 +271,55 @@ public class Player : Fighter
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
     }
+
+    protected override void Death()
+    {
+        base.Death();
+        _deathSound.PCDeathEvent.Post(gameObject);
+    }
+
+    public void Heal (int HP)
+    {
+        if (curHp + HP >= maxHp)
+        {
+            curHp = maxHp;
+        }
+        else
+        {
+            curHp += HP;
+        }
+        _healthUI.UpdateHearts(curHp);
+    }
+
+    public void Haste(float duration)
+    {
+        StartCoroutine(HasteDelay(duration));
+
+    }
+
+    private IEnumerator HasteDelay(float duration)
+    {
+        float savedSpeed = moveSpeed;
+        moveSpeed = moveSpeed * 2;
+        yield return new WaitForSeconds(duration);
+        moveSpeed = savedSpeed;
+    }
+
+    public void Invincible(float duration)
+    {
+        StartCoroutine(InvincibleDelay(duration));
+
+    }
+
+    private IEnumerator InvincibleDelay(float duration)
+    {
+        float startTime = Time.time;
+
+        while (Time.time < startTime + duration)
+        {
+            lastImmune = Time.time;
+            yield return null;
+        }
+    }
+
 }
