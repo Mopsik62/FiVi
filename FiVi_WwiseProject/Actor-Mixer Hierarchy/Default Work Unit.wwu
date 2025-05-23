@@ -1487,6 +1487,9 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="GooseAttak" ID="{ED0BA194-C14F-46C1-9802-E4CF1C671D76}" ShortID="837331109">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
@@ -7111,6 +7114,484 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="EyeDamage" ID="{9B2A5A2E-280C-4C8A-8ED8-018358496DF2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Robot" ID="{771F9FA2-EB56-40F0-B82A-712B12532D1F}" ShortID="585774847">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C5E029E1-A0D8-4E0A-BA5D-7AEE2E17A3B7}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="20"/>
+													<Property Name="Min" Type="Real64" Value="-30"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="RobotWalk" ID="{1321F23C-AA05-42AF-B263-7F25E8932E4B}" ShortID="587091490">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="040_LocomotionNPC" ID="{66448E75-D3A2-45CC-B25D-5030DEDCD1C2}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="RobotWalk_1" ID="{9762EC1F-8824-4454-BA1A-A7D1EE4C7A6C}" ShortID="124232137">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RobotWalk_1" ID="{99EA3072-88C2-4A78-9C47-FB76AB6C0906}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0745447518265977"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0384747106201795"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Characters\RobotWalk_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="83044956"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RobotWalk_1" ID="{99EA3072-88C2-4A78-9C47-FB76AB6C0906}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RobotWalk_2" ID="{63F5E12F-8205-4044-A0FF-F3CBE7126BCA}" ShortID="201766294">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RobotWalk_2" ID="{CE0A9560-6DDE-47B7-A9EE-F135011B0440}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0815030749963254"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0254697109363517"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Characters\RobotWalk_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="110295837"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RobotWalk_2" ID="{CE0A9560-6DDE-47B7-A9EE-F135011B0440}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RobotWalk_3" ID="{C3BC9E58-F076-4775-AAED-1435AADFB476}" ShortID="278626785">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RobotWalk_3" ID="{19A5ED58-AD84-401B-97DA-0321000E638A}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0942379304645013"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.030563653123622"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Characters\RobotWalk_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="650350969"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RobotWalk_3" ID="{19A5ED58-AD84-401B-97DA-0321000E638A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RobotWalk_4" ID="{C528F316-5114-4370-8C98-CCA164244428}" ShortID="2680676">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RobotWalk_4" ID="{09EAE313-2D80-4789-BF0A-503F25B2F086}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.109270440072429"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Characters\RobotWalk_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="227233604"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RobotWalk_4" ID="{09EAE313-2D80-4789-BF0A-503F25B2F086}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="RobotLaser" ID="{EBCA697E-6867-4B16-BF16-93896B71FE8F}" ShortID="415836020">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="020_Weapon" ID="{316FDBE6-1850-4067-BFC3-DCAA559BC779}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Laser_1" ID="{F4677F32-7F96-4890-B8E1-68AAF8A9FBAF}" ShortID="778148897">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Laser_1" ID="{308071BB-197F-4CCD-9278-44649CE8A044}">
+													<Language>SFX</Language>
+													<AudioFile>Weapons\Laser_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="877759107"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Laser_1" ID="{308071BB-197F-4CCD-9278-44649CE8A044}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Laser_2" ID="{2209B44D-B151-4BCB-A174-52ADBEA95995}" ShortID="432100480">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Laser_2" ID="{60F46130-7AA3-479A-82AD-672E36536AA2}">
+													<Language>SFX</Language>
+													<AudioFile>Weapons\Laser_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="994886759"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Laser_2" ID="{60F46130-7AA3-479A-82AD-672E36536AA2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Laser_3" ID="{88C2D707-7EED-4D6D-8A19-BA7BBF69A741}" ShortID="1048887820">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Laser_3" ID="{EA65FBAA-DFA6-4842-8F65-96571E56620F}">
+													<Language>SFX</Language>
+													<AudioFile>Weapons\Laser_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="181485682"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Laser_3" ID="{EA65FBAA-DFA6-4842-8F65-96571E56620F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Laser_4" ID="{896D05DB-F3F4-43DB-9BEB-7B2D43EBFCEE}" ShortID="222422391">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Laser_4" ID="{664D847E-A44C-45A2-86C3-8FF60D374732}">
+													<Language>SFX</Language>
+													<AudioFile>Weapons\Laser_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="427308035"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Laser_4" ID="{664D847E-A44C-45A2-86C3-8FF60D374732}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="RobotDeath" ID="{2B3CF5C6-000C-4302-A2FB-9720B9F4CDE6}" ShortID="133616408">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="025_DeathNPC" ID="{B7098A7A-F44D-4EE5-BD26-2C85123BCE1F}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="RobotDeath_1" ID="{BC1482DC-610C-4867-83C7-7C16A74B7270}" ShortID="450431167">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RobotDeath_1" ID="{E3EC2C51-BD56-4DF2-8532-BA523DA0194B}">
+													<Language>SFX</Language>
+													<AudioFile>Characters\RobotDeath_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="406367627"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RobotDeath_1" ID="{E3EC2C51-BD56-4DF2-8532-BA523DA0194B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RobotDeath_2" ID="{4A3F5B61-48FF-466F-8BF9-B78909A8EE9C}" ShortID="722190646">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RobotDeath_2" ID="{EBB4CA64-B2FB-43E8-B0F2-E9F663C30A32}">
+													<Language>SFX</Language>
+													<AudioFile>Characters\RobotDeath_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="79697800"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RobotDeath_2" ID="{EBB4CA64-B2FB-43E8-B0F2-E9F663C30A32}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RobotDeath_3" ID="{75624FFE-2FC4-469B-9894-DC43760F73EE}" ShortID="650589603">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RobotDeath_3" ID="{6EFF09F4-401C-4E0F-B2CE-FAECD53304D2}">
+													<Language>SFX</Language>
+													<AudioFile>Characters\RobotDeath_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="901261335"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RobotDeath_3" ID="{6EFF09F4-401C-4E0F-B2CE-FAECD53304D2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="RobotDamage" ID="{B450D8FD-EF7C-400B-9925-670A4F35B3CB}" ShortID="788969780">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="030_DamageNPC" ID="{4B62F411-6AB7-4861-9473-1BB41BB91385}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="RobotDamage_1" ID="{A1B6569B-2607-4D01-A8B9-A0CC2EEC05D1}" ShortID="722888465">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RobotDamage_1" ID="{006A9134-EED8-42CA-81D5-4BAF270F6BA5}">
+													<Language>SFX</Language>
+													<AudioFile>Characters\RobotDamage_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="434034930"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RobotDamage_1" ID="{006A9134-EED8-42CA-81D5-4BAF270F6BA5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RobotDamage_2" ID="{0DA23B0D-05AF-42BB-B7FB-E37E61CBAE06}" ShortID="787086017">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RobotDamage_2" ID="{A8C7A268-40A1-4569-88E8-63FE39BE3513}">
+													<Language>SFX</Language>
+													<AudioFile>Characters\RobotDamage_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="423559820"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RobotDamage_2" ID="{A8C7A268-40A1-4569-88E8-63FE39BE3513}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RobotDamage_3" ID="{EEA7D514-083B-42D8-80CF-794CD83F4B3C}" ShortID="336860214">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RobotDamage_3" ID="{45CEC7B5-B885-4F48-935A-53BF83FD265C}">
+													<Language>SFX</Language>
+													<AudioFile>Characters\RobotDamage_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="439489231"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RobotDamage_3" ID="{45CEC7B5-B885-4F48-935A-53BF83FD265C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RobotDamage_4" ID="{F9480051-8016-4D53-984D-7BE907177D06}" ShortID="1069528976">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RobotDamage_4" ID="{0890F52C-0AF9-4205-881E-0C405B7FCF29}">
+													<Language>SFX</Language>
+													<AudioFile>Characters\RobotDamage_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="940141667"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RobotDamage_4" ID="{0890F52C-0AF9-4205-881E-0C405B7FCF29}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RobotDamage_5" ID="{3D3780B6-BBC4-4A28-AAC0-C17C2716CD1B}" ShortID="882597161">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E4275F9E-0DAF-4393-96D9-9CB1A8E63155}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5E26C6A-27F2-4DAD-B4C3-F6D47169F9FB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RobotDamage_5" ID="{EB1DCFB8-3E11-497B-A5A9-1D5303F27E06}">
+													<Language>SFX</Language>
+													<AudioFile>Characters\RobotDamage_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="170025469"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RobotDamage_5" ID="{EB1DCFB8-3E11-497B-A5A9-1D5303F27E06}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

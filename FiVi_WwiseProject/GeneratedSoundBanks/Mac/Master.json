@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C594E5AD-2D3A-463D-864A-C9A3154F7734}",
     "Language": "SFX",
-    "Hash": "{38C8FCA1-8F78-EC3C-C62A-379BD298015D}",
+    "Hash": "{4B3BD0D3-954B-BE0C-96A4-79E784097CF1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\trebovatelnyiy-gogot-odnogo-gusya.wav",
-      "CachePath": "F4/{F42094F3-4230-F4E8-F5D4-66FEF8B93159}.wem"
+      "CachePath": "96/{969B086C-0337-CF2E-6398-16F5FEB465B3}.wem"
      },
      {
       "Id": "20049260",
@@ -56,12 +56,36 @@
       "CachePath": "89/{8987E4BE-5724-F5A0-DB1B-F0647A410EDF}.wem"
      },
      {
+      "Id": "79697800",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\RobotDeath_2.wav",
+      "CachePath": "21/{2152A95B-7F77-E0BE-E32B-8C1390F55ED1}.wem"
+     },
+     {
+      "Id": "83044956",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\RobotWalk_1.wav",
+      "CachePath": "FC/{FC3A4079-9C34-FF22-B68E-13FE5CD80B5D}.wem"
+     },
+     {
       "Id": "106752488",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\PC_Death.wav",
       "CachePath": "BD/{BD66B14F-93B5-ADC2-1776-F35327EA293B}.wem"
+     },
+     {
+      "Id": "110295837",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\RobotWalk_2.wav",
+      "CachePath": "63/{630FF47C-A9CD-F604-5C2D-A06CF73A5703}.wem"
      },
      {
       "Id": "138061966",
@@ -112,6 +136,22 @@
       "CachePath": "8B/{8B5D7AD8-925D-3AE0-C6B8-26BDA8AFF6F5}.wem"
      },
      {
+      "Id": "170025469",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\RobotDamage_5.wav",
+      "CachePath": "57/{57C5061C-54C7-69E4-3380-BF97C753F25C}.wem"
+     },
+     {
+      "Id": "181485682",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapons\\Laser_3.wav",
+      "CachePath": "C0/{C0ABCDBF-563F-1418-B723-A6FCE978AAD1}.wem"
+     },
+     {
       "Id": "185383019",
       "Language": "SFX",
       "Streaming": "false",
@@ -125,7 +165,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\EyeDamage.wav",
-      "CachePath": "57/{577F8BC7-4EDF-FE46-AC4D-D865A1551A11}.wem"
+      "CachePath": "21/{2142415C-22E9-0ACD-1D91-8E1DE3AB4AE2}.wem"
      },
      {
       "Id": "198022058",
@@ -174,6 +214,14 @@
       "Location": "Memory",
       "ShortName": "Ambience\\TrainRail_1.wav",
       "CachePath": "94/{948CA6FA-4B5F-FF3A-E5FF-BB3CD1505B29}.wem"
+     },
+     {
+      "Id": "227233604",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\RobotWalk_4.wav",
+      "CachePath": "1C/{1C2F2768-0117-B95E-28CD-34FBF85AADEE}.wem"
      },
      {
       "Id": "241102469",
@@ -253,7 +301,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\trebovatelnyiy-gogot-odnogo-gusya.wav",
-      "CachePath": "A7/{A73D1C63-FD0C-12E4-5F43-D5948B132243}.wem"
+      "CachePath": "77/{77F2FAD1-AE9B-6ACF-D3D6-57801AE17280}.wem"
      },
      {
       "Id": "321062627",
@@ -293,7 +341,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\EyeDamage.wav",
-      "CachePath": "E9/{E98FBE5D-9460-AEA7-119F-D45A4F8EE05E}.wem"
+      "CachePath": "A8/{A872CA8A-EF03-D5D3-01BB-13505361A252}.wem"
      },
      {
       "Id": "349985375",
@@ -301,7 +349,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Eye-002.wav",
-      "CachePath": "BB/{BB17922F-C235-A6F9-93A8-3F2FED3AD1C9}.wem"
+      "CachePath": "BA/{BAD6CFB3-1E28-7808-AA82-9D780F0FE286}.wem"
      },
      {
       "Id": "356571249",
@@ -360,6 +408,14 @@
       "CachePath": "69/{6927A2D7-6F29-BFCF-7D01-CADAB344BDA0}.wem"
      },
      {
+      "Id": "406367627",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\RobotDeath_1.wav",
+      "CachePath": "51/{514E9F76-CE12-D69E-692C-66DDA0F692C3}.wem"
+     },
+     {
       "Id": "416472245",
       "Language": "SFX",
       "Streaming": "false",
@@ -376,12 +432,36 @@
       "CachePath": "26/{26FAE38F-7CE7-1EA0-DAD4-5BAFF6AF6021}.wem"
      },
      {
+      "Id": "423559820",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\RobotDamage_2.wav",
+      "CachePath": "80/{80DF5DFD-BBEA-AE3F-24F5-45ACC602182E}.wem"
+     },
+     {
+      "Id": "427308035",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapons\\Laser_4.wav",
+      "CachePath": "29/{293C123F-EC3E-60A7-DCEE-92CE84B8A857}.wem"
+     },
+     {
       "Id": "429783399",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Zombie-001.wav",
       "CachePath": "0B/{0B7B7961-B4C2-46B9-EB4F-803285A47014}.wem"
+     },
+     {
+      "Id": "434034930",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\RobotDamage_1.wav",
+      "CachePath": "FA/{FAA27839-F4A3-43FC-2B29-813F274550AD}.wem"
      },
      {
       "Id": "435517924",
@@ -398,6 +478,14 @@
       "Location": "Memory",
       "ShortName": "Characters\\GhostAttak-003.wav",
       "CachePath": "D0/{D007A226-7076-7B6B-D9BD-67AAA1387804}.wem"
+     },
+     {
+      "Id": "439489231",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\RobotDamage_3.wav",
+      "CachePath": "31/{311A4E23-C1C0-EF62-4669-59194CC0748E}.wem"
      },
      {
       "Id": "441889141",
@@ -453,7 +541,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Eye-001.wav",
-      "CachePath": "9E/{9EEAAE77-4AD5-2D11-C94B-39132A6DA60F}.wem"
+      "CachePath": "D5/{D5D2CFAF-EE76-211C-5EFD-65EF4409CE23}.wem"
      },
      {
       "Id": "506401963",
@@ -469,7 +557,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\EyeDamage.wav",
-      "CachePath": "58/{58D81B91-EB56-5B10-77ED-28F7846A7045}.wem"
+      "CachePath": "2A/{2AFEAE70-E54E-FB8C-E0A9-C3F872AD922E}.wem"
      },
      {
       "Id": "539754862",
@@ -525,7 +613,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Eye-002.wav",
-      "CachePath": "AC/{AC22AC86-BC63-43B1-EA92-40382826D19E}.wem"
+      "CachePath": "26/{2613D2A2-01B9-DD49-2019-463305CECD7D}.wem"
      },
      {
       "Id": "571256128",
@@ -573,7 +661,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\WaspAttack.wav",
-      "CachePath": "B6/{B6528519-3774-A7BD-821F-FE9922234404}.wem"
+      "CachePath": "38/{382C8E4C-F7C0-29C4-A10A-0BFCF6965907}.wem"
      },
      {
       "Id": "595724863",
@@ -613,7 +701,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Eye-001.wav",
-      "CachePath": "E5/{E52C39E8-7FC2-2ED0-A975-5D6301335565}.wem"
+      "CachePath": "A4/{A4A0C1E3-9F95-C70E-8D1E-89C17C65BE61}.wem"
      },
      {
       "Id": "614956716",
@@ -622,6 +710,14 @@
       "Location": "Memory",
       "ShortName": "Characters\\PC_Grunt.wav",
       "CachePath": "9F/{9FD52CA4-96D7-DE96-2D8B-26A9DB7CABC9}.wem"
+     },
+     {
+      "Id": "650350969",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\RobotWalk_3.wav",
+      "CachePath": "F8/{F894EDAC-B416-72C8-BE0B-4C266FBD92C1}.wem"
      },
      {
       "Id": "653868605",
@@ -757,7 +853,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Eye-002.wav",
-      "CachePath": "EF/{EFF770D5-1647-2391-E98A-8A689CA0920E}.wem"
+      "CachePath": "32/{3275973B-0E0C-3CB0-5E71-560E4D1871B9}.wem"
      },
      {
       "Id": "811800656",
@@ -872,6 +968,14 @@
       "CachePath": "87/{873339E6-49DB-5F49-CA0B-5151897C003B}.wem"
      },
      {
+      "Id": "877759107",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapons\\Laser_1.wav",
+      "CachePath": "BF/{BFC4669B-24D3-64AC-EFB3-14C001E6BEEF}.wem"
+     },
+     {
       "Id": "882086869",
       "Language": "SFX",
       "Streaming": "false",
@@ -896,6 +1000,14 @@
       "CachePath": "FC/{FCB6AAC2-7101-70BE-A1CA-B652FF9D1F1F}.wem"
      },
      {
+      "Id": "901261335",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\RobotDeath_3.wav",
+      "CachePath": "F7/{F7B41A4C-388B-C4F7-E72D-7D39DDBE38C1}.wem"
+     },
+     {
       "Id": "904325166",
       "Language": "SFX",
       "Streaming": "false",
@@ -912,12 +1024,20 @@
       "CachePath": "A6/{A69879BE-A824-E06E-EE20-6C23B6935031}.wem"
      },
      {
+      "Id": "940141667",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\RobotDamage_4.wav",
+      "CachePath": "28/{28D03B19-AF40-3D97-EC8C-EA39F48E98CA}.wem"
+     },
+     {
       "Id": "947844802",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\trebovatelnyiy-gogot-odnogo-gusya.wav",
-      "CachePath": "DF/{DFC38504-F888-7FA7-598C-3023D19C334A}.wem"
+      "CachePath": "DC/{DC44E68E-C290-3888-5BCB-9A8F33AD0824}.wem"
      },
      {
       "Id": "950680603",
@@ -1006,6 +1126,14 @@
       "Location": "Memory",
       "ShortName": "Characters\\Babka.wav",
       "CachePath": "27/{271C4A8E-4615-7290-1851-75DF7A11FD2D}.wem"
+     },
+     {
+      "Id": "994886759",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapons\\Laser_2.wav",
+      "CachePath": "90/{90822B4A-1A08-4A22-1E56-850A1AAE86EB}.wem"
      },
      {
       "Id": "998729749",
@@ -1749,6 +1877,102 @@
       ]
      },
      {
+      "Id": "336396592",
+      "Name": "RobotDamage",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Robot\\RobotDamage",
+      "GUID": "{46BF0ABC-CA85-41E5-B530-4C0D29D17FC3}",
+      "MaxAttenuation": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4584822",
+      "DurationMax": "0.55236924",
+      "MediaRefs": [
+       {
+        "Id": "170025469"
+       },
+       {
+        "Id": "423559820"
+       },
+       {
+        "Id": "434034930"
+       },
+       {
+        "Id": "439489231"
+       },
+       {
+        "Id": "940141667"
+       }
+      ]
+     },
+     {
+      "Id": "3134521231",
+      "Name": "RobotDeath",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Robot\\RobotDeath",
+      "GUID": "{5E629D14-CE67-4B72-BBEF-C6924B92C388}",
+      "MaxAttenuation": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4040934",
+      "DurationMax": "2.065807",
+      "MediaRefs": [
+       {
+        "Id": "79697800"
+       },
+       {
+        "Id": "406367627"
+       },
+       {
+        "Id": "901261335"
+       }
+      ]
+     },
+     {
+      "Id": "3405095521",
+      "Name": "RobotLazerAttack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Robot\\RobotLazerAttack",
+      "GUID": "{DD911AE2-E059-467F-99FA-6B00C4D84421}",
+      "MaxAttenuation": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.86027616",
+      "DurationMax": "1.5849613",
+      "MediaRefs": [
+       {
+        "Id": "181485682"
+       },
+       {
+        "Id": "427308035"
+       },
+       {
+        "Id": "877759107"
+       },
+       {
+        "Id": "994886759"
+       }
+      ]
+     },
+     {
+      "Id": "4274615552",
+      "Name": "RobotWalk",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Robot\\RobotWalk",
+      "GUID": "{BE3435A3-952A-43E4-BE66-AB52C9FF3D09}",
+      "MaxAttenuation": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8937705",
+      "DurationMax": "1.1469142",
+      "MediaRefs": [
+       {
+        "Id": "83044956"
+       },
+       {
+        "Id": "110295837"
+       },
+       {
+        "Id": "227233604"
+       },
+       {
+        "Id": "650350969"
+       }
+      ]
+     },
+     {
       "Id": "3722638038",
       "Name": "Roomtone_InStation",
       "ObjectPath": "\\Events\\Default Work Unit\\Roomtone_InStation",
@@ -1987,6 +2211,6 @@
     ]
    }
   ],
-  "FileHash": "{31BBC3A5-1892-F84B-D8D3-C2E03CEA7DD2}"
+  "FileHash": "{08A68E4A-185D-7BC9-D957-7DAFD8F08F25}"
  }
 }

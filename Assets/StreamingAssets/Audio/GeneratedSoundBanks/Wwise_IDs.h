@@ -39,6 +39,10 @@ namespace AK
         static const AkUniqueID PC_GRUNT = 1010108969U;
         static const AkUniqueID PROPSUSE = 2841215510U;
         static const AkUniqueID PROSGET = 750579203U;
+        static const AkUniqueID ROBOTDAMAGE = 336396592U;
+        static const AkUniqueID ROBOTDEATH = 3134521231U;
+        static const AkUniqueID ROBOTLAZERATTACK = 3405095521U;
+        static const AkUniqueID ROBOTWALK = 4274615552U;
         static const AkUniqueID ROOMTONE_INSTATION = 3722638038U;
         static const AkUniqueID SHURIKEN = 618185232U;
         static const AkUniqueID SKELETON_DAMAGE = 4168167072U;

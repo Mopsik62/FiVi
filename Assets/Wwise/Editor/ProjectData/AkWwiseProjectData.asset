@@ -271,7 +271,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b9a82131b0108d4d9d4791abff6d5615
     GuidInternal: 
-    m_lastTime: -8584536726637879496
+    m_lastTime: -8584536236330414677
     List:
     - name: Babka
       guid: cf26435b0dcc17479d643a1b6ceec96e
@@ -864,6 +864,118 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.7529025
       minDuration: 1.7529025
+    - name: Robot
+      guid: 165227fac4c7f846b3151c8718334553
+      id: 1930240631
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Robot
+        ObjectType: 4
+        guid: 165227fac4c7f846b3151c8718334553
+      Path: Events\Default Work Unit\Enemies\Robot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: RobotDamage
+      guid: bc0abf4685cae541b5304c0d29d17fc3
+      id: 336396592
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Robot
+        ObjectType: 4
+        guid: 165227fac4c7f846b3151c8718334553
+      - ElementName: RobotDamage
+        ObjectType: 3
+        guid: bc0abf4685cae541b5304c0d29d17fc3
+      Path: Events\Default Work Unit\Enemies\Robot\RobotDamage
+      maxAttenuation: 10
+      maxDuration: 0.55236924
+      minDuration: 0.4584822
+    - name: RobotDeath
+      guid: 149d625e67ce724bbbefc6924b92c388
+      id: 3134521231
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Robot
+        ObjectType: 4
+        guid: 165227fac4c7f846b3151c8718334553
+      - ElementName: RobotDeath
+        ObjectType: 3
+        guid: 149d625e67ce724bbbefc6924b92c388
+      Path: Events\Default Work Unit\Enemies\Robot\RobotDeath
+      maxAttenuation: 10
+      maxDuration: 2.065807
+      minDuration: 1.4040934
+    - name: RobotLazerAttack
+      guid: e21a91dd59e07f4699fa6b00c4d84421
+      id: 3405095521
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Robot
+        ObjectType: 4
+        guid: 165227fac4c7f846b3151c8718334553
+      - ElementName: RobotLazerAttack
+        ObjectType: 3
+        guid: e21a91dd59e07f4699fa6b00c4d84421
+      Path: Events\Default Work Unit\Enemies\Robot\RobotLazerAttack
+      maxAttenuation: 10
+      maxDuration: 1.5849613
+      minDuration: 0.86027616
+    - name: RobotWalk
+      guid: a33534be2a95e443be66ab52c9ff3d09
+      id: 4274615552
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Robot
+        ObjectType: 4
+        guid: 165227fac4c7f846b3151c8718334553
+      - ElementName: RobotWalk
+        ObjectType: 3
+        guid: a33534be2a95e443be66ab52c9ff3d09
+      Path: Events\Default Work Unit\Enemies\Robot\RobotWalk
+      maxAttenuation: 10
+      maxDuration: 1.1469142
+      minDuration: 0.8937705
     - name: Roomtone_InStation
       guid: 6296b6409d21ac4ca4646620d96d7a1a
       id: 3722638038
@@ -1218,7 +1330,7 @@ MonoBehaviour:
     m_lastTime: -8584539545012609637
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000f00000010000000110000001200000023000000290000005c000000
+  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000f00000010000000110000001200000023000000290000002c000000330000005c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

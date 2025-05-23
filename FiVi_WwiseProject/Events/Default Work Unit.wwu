@@ -437,6 +437,54 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Robot" ID="{FA275216-C7C4-46F8-B315-1C8718334553}" ShortID="502820996">
+							<ChildrenList>
+								<Event Name="RobotWalk" ID="{BE3435A3-952A-43E4-BE66-AB52C9FF3D09}">
+									<ChildrenList>
+										<Action Name="" ID="{9682B113-6400-4963-8E11-862EBC8A8580}" ShortID="758497316">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RobotWalk" ID="{1321F23C-AA05-42AF-B263-7F25E8932E4B}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="RobotLazerAttack" ID="{DD911AE2-E059-467F-99FA-6B00C4D84421}">
+									<ChildrenList>
+										<Action Name="" ID="{2B6D45AC-421C-4041-9261-17E5A4F74969}" ShortID="35192099">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RobotLaser" ID="{EBCA697E-6867-4B16-BF16-93896B71FE8F}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="RobotDamage" ID="{46BF0ABC-CA85-41E5-B530-4C0D29D17FC3}">
+									<ChildrenList>
+										<Action Name="" ID="{13E2231C-BE1C-4AAE-A64B-D5F00DFF9BCA}" ShortID="621671455">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RobotDamage" ID="{B450D8FD-EF7C-400B-9925-670A4F35B3CB}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="RobotDeath" ID="{5E629D14-CE67-4B72-BBEF-C6924B92C388}">
+									<ChildrenList>
+										<Action Name="" ID="{40FA00A7-11D7-4BC6-9B4E-CF0442DCEDEE}" ShortID="46422794">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RobotDeath" ID="{2B3CF5C6-000C-4302-A2FB-9720B9F4CDE6}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

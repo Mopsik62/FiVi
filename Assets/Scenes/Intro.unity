@@ -759,6 +759,70 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 6c2a77cdacba52e4ab00d33eeab7d3d9, type: 2}
+--- !u!114 &1168575356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168575317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83af753c59b7414bb1959f1121383f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RobotDeathEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 81ad91bde136b924eb3508edb7774337, type: 2}
+--- !u!114 &1168575357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168575317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3161dc1aed253674abed652871ec5f3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RobotDamageEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e07ca5df04da01147bf439b86625f10f, type: 2}
+--- !u!114 &1168575358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168575317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cdc62bcc55c78e479b325bd71466905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RobotAttakEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e4bce327fcaa29d49b69e40acb8d5723, type: 2}
+--- !u!114 &1168575359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168575317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e41efc17717f9d9419d05d2773d40a72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RobotFootstepsEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f8a0eca54d7fb144ba0aec1f95dc11e6, type: 2}
 --- !u!1 &1435378794
 GameObject:
   m_ObjectHideFlags: 0
@@ -902,6 +966,18 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6589609721969439574, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1168575355}
+    - targetCorrespondingSourceObject: {fileID: 6589609721969439574, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1168575359}
+    - targetCorrespondingSourceObject: {fileID: 6589609721969439574, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1168575358}
+    - targetCorrespondingSourceObject: {fileID: 6589609721969439574, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1168575357}
+    - targetCorrespondingSourceObject: {fileID: 6589609721969439574, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1168575356}
   m_SourcePrefab: {fileID: 100100000, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
 --- !u!1 &1737750481
 GameObject:
