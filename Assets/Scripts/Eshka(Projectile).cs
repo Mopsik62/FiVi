@@ -17,7 +17,7 @@ public class EshkaProjectile : Weapon
         mouseWorldPos.z = 0f;
 
         _direction = ((Vector2)(mouseWorldPos - transform.position)).normalized;
-
+        Destroy(gameObject, 3f);
     }
     void Update()
     {

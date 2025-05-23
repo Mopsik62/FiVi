@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Interactable : MonoBehaviour
@@ -9,7 +10,18 @@ public class Interactable : MonoBehaviour
 
     [Header("For Shop")]
     public GameObject Shop;
-    public void Teleport()
+
+
+    void Awake()
+    {
+
+        StartCoroutine(SetupScene());
+    }
+    IEnumerator SetupScene( )
+    {
+        yield return null;
+    }
+        public void Teleport()
     {
         if (GameManager.instance.currentProgress < 2)
         { Debug.Log("У вас нет билета!"); }
