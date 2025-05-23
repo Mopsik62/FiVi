@@ -16,7 +16,9 @@ public class Player : Fighter
     private Weapon _curWeaponMele;
     [SerializeField]
     private Weapon _curWeaponRanged;
-
+    [SerializeField]
+    private Weapon _curBottle;
+    private float _lastBottleAttackTime = 0f;
 
     [SerializeField]
     private Footsteps_Concrete _footsteps;
@@ -28,6 +30,8 @@ public class Player : Fighter
     private PC_Damage _damageRecive;
     [SerializeField]
     private Shuriken _eSound;
+    [SerializeField]
+    private BottleFly _bottleSound;
     [SerializeField]
     private PC_Death _deathSound;
     [SerializeField]
@@ -59,7 +63,7 @@ public class Player : Fighter
         {
             Destroy(gameObject);
         }
-
+        _lastBottleAttackTime = _curBottle.cooldown;
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -108,6 +112,10 @@ public class Player : Fighter
         if (Input.GetMouseButtonDown(1))
         {
             AttackWithRanged();
+        }
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            AttackWithBottle();
         }
         if (Input.GetKeyDown(KeyCode.H))
         {
@@ -177,7 +185,7 @@ public class Player : Fighter
     }
     public void AttackWithMelee()
     {
-/*        if (!_canAttack)
+       /* if (!_canAttack)
             return;*/
         if (!isAttacking)
         {
@@ -190,8 +198,8 @@ public class Player : Fighter
     }
     public void AttackWithRanged()
     {
-/*        if (!_canAttack)
-            return;*/
+        if (!_canAttack)
+            return;
         if (!isAttacking)
         {
             _curWeaponRanged.Attack();
@@ -199,6 +207,23 @@ public class Player : Fighter
             _eSound.ShurikenEvent.Post(gameObject);
             animator.Play("AttackRanged");
             Invoke(nameof(EndAttack), _curWeaponRanged.cooldown);
+        }
+    }
+    public void AttackWithBottle()
+    {
+
+        if (!_canAttack)
+            return;
+
+        if (Time.time < _lastBottleAttackTime + _curBottle.cooldown || isAttacking)
+            return;
+        {
+            _lastBottleAttackTime = Time.time;
+            _curBottle.Attack();
+            isAttacking = true;
+           // animator.Play("AttackBottle");
+            _bottleSound.BottleFlyEvent.Post(gameObject);
+            Invoke(nameof(EndAttack), 0.2f);
         }
     }
     private void EndAttack()

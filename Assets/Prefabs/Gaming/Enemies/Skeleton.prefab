@@ -139,6 +139,8 @@ MonoBehaviour:
   _scoreForKill: 0
   _damageSound: {fileID: 4163459245120018504, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
   _skeletonDeath: {fileID: 4260685181956195371, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _walkSound: {fileID: 1821204980015787831, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _footsteps_cooldown: 0.3
 --- !u!61 &4895673172158481717
 BoxCollider2D:
   m_ObjectHideFlags: 0

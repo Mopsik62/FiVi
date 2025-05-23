@@ -12,7 +12,9 @@ public class Wisp : Enemy
 
     [SerializeField]
     private WaspFly _walkSound;
-
+    [SerializeField]
+    private WaspDamage _damageSound;
+    
     [SerializeField]
     private float _footsteps_cooldown;
     private float _footsteps_timer;
@@ -60,6 +62,12 @@ public class Wisp : Enemy
         anim.SetBool("Special", true);
         StartCoroutine(Dash());
 
+    }
+    public override void ReciveDamage(Damage dmg)
+    {
+        base.ReciveDamage(dmg);
+
+       // _damageSound.WaspDamageEvent.Post(gameObject);
     }
 
     private IEnumerator Dash()

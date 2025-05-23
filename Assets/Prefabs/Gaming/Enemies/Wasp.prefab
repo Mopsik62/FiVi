@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7893903005649749568}
   - component: {fileID: 1993981711276167354}
   m_Layer: 0
-  m_Name: Wisp
+  m_Name: Wasp
   m_TagString: Fighter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
