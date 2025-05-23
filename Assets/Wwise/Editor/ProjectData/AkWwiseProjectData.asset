@@ -314,8 +314,8 @@ MonoBehaviour:
         guid: 2e96499519cc634586aa09688b0da48e
       Path: Events\Default Work Unit\Enemies\Babka\BabkaDamage
       maxAttenuation: 10
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.5791307
+      minDuration: 0.40911442
     - name: BabkaDeath
       guid: a059c0c55d718b4eba0072475c226f27
       id: 2192199958
@@ -337,8 +337,8 @@ MonoBehaviour:
         guid: a059c0c55d718b4eba0072475c226f27
       Path: Events\Default Work Unit\Enemies\Babka\BabkaDeath
       maxAttenuation: 10
-      maxDuration: 1.8412019
-      minDuration: 1.2248129
+      maxDuration: 2.1895704
+      minDuration: 1.4565561
     - name: BabkaWalk
       guid: 4e48a69a680749458e3810cb6fb25c17
       id: 1179699643
@@ -731,8 +731,8 @@ MonoBehaviour:
         guid: 43f3d80fdc5a254998a7d6dd255749d5
       Path: Events\Default Work Unit\Enemies\Babka\MushroomBlow
       maxAttenuation: 10
-      maxDuration: 0.7433476
-      minDuration: 0.5433948
+      maxDuration: 0.8839942
+      minDuration: 0.646209
     - name: MushroomStart
       guid: d470bbdd147d9a4e95549594a9c06e14
       id: 637755025
@@ -1591,7 +1591,7 @@ MonoBehaviour:
     m_lastTime: -8584539545012609637
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000f000000100000001200000023000000290000002c0000002f0000003d0000005c000000
+  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000f00000010000000120000002300000025000000290000002c0000002f0000003d0000005c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
