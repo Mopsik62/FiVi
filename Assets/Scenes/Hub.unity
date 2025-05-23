@@ -8019,6 +8019,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1838013402170441427, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1838013402170441427, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1838013402170441427, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 1838013402170441427, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 3108625237264109133, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
       propertyPath: _damage
       value: 1

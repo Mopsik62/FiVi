@@ -13,6 +13,9 @@ public class Player : Fighter
     private HealthUI _healthUI;
 
     [SerializeField]
+    private GameObject _deathScreen;
+
+    [SerializeField]
     private Weapon _curWeaponMele;
     [SerializeField]
     private Weapon _curWeaponRanged;
