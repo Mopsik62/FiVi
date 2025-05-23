@@ -4,6 +4,20 @@
   "BasePlatform": "Mac",
   "PluginLibs": [
    {
+    "LibName": "Wwise Compressor",
+    "LibId": "7077891",
+    "Type": "Effect",
+    "DLL": "AkCompressor",
+    "StaticLib": "AkCompressorFX"
+   },
+   {
+    "LibName": "Wwise Peak Limiter",
+    "LibId": "7208963",
+    "Type": "Effect",
+    "DLL": "AkPeakLimiter",
+    "StaticLib": "AkPeakLimiterFX"
+   },
+   {
     "LibName": "Wwise RoomVerb",
     "LibId": "7733251",
     "Type": "Effect",
@@ -21,6 +35,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{CDABBA92-D3E9-4E2C-1B2C-E19823AC10F7}"
+  "FileHash": "{08322E2B-6FD2-3E21-21E5-C5BE5BD52605}"
  }
 }

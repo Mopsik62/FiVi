@@ -33,8 +33,10 @@ public class GameManager : MonoBehaviour
     public Hub_Music _hub_music;
     [SerializeField]
     public PropsUse _foodUse;
-    
+    [SerializeField]
+    private PropsGet _foodGet;
 
+    
     [SerializeField]
     private Food _currentFood;
     [SerializeField]
@@ -198,8 +200,8 @@ public class GameManager : MonoBehaviour
     public void AddFood(Food food)
     {
         if (_currentFood != null)
-            Destroy(_currentFood.gameObject); 
-
+            Destroy(_currentFood.gameObject);
+        _foodGet.PropsGetEvent.Post(gameObject);
         Food newFood = Instantiate(food);
         newFood.gameObject.SetActive(false);
         DontDestroyOnLoad(newFood.gameObject);

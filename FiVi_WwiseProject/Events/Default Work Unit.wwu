@@ -164,6 +164,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="TrainRail" ID="{C59528B2-FBBA-41B7-8913-E72D621ED171}">
+							<ChildrenList>
+								<Action Name="" ID="{BF8DEC67-86C0-4087-970C-C831FEC4CEDF}" ShortID="328995085">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TrainsRail" ID="{79C9B3B0-F6FE-43DD-A9C7-6FF6CCE5D8DC}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Props" ID="{871E5E15-0677-46BF-B8D5-3F6EEAD488F5}" ShortID="846058445">
@@ -389,8 +400,211 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Eye" ID="{CB5269B7-502A-4FF3-A033-076A6D4B5222}" ShortID="166667885">
+							<ChildrenList>
+								<Event Name="EyeRoll" ID="{0BE3088F-A72C-4A82-BAA6-142CEABC171C}">
+									<ChildrenList>
+										<Action Name="" ID="{C48B6F40-A904-4E89-8354-859892C122E7}" ShortID="833845615">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="EyeRoll" ID="{2B7D6C7B-78F3-439F-9A11-D2F86A1CDE90}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="EyeDamage" ID="{DBEB56FA-0A85-4DA4-8D79-82032A191A52}">
+									<ChildrenList>
+										<Action Name="" ID="{BF8AB7A6-3EDE-4BAB-871C-AAD0A026D651}" ShortID="639814050">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="EyeDamage" ID="{C65F5414-CA04-41F5-BDEC-3CDF0AB0122C}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="GooseAttack" ID="{FE0B2A6B-2E2A-4234-B6DD-8E80360C5731}">
+							<ChildrenList>
+								<Action Name="" ID="{33675A18-E789-4331-9A8C-6D47A8059FD7}" ShortID="11215607">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GooseAttak" ID="{ED0BA194-C14F-46C1-9802-E4CF1C671D76}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Robot" ID="{FA275216-C7C4-46F8-B315-1C8718334553}" ShortID="502820996">
+							<ChildrenList>
+								<Event Name="RobotWalk" ID="{BE3435A3-952A-43E4-BE66-AB52C9FF3D09}">
+									<ChildrenList>
+										<Action Name="" ID="{9682B113-6400-4963-8E11-862EBC8A8580}" ShortID="758497316">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RobotWalk" ID="{1321F23C-AA05-42AF-B263-7F25E8932E4B}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="RobotLazerAttack" ID="{DD911AE2-E059-467F-99FA-6B00C4D84421}">
+									<ChildrenList>
+										<Action Name="" ID="{2B6D45AC-421C-4041-9261-17E5A4F74969}" ShortID="35192099">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RobotLaser" ID="{EBCA697E-6867-4B16-BF16-93896B71FE8F}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="RobotDamage" ID="{46BF0ABC-CA85-41E5-B530-4C0D29D17FC3}">
+									<ChildrenList>
+										<Action Name="" ID="{13E2231C-BE1C-4AAE-A64B-D5F00DFF9BCA}" ShortID="621671455">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RobotDamage" ID="{B450D8FD-EF7C-400B-9925-670A4F35B3CB}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="RobotDeath" ID="{5E629D14-CE67-4B72-BBEF-C6924B92C388}">
+									<ChildrenList>
+										<Action Name="" ID="{40FA00A7-11D7-4BC6-9B4E-CF0442DCEDEE}" ShortID="46422794">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RobotDeath" ID="{2B3CF5C6-000C-4302-A2FB-9720B9F4CDE6}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Pechka" ID="{90317CC3-F3B4-4E08-A836-BD6624A5A16B}" ShortID="42190495">
+							<ChildrenList>
+								<Event Name="PechkaFireAtack" ID="{3AD22F48-65BB-4D80-A7D3-2F292E7BEEBB}">
+									<ChildrenList>
+										<Action Name="" ID="{904C88C2-4450-4641-8C7E-B8D75C20FE25}" ShortID="169172577">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PechkaFireAttack" ID="{DDFC839E-F6C5-441E-97E6-BFC59326081B}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PechkaDamage" ID="{89F141E0-0534-4AF0-B366-227A15616FDE}">
+									<ChildrenList>
+										<Action Name="" ID="{83070A68-9B60-46DA-BF06-7C99325C6DD0}" ShortID="633543053">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PechkaDamage" ID="{AD17E5FC-A917-4D25-93D2-903D26DB8A18}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PechkaDeath" ID="{BBA084DC-43C1-485E-9239-7631C7A66B72}">
+									<ChildrenList>
+										<Action Name="" ID="{3E73FC61-8D77-4711-8C26-0C7B162DFF74}" ShortID="594961915">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PechkaDeath" ID="{6045C568-3A28-403D-91E7-5728E1B88A60}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PechkaWalk" ID="{ECD23D02-2288-41AE-BC45-B56E165BDE6D}">
+									<ChildrenList>
+										<Action Name="" ID="{7F61F591-BA69-41FD-BC3D-30CFFA6963DA}" ShortID="965850065">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PechkaWalk" ID="{33CDBDBA-C6A4-47F8-A0F2-8335ECB83A52}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="SkeletonWalk" ID="{172F1997-F115-4333-A14C-BEF935C6A819}">
+							<ChildrenList>
+								<Action Name="" ID="{01673036-6C2B-45F3-A008-AEA19056F2E8}" ShortID="145369828">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SkeletonWalk" ID="{DAED6654-655E-4EB4-89E3-CAE7A0C5854A}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Shadow" ID="{7D84FA6A-1046-489C-8D7E-3B7A800EDED1}" ShortID="872723399">
+							<ChildrenList>
+								<Event Name="ShadowWalk" ID="{E7466CCA-AC4D-4312-8381-B12857522BB9}">
+									<ChildrenList>
+										<Action Name="" ID="{FE6684F1-4232-4B17-8B7D-532AEDAEBB5B}" ShortID="863567158">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ShadowWalk" ID="{C7F87C90-547C-4E2D-AEAA-61775E83F71A}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ShadowCast" ID="{CE2D11E8-A121-45BA-80FD-453DD900B14E}">
+									<ChildrenList>
+										<Action Name="" ID="{29EBC2EE-498F-4392-9667-501C5074993C}" ShortID="352682136">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ShadowCast" ID="{7F6DE5B5-CF4E-471F-9FCA-705C29668582}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ShadowDamage" ID="{3FFD7B2D-714B-4702-A64F-3003B2C4C876}">
+									<ChildrenList>
+										<Action Name="" ID="{565ABCFE-F1C3-40B9-BC1D-A70E1F7B11E4}" ShortID="245337403">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ShadowDamage" ID="{5D645733-BB97-4E61-A012-517740BCC0D7}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ShadowDeath" ID="{B0188C86-528E-44C6-98EE-E885DE8DB25A}">
+									<ChildrenList>
+										<Action Name="" ID="{26323237-B2E8-466C-AEF3-F72E1A0CCC5C}" ShortID="130745711">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ShadowDeath" ID="{F38A1BAC-C8D0-4DD0-8304-1DAD9E4D53A7}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Event Name="PCSwoosh" ID="{44E6E255-DB20-437E-BD8A-B4B087E1F8FB}">
+					<ChildrenList>
+						<Action Name="" ID="{631CCD19-D393-4707-8CAC-5838B2B360A0}" ShortID="979422977">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PCSwoosh" ID="{4BDAA608-ACF3-4553-8D67-73E1925240F7}" WorkUnitID="{0F7C8654-F8A6-44E7-A6F0-16188CD01A35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

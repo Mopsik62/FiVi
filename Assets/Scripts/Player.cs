@@ -31,6 +31,8 @@ public class Player : Fighter
     [SerializeField]
     private PC_Death _deathSound;
     [SerializeField]
+    private PCSwoosh _dodgeSound;
+    [SerializeField]
     private float _footsteps_cooldown; //время аниматора для 1 шага
     private float _footsteps_timer;
 
@@ -175,8 +177,8 @@ public class Player : Fighter
     }
     public void AttackWithMelee()
     {
-        if (!_canAttack)
-            return;
+/*        if (!_canAttack)
+            return;*/
         if (!isAttacking)
         {
             _curWeaponMele.Attack();
@@ -188,8 +190,8 @@ public class Player : Fighter
     }
     public void AttackWithRanged()
     {
-        if (!_canAttack)
-            return;
+/*        if (!_canAttack)
+            return;*/
         if (!isAttacking)
         {
             _curWeaponRanged.Attack();
@@ -233,7 +235,8 @@ public class Player : Fighter
     protected void Dash()
     {
         if (isDashing) return;
-        if(_lastMoveDirection.x > 0)
+        _dodgeSound.PCSwooshEvent.Post(gameObject);
+        if (_lastMoveDirection.x > 0)
         {
             animator.Play("DashRight");
 

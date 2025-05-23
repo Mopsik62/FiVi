@@ -11,6 +11,19 @@ public class Granny : Enemy
     private Transform _summonSpawnPoint;
     private bool _isSummoning = false;
 
+
+    [SerializeField]
+    private BabkaDamage _damageSound;
+    [SerializeField]
+    private BabkaWalk _walkSound;
+    [SerializeField]
+    private BabkaDeath _deathSound;
+
+    [SerializeField]
+    private float _footsteps_cooldown;
+    private float _footsteps_timer;
+
+
     protected override void Update()
     {
 
@@ -30,6 +43,8 @@ public class Granny : Enemy
     {
         base.Awake();
         _lastSpecial = Time.time;
+        _footsteps_timer = _footsteps_cooldown;
+
     }
 
     protected override void FixedUpdate()
@@ -47,7 +62,21 @@ public class Granny : Enemy
             _lastSpecial = Time.time;
         }
 
+        _footsteps_timer += Time.fixedDeltaTime;
+        if (_footsteps_timer >= _footsteps_cooldown)
+        {
+            _walkSound.BabkaWalkEvent.Post(gameObject);
+            _footsteps_timer = 0;
+        }
 
+
+    }
+
+    protected override void Death()
+    {
+        _walkSound.BabkaWalkEvent.Stop(gameObject);
+        base.Death();
+        _deathSound.BabkaDeathEvent.Post(gameObject);
     }
 
     private IEnumerator Special()
@@ -67,5 +96,13 @@ public class Granny : Enemy
     {
         Instantiate(_mushroom, _summonSpawnPoint.position, Quaternion.identity);
 
+    }
+
+
+    public override void ReciveDamage(Damage dmg)
+    {
+        base.ReciveDamage(dmg);
+
+       // _damageSound.BabkaDamageEvent.Post(gameObject);
     }
 }

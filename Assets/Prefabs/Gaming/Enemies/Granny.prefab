@@ -241,8 +241,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d73bcf26e5b6fd741a9763c244c9a573, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curHp: 1
-  maxHp: 1
+  curHp: 5
+  maxHp: 5
   _boxCollider: {fileID: 0}
   pushRecoverySpeed: 1
   immuneTime: 0.1
@@ -256,6 +256,10 @@ MonoBehaviour:
   _specialDuration: 1.25
   _mushroom: {fileID: 2391671015034491584, guid: fc71fdc0b6072e5459206c53c1018723, type: 3}
   _summonSpawnPoint: {fileID: 1551783227398038540}
+  _damageSound: {fileID: 3053788577095533172, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _walkSound: {fileID: 6725509482789493121, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _deathSound: {fileID: 1414212286778921328, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _footsteps_cooldown: 5
 --- !u!95 &6852989360930277380
 Animator:
   serializedVersion: 7

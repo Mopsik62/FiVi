@@ -10,11 +10,21 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{175437E3-EA6E-7FBB-7C42-1DB22C18E457}",
+    "Hash": "{9276E4B0-9680-FB70-26F7-D45F7B3FB4BC}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "Custom": [
+      {
+       "Id": "414909902",
+       "Name": "Peak Limiter (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\HDR\\[Effect Slot [0]: (Peak Limiter)]\\Peak Limiter (Custom)",
+       "GUID": "{DD368B98-0FA3-481D-AD4A-1C0A7D13F000}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -46,7 +56,14 @@
       "Id": "931844945",
       "Name": "HDR",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\HDR",
-      "GUID": "{B24DED3C-836C-45B2-AFBA-B2CDE0427C1C}"
+      "GUID": "{B24DED3C-836C-45B2-AFBA-B2CDE0427C1C}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "414909902"
+        }
+       ]
+      }
      },
      {
       "Id": "1265358838",
@@ -105,6 +122,6 @@
     ]
    }
   ],
-  "FileHash": "{CA3879D8-5F82-844B-036A-0F936B0C2497}"
+  "FileHash": "{DEBCE5CA-3D12-A40F-8BC2-61F8B3673DEC}"
  }
 }
