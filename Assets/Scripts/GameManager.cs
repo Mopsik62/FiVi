@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -7,6 +8,12 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+
+    [SerializeField]
+    private GameObject StartDialogueWindow;
+
+    [SerializeField]
+    private GameObject MumAndDad;
 
     [SerializeField]
     private TextMeshProUGUI _currentMoney;
@@ -37,7 +44,9 @@ public class GameManager : MonoBehaviour
     private PropsGet _foodGet;
 
     public bool HasTicket = false;
-    
+
+    private bool FirstEntry = true;
+
     [SerializeField]
     private Food _currentFood;
     [SerializeField]
@@ -59,13 +68,24 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        NextProgression();
 
+
+
+        NextProgression();
         SceneManager.sceneLoaded += OnSceneLoaded;
         CurrentMoney = int.Parse(_currentMoney.text);
         UpdateMoneyHandler();
         _foodHolder.preserveAspect = true;
         UpdateFood();
+    }
+    private void Start()
+    {
+
+        if (FirstEntry)
+        {
+            StartCoroutine(Zastavka());
+            FirstEntry = false;
+        }
     }
 
     private void OnDisable()
@@ -242,6 +262,22 @@ public class GameManager : MonoBehaviour
             color.a = 0f;
             _foodHolder.color = color;
         }
+    }
+    private IEnumerator Zastavka()
+    {
+        Player.instance.canMove = false;
+        StartDialogueWindow.SetActive(true);
+        MumAndDad.SetActive(true);
+        yield return new WaitForSeconds(4f);
+
+
+    }
+    public void MakePlayerMove()
+    {
+        Player.instance.canMove = true;
+        MumAndDad.SetActive(false);
+
+        StartDialogueWindow.SetActive(false);
     }
 
 }

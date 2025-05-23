@@ -185,8 +185,8 @@ public class Player : Fighter
     }
     public void AttackWithMelee()
     {
-/*        if (!_canAttack)
-            return;*/
+        if (!_canAttack)
+            return;
         if (!isAttacking)
         {
             _curWeaponMele.Attack();
@@ -211,6 +211,9 @@ public class Player : Fighter
     }
     public void AttackWithBottle()
     {
+
+        if (!_canAttack)
+            return;
 
         if (Time.time < _lastBottleAttackTime + _curBottle.cooldown || isAttacking)
             return;
