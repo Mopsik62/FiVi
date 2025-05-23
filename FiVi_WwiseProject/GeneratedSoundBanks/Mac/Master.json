@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C594E5AD-2D3A-463D-864A-C9A3154F7734}",
     "Language": "SFX",
-    "Hash": "{E055B853-1A32-8E91-85C2-C2A461923F2A}",
+    "Hash": "{B5AFC0F4-2A63-5BB1-EC71-D559FDBC131A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -61,7 +61,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\ShadowCast.wav",
-      "CachePath": "21/{214C57C3-06F7-533D-238E-DB8DB1054AB2}.wem"
+      "CachePath": "AA/{AA8AFD90-91A0-39BF-1F35-4297CB7A5740}.wem"
      },
      {
       "Id": "72848474",
@@ -69,7 +69,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\ShadowWalk-001.wav",
-      "CachePath": "FC/{FCFD60A7-3453-E826-33FC-46F04A1E6258}.wem"
+      "CachePath": "5A/{5A95F9B9-093A-2990-75D9-57E50ACD6C95}.wem"
      },
      {
       "Id": "79697800",
@@ -85,7 +85,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\RobotWalk_1.wav",
-      "CachePath": "19/{190109D1-D7C5-2E0C-D1A5-72258C2EA275}.wem"
+      "CachePath": "FC/{FC3A4079-9C34-FF22-B68E-13FE5CD80B5D}.wem"
      },
      {
       "Id": "99844364",
@@ -93,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Shadow-002.wav",
-      "CachePath": "CB/{CBF7BBBF-8990-E9D5-24D5-0671CD0F58DB}.wem"
+      "CachePath": "B7/{B774B992-AC15-6896-654C-98EA5BE8CA46}.wem"
      },
      {
       "Id": "106752488",
@@ -109,7 +109,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\RobotWalk_2.wav",
-      "CachePath": "9E/{9E2B9F35-A2D4-23FD-47F1-42385539E18C}.wem"
+      "CachePath": "63/{630FF47C-A9CD-F604-5C2D-A06CF73A5703}.wem"
      },
      {
       "Id": "136277545",
@@ -117,7 +117,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\SkeletonWalk.wav",
-      "CachePath": "8E/{8EFCAEC8-8DDF-F21A-379A-56E9B5F1C4EC}.wem"
+      "CachePath": "4D/{4D047868-E76D-F084-3B5D-42570CC0DB76}.wem"
      },
      {
       "Id": "138061966",
@@ -205,7 +205,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Shadow-002.wav",
-      "CachePath": "78/{781EC1C6-3643-0E97-52DC-DBF9B9990181}.wem"
+      "CachePath": "E7/{E77C1730-E3D5-C9CB-DCFA-79A1505EB7F7}.wem"
      },
      {
       "Id": "195556649",
@@ -269,7 +269,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\RobotWalk_4.wav",
-      "CachePath": "D9/{D9748533-6D04-37E5-585B-AF6DF5687589}.wem"
+      "CachePath": "1C/{1C2F2768-0117-B95E-28CD-34FBF85AADEE}.wem"
      },
      {
       "Id": "229604295",
@@ -277,7 +277,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\PCSwoosh.wav",
-      "CachePath": "CC/{CC0F75A1-68A7-3640-A13F-DB3FD310765E}.wem"
+      "CachePath": "50/{50245C7C-C9B5-B284-A06A-29F9FAD56D20}.wem"
      },
      {
       "Id": "241102469",
@@ -301,7 +301,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\PechkaMove_1.wav",
-      "CachePath": "DB/{DB6A3539-C164-485D-0820-2A0C7345F4A1}.wem"
+      "CachePath": "57/{5739D207-70D3-6C0D-7B83-2511AD527662}.wem"
      },
      {
       "Id": "274832657",
@@ -317,7 +317,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Shadow-001.wav",
-      "CachePath": "75/{75B551C1-4CE7-5523-7534-22EDE6DA9983}.wem"
+      "CachePath": "DB/{DB6B8F63-63B7-4D54-C095-96DE08A1D695}.wem"
      },
      {
       "Id": "278737010",
@@ -341,7 +341,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\SkeletonWalk.wav",
-      "CachePath": "38/{3894E9E5-4198-F243-02B3-A5DE01541FD8}.wem"
+      "CachePath": "57/{57D76ED4-1FB8-C3FB-38A5-2BA88DAC2198}.wem"
      },
      {
       "Id": "295327422",
@@ -349,7 +349,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Shadow-001.wav",
-      "CachePath": "2F/{2FC668E3-9A3D-534D-8175-D7B35DB6ED24}.wem"
+      "CachePath": "1B/{1B5E24F4-DA2A-F669-88B2-57DBB1856598}.wem"
      },
      {
       "Id": "296826035",
@@ -517,7 +517,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\PCSwoosh.wav",
-      "CachePath": "95/{950CF140-C8F1-EEF4-9EDA-7379D2F734E1}.wem"
+      "CachePath": "3D/{3DAD4CC1-9403-5F05-CCCE-592856359AE1}.wem"
      },
      {
       "Id": "416472245",
@@ -541,7 +541,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\SkeletonWalk.wav",
-      "CachePath": "D5/{D5D25A8D-F57C-AA94-6C55-67625FC2328B}.wem"
+      "CachePath": "64/{6476C901-DFE6-18C6-29CC-760427D1EB7D}.wem"
      },
      {
       "Id": "423559820",
@@ -629,7 +629,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Shadow-001.wav",
-      "CachePath": "9C/{9C9FDC19-107B-0DAF-186A-A3AF36E0E2AC}.wem"
+      "CachePath": "31/{31EC3561-37D5-DD8E-00D7-897193E61BB5}.wem"
      },
      {
       "Id": "483544645",
@@ -677,7 +677,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\ShadowWalk-002.wav",
-      "CachePath": "18/{18CF9AEB-77BA-F974-3E84-AA2F9FDCDBB3}.wem"
+      "CachePath": "C5/{C54AF1F9-B220-7845-AD61-379FDFFE7AE3}.wem"
      },
      {
       "Id": "538922310",
@@ -733,7 +733,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\SkeletonWalk.wav",
-      "CachePath": "9A/{9A6E4161-E9A7-2E8A-04AB-F3F26E2EC68F}.wem"
+      "CachePath": "33/{33EE2B3D-C54F-F331-0A2D-B24288A22297}.wem"
      },
      {
       "Id": "562417601",
@@ -848,12 +848,20 @@
       "CachePath": "9F/{9FD52CA4-96D7-DE96-2D8B-26A9DB7CABC9}.wem"
      },
      {
+      "Id": "619571344",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Babka.wav",
+      "CachePath": "E9/{E93EBD1B-AB81-63F4-6BD9-79BCB99B3A9F}.wem"
+     },
+     {
       "Id": "640800688",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\PechkaDeath.wav",
-      "CachePath": "AA/{AACB68EE-4E15-1401-4915-4582C2129AB1}.wem"
+      "CachePath": "C5/{C5C2CE62-3A87-4C3F-7C9D-94B3B6ADE09B}.wem"
      },
      {
       "Id": "650350969",
@@ -861,7 +869,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\RobotWalk_3.wav",
-      "CachePath": "1C/{1C57993A-B981-685A-7427-60FEEEE0E44A}.wem"
+      "CachePath": "F8/{F894EDAC-B416-72C8-BE0B-4C266FBD92C1}.wem"
      },
      {
       "Id": "653868605",
@@ -893,7 +901,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\PechkaDeath.wav",
-      "CachePath": "6C/{6C4F49A5-D767-06E8-5774-A1A9ED0FC621}.wem"
+      "CachePath": "EA/{EAB63CAA-F644-F276-429B-5BEBC36D5412}.wem"
      },
      {
       "Id": "675744829",
@@ -925,7 +933,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Shadow-002.wav",
-      "CachePath": "3A/{3A8E66ED-E7C4-79E8-E491-D50489D1B70F}.wem"
+      "CachePath": "49/{49D2E549-A3BC-A01F-CB65-3AFE101FF13A}.wem"
      },
      {
       "Id": "685176563",
@@ -997,7 +1005,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\PechkaMove_2.wav",
-      "CachePath": "EE/{EE2B86A3-482F-689E-4A15-45740270D14D}.wem"
+      "CachePath": "E0/{E0E774FF-635A-4EC8-6209-AAFBC65F248C}.wem"
      },
      {
       "Id": "728949532",
@@ -1013,7 +1021,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\SkeletonWalk.wav",
-      "CachePath": "12/{122365B0-1DE9-A177-8AFE-C6C1F005112C}.wem"
+      "CachePath": "3C/{3CC43628-A11D-FC3D-EBE3-A098F0EEFC17}.wem"
      },
      {
       "Id": "767878478",
@@ -1029,7 +1037,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\SkeletonWalk.wav",
-      "CachePath": "DF/{DFB55480-7644-E86C-2BB4-2E0A6D1973C8}.wem"
+      "CachePath": "52/{5278D814-9E75-F956-5870-33F28D4B7E3A}.wem"
      },
      {
       "Id": "775034258",
@@ -1069,7 +1077,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\ShadowWalk-001.wav",
-      "CachePath": "B7/{B70826BB-4F2E-9B94-9F39-98036D8B81E6}.wem"
+      "CachePath": "A2/{A28F2A5B-F8F5-DF15-865F-2D6CE3309855}.wem"
      },
      {
       "Id": "825770557",
@@ -1133,7 +1141,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Shadow-002.wav",
-      "CachePath": "81/{8120A25B-7CEC-0994-0736-2C1860C5E263}.wem"
+      "CachePath": "16/{16106C27-713F-BF12-5FAE-D906C9F7AD7D}.wem"
      },
      {
       "Id": "859712445",
@@ -1141,7 +1149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\ShadowWalk-002.wav",
-      "CachePath": "86/{86A5AF8A-AD3D-EDB4-4976-21EDA0EF442C}.wem"
+      "CachePath": "A2/{A2EBEF6B-C5DA-6B42-2316-B9ED37B37C1F}.wem"
      },
      {
       "Id": "862293201",
@@ -1157,7 +1165,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\Shadow-002.wav",
-      "CachePath": "D0/{D0762CA5-4E3E-A12E-E61B-DEF72BDB1877}.wem"
+      "CachePath": "7A/{7A666D52-42D4-89A9-2D97-30D69DE00E06}.wem"
+     },
+     {
+      "Id": "867607206",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Babka.wav",
+      "CachePath": "83/{8355114C-C3D6-1662-03CA-5C690A8D9B9D}.wem"
      },
      {
       "Id": "869828579",
@@ -1216,6 +1232,14 @@
       "CachePath": "22/{22B4D051-5749-2FE5-E033-9C907493D5EB}.wem"
      },
      {
+      "Id": "892825661",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Characters\\Babka.wav",
+      "CachePath": "C6/{C6219077-7419-C659-E984-3DE7BE9B8773}.wem"
+     },
+     {
       "Id": "901239721",
       "Language": "SFX",
       "Streaming": "false",
@@ -1245,7 +1269,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\PechkaDeath.wav",
-      "CachePath": "DD/{DD40A416-4D2F-9E7E-EF45-542A796B487F}.wem"
+      "CachePath": "74/{749646A0-EAB6-0A0A-D60D-B73DB7E370BA}.wem"
      },
      {
       "Id": "938450241",
@@ -1333,7 +1357,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\ShadowCast.wav",
-      "CachePath": "F8/{F8A4E503-EAB3-6951-5325-0D6252AC61D3}.wem"
+      "CachePath": "00/{00E28645-A04D-7084-7BFA-AA28FE48D5F9}.wem"
      },
      {
       "Id": "978800845",
@@ -1453,7 +1477,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\ShadowCast.wav",
-      "CachePath": "BA/{BA9A59E4-1A0A-D2E1-5DD9-A7AA9A195ABF}.wem"
+      "CachePath": "08/{0888A8B0-2D7D-1CF8-27B0-1F49FC722BF3}.wem"
      },
      {
       "Id": "1050739881",
@@ -1477,7 +1501,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Characters\\PechkaFire.wav",
-      "CachePath": "7F/{7FEF1FC3-E4C8-6C81-2C32-48550ED49743}.wem"
+      "CachePath": "9F/{9FD432B9-61F7-3FA7-5F63-005DAAA5415D}.wem"
      },
      {
       "Id": "1066979003",
@@ -1524,8 +1548,19 @@
       "GUID": "{9549962E-CC19-4563-86AA-09688B0DA48E}",
       "MaxAttenuation": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.40911442",
+      "DurationMax": "0.5791307",
+      "MediaRefs": [
+       {
+        "Id": "619571344"
+       },
+       {
+        "Id": "867607206"
+       },
+       {
+        "Id": "892825661"
+       }
+      ]
      },
      {
       "Id": "2192199958",
@@ -1534,8 +1569,8 @@
       "GUID": "{C5C059A0-715D-4E8B-BA00-72475C226F27}",
       "MaxAttenuation": "10",
       "DurationType": "OneShot",
-      "DurationMin": "1.2248129",
-      "DurationMax": "1.8412019",
+      "DurationMin": "1.4565561",
+      "DurationMax": "2.1895704",
       "MediaRefs": [
        {
         "Id": "653868605"
@@ -2013,8 +2048,8 @@
       "GUID": "{0FD8F343-5ADC-4925-98A7-D6DD255749D5}",
       "MaxAttenuation": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0.5433948",
-      "DurationMax": "0.7433476",
+      "DurationMin": "0.646209",
+      "DurationMax": "0.8839942",
       "MediaRefs": [
        {
         "Id": "404756899"
@@ -2677,6 +2712,6 @@
     ]
    }
   ],
-  "FileHash": "{6378EC8A-D090-5B35-EB96-0C6BC2569A97}"
+  "FileHash": "{3AD4B7C9-52D1-E180-80B4-B5BD7A1DF5B2}"
  }
 }
