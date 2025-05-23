@@ -103,6 +103,6 @@ public class Granny : Enemy
     {
         base.ReciveDamage(dmg);
 
-        _damageSound.BabkaDamageEvent.Post(gameObject);
+       // _damageSound.BabkaDamageEvent.Post(gameObject);
     }
 }

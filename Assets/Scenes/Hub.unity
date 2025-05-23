@@ -1259,6 +1259,7 @@ MonoBehaviour:
   _roomTone: {fileID: 1669885712}
   _hub_music: {fileID: 1669885709}
   _foodUse: {fileID: 839530949472838290, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _foodGet: {fileID: 4286480576048808546, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
   _currentFood: {fileID: 0}
   _foodHolder: {fileID: 1318333788}
 --- !u!114 &253523612
