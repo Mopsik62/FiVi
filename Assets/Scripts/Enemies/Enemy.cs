@@ -101,7 +101,7 @@ public class Enemy : Fighter
         Dyuing = true;
         _boxCollider.enabled = false;
         _rb.linearVelocity = Vector2.zero;
-        BattleHandler.instance.AddPoints(ScoreGranted);
+        //BattleHandler.instance.AddPoints(ScoreGranted);
         anim.SetTrigger("Death");
         StartCoroutine(DelayedDeath(1f));
     }

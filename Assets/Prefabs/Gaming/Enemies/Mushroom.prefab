@@ -220,6 +220,9 @@ MonoBehaviour:
   _specialCooldown: 5
   moveSpeed: 2
   _scoreForKill: 0
+  _attackSound: {fileID: 4690060519446398147, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _walkSound: {fileID: 6220983022113094770, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _footsteps_cooldown: 5
 --- !u!95 &3686652048077224993
 Animator:
   serializedVersion: 7
