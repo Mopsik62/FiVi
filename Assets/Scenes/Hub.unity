@@ -1768,7 +1768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7006317440355597419, guid: be632196f947b3d4f94f3ba20529274a, type: 3}
       propertyPath: 'triggerList.Array.data[0]'
-      value: 1151176110
+      value: 1281810935
       objectReference: {fileID: 0}
     - target: {fileID: 7006317440355597419, guid: be632196f947b3d4f94f3ba20529274a, type: 3}
       propertyPath: 'triggerList.Array.data[1]'
@@ -8119,6 +8119,10 @@ PrefabInstance:
       propertyPath: _footsteps_gravel
       value: 
       objectReference: {fileID: 1669885700}
+    - target: {fileID: 4612023112821217110, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6106489295815526331, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
       propertyPath: _AnimationE
       value: 

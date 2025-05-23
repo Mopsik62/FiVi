@@ -12,6 +12,8 @@ public class Player : Fighter
     [SerializeField]
     private HealthUI _healthUI;
 
+    public GameObject _death;
+
     [SerializeField]
     private GameObject _deathScreen;
 
@@ -67,7 +69,6 @@ public class Player : Fighter
             Destroy(gameObject);
         }
         _lastBottleAttackTime = _curBottle.cooldown;
-        SceneManager.sceneLoaded += OnSceneLoaded;
     }
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
@@ -77,6 +78,26 @@ public class Player : Fighter
 
     void Start()
     {
+        GameObject audioManager = GameObject.Find("AudioManager");
+        if (audioManager != null)
+        {
+            _footsteps = audioManager.GetComponent<Footsteps_Concrete>();
+            _footsteps_gravel = audioManager.GetComponent<Footsteps_Gravel>();
+            _woodenStickHit = audioManager.GetComponent<WoodStickHit>();
+            _damageRecive = audioManager.GetComponent<PC_Damage>();
+            _eSound = audioManager.GetComponent<Shuriken>();
+            _bottleSound = audioManager.GetComponent<BottleFly>();
+            _deathSound = audioManager.GetComponent<PC_Death>();
+            _dodgeSound = audioManager.GetComponent<PCSwoosh>();
+        }
+        else
+        {
+            Debug.LogWarning("AudioManager не найден в сцене!");
+        }
+
+        GameObject playerSpawn = GameObject.Find("Player Spawn");
+        transform.position = playerSpawn.transform.position;
+        SceneManager.sceneLoaded += OnSceneLoaded;
         _footsteps_timer = 0f;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -188,8 +209,8 @@ public class Player : Fighter
     }
     public void AttackWithMelee()
     {
-       /* if (!_canAttack)
-            return;*/
+        if (!_canAttack)
+            return;
         if (!isAttacking)
         {
             _curWeaponMele.Attack();
@@ -306,7 +327,10 @@ public class Player : Fighter
     protected override void Death()
     {
         base.Death();
+        _death.SetActive(true);
+
         _deathSound.PCDeathEvent.Post(gameObject);
+        StartCoroutine(DelayWithDeath());
     }
 
     public void Heal (int HP)
@@ -351,6 +375,15 @@ public class Player : Fighter
             lastImmune = Time.time;
             yield return null;
         }
+    }
+    private IEnumerator DelayWithDeath()
+    {
+
+        yield return new WaitForSeconds(0.5f);
+
+        _death.SetActive(false);
+        GameManager.instance.GoToHub();
+
     }
 
 }

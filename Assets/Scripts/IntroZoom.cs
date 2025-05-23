@@ -12,7 +12,7 @@ public class IntroZoom : MonoBehaviour
     public float delayBeforeZoom = 1f;
     public float delayBeforeNewScene = 1f;
     public string nextScene;
-
+    public GameObject audiosceg;
     public Light2D globalLight;
     public Light2D light1, light2;
     public float flickerDuration = 0.5f;    
@@ -85,6 +85,7 @@ public class IntroZoom : MonoBehaviour
     }
     void LoadNextScene()
     {
+        Destroy(audiosceg);
         UnityEngine.SceneManagement.SceneManager.LoadScene(nextScene);
     }
 

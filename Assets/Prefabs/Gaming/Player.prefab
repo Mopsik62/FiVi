@@ -491,6 +491,8 @@ MonoBehaviour:
   immuneTime: 0.2
   moveSpeed: 5
   _healthUI: {fileID: 0}
+  _death: {fileID: 4612023112821217110}
+  _deathScreen: {fileID: 4612023112821217110}
   _curWeaponMele: {fileID: 7670939110215105364}
   _curWeaponRanged: {fileID: 6548406987323087192}
   _curBottle: {fileID: 7342473180576057218, guid: 8e4ac0c33866ce54eb272e2029e85304, type: 3}

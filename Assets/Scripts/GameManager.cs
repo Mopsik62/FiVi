@@ -61,7 +61,7 @@ public class GameManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
+           // DontDestroyOnLoad(gameObject);
 
         }
         else
@@ -71,15 +71,30 @@ public class GameManager : MonoBehaviour
 
 
 
+
+    }
+    private void Start()
+    {
+        GameObject audioManager = GameObject.Find("AudioManager");
+        if (audioManager != null)
+        {
+            _fight_music = audioManager.GetComponent<Fight_Music>();
+            _roomTone = audioManager.GetComponent<RoomTone_InStation>();
+            _hub_music = audioManager.GetComponent<Hub_Music>();
+            _foodUse = audioManager.GetComponent<PropsUse>();
+            _foodGet = audioManager.GetComponent<PropsGet>();
+        }
+        else
+        {
+            Debug.LogWarning("AudioManager не найден в сцене!");
+        }
+
         NextProgression();
         SceneManager.sceneLoaded += OnSceneLoaded;
         CurrentMoney = int.Parse(_currentMoney.text);
         UpdateMoneyHandler();
         _foodHolder.preserveAspect = true;
         UpdateFood();
-    }
-    private void Start()
-    {
 
         if (FirstEntry)
         {
@@ -188,9 +203,8 @@ public class GameManager : MonoBehaviour
     }
     public void ResetSound()
     {
-       // _hub_music.HubMusiclEvent.Stop(gameObject);
-       // _roomTone.RoomToneInStationlEvent.Stop(gameObject);
-        _fight_music.FightMusiclEvent.Stop(gameObject);
+        AkSoundEngine.StopAll();
+
 
     }
 
@@ -278,6 +292,14 @@ public class GameManager : MonoBehaviour
         MumAndDad.SetActive(false);
 
         StartDialogueWindow.SetActive(false);
+    }
+
+    public void GoToHub()
+    {
+        Time.timeScale = 1f;
+        AkSoundEngine.StopAll();
+        Player.instance.Heal(10);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Hub");
     }
 
 }
