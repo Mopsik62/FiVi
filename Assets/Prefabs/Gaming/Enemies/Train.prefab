@@ -303,6 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00a60ae12b5bdc44fab7ac5a8d73a2c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _trainSound: {fileID: 3090300849711251422, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
 --- !u!61 &2201444008615330056
 BoxCollider2D:
   m_ObjectHideFlags: 0

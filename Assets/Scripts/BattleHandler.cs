@@ -21,7 +21,9 @@ public class BattleHandler : MonoBehaviour
 
     [SerializeField]
     private TrainSignal _trainSignal;
-    
+    [SerializeField]
+    private TrainRail _trainSound;
+
 
     [SerializeField]
     private TextMeshProUGUI _currentScore;
@@ -98,12 +100,11 @@ public class BattleHandler : MonoBehaviour
         Transform spawnPoint = _trainSpawnPoints[spawnIndex];
         _leftSideTrain = spawnIndex < 12;
         DrawLine(spawnPoint, _leftSideTrain);
-
-        yield return new WaitForSeconds(2f);
+        _trainSignal.TrainSignalEvent.Post(Player.instance.gameObject);
+        yield return new WaitForSeconds(3f);
 
 
         GameObject train = Instantiate(_train.gameObject, spawnPoint.position, Quaternion.identity);
-        _trainSignal.TrainSignalEvent.Post(train);
 
         Vector2 direction = _leftSideTrain ? Vector2.right : Vector2.left;
 
@@ -115,7 +116,7 @@ public class BattleHandler : MonoBehaviour
     {
         Vector3 newPosition = spawnPoint.position + new Vector3(0, 0.4f, 0);
         GameObject lineInstance = Instantiate(_line, newPosition, Quaternion.identity);
-        Destroy(lineInstance, 2f);
+        Destroy(lineInstance, 3f);
     }
 
     private void StartCombat()

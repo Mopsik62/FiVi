@@ -122,7 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Robot_0
+      name: Special
       rect:
         serializedVersion: 2
         x: 179
@@ -130,7 +130,7 @@ TextureImporter:
         width: 317
         height: 344
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -144,15 +144,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_1
+      name: Idle1
       rect:
         serializedVersion: 2
         x: 575
-        y: 458
+        y: 459
         width: 155
-        height: 344
+        height: 342
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -166,15 +166,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_2
+      name: Idle2
       rect:
         serializedVersion: 2
         x: 809
-        y: 458
+        y: 459
         width: 155
-        height: 344
+        height: 342
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -188,15 +188,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_3
+      name: Attack
       rect:
         serializedVersion: 2
         x: 269
-        y: 17
+        y: 18
         width: 173
-        height: 344
+        height: 342
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3262bf8731da29441995fbca81b407f6
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Robot_0: 17426746270384133
-      Robot_1: 5638259562752074330
-      Robot_2: -3378959473338303302
-      Robot_3: 5332947737335612695
+      Attack: 5332947737335612695
+      Idle1: 5638259562752074330
+      Idle2: -3378959473338303302
+      Special: 17426746270384133
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
