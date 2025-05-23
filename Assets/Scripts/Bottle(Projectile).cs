@@ -35,7 +35,7 @@ public class BottleProjectile : Weapon
         _sprite.Rotate(0f, 0f, rotationSpeed * Time.deltaTime);
         transform.position += (Vector3)(_direction * _speed * Time.deltaTime);
 
-        if (!_hasReachedTarget && Vector2.Distance(Player.instance.transform.position, _targetPosition) < 0.1f)
+        if (!_hasReachedTarget && Vector2.Distance(transform.position, _targetPosition) < 0.1f)
         {
             Instantiate(_area, _targetPosition, Quaternion.identity);
             _hasReachedTarget = true;

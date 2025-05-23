@@ -7,7 +7,7 @@ public class Bottle : Weapon
     private BottleProjectile _projectile;
     public override void Attack()
     {
-       Instantiate(_projectile, transform.position , Quaternion.identity);
+       Instantiate(_projectile, Player.instance.transform.position , Quaternion.identity);
     }
 
 
