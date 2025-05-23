@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1050046397872664285}
   - component: {fileID: 7499928255058572243}
   - component: {fileID: 7006317440355597419}
+  - component: {fileID: 521675433522690537}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -83,3 +84,15 @@ MonoBehaviour:
   unloadTriggerList: 958ca0ea
   bankNameInternal: 
   valueGuidInternal: 
+--- !u!114 &521675433522690537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628746183448248076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f538670313043c84da93190edc592610, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

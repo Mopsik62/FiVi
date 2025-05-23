@@ -24,7 +24,12 @@
 										<Value>True</Value>
 									</ValueList>
 								</Property>
-								<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+								</Property>
+								<Property Name="RecoveryTime" Type="Real64" Value="0.2"/>
 							</PropertyList>
 							<ChildrenList>
 								<Bus Name="010_Damage" ID="{FFFFAD58-025F-431B-99FF-9FDB2D4D7A45}">
@@ -866,13 +871,30 @@
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<ValueList>
-												<Value>-9</Value>
+												<Value>-11</Value>
 											</ValueList>
 										</Property>
 										<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>
 									</PropertyList>
 								</Bus>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{987F39F0-F0B7-4305-8038-F767F87BC4C9}" ShortID="350218021">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Peak Limiter (Custom)" ID="{DD368B98-0FA3-481D-AD4A-1C0A7D13F000}" ShortID="414909902" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3"/>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</Bus>
 					</ChildrenList>
 				</Bus>
