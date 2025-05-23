@@ -185,8 +185,8 @@ public class Player : Fighter
     }
     public void AttackWithMelee()
     {
-        if (!_canAttack)
-            return;
+       /* if (!_canAttack)
+            return;*/
         if (!isAttacking)
         {
             _curWeaponMele.Attack();
@@ -198,8 +198,8 @@ public class Player : Fighter
     }
     public void AttackWithRanged()
     {
-/*        if (!_canAttack)
-            return;*/
+        if (!_canAttack)
+            return;
         if (!isAttacking)
         {
             _curWeaponRanged.Attack();
