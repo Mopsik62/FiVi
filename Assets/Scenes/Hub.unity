@@ -574,6 +574,7 @@ GameObject:
   - component: {fileID: 128958071}
   - component: {fileID: 128958070}
   - component: {fileID: 128958069}
+  - component: {fileID: 128958072}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -643,19 +644,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 128958070}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 253523611}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: BuyFood
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1480687306}
-          m_ObjectArgumentAssemblyTypeName: Food, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: HandPies
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &128958070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -694,6 +683,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 128958067}
   m_CullTransparentMesh: 1
+--- !u!114 &128958072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128958067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c8682fac85ff345ad23231d8935943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  food: {fileID: 1480687306}
 --- !u!1 &131409201
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,6 +850,7 @@ GameObject:
   - component: {fileID: 199826829}
   - component: {fileID: 199826828}
   - component: {fileID: 199826827}
+  - component: {fileID: 199826830}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -917,19 +920,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 199826828}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 253523611}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: BuyFood
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 293541655}
-          m_ObjectArgumentAssemblyTypeName: Food, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: HandPies
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &199826828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -968,6 +959,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 199826825}
   m_CullTransparentMesh: 1
+--- !u!114 &199826830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199826825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c8682fac85ff345ad23231d8935943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  food: {fileID: 293541655}
 --- !u!1 &208033270
 GameObject:
   m_ObjectHideFlags: 0
@@ -1060,6 +1064,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Price: 5
   image: {fileID: 208033272}
+--- !u!1 &209100284 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 628746183448248076, guid: be632196f947b3d4f94f3ba20529274a, type: 3}
+  m_PrefabInstance: {fileID: 380920760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &209100288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209100284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f538670313043c84da93190edc592610, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &224838605
 GameObject:
   m_ObjectHideFlags: 0
@@ -1254,6 +1275,7 @@ MonoBehaviour:
   _fight_music: {fileID: 1669885710}
   _roomTone: {fileID: 1669885712}
   _hub_music: {fileID: 1669885709}
+  _foodUse: {fileID: 839530949472838290, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
   _currentFood: {fileID: 0}
   _foodHolder: {fileID: 1318333788}
 --- !u!114 &253523612
@@ -1263,7 +1285,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253523608}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc404ef15c3ddf14da29f66dc64e2d8f, type: 3}
   m_Name: 
@@ -1475,6 +1497,7 @@ GameObject:
   - component: {fileID: 298608837}
   - component: {fileID: 298608836}
   - component: {fileID: 298608835}
+  - component: {fileID: 298608838}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -1544,19 +1567,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 298608836}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 253523611}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: BuyFood
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1205251156}
-          m_ObjectArgumentAssemblyTypeName: Food, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: HandPies
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &298608836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1595,6 +1606,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298608833}
   m_CullTransparentMesh: 1
+--- !u!114 &298608838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298608833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c8682fac85ff345ad23231d8935943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  food: {fileID: 1205251156}
 --- !u!1 &322938706
 GameObject:
   m_ObjectHideFlags: 0
@@ -1816,7 +1840,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 628746183448248076, guid: be632196f947b3d4f94f3ba20529274a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 209100288}
   m_SourcePrefab: {fileID: 100100000, guid: be632196f947b3d4f94f3ba20529274a, type: 3}
 --- !u!1 &439181316
 GameObject:
@@ -3962,6 +3989,7 @@ GameObject:
   - component: {fileID: 1057915877}
   - component: {fileID: 1057915876}
   - component: {fileID: 1057915875}
+  - component: {fileID: 1057915878}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -4031,19 +4059,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1057915876}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 253523611}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: BuyFood
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 208033274}
-          m_ObjectArgumentAssemblyTypeName: Food, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: HandPies
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1057915876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4082,6 +4098,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057915873}
   m_CullTransparentMesh: 1
+--- !u!114 &1057915878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057915873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c8682fac85ff345ad23231d8935943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  food: {fileID: 208033274}
 --- !u!1 &1184408099
 GameObject:
   m_ObjectHideFlags: 0
@@ -4141,7 +4170,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 5
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 465f24ea6db8bf44fb6fdf628eb324c6, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -4207,7 +4236,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1184408102
@@ -5082,6 +5111,7 @@ GameObject:
   - component: {fileID: 1431963769}
   - component: {fileID: 1431963768}
   - component: {fileID: 1431963767}
+  - component: {fileID: 1431963770}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -5151,19 +5181,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1431963768}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 253523611}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: BuyFood
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 947710373}
-          m_ObjectArgumentAssemblyTypeName: Food, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: HandPies
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1431963768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5202,6 +5220,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431963765}
   m_CullTransparentMesh: 1
+--- !u!114 &1431963770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431963765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c8682fac85ff345ad23231d8935943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  food: {fileID: 947710373}
 --- !u!114 &1475992903 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7670939110215105364, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
@@ -5569,7 +5600,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 10
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 465f24ea6db8bf44fb6fdf628eb324c6, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -5635,7 +5666,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1577787844
@@ -6218,7 +6249,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 15
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 465f24ea6db8bf44fb6fdf628eb324c6, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -6284,7 +6315,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1796813102
@@ -6307,6 +6338,7 @@ GameObject:
   - component: {fileID: 1809416045}
   - component: {fileID: 1809416044}
   - component: {fileID: 1809416043}
+  - component: {fileID: 1809416046}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -6376,19 +6408,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1809416044}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 253523611}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: BuyFood
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 943557534}
-          m_ObjectArgumentAssemblyTypeName: Food, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Salad
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1809416044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6427,6 +6447,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1809416041}
   m_CullTransparentMesh: 1
+--- !u!114 &1809416046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809416041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c8682fac85ff345ad23231d8935943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  food: {fileID: 943557534}
 --- !u!1 &1822097488
 GameObject:
   m_ObjectHideFlags: 0
@@ -6486,7 +6519,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 10
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 465f24ea6db8bf44fb6fdf628eb324c6, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -6552,7 +6585,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1822097491
@@ -6622,7 +6655,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 10
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 465f24ea6db8bf44fb6fdf628eb324c6, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -6688,7 +6721,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1861414484
@@ -6845,7 +6878,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 15
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 465f24ea6db8bf44fb6fdf628eb324c6, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -6911,7 +6944,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -0.5415153, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1998322482
@@ -6934,6 +6967,7 @@ GameObject:
   - component: {fileID: 2053452760}
   - component: {fileID: 2053452759}
   - component: {fileID: 2053452758}
+  - component: {fileID: 2053452761}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -7003,19 +7037,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2053452759}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 253523611}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: BuyFood
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 36898788}
-          m_ObjectArgumentAssemblyTypeName: Food, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: HandPies
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2053452759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7054,6 +7076,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2053452756}
   m_CullTransparentMesh: 1
+--- !u!114 &2053452761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053452756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c8682fac85ff345ad23231d8935943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  food: {fileID: 36898788}
 --- !u!1 &2084598650
 GameObject:
   m_ObjectHideFlags: 0
@@ -7190,7 +7225,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 20
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 465f24ea6db8bf44fb6fdf628eb324c6, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -7256,7 +7291,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2102334504
@@ -7415,7 +7450,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2116017169}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
@@ -7737,6 +7772,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 186133296}
     - target: {fileID: 4185120551351889570, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
+      propertyPath: moveSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4185120551351889570, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
       propertyPath: _curWeapon
       value: 
       objectReference: {fileID: 1475992903}
@@ -7795,6 +7834,10 @@ PrefabInstance:
     - target: {fileID: 8448876218881575581, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.628
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994846285154023459, guid: c47ab8acf69652b4e886e67af2e249ea, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

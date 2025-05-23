@@ -8,6 +8,6 @@ public class Food : MonoBehaviour
 
     public virtual void Consume()
     {
-        Destroy(gameObject);
+       //Destroy(gameObject);
     }
 }
