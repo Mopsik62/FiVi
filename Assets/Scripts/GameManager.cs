@@ -188,8 +188,8 @@ public class GameManager : MonoBehaviour
     }
     public void ResetSound()
     {
-        _hub_music.HubMusiclEvent.Stop(gameObject);
-        _roomTone.RoomToneInStationlEvent.Stop(gameObject);
+       // _hub_music.HubMusiclEvent.Stop(gameObject);
+       // _roomTone.RoomToneInStationlEvent.Stop(gameObject);
         _fight_music.FightMusiclEvent.Stop(gameObject);
 
     }

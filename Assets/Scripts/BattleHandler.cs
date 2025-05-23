@@ -240,7 +240,8 @@ public class BattleHandler : MonoBehaviour
     public void GoToHub()
     {
         Time.timeScale = 1f;
-
+        AkSoundEngine.StopAll();
+        _playerLight.enabled = false;
         GameManager.instance.GetMoney(_CurrentScoreInt);
 
         UnityEngine.SceneManagement.SceneManager.LoadScene("Hub");
