@@ -19,7 +19,7 @@ public class Ghost : Enemy
     [SerializeField]
     private GhostDamage _damageSound;
     [SerializeField]
-    private GhostAttak _atackSound;
+    private GhostAttak _attackSound;
     /*    [SerializeField]
         private ZombieDeath _deathSound;*/
     [SerializeField]
@@ -59,7 +59,7 @@ public class Ghost : Enemy
         base.OnCollisionEnter2D(coll);
         if (coll.gameObject.name == "Player")
         {
-            _atackSound.GhostAttakEvent.Post(gameObject);
+           // _atackSound.GhostAttakEvent.Post(gameObject);
         }
 
     }

@@ -31,6 +31,9 @@ public class GameManager : MonoBehaviour
     public RoomTone_InStation _roomTone;
     [SerializeField]
     public Hub_Music _hub_music;
+    [SerializeField]
+    public PropsUse _foodUse;
+    
 
     [SerializeField]
     private Food _currentFood;
@@ -46,6 +49,8 @@ public class GameManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
+            DontDestroyOnLoad(gameObject);
+
         }
         else
         {
@@ -192,14 +197,26 @@ public class GameManager : MonoBehaviour
     }
     public void AddFood(Food food)
     {
-        _currentFood = food;
+        if (_currentFood != null)
+            Destroy(_currentFood.gameObject); 
+
+        Food newFood = Instantiate(food);
+        newFood.gameObject.SetActive(false);
+        DontDestroyOnLoad(newFood.gameObject);
+
+        _currentFood = newFood;
         UpdateFood();
         Debug.Log("Добавлена еда!");
     }
 
     public void ConsumeFood( )
     {
+        Debug.Log("EAT FOOD");
+        if (_currentFood == null)
+            return;
+        _foodUse.PropsUSeEvent.Post(gameObject);
         _currentFood.Consume();
+        Destroy(_currentFood.gameObject);
         _currentFood = null;
         UpdateFood();
     }
@@ -207,8 +224,7 @@ public class GameManager : MonoBehaviour
     {
         if (_currentFood != null)
         {
-            Color color = _currentFood.image.color;
-            Debug.Log(color.a);
+            Color color = _foodHolder.color;
             color.a = 1f;
             _foodHolder.color = color;
             _foodHolder.sprite = _currentFood.image.sprite;

@@ -408,7 +408,7 @@ TextureImporter:
         width: 38
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -417,6 +417,28 @@ TextureImporter:
       bones: []
       spriteID: f59a9cc6d27e5ad4093a5377d0e285e4
       internalID: 1730446865317092105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_right
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 169
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56dfa7292704b142a6459767c72ca95
+      internalID: 1961330603
       vertices: []
       indices: 
       edges: []
@@ -437,7 +459,6 @@ TextureImporter:
     nameFileIdTable:
       DodgeLeft1: 4460542276255532956
       Dodge_0: -4693932192084691647
-      Dodge_1: 580201186502188825
       Dodge_10: -8421077150874494230
       Dodge_11: 1414567824446680517
       Dodge_12: -5318859882886856057
@@ -451,6 +472,7 @@ TextureImporter:
       Dodge_7: 7569966094689591328
       Dodge_8: -8478013764461744644
       Dodge_9: -8298766476559044862
+      Dodge_right: 580201186502188825
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
