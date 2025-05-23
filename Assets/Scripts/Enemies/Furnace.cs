@@ -9,13 +9,26 @@ public class Furnace : Enemy
     private float _specialDistance = 4f;
     [SerializeField]
     private GameObject Circle;
+    [SerializeField]
+    private PechkaDamage _damageSound;
+    [SerializeField]
+    private PechkaDeath _deathSound;
+    [SerializeField]
+    private PechkaFireAttak _specialSound;
+    [SerializeField]
+    private PechkaWalk _walkSound;
+
+    [SerializeField]
+    private float _footsteps_cooldown;
+    private float _footsteps_timer;
+
     private bool _isCasting = false;
 
     protected override void Awake()
     {
         base.Awake();
         _lastSpecial = Time.time;
-        //_footsteps_timer = _footsteps_cooldown;
+        _footsteps_timer = _footsteps_cooldown;
 
     }
     protected override void FixedUpdate()
@@ -33,15 +46,29 @@ public class Furnace : Enemy
             _lastSpecial = Time.time;
             StartCoroutine(SpecialAttack());
         }
-        /*
+        
                 _footsteps_timer += Time.fixedDeltaTime;
                 if (_footsteps_timer >= _footsteps_cooldown)
                 {
-                    _walkSound.WaspFlyEvent.Post(gameObject);
+                    _walkSound.PechkaWalkEvent.Post(gameObject);
                     _footsteps_timer = 0;
-                }*/
+                }
 
 
+    }
+
+    protected override void Death()
+    {
+        _walkSound.PechkaWalkEvent.Stop(gameObject);
+        base.Death();
+        _deathSound.PechkaDeathEvent.Post(gameObject);
+    }
+
+    public override void ReciveDamage(Damage dmg)
+    {
+        base.ReciveDamage(dmg);
+
+        _damageSound.PechkaDamageEvent.Post(gameObject);
     }
 
     private IEnumerator SpecialAttack()
@@ -59,6 +86,8 @@ public class Furnace : Enemy
         Vector3 endScale = Vector3.one * 0.9f;
         float rotationSpeed = 45f;
 
+        _specialSound.PechkaFireAttakEvent.Post(gameObject);
+
         while (elapsed < _specialDuration)
         {
             elapsed += Time.deltaTime;
@@ -69,11 +98,9 @@ public class Furnace : Enemy
             Circle.transform.localScale = Vector3.Lerp(startScale, endScale, t);
             yield return null;
         }
+        _specialSound.PechkaFireAttakEvent.Stop(gameObject);
         Circle.SetActive(false);
-
         anim.SetBool("Special", false);
         _isCasting = false;
-
-
     }
 }

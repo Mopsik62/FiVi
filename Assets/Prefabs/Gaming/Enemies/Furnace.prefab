@@ -223,6 +223,11 @@ MonoBehaviour:
   _specialDuration: 2
   _specialDistance: 3
   Circle: {fileID: 3278951001256258444}
+  _damageSound: {fileID: 4351452490167776212, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _deathSound: {fileID: 8666406089340485444, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _specialSound: {fileID: 6775519350751334049, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _walkSound: {fileID: 2776956131313285491, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _footsteps_cooldown: 5
 --- !u!50 &1430372008347947959
 Rigidbody2D:
   serializedVersion: 5

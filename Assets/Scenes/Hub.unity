@@ -1064,23 +1064,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Price: 5
   image: {fileID: 208033272}
---- !u!1 &209100284 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 628746183448248076, guid: be632196f947b3d4f94f3ba20529274a, type: 3}
-  m_PrefabInstance: {fileID: 380920760}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &209100288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 209100284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f538670313043c84da93190edc592610, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &224838605
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,6 +1259,7 @@ MonoBehaviour:
   _roomTone: {fileID: 1669885712}
   _hub_music: {fileID: 1669885709}
   _foodUse: {fileID: 839530949472838290, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _foodGet: {fileID: 4286480576048808546, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
   _currentFood: {fileID: 0}
   _foodHolder: {fileID: 1318333788}
 --- !u!114 &253523612
@@ -1840,10 +1824,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 628746183448248076, guid: be632196f947b3d4f94f3ba20529274a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 209100288}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be632196f947b3d4f94f3ba20529274a, type: 3}
 --- !u!1 &439181316
 GameObject:
