@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6a6ce2c5f227ad4db4c3f6d47169f9fb
     GuidInternal: 
-    m_lastTime: -8584536127269218833
+    m_lastTime: -8584536091070945947
     List:
     - name: 010_Damage
       guid: 58adffff5f021b4399ff9fdb2d4d7a45
@@ -271,7 +271,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b9a82131b0108d4d9d4791abff6d5615
     GuidInternal: 
-    m_lastTime: -8584536127273869241
+    m_lastTime: -8584536091075395719
     List:
     - name: Babka
       guid: cf26435b0dcc17479d643a1b6ceec96e
@@ -360,8 +360,8 @@ MonoBehaviour:
         guid: 4e48a69a680749458e3810cb6fb25c17
       Path: Events\Default Work Unit\Enemies\Babka\BabkaWalk
       maxAttenuation: 10
-      maxDuration: 3.222664
-      minDuration: 2.0805585
+      maxDuration: 0
+      minDuration: 0
     - name: BellSignal
       guid: 3d9c88dd997f3b41b8ffa035576140a2
       id: 1516434858
@@ -456,6 +456,72 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Eye
+      guid: b76952cb2a50f34fa033076a6d4b5222
+      id: 915611696
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Eye
+        ObjectType: 4
+        guid: b76952cb2a50f34fa033076a6d4b5222
+      Path: Events\Default Work Unit\Enemies\Eye
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: EyeDamage
+      guid: fa56ebdb850aa44d8d7982032a191a52
+      id: 3607233243
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Eye
+        ObjectType: 4
+        guid: b76952cb2a50f34fa033076a6d4b5222
+      - ElementName: EyeDamage
+        ObjectType: 3
+        guid: fa56ebdb850aa44d8d7982032a191a52
+      Path: Events\Default Work Unit\Enemies\Eye\EyeDamage
+      maxAttenuation: 10
+      maxDuration: 0.90043443
+      minDuration: 0.46247697
+    - name: EyeRoll
+      guid: 8f08e30b2ca7824abaa6142ceabc171c
+      id: 2425295945
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Eye
+        ObjectType: 4
+        guid: b76952cb2a50f34fa033076a6d4b5222
+      - ElementName: EyeRoll
+        ObjectType: 3
+        guid: 8f08e30b2ca7824abaa6142ceabc171c
+      Path: Events\Default Work Unit\Enemies\Eye\EyeRoll
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
     - name: FightMusic
       guid: 2ce91e5ac276b946a5f5d211cf9c9c84
       id: 3890691062
@@ -487,7 +553,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: e559e3521067aa4d94b4f98ab157db91
       Path: Events\Default Work Unit\Footsteps_Concrete
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: 0.51760954
       minDuration: 0.320552
     - name: Footsteps_Gravel
@@ -504,7 +570,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 6f5d3e7cc9e4cb49b0676c2750a0de47
       Path: Events\Default Work Unit\Footsteps_Gravel
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: 0.39356312
       minDuration: 0.17253868
     - name: GhostDamage
@@ -547,6 +613,26 @@ MonoBehaviour:
       maxAttenuation: 10
       maxDuration: 0
       minDuration: 0
+    - name: GooseAttack
+      guid: 6b2a0bfe2a2e3442b6dd8e80360c5731
+      id: 2447298006
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: GooseAttack
+        ObjectType: 3
+        guid: 6b2a0bfe2a2e3442b6dd8e80360c5731
+      Path: Events\Default Work Unit\Enemies\GooseAttack
+      maxAttenuation: 10
+      maxDuration: 0.4555488
+      minDuration: 0.3581816
     - name: GooseDamage
       guid: 7066f514fe9ee4449eeb0fd114086e92
       id: 2878963457
@@ -701,9 +787,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 52e8ca944ca1ec44a7e2137d60fab114
       Path: Events\Default Work Unit\PC_Death
-      maxAttenuation: 0
-      maxDuration: 0.86745745
-      minDuration: 0.28498113
+      maxAttenuation: 10
+      maxDuration: 0.87753683
+      minDuration: 0.28170785
     - name: PC_Grunt
       guid: b30e9167b6117b4a87d23f6422aee3db
       id: 1010108969
@@ -718,9 +804,138 @@ MonoBehaviour:
         ObjectType: 3
         guid: b30e9167b6117b4a87d23f6422aee3db
       Path: Events\Default Work Unit\PC_Grunt
+      maxAttenuation: 10
+      maxDuration: 0.60595155
+      minDuration: 0.35557374
+    - name: PCSwoosh
+      guid: 55e2e64420db7e43bd8ab4b087e1f8fb
+      id: 2649774099
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: PCSwoosh
+        ObjectType: 3
+        guid: 55e2e64420db7e43bd8ab4b087e1f8fb
+      Path: Events\Default Work Unit\PCSwoosh
+      maxAttenuation: 10
+      maxDuration: 0.1816156
+      minDuration: 0.15456359
+    - name: Pechka
+      guid: c37c3190b4f3084ea836bd6624a5a16b
+      id: 533043697
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Pechka
+        ObjectType: 4
+        guid: c37c3190b4f3084ea836bd6624a5a16b
+      Path: Events\Default Work Unit\Enemies\Pechka
       maxAttenuation: 0
-      maxDuration: 0.5955416
-      minDuration: 0.35970533
+      maxDuration: -1
+      minDuration: -1
+    - name: PechkaDamage
+      guid: e041f1893405f04ab366227a15616fde
+      id: 2945105190
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Pechka
+        ObjectType: 4
+        guid: c37c3190b4f3084ea836bd6624a5a16b
+      - ElementName: PechkaDamage
+        ObjectType: 3
+        guid: e041f1893405f04ab366227a15616fde
+      Path: Events\Default Work Unit\Enemies\Pechka\PechkaDamage
+      maxAttenuation: 10
+      maxDuration: 0.5720408
+      minDuration: 0.45394558
+    - name: PechkaDeath
+      guid: dc84a0bbc1435e4892397631c7a66b72
+      id: 2581179661
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Pechka
+        ObjectType: 4
+        guid: c37c3190b4f3084ea836bd6624a5a16b
+      - ElementName: PechkaDeath
+        ObjectType: 3
+        guid: dc84a0bbc1435e4892397631c7a66b72
+      Path: Events\Default Work Unit\Enemies\Pechka\PechkaDeath
+      maxAttenuation: 10
+      maxDuration: 3.0972538
+      minDuration: 2.1577206
+    - name: PechkaFireAtack
+      guid: 482fd23abb65804da7d32f292e7beebb
+      id: 757397837
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Pechka
+        ObjectType: 4
+        guid: c37c3190b4f3084ea836bd6624a5a16b
+      - ElementName: PechkaFireAtack
+        ObjectType: 3
+        guid: 482fd23abb65804da7d32f292e7beebb
+      Path: Events\Default Work Unit\Enemies\Pechka\PechkaFireAtack
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PechkaWalk
+      guid: 023dd2ec8822ae41bc45b56e165bde6d
+      id: 575733754
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Pechka
+        ObjectType: 4
+        guid: c37c3190b4f3084ea836bd6624a5a16b
+      - ElementName: PechkaWalk
+        ObjectType: 3
+        guid: 023dd2ec8822ae41bc45b56e165bde6d
+      Path: Events\Default Work Unit\Enemies\Pechka\PechkaWalk
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
     - name: Props
       guid: 155e1e877706bf46b8d53f6eead488f5
       id: 968010305
@@ -778,6 +993,118 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.7529025
       minDuration: 1.7529025
+    - name: Robot
+      guid: 165227fac4c7f846b3151c8718334553
+      id: 1930240631
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Robot
+        ObjectType: 4
+        guid: 165227fac4c7f846b3151c8718334553
+      Path: Events\Default Work Unit\Enemies\Robot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: RobotDamage
+      guid: bc0abf4685cae541b5304c0d29d17fc3
+      id: 336396592
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Robot
+        ObjectType: 4
+        guid: 165227fac4c7f846b3151c8718334553
+      - ElementName: RobotDamage
+        ObjectType: 3
+        guid: bc0abf4685cae541b5304c0d29d17fc3
+      Path: Events\Default Work Unit\Enemies\Robot\RobotDamage
+      maxAttenuation: 10
+      maxDuration: 0.55236924
+      minDuration: 0.4584822
+    - name: RobotDeath
+      guid: 149d625e67ce724bbbefc6924b92c388
+      id: 3134521231
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Robot
+        ObjectType: 4
+        guid: 165227fac4c7f846b3151c8718334553
+      - ElementName: RobotDeath
+        ObjectType: 3
+        guid: 149d625e67ce724bbbefc6924b92c388
+      Path: Events\Default Work Unit\Enemies\Robot\RobotDeath
+      maxAttenuation: 10
+      maxDuration: 2.065807
+      minDuration: 1.4040934
+    - name: RobotLazerAttack
+      guid: e21a91dd59e07f4699fa6b00c4d84421
+      id: 3405095521
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Robot
+        ObjectType: 4
+        guid: 165227fac4c7f846b3151c8718334553
+      - ElementName: RobotLazerAttack
+        ObjectType: 3
+        guid: e21a91dd59e07f4699fa6b00c4d84421
+      Path: Events\Default Work Unit\Enemies\Robot\RobotLazerAttack
+      maxAttenuation: 10
+      maxDuration: 1.5849613
+      minDuration: 0.86027616
+    - name: RobotWalk
+      guid: a33534be2a95e443be66ab52c9ff3d09
+      id: 4274615552
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Robot
+        ObjectType: 4
+        guid: 165227fac4c7f846b3151c8718334553
+      - ElementName: RobotWalk
+        ObjectType: 3
+        guid: a33534be2a95e443be66ab52c9ff3d09
+      Path: Events\Default Work Unit\Enemies\Robot\RobotWalk
+      maxAttenuation: 10
+      maxDuration: 1.1469142
+      minDuration: 0.8937705
     - name: Roomtone_InStation
       guid: 6296b6409d21ac4ca4646620d96d7a1a
       id: 3722638038
@@ -793,6 +1120,118 @@ MonoBehaviour:
         guid: 6296b6409d21ac4ca4646620d96d7a1a
       Path: Events\Default Work Unit\Roomtone_InStation
       maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Shadow
+      guid: 6afa847d46109c488d7e3b7a800eded1
+      id: 3140781661
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Shadow
+        ObjectType: 4
+        guid: 6afa847d46109c488d7e3b7a800eded1
+      Path: Events\Default Work Unit\Enemies\Shadow
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ShadowCast
+      guid: e8112dce21a1ba4580fd453dd900b14e
+      id: 1661294168
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Shadow
+        ObjectType: 4
+        guid: 6afa847d46109c488d7e3b7a800eded1
+      - ElementName: ShadowCast
+        ObjectType: 3
+        guid: e8112dce21a1ba4580fd453dd900b14e
+      Path: Events\Default Work Unit\Enemies\Shadow\ShadowCast
+      maxAttenuation: 10
+      maxDuration: 1.4977597
+      minDuration: 1.1640406
+    - name: ShadowDamage
+      guid: 2d7bfd3f4b710247a64f3003b2c4c876
+      id: 2659057026
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Shadow
+        ObjectType: 4
+        guid: 6afa847d46109c488d7e3b7a800eded1
+      - ElementName: ShadowDamage
+        ObjectType: 3
+        guid: 2d7bfd3f4b710247a64f3003b2c4c876
+      Path: Events\Default Work Unit\Enemies\Shadow\ShadowDamage
+      maxAttenuation: 10
+      maxDuration: 0.3261089
+      minDuration: 0.1377503
+    - name: ShadowDeath
+      guid: 868c18b08e52c64498eee885de8db25a
+      id: 2565189097
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Shadow
+        ObjectType: 4
+        guid: 6afa847d46109c488d7e3b7a800eded1
+      - ElementName: ShadowDeath
+        ObjectType: 3
+        guid: 868c18b08e52c64498eee885de8db25a
+      Path: Events\Default Work Unit\Enemies\Shadow\ShadowDeath
+      maxAttenuation: 10
+      maxDuration: 0.8242847
+      minDuration: 0.42690685
+    - name: ShadowWalk
+      guid: ca6c46e74dac12438381b12857522bb9
+      id: 1970623062
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: Shadow
+        ObjectType: 4
+        guid: 6afa847d46109c488d7e3b7a800eded1
+      - ElementName: ShadowWalk
+        ObjectType: 3
+        guid: ca6c46e74dac12438381b12857522bb9
+      Path: Events\Default Work Unit\Enemies\Shadow\ShadowWalk
+      maxAttenuation: 10
       maxDuration: 0
       minDuration: 0
     - name: Shuriken
@@ -855,6 +1294,26 @@ MonoBehaviour:
       maxAttenuation: 10
       maxDuration: 0.99004364
       minDuration: 0.9487427
+    - name: SkeletonWalk
+      guid: 97192f1715f13343a14cbef935c6a819
+      id: 3740743011
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 5218aec0c9f29146ad65e57e87f90612
+      - ElementName: SkeletonWalk
+        ObjectType: 3
+        guid: 97192f1715f13343a14cbef935c6a819
+      Path: Events\Default Work Unit\Enemies\SkeletonWalk
+      maxAttenuation: 10
+      maxDuration: 0.24552779
+      minDuration: 0.10033587
     - name: TitleMusic
       guid: 50dc945ea2f1c54eba91bf3d1c2e564f
       id: 2191159630
@@ -872,6 +1331,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 14.567481
       minDuration: 14.567481
+    - name: TrainRail
+      guid: b22895c5bafbb7418913e72d621ed171
+      id: 1492731029
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b9a82131b0108d4d9d4791abff6d5615
+      - ElementName: Trains
+        ObjectType: 4
+        guid: d85301faecb59642976219bf170faf07
+      - ElementName: TrainRail
+        ObjectType: 3
+        guid: b22895c5bafbb7418913e72d621ed171
+      Path: Events\Default Work Unit\Trains\TrainRail
+      maxAttenuation: 11
+      maxDuration: 0
+      minDuration: 0
     - name: Trains
       guid: d85301faecb59642976219bf170faf07
       id: 82461332
@@ -907,8 +1386,8 @@ MonoBehaviour:
         guid: 5f3f1ae90d771f49b68ba32b099371ff
       Path: Events\Default Work Unit\Enemies\WaspDamage
       maxAttenuation: 10
-      maxDuration: 3.7087207
-      minDuration: 3.6240134
+      maxDuration: 0.88155234
+      minDuration: 0.8417428
     - name: WaspFly
       guid: 667656ee027718498c661699bb455628
       id: 3786981691
@@ -1007,8 +1486,8 @@ MonoBehaviour:
         guid: fce62e5c17edd84aaaa48daf1b4c1aec
       Path: Events\Default Work Unit\Enemies\Zombie\ZombieDamage
       maxAttenuation: 10
-      maxDuration: 0.77049106
-      minDuration: 0.36427984
+      maxDuration: 0.7839591
+      minDuration: 0.3600957
     - name: ZombieDeath
       guid: 104ad61f90eae44db565d1a02737e336
       id: 569750591
@@ -1030,8 +1509,8 @@ MonoBehaviour:
         guid: 104ad61f90eae44db565d1a02737e336
       Path: Events\Default Work Unit\Enemies\Zombie\ZombieDeath
       maxAttenuation: 10
-      maxDuration: 2.6316235
-      minDuration: 1.5720261
+      maxDuration: 2.6776237
+      minDuration: 1.5539699
     - name: ZombieWalk
       guid: f2bddd79ffd9724c9d151596b5203121
       id: 557363152
@@ -1112,7 +1591,7 @@ MonoBehaviour:
     m_lastTime: -8584539545012609637
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000700000008000000090000001100000013000000230000005c000000
+  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000f000000100000001200000023000000290000002c0000002f0000003d0000005c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

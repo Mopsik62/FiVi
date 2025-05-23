@@ -22,9 +22,9 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 667972946853504568, guid: 7a40ae2c029fe0f4eb89a039121f11f0, type: 3}
-    - time: 0.16666667
-      value: {fileID: 1081250593711003324, guid: 7a40ae2c029fe0f4eb89a039121f11f0, type: 3}
     - time: 0.33333334
+      value: {fileID: 1081250593711003324, guid: 7a40ae2c029fe0f4eb89a039121f11f0, type: 3}
+    - time: 0.6666667
       value: {fileID: 667972946853504568, guid: 7a40ae2c029fe0f4eb89a039121f11f0, type: 3}
     attribute: m_Sprite
     path: MushroomIdle1
@@ -56,7 +56,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.35000002
+    m_StopTime: 0.68333334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

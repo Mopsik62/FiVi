@@ -254,12 +254,13 @@ MonoBehaviour:
   _healthUI: {fileID: 0}
   _curWeaponMele: {fileID: 7670939110215105364}
   _curWeaponRanged: {fileID: 6548406987323087192}
-  _footsteps: {fileID: 0}
-  _footsteps_gravel: {fileID: 0}
-  _woodenStickHit: {fileID: 0}
+  _footsteps: {fileID: 6339093040253717090, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _footsteps_gravel: {fileID: 4079009966082676812, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _woodenStickHit: {fileID: 1841468994739587940, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
   _damageRecive: {fileID: 743747052189577781, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
-  _eSound: {fileID: 0}
-  _deathSound: {fileID: 0}
+  _eSound: {fileID: 6141584001063201643, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _deathSound: {fileID: 8473045270888513646, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _dodgeSound: {fileID: 8390263762747535298, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
   _footsteps_cooldown: 0.3
   _canAttack: 0
   canMove: 1
