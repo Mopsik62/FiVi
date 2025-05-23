@@ -329,13 +329,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EWithoutHoles_6
+      name: Bottle
       rect:
         serializedVersion: 2
-        x: 290
-        y: 138
-        width: 10
-        height: 10
+        x: 291
+        y: 139
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,7 +381,7 @@ TextureImporter:
         width: 5
         height: 3
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -848,6 +848,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bottle: -8121809673385558143
       EEEEEE: -1930700317279254804
       EWithoutHoles_0: 2595581222139850422
       EWithoutHoles_1: 1924240103339405547
@@ -874,7 +875,6 @@ TextureImporter:
       EWithoutHoles_3: 3504884565180869086
       EWithoutHoles_4: 8148177069359955505
       EWithoutHoles_5: -4681826096650769063
-      EWithoutHoles_6: -8121809673385558143
       EWithoutHoles_7: -4273837021038043993
       EWithoutHoles_9: 4668910029425210836
   mipmapLimitGroupName: 

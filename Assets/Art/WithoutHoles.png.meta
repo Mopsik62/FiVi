@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: 9c15b6b0c5e43634db7023f2ad7bafe1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4674051431357841816
+    second: WithoutHoles_0
+  - first:
+      213: 1055621482962600527
+    second: WithoutHoles_1
+  - first:
+      213: 9072853610062537096
+    second: WithoutHoles_2
+  - first:
+      213: 6194940363366755042
+    second: WithoutHoles_3
+  - first:
+      213: 1256250416676050022
+    second: WithoutHoles_4
+  - first:
+      213: 4501838302479518126
+    second: WithoutHoles_5
+  - first:
+      213: -2707321820461314890
+    second: WithoutHoles_6
+  - first:
+      213: -483379511069577877
+    second: WithoutHoles_7
+  - first:
+      213: -975068046187633095
+    second: WithoutHoles_8
+  - first:
+      213: 2171007869946218042
+    second: WithoutHoles_9
+  - first:
+      213: 4434094048525559023
+    second: WithoutHoles_10
+  - first:
+      213: -6740162529311296381
+    second: WithoutHoles_11
+  - first:
+      213: -1227522374792036500
+    second: WithoutHoles_12
+  - first:
+      213: -5031480706867872983
+    second: WithoutHoles_13
+  - first:
+      213: 2277840218502300789
+    second: WithoutHoles_14
+  - first:
+      213: -6579755093068449947
+    second: WithoutHoles_15
+  - first:
+      213: 6596055052348142478
+    second: WithoutHoles_16
+  - first:
+      213: 5160528788168441686
+    second: WithoutHoles_17
+  - first:
+      213: -4346551702897999714
+    second: WithoutHoles_18
+  - first:
+      213: -1861211388701364932
+    second: WithoutHoles_19
+  - first:
+      213: 8840497380356011489
+    second: WithoutHoles_20
+  - first:
+      213: -3975714135178471127
+    second: WithoutHoles_21
+  - first:
+      213: 2029538770056961803
+    second: WithoutHoles_22
+  - first:
+      213: -6835348081721499468
+    second: WithoutHoles_23
+  - first:
+      213: 6058111439644912403
+    second: WithoutHoles_24
+  - first:
+      213: 4099594504610730071
+    second: WithoutHoles_25
+  - first:
+      213: 927123342219767403
+    second: WithoutHoles_26
+  - first:
+      213: 4169953227250122515
+    second: WithoutHoles_27
+  - first:
+      213: -1958863354320263373
+    second: WithoutHoles_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 54
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WithoutHoles_0
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 124
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e7204ccfe622fb0800000000000000
+      internalID: -4674051431357841816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9e7afac37e992a04aa1bdef6342175d0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WithoutHoles_0: -4674051431357841816
+      WithoutHoles_1: 1055621482962600527
+      WithoutHoles_10: 4434094048525559023
+      WithoutHoles_11: -6740162529311296381
+      WithoutHoles_12: -1227522374792036500
+      WithoutHoles_13: -5031480706867872983
+      WithoutHoles_14: 2277840218502300789
+      WithoutHoles_15: -6579755093068449947
+      WithoutHoles_16: 6596055052348142478
+      WithoutHoles_17: 5160528788168441686
+      WithoutHoles_18: -4346551702897999714
+      WithoutHoles_19: -1861211388701364932
+      WithoutHoles_2: 9072853610062537096
+      WithoutHoles_20: 8840497380356011489
+      WithoutHoles_21: -3975714135178471127
+      WithoutHoles_22: 2029538770056961803
+      WithoutHoles_23: -6835348081721499468
+      WithoutHoles_24: 6058111439644912403
+      WithoutHoles_25: 4099594504610730071
+      WithoutHoles_26: 927123342219767403
+      WithoutHoles_27: 4169953227250122515
+      WithoutHoles_28: -1958863354320263373
+      WithoutHoles_3: 6194940363366755042
+      WithoutHoles_4: 1256250416676050022
+      WithoutHoles_5: 4501838302479518126
+      WithoutHoles_6: -2707321820461314890
+      WithoutHoles_7: -483379511069577877
+      WithoutHoles_8: -975068046187633095
+      WithoutHoles_9: 2171007869946218042
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

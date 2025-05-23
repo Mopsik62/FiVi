@@ -36,6 +36,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private PropsGet _foodGet;
 
+    public bool HasTicket = false;
     
     [SerializeField]
     private Food _currentFood;
@@ -93,10 +94,11 @@ public class GameManager : MonoBehaviour
 
             case InteractableType.Dialogue:
                 _currentDialogData = currentInteractable.GetComponent<DialogueStruct>();
+                HasTicket = true;
                 StartDialogue();
                 break;
             case InteractableType.Teleport:
-                if (currentProgress < 2)
+                if (!HasTicket)
                     return;
                 Debug.Log(currentProgress);
                 interactable.Teleport();
@@ -124,8 +126,11 @@ public class GameManager : MonoBehaviour
     public void NextProgression()
     {
 
-        currentProgress = currentProgress + 1;
-        _playerQuestProgression.text = texts[currentProgress];
+        if (currentProgress + 1 < texts.Count)
+        {
+            currentProgress++;
+            _playerQuestProgression.text = texts[currentProgress];
+        }
     }
     public void NextDialogueLine()
     {

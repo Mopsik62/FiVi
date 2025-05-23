@@ -5,9 +5,9 @@ public class EshkaProjectile : Weapon
 {
     private Vector2 _direction;
     private float rotationSpeed = 360;
+    private float _speed = 432f;
     [SerializeField]
     private Transform _sprite;
-    private float _speed = 432f;
     protected override void Start()
     {
         _boxCollider = GetComponent<Collider2D>();
