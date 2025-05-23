@@ -233,7 +233,15 @@ public class Player : Fighter
     protected void Dash()
     {
         if (isDashing) return;
-        animator.Play("Dash");
+        if(_lastMoveDirection.x > 0)
+        {
+            animator.Play("DashRight");
+
+        }
+        else
+        {
+            animator.Play("Dash");
+        }
         isDashing = true;
         canDash = false;
         StartCoroutine(DashCooldownRoutine());

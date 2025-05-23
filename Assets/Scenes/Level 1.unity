@@ -3511,6 +3511,7 @@ MonoBehaviour:
   - {fileID: 7491853870165034084, guid: a3c0cc16cab77cd4386f73b27b0cf536, type: 3}
   - {fileID: 6065609005901653623, guid: c03c91b400be45142a1bcdd1f93e77bf, type: 3}
   - {fileID: 7046485415238357238, guid: 743f6aed763c016449568d5b4d60e9fb, type: 3}
+  - {fileID: 3033212284603266297, guid: eed11a6a431f0ec41ae8720befe0e3ea, type: 3}
   _train: {fileID: 7172350489344762109, guid: 4f1d78852a64aab4a9a893274051ef0a, type: 3}
   _trainCD: 8
   _trainSpeed: 30
