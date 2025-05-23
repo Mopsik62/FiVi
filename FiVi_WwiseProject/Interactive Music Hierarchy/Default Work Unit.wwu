@@ -7,7 +7,7 @@
 					<PropertyList>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-15</Value>
+								<Value>-14</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Tempo" Type="Real64" Value="180"/>
@@ -2800,34 +2800,12 @@
 							</ObjectLists>
 						</MusicSegment>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="Effects">
-							<Reference>
-								<Local>
-									<EffectSlot Name="" ID="{08E0EEBB-91ED-4948-90DE-7E89BEEB2480}" ShortID="1048274837">
-										<ReferenceList>
-											<Reference Name="Effect">
-												<Custom>
-													<Effect Name="Compressor (Custom)" ID="{BA66E7E5-A64F-47D7-B6EF-9995B1F528E8}" ShortID="309698570" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
-														<PropertyList>
-															<Property Name="Ratio" Type="Real32" Value="4"/>
-															<Property Name="Threshold" Type="Real32" Value="-7"/>
-														</PropertyList>
-													</Effect>
-												</Custom>
-											</Reference>
-										</ReferenceList>
-									</EffectSlot>
-								</Local>
-							</Reference>
-						</ObjectList>
-					</ObjectLists>
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="HubMusic" ID="{9A63BD98-C61E-471F-BE54-BAE57C42E7AD}" ShortID="151554673">
 					<PropertyList>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-5</Value>
+								<Value>4</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Tempo" Type="Real64" Value="95"/>

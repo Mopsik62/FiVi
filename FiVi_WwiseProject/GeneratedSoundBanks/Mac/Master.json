@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C594E5AD-2D3A-463D-864A-C9A3154F7734}",
     "Language": "SFX",
-    "Hash": "{B5AFC0F4-2A63-5BB1-EC71-D559FDBC131A}",
+    "Hash": "{CA9FAD2E-B0D5-70B3-1D76-1E52D59EF1E6}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -296,14 +296,6 @@
       "CachePath": "1F/{1F244BDF-2DBF-CF78-E972-7B80095A9669}.wem"
      },
      {
-      "Id": "257094062",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Characters\\PechkaMove_1.wav",
-      "CachePath": "57/{5739D207-70D3-6C0D-7B83-2511AD527662}.wem"
-     },
-     {
       "Id": "274832657",
       "Language": "SFX",
       "Streaming": "false",
@@ -326,14 +318,6 @@
       "Location": "Memory",
       "ShortName": "Characters\\Footstep_Concrete_1.wav",
       "CachePath": "56/{56D2684E-9A96-BFBF-6389-DB551B8A4364}.wem"
-     },
-     {
-      "Id": "285917938",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Weapons\\Mushroom.wav",
-      "CachePath": "37/{37351A57-D82C-3DD3-7686-3E8B0061E834}.wem"
      },
      {
       "Id": "294310738",
@@ -454,14 +438,6 @@
       "Location": "Memory",
       "ShortName": "Music\\HubMusic_4.wav",
       "CachePath": "E6/{E62FA96C-B993-F316-D7D1-991FD0AD2113}.wem"
-     },
-     {
-      "Id": "356803206",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Characters\\GhostWalk-002.wav",
-      "CachePath": "59/{592693B4-8056-5D21-B1D1-EE62DEC7E3B3}.wem"
      },
      {
       "Id": "361439100",
@@ -720,14 +696,6 @@
       "CachePath": "36/{3653B3C2-3614-7748-E8E8-0769140FB99A}.wem"
      },
      {
-      "Id": "557857482",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Characters\\GhostWalk-001.wav",
-      "CachePath": "36/{369D5248-2039-AC0D-AE25-07693A8F6366}.wem"
-     },
-     {
       "Id": "560142958",
       "Language": "SFX",
       "Streaming": "false",
@@ -766,14 +734,6 @@
       "Location": "Memory",
       "ShortName": "Characters\\GooseSound.wav",
       "CachePath": "D4/{D4097CAC-8D96-34B8-E547-9D5249B8A5CB}.wem"
-     },
-     {
-      "Id": "583294126",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Weapons\\Mushroom.wav",
-      "CachePath": "DA/{DA255382-5DE4-363C-778B-15621DAE7824}.wem"
      },
      {
       "Id": "584105805",
@@ -998,14 +958,6 @@
       "Location": "Memory",
       "ShortName": "Music\\Pad_1.wav",
       "CachePath": "84/{840DF9BE-DDBC-E8A2-D335-615B5221CAA5}.wem"
-     },
-     {
-      "Id": "723212228",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Characters\\PechkaMove_2.wav",
-      "CachePath": "E0/{E0E774FF-635A-4EC8-6209-AAFBC65F248C}.wem"
      },
      {
       "Id": "728949532",
@@ -1515,14 +1467,6 @@
     "Plugins": {
      "Custom": [
       {
-       "Id": "309698570",
-       "Name": "Compressor (Custom)",
-       "ObjectPath": "\\Interactive Music Hierarchy\\Default Work Unit\\FightMusic\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
-       "GUID": "{BA66E7E5-A64F-47D7-B6EF-9995B1F528E8}",
-       "LibName": "Wwise Compressor",
-       "LibId": "7077891"
-      },
-      {
        "Id": "644890533",
        "Name": "Compressor (Custom)",
        "ObjectPath": "\\Interactive Music Hierarchy\\Default Work Unit\\HubMusic\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
@@ -1800,14 +1744,7 @@
        {
         "Id": "1066979003"
        }
-      ],
-      "PluginRefs": {
-       "Custom": [
-        {
-         "Id": "309698570"
-        }
-       ]
-      }
+      ]
      },
      {
       "Id": "82718740",
@@ -1915,15 +1852,9 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\GhostWalk",
       "GUID": "{ECEF0C6E-CBA3-4197-A687-C8C0BCBA754F}",
       "MaxAttenuation": "10",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "356803206"
-       },
-       {
-        "Id": "557857482"
-       }
-      ]
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "2447298006",
@@ -2068,15 +1999,9 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Babka\\MushroomStart",
       "GUID": "{DDBB70D4-7D14-4E9A-9554-9594A9C06E14}",
       "MaxAttenuation": "10",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "285917938"
-       },
-       {
-        "Id": "583294126"
-       }
-      ]
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "962867917",
@@ -2218,15 +2143,9 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Pechka\\PechkaWalk",
       "GUID": "{ECD23D02-2288-41AE-BC45-B56E165BDE6D}",
       "MaxAttenuation": "10",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "257094062"
-       },
-       {
-        "Id": "723212228"
-       }
-      ]
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "2841215510",
@@ -2712,6 +2631,6 @@
     ]
    }
   ],
-  "FileHash": "{3AD4B7C9-52D1-E180-80B4-B5BD7A1DF5B2}"
+  "FileHash": "{0DBE2F89-3B5A-3032-4337-BFD854C5892A}"
  }
 }
