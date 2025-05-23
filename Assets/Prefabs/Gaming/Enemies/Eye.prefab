@@ -87,6 +87,9 @@ MonoBehaviour:
   _specialCooldown: 5
   moveSpeed: 3
   _scoreForKill: 0
+  _damageSound: {fileID: 8293494427136636431, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _walkSound: {fileID: 7570342401783916690, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
+  _footsteps_cooldown: 5
   rotationSpeed: 360
 --- !u!58 &70864832451021998
 CircleCollider2D:

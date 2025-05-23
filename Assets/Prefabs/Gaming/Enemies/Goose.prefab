@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 7503351165092559027}
   m_Layer: 0
   m_Name: Goose
-  m_TagString: Untagged
+  m_TagString: Fighter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -171,7 +171,7 @@ MonoBehaviour:
   _scoreForKill: 0
   _damageSound: {fileID: 447172493271881075, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
   _deathSound: {fileID: 2303578492236959936, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
-  _attackSound: {fileID: 0}
+  _attackSound: {fileID: 6974765716938588164, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
   _walkSound: {fileID: 8304709887803464403, guid: ce86597d97e7efe4090827d9013d1624, type: 3}
   _footsteps_cooldown: 5
 --- !u!50 &6237740204878376716

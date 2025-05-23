@@ -63,7 +63,7 @@ public class Goose : Enemy
         base.OnCollisionEnter2D(coll);
         if (coll.gameObject.name == "Player")
         {
-            //_attackSound.GooseAttakEvent.Post(gameObject);
+            _attackSound.GooseAttakEvent.Post(gameObject);
         }
 
     }
